@@ -8,3 +8,9 @@ https://towardsdatascience.com/capsule-neural-networks-are-here-to-finally-recog
 
 fast-ai
 https://forums.fast.ai/t/fast-ai-v3-2019/39325
+
+https://github.com/higgsfield/Capsule-Network-Tutorial
+
+https://www.oreilly.com/ideas/introducing-capsule-networks
+
+https://staff.fnwi.uva.nl/s.abnar/?p=108
