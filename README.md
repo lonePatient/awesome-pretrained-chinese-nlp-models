@@ -10,13 +10,13 @@
  
  paper: [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805.pdf)
  
- BERT-Base
- 层数: 12
- 数据大小； 词数0.4B
- tensorflow; [Google Drive](https://storage.googleapis.com/bert_models/2018_11_03/chinese_L-12_H-768_A-12.zip)
- Pytorch: 
- 提供者：[Google Research](https://github.com/google-research)
- 源地址：[link](https://github.com/google-research/bert)
+ > BERT-Base
+ > 层数: 12
+ > 数据大小； 词数0.4B
+ > tensorflow; [Google Drive](https://storage.googleapis.com/bert_models/2018_11_03/chinese_L-12_H-768_A-12.zip)
+ > Pytorch: 
+ > 提供者：[Google Research](https://github.com/google-research)
+ > 源地址：[link](https://github.com/google-research/bert)
 
  BERT-wwm
  层数: 12
