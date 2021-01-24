@@ -6,19 +6,19 @@
 
 # Expand Table of Contents
 
-+ [NLU系列](## NLU系列)
-  - [BERT](### BERT)
-  - [RoBERTa](### RoBERTa)
-  - [ALBERT](### ALBERT)
-  - [NEZHA](### NEZHA)
-  - [XLNET](### XLNET)
-  - [MacBERT](### MacBERT)
-  - [ELECTRA](### ELECTRA)
-  - [ZEN](### ZEN)
-  - [ ERNIE](### ERNIE)
-+ [NLG系列](## NLG系列)
-  - [GPT](### GPT)
-  - [NEZHA-GEN](### NEZHA-GEN)
++ [NLU系列](#NLU系列)
+  - [BERT](#BERT)
+  - [RoBERTa](#RoBERTa)
+  - [ALBERT](#ALBERT)
+  - [NEZHA](#NEZHA)
+  - [XLNET](#XLNET)
+  - [MacBERT](#MacBERT)
+  - [ELECTRA](#ELECTRA)
+  - [ZEN](#ZEN)
+  - [ ERNIE](#ERNIE)
++ [NLG系列](#NLG系列)
+  - [GPT](#GPT)
+  - [NEZHA-GEN](#NEZHA-GEN)
 
 
 ## NLU系列
