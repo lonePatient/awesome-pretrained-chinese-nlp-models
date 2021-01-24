@@ -6,10 +6,6 @@
 
 # Expand Table of Contents
 
-<details>
-
-<summary><b>Expand Table of Contents</b></summary>
-
 + [NLU系列](## NLU系列)
   - [BERT](### BERT)
   - [RoBERTa](### RoBERTa)
@@ -24,7 +20,6 @@
   - [GPT](### GPT)
   - [NEZHA-GEN](### NEZHA-GEN)
 
-</details>
 
 ## NLU系列
 
