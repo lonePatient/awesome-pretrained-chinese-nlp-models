@@ -1,16 +1,7 @@
-# capusle
-learning capsule
+# Awesome Pretrained Chinese NLP Models[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+高质量中文预训练模型集合
 
-https://medium.freecodecamp.org/understanding-capsule-networks-ais-alluring-new-architecture-bdb228173ddc
+[toc]
 
-https://towardsdatascience.com/capsule-neural-networks-are-here-to-finally-recognize-spatial-relationships-693b7c99b12
-
-fast-ai
-https://forums.fast.ai/t/fast-ai-v3-2019/39325
-
-https://github.com/higgsfield/Capsule-Network-Tutorial
-
-https://www.oreilly.com/ideas/introducing-capsule-networks
-
-https://staff.fnwi.uva.nl/s.abnar/?p=108
+🤗[huggingface](https://github.com/huggingface/transformers)模型下载地址: [清华大学开源镜像](https://mirror.tuna.tsinghua.edu.cn/hugging-face-models/) [官方地址](https://huggingface.co/models)
