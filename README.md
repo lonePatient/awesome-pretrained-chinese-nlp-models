@@ -132,7 +132,7 @@
 
 ### ZEN
 
-+ 2019 | ZEN: Pre-training Chinese Text Encoder Enhanced by N-gram Representations | Zhilin Yang, et al. | arXiv | [`PDF`](https://arxiv.org/pdf/1911.00720.pdf)
++ 2019 | ZEN: Pre-training Chinese Text Encoder Enhanced by N-gram Representations | Shizhe Diao, et al. | arXiv | [`PDF`](https://arxiv.org/pdf/1911.00720.pdf)
 
 | 模型 | <p>参数<br>大小</p> | <p>语料<br>大小</p> | TensorFlow | PyTorch | 作者| 源地址 | <p>应用<br>领域</p> |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
