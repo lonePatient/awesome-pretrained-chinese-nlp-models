@@ -78,6 +78,7 @@
 
 | 模型 | <p>参数<br>大小</p> | <p>语料<br>大小</p> | TensorFlow | PyTorch | 作者| 源地址 | <p>应用<br>领域</p> |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| Albert_tiny  | 4M  | 通用语料30G | [Google Drive](https://storage.googleapis.com/albert_zh/albert_tiny_489k.zip) | [Google Drive](https://drive.google.com/open?id=1VBsUJ7R5eWF1VcUBQY6BEn1a9miEvlBr) | [brightmart](https://github.com/brightmart) | [github](https://github.com/brightmart/albert_zh) | 通用  |
 | Albert_base_zh  | 12M  | 通用语料30G | [Google Drive](https://storage.googleapis.com/albert_zh/albert_base_zh_additional_36k_steps.zip) | [Google Drive](https://drive.google.com/open?id=1HeijHGubWR-ElFnfxUf8IrRx7Ghm1S_Q) | [brightmart](https://github.com/brightmart) | [github](https://github.com/brightmart/albert_zh) | 通用  |
 | Albert_large_zh  |  | 通用语料30G | [Google Drive](https://storage.googleapis.com/albert_zh/albert_large_zh.zip) | [Google Drive](https://drive.google.com/open?id=1TAuv7OiFN8qbkT6S_VbfVbhkhg2GUF3q) | [brightmart](https://github.com/brightmart)           | [github](https://github.com/brightmart/albert_zh) | 通用 |
 | Albert_xlarge_zh |  | 通用语料30G | [Google Drive](https://storage.googleapis.com/albert_zh/albert_xlarge_zh_183k.zip) | [Google Drive](https://drive.google.com/open?id=1kMhogQRX0uGWIGdNhm7-3hsmHlrzY_gp) | [brightmart](https://github.com/brightmart)           | [github](https://github.com/brightmart/albert_zh) | 通用 |
