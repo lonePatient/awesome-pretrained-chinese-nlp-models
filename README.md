@@ -193,3 +193,19 @@
 | 模型 | <p>参数<br>大小</p> | <p>语料<br>大小</p> | TensorFlow | PyTorch | 作者| 源地址 | <p>应用<br>领域</p> |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | Unilm  |   | CLUE中的维基+新闻  | [百度网盘-tblr](https://pan.baidu.com/s/1HgxIkBl5Yfwrzs1K1B6NFA) | [百度网盘-etwf](https://pan.baidu.com/s/1DHJGOFJ5cce5N5g4aBDiMQ) | [YunwenTechnology](https://github.com/YunwenTechnology) | [github](https://github.com/YunwenTechnology/Unilm) | 通用  |
+
+### CPM-Generate
+
++ 2020 | CPM: A Large-scale Generative Chinese Pre-trained Language Model | Zhengyan Zhang, et al. | arXiv | [`PDF`](https://arxiv.org/abs/2012.00413)
+
+| 模型 | <p>参数<br>大小</p> | <p>语料<br>大小</p> | 资源 | PyTorch | 作者| 源地址 | <p>应用<br>领域</p> |
+| ---- | ---- | ---- | ---- | ---- | ---- |---- | ---- | ---- |
+| CPM | 26亿  |   | [项目首页](https://cpm.baai.ac.cn/) | [模型下载](https://cpm.baai.ac.cn/download.html) | [Tsinghua AI](https://github.com/TsinghuaAI) | [github](https://github.com/TsinghuaAI/CPM-Generate) | 通用  |
+
+**备注**: 
+
+>[1] PyTorch转TensorFlow可参考: [CPM-LM-TF2](https://github.com/qhduan/CPM-LM-TF2)
+
+>[2] PyTorch转PaddlePaddle可参考: [CPM-Generate-Paddle](https://github.com/jm12138/CPM-Generate-Paddle)
+
+
