@@ -20,6 +20,7 @@
   - [GPT](#GPT)
   - [NEZHA-GEN](#NEZHA-GEN)
   - [UniLM](#UniLM)
+  - [CPM-Generate](#CPM-Generate)
 
 
 ## NLU系列
@@ -199,7 +200,7 @@
 + 2020 | CPM: A Large-scale Generative Chinese Pre-trained Language Model | Zhengyan Zhang, et al. | arXiv | [`PDF`](https://arxiv.org/abs/2012.00413)
 
 | 模型 | <p>参数<br>大小</p> | <p>语料<br>大小</p> | 资源 | PyTorch | 作者| 源地址 | <p>应用<br>领域</p> |
-| ---- | ---- | ---- | ---- | ---- | ---- |---- | ---- | ---- |
+| ---- | ---- | ---- | ---- | ---- | ---- |---- | ---- |
 | CPM | 26亿  |   | [项目首页](https://cpm.baai.ac.cn/) | [模型下载](https://cpm.baai.ac.cn/download.html) | [Tsinghua AI](https://github.com/TsinghuaAI) | [github](https://github.com/TsinghuaAI/CPM-Generate) | 通用  |
 
 **备注**: 
