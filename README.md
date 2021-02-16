@@ -36,6 +36,8 @@
 | BERT-Base | base | [Google Drive](https://storage.googleapis.com/bert_models/2018_11_03/chinese_L-12_H-768_A-12.zip) | | [Google Research](https://github.com/google-research) | [github](https://github.com/google-research/bert)| 通用 |
 | BERT-wwm | base | <p>[Google Drive](https://drive.google.com/open?id=1RoTQsXp2hkQ1gSRVylRIJfQxJUgkfJMW)<br>[讯飞云-07Xj](http://pan.iflytek.com/#/link/A2483AD206EF85FD91569B498A3C3879)</p> | [Google Drive](https://drive.google.com/open?id=1AQitrjbvCWc51SYiLN-cJq4e0WiNN4KY) | [Yiming Cui](https://github.com/ymcui) | [github](https://github.com/ymcui/Chinese-BERT-wwm) | 通用 |
 | BERT-wwm-ext | base | <p>[Google Drive](https://drive.google.com/open?id=1buMLEjdtrXE2c4G1rpsNGWEx7lUQ0RHi)<br>[讯飞云-4cMG](http://pan.iflytek.com/#/link/653637473FFF242C3869D77026C9BDB5)</p> | [Google Drive](https://drive.google.com/open?id=1iNeYFhCBJWeUsIlnW_2K6SMwXkM4gLb_) | [Yiming Cui](https://github.com/ymcui) | [github](https://github.com/ymcui/Chinese-BERT-wwm) | 通用 |
+| <p>WoBERT</br>(word-base)</p> | base |[百度网盘-kim2](https://pan.baidu.com/s/1BrdFSx9_n1q2uWBiQrpalw) | | [
+ZhuiyiTechnology](https://github.com/ZhuiyiTechnology) | [github](https://github.com/ZhuiyiTechnology/WoBERT) | 通用 |
 | bert-base-民事  | base | [阿里云](https://thunlp.oss-cn-qingdao.aliyuncs.com/bert/ms.zip) | | [THUNLP](https://github.com/thunlp) | [github](https://github.com/thunlp/OpenCLaP) | 司法 |
 | bert-base-刑事 | base| [阿里云](https://thunlp.oss-cn-qingdao.aliyuncs.com/bert/xs.zip) | | [THUNLP](https://github.com/thunlp) | [github](https://github.com/thunlp/OpenCLaP) | 司法 |
 | BAAI-JDAI-BERT |base | [京东云](https://jdai009.s3.cn-north-1.jdcloud-oss.com/jd-aig/open/models/nlp_baai/20190918/JDAI-BERT.tar.gz?AWSAccessKeyId=86FD402DD0CB693D629F6E62DC11E0E6&Expires=1634304356&Signature=dfnLvSzXeerRPSnMsZXSoEwdmkw%3D) | | [JDAI](https://github.com/jd-aig)  | [github](https://github.com/jd-aig/nlp_baai/tree/master/pretrained_models_and_embeddings) | 电商客服对话 |
@@ -100,6 +102,8 @@
 | NEZHA-large  |  large  |<p>[Google Drive](https://drive.google.com/drive/folders/1ZPPM5XtTTOrS_CDRak1t2nCBU-LFZ_zs?usp=sharing)<br>[百度网盘-7thu](https://pan.baidu.com/s/1R1Ew-Lu8oIP6QhWO6nqp5Q)</p> | [lonePatient](https://github.com/lonePatient/NeZha_Chinese_PyTorch) | [HUAWEI](https://github.com/huawei-noah) | [github](https://github.com/huawei-noah/Pretrained-Language-Model) | 通用 |
 | NEZHA-large-wwm | large  | <p>[Google Drive](https://drive.google.com/drive/folders/1LOAUc9LXyogC2gmP_q1ojqj41Ez01aga?usp=sharing)<br>[百度网盘-ni4o](https://pan.baidu.com/s/1JK1RLIJd2wpuypku3stt8w)</p> | [lonePatient](https://github.com/lonePatient/NeZha_Chinese_PyTorch) | [HUAWEI](https://github.com/huawei-noah) | [github](https://github.com/huawei-noah/Pretrained-Language-Model) | 通用 |
 | WoNEZHA  | base | [百度网盘-qgkq](https://pan.baidu.com/s/1ABKwUuIiMEEsRXxxlbyKmw) | | [natureLanguageQing](https://github.com/natureLanguageQing) | [github](https://github.com/natureLanguageQing/Medical_WoBERT) | 医学领域 |
+| <p>WoNEZHA</br>(word-base)</p> | base |[百度网盘-qgkq](https://pan.baidu.com/s/1ABKwUuIiMEEsRXxxlbyKmw) | | [
+ZhuiyiTechnology](https://github.com/ZhuiyiTechnology) | [github](https://github.com/ZhuiyiTechnology/WoBERT) | 通用 |
 
 ### MacBERT
 
