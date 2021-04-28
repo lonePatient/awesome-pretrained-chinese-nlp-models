@@ -23,6 +23,7 @@
   - [CPM-Generate](#CPM-Generate)
   - [T5](#T5)
   - [T5-PEGASUS](#T5-PEGASUS)
+  - [盘古α](#PanGu-Alpha)
 + [NLU-NLG系列](#NLU-NLG系列)
   - [UniLM](#UniLM)
   - [Simbert](#Simbert)
@@ -245,7 +246,15 @@
 | T5 PEGASUS | small |[百度网盘-qguk](https://pan.baidu.com/s/1bXRVWnDyAck9VfSO9_1oJQ) | | [ZhuiyiTechnology](https://github.com/ZhuiyiTechnology) | [github](https://github.com/ZhuiyiTechnology/t5-pegasus) | 通用 |
 
 >  Keras转PyTorch可参考: [t5-pegasus-pytorch](https://github.com/renmada/t5-pegasus-pytorch)
- 
+
+### PanGu-Alpha
+
++ 2021 | PanGu-α: Large-scale Autoregressive Pretrained Chinese Language Models with Auto-parallel Computation | Wei Zeng, et al. | arXiv | [`PDF`](https://arxiv.org/abs/2104.12369)
+
+| 模型 | 版本 | 资源 | 下载地址 | 作者| 源地址 | 应用领域 |
+| ---- | ---- | ---- | ---- | ---- | ---- |---- |
+| 盘古α-2.6B |  2.6G | [项目首页](https://git.openi.org.cn/PCL-Platform.Intelligence/PanGu-Alpha/src/branch/master) | [模型下载](https://git.openi.org.cn/PCL-Platform.Intelligence/PanGu-Alpha/src/branch/master) | [PCL-Platform.Intelligence](https://git.openi.org.cn/PCL-Platform.Intelligence) | [github](https://git.openi.org.cn/PCL-Platform.Intelligence/PanGu-Alpha) | 通用  |
+
 ## NLU-NLG系列
 
 ### UniLM
