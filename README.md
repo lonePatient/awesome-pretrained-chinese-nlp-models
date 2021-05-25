@@ -166,10 +166,13 @@
 
 + 2020 | SKEP: Sentiment Knowledge Enhanced Pre-training for Sentiment Analysis | Hao Tian, et al. | arXiv | [`PDF`](https://arxiv.org/abs/2005.05635)
 
++ 2020 | ERNIE-Gram: Pre-Training with Explicitly N-Gram Masked Language Modeling for Natural Language Understanding | Dongling Xiao, et al. | arXiv | [`PDF`](https://arxiv.org/abs/2010.12148)
+
 | 模型 | 版本 | PaddlePaddle | PyTorch | 作者| 源地址 | 应用领域 |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | ernie-1.0-base  | base   |  [link](https://ernie-github.cdn.bcebos.com/model-ernie1.0.1.tar.gz) |  | [PaddlePaddle](https://github.com/PaddlePaddle) | [github](https://github.com/PaddlePaddle/ERNIE) | 通用  |
 | ernie_1.0_skep_large | large | [link](https://senta.bj.bcebos.com/skep/ernie_1.0_skep_large_ch.tar.gz) |    | [Baidu](https://github.com/baidu) | [github](https://github.com/baidu/Senta)  | 情感分析 |
+| ernie-gram | base | [link](https://ernie-github.cdn.bcebos.com/model-ernie-gram-zh.1.tar.gz) |    | [Baidu](https://github.com/baidu) | [github](https://github.com/PaddlePaddle/ERNIE/tree/develop/ernie-gram)  | 通用 |
 
 备注: 
 
