@@ -18,6 +18,7 @@
   - [ZEN](#ZEN)
   - [ERNIE](#ERNIE)
   - [RoFormer](#RoFormer)
+  - [StructBERT](#StructBERT)
 + [NLG系列](#NLG系列)
   - [GPT](#GPT)
   - [NEZHA-GEN](#NEZHA-GEN)
@@ -193,6 +194,15 @@
 | roformer  |  base(L12) | [百度网盘-xy9x](https://pan.baidu.com/s/1fiss862YsGCwf2HvU_Jm-g) | | [ZhuiyiTechnology](https://github.com/ZhuiyiTechnology) | [github](https://github.com/ZhuiyiTechnology/roformer) | 通用  |
 | roformer  |  small(L6) | [百度网盘-gy97](https://pan.baidu.com/s/1iIXgZHHCgrYGXVRRSSCVPg) | | [ZhuiyiTechnology](https://github.com/ZhuiyiTechnology) | [github](https://github.com/ZhuiyiTechnology/roformer) | 通用  |
 | roformer-char  |  base(L12) | [百度网盘-bt94](https://pan.baidu.com/s/1Q1pq8F4Fsl6bTipUAkqeDQ) | | [ZhuiyiTechnology](https://github.com/ZhuiyiTechnology) | [github](https://github.com/ZhuiyiTechnology/roformer) | 通用  |
+
+### StructBERT
+
++ 2019 | StructBERT: Incorporating Language Structures into Pre-training for Deep Language Understanding | Wei Wang, et al. | arXiv | [`PDF`](https://arxiv.org/abs/1908.04577)
+
+| 模型 | 版本 | TensorFlow | PyTorch | 作者| 源地址 | 应用领域 |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| StructBERT  |  large(L24) | | [阿里云](https://alice-open.oss-cn-zhangjiakou.aliyuncs.com/StructBERT/ch_model) | [
+Alibaba](https://github.com/alibaba) | [github](https://github.com/alibaba/AliceMind/tree/main/StructBERT) | 通用  |
 
 
 ## NLG系列
