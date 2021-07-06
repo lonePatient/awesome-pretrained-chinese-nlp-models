@@ -52,8 +52,8 @@
 | MC-BERT | base | [Google Drive](https://drive.google.com/open?id=1ccXRvaeox5XCNP_aSk_ttLBY695Erlok) |  | [Alibaba AI Research](https://github.com/alibaba-research)  | [github](https://github.com/alibaba-research/ChineseBLUE) | 医学领域 |
 | guwenbert-base  |base | |<p>[百度网盘-4jng](https://pan.baidu.com/s/1dw_08p7CVsz0jVj4jd58lQ)<br>[huggingface](https://huggingface.co/ethanyt/guwenbert-base)</p> | [Ethan](https://github.com/Ethan-yt) | [github](https://github.com/Ethan-yt/guwenbert)  | 古文领域 |
 | guwenbert-large |large | | <p>[百度网盘-m5sz](https://pan.baidu.com/s/1TL9mBIlIv2rSvp61xCkeJQ)<br>[huggingface](https://huggingface.co/ethanyt/guwenbert-large)</p> | [Ethan](https://github.com/Ethan-yt) | [github](https://github.com/Ethan-yt/guwenbert) | 古文领域  |
-| ChineseBERT |bsee | | https://huggingface.co/ShannonAI/ChineseBERT-base | [ShannonAI](https://github.com/ShannonAI) | [github](https://github.com/ShannonAI/ChineseBert) | 通用  |
-|ChineseBERT |large | | https://huggingface.co/ShannonAI/ChineseBERT-large | [ShannonAI](https://github.com/ShannonAI) | [github](https://github.com/ShannonAI/ChineseBert) | 通用  |
+| ChineseBERT |bsee | | [huggingface](https://huggingface.co/ShannonAI/ChineseBERT-base) | [ShannonAI](https://github.com/ShannonAI) | [github](https://github.com/ShannonAI/ChineseBert) | 通用  |
+|ChineseBERT |large | | [huggingface](https://huggingface.co/ShannonAI/ChineseBERT-large) | [ShannonAI](https://github.com/ShannonAI) | [github](https://github.com/ShannonAI/ChineseBert) | 通用  |
 
 备注: 
 
