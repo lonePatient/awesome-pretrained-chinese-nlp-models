@@ -38,6 +38,7 @@
 
 + 2018 | BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding | Jacob Devlin, et al. | arXiv | [`PDF`](https://arxiv.org/abs/1810.04805)
 + 2019 | Pre-Training with Whole Word Masking for Chinese BERT | Yiming Cui, et al. | arXiv | [`PDF`](https://arxiv.org/abs/1906.08101)
++ 2021 | ChineseBERT: Chinese Pretraining Enhanced by Glyph and Pinyin Information | Zijun Sun, et al. | arXiv | [`PDF`](https://arxiv.org/pdf/2106.16038.pdf)
 
 | 模型 | 版本 | TensorFlow | PyTorch | 作者| 源地址 | 应用领域 |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
@@ -319,3 +320,10 @@
 ## 更新
 
 * 2021.07.06 增加ChineseBERT：Chinese Pretraining Enhanced by Glyph and Pinyin Information
+* 2021.06.22 增加StructBERT
+* 2021.06.14 增加RoFormer：Enhanced Transformer with Rotary Position Embedding
+* 2021.05.25 增加ERNIE-Gram
+* 2021.04.28 增加PanGu-Alpha
+* 2021.03.16 增加T5-PEGASUS
+* 2021.03.09 增加UER系列模型
+* 2021.03.04 增加WoBERT
