@@ -55,7 +55,7 @@
 | guwenbert-large |large | | <p>[百度网盘-m5sz](https://pan.baidu.com/s/1TL9mBIlIv2rSvp61xCkeJQ)<br>[huggingface](https://huggingface.co/ethanyt/guwenbert-large)</p> | [Ethan](https://github.com/Ethan-yt) | [github](https://github.com/Ethan-yt/guwenbert) | 古文领域  |
 | ChineseBERT |base | | [huggingface](https://huggingface.co/ShannonAI/ChineseBERT-base) | [ShannonAI](https://github.com/ShannonAI) | [github](https://github.com/ShannonAI/ChineseBert) | 通用  |
 |ChineseBERT |large | | [huggingface](https://huggingface.co/ShannonAI/ChineseBERT-large) | [ShannonAI](https://github.com/ShannonAI) | [github](https://github.com/ShannonAI/ChineseBert) | 通用  |
-
+| BERT-CCPoem | small | | [thunlp](https://thunlp.oss-cn-qingdao.aliyuncs.com/BERT_CCPoem_v1.zip) | [THUNLP-AIPoet](https://github.com/THUNLP-AIPoet) | [github](https://github.com/THUNLP-AIPoet/BERT-CCPoem) | 古典诗歌  |
 备注: 
 
 > wwm全称为**Whole Word Masking **,一个完整的词的部分WordPiece子词被mask，则同属该词的其他部分也会被mask
@@ -319,6 +319,7 @@
 
 ## 更新
 
+* 2021.07.15 增加BERT-CCPoem：古典诗歌语料训练的BERT
 * 2021.07.06 增加ChineseBERT：Chinese Pretraining Enhanced by Glyph and Pinyin Information
 * 2021.06.22 增加StructBERT
 * 2021.06.14 增加RoFormer：Enhanced Transformer with Rotary Position Embedding
