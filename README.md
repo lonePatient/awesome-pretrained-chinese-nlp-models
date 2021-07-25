@@ -317,9 +317,11 @@
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | roformer-sim  |  base(L12) | [百度网盘-2cgz](https://pan.baidu.com/s/1f1FB288nv1a6jYjsNCordg) | | [ZhuiyiTechnology](https://github.com/ZhuiyiTechnology) | [github](https://github.com/ZhuiyiTechnology/roformer-sim) | 通用  |
 | roformer-sim  |  small(L6) | [百度网盘-h68q](https://pan.baidu.com/s/1r0eJ7shGwQ0RzV9BTFFW4g) | | [ZhuiyiTechnology](https://github.com/ZhuiyiTechnology) | [github](https://github.com/ZhuiyiTechnology/roformer-sim) | 通用  |
+| roformer-sim-v2  |  base(L12) | [百度网盘-w15n](https://pan.baidu.com/s/1Igh3tSvSu_ahDZmGaOlVoA) | | [ZhuiyiTechnology](https://github.com/ZhuiyiTechnology) | [github](https://github.com/ZhuiyiTechnology/roformer-sim) | 通用  |
 
 ## 更新
 
+* 2021.07.19 增加roformer-sim-v2：利用标注数据增强版本
 * 2021.07.15 增加BERT-CCPoem：古典诗歌语料训练的BERT
 * 2021.07.06 增加ChineseBERT：Chinese Pretraining Enhanced by Glyph and Pinyin Information
 * 2021.06.22 增加StructBERT
