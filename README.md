@@ -335,9 +335,9 @@
 
 + 2021 | CPM-2: Large-scale Cost-effective Pre-trained Language Models | Zhengyan Zhang, et al. | arXiv | [`PDF`](https://arxiv.org/abs/2106.10715)
 
-| 模型 | 版本 | 介绍 | 模型下载 | 作者| 源地址 | 应用领域 |
-| ---- | ---- | ---- | ---- | ---- | ---- |---- |
-| CPM-2 |  26亿参数 | [项目首页](https://wudaoai.cn/home) | [模型下载](https://resource.wudaoai.cn/home?ind=2&name=WuDao%20WenYuan&id=1394901846484627456) | [BAAI-WuDao](https://github.com/BAAI-WuDao) | [github](https://github.com/BAAI-WuDao/Model) | 通用/中英  |
+| 模型 | 版本 | 介绍 | 模型下载 | 作者| 源地址 | 应用领域 | 备注 |
+| ---- | ---- | ---- | ---- | ---- | ---- |---- |---- |
+| CPM-2 |  26亿参数 | [项目首页](https://wudaoai.cn/home) | [模型下载](https://resource.wudaoai.cn/home?ind=2&name=WuDao%20WenYuan&id=1394901846484627456) | [BAAI-WuDao](https://github.com/BAAI-WuDao) | [github](https://github.com/BAAI-WuDao/Model) | 通用/中英  | 需要申请才能下载 |
 
 ## 更新
 
