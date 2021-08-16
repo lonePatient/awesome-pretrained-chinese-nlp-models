@@ -31,6 +31,7 @@
   - [UniLM](#UniLM)
   - [Simbert](#Simbert)
   - [RoFormer-sim](#RoFormer-sim)
+  - [CPM-2](#CPM-2)
 + [更新日志](#更新)
 
 ## NLU系列
@@ -330,8 +331,17 @@
 | roformer-sim  |  small(L6) | [百度网盘-h68q](https://pan.baidu.com/s/1r0eJ7shGwQ0RzV9BTFFW4g) | | [ZhuiyiTechnology](https://github.com/ZhuiyiTechnology) | [github](https://github.com/ZhuiyiTechnology/roformer-sim) | 通用  |
 | roformer-sim-v2  |  base(L12) | [百度网盘-w15n](https://pan.baidu.com/s/1Igh3tSvSu_ahDZmGaOlVoA) | | [ZhuiyiTechnology](https://github.com/ZhuiyiTechnology) | [github](https://github.com/ZhuiyiTechnology/roformer-sim) | 通用  |
 
+### CPM-2
+
++ 2021 | CPM-2: Large-scale Cost-effective Pre-trained Language Models | Zhengyan Zhang, et al. | arXiv | [`PDF`](https://arxiv.org/abs/2106.10715)
+
+| 模型 | 版本 | 介绍 | 模型下载 | 作者| 源地址 | 应用领域 |
+| ---- | ---- | ---- | ---- | ---- | ---- |---- |
+| CPM-2 |  26亿参数 | [项目首页](https://wudaoai.cn/home) | [模型下载](https://resource.wudaoai.cn/home?ind=2&name=WuDao%20WenYuan&id=1394901846484627456) | [BAAI-WuDao](https://github.com/BAAI-WuDao) | [github](https://github.com/BAAI-WuDao/Model) | 通用/中英  |
+
 ## 更新
 
+* 2021.08.16 增加CPM-2: Large-scale Cost-effective Pre-trained Language Models
 * 2021.08.16 增加Lattice-BERT: Leveraging Multi-Granularity Representations in Chinese Pre-trained Language Models
 * 2021.07.19 增加roformer-sim-v2：利用标注数据增强版本
 * 2021.07.15 增加BERT-CCPoem：古典诗歌语料训练的BERT
