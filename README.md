@@ -19,6 +19,7 @@
   - [ERNIE](#ERNIE)
   - [RoFormer](#RoFormer)
   - [StructBERT](#StructBERT)
+  - [Lattice-BERT](#Lattice-BERT)
 + [NLG系列](#NLG系列)
   - [GPT](#GPT)
   - [NEZHA-GEN](#NEZHA-GEN)
@@ -208,6 +209,16 @@
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | StructBERT  |  large(L24) | | [阿里云](https://alice-open.oss-cn-zhangjiakou.aliyuncs.com/StructBERT/ch_model) | [Alibaba](https://github.com/alibaba) | [github](https://github.com/alibaba/AliceMind/tree/main/StructBERT) | 通用  |
 
+### Lattice-BERT
+
++ 2021 | Lattice-BERT: Leveraging Multi-Granularity Representations in Chinese Pre-trained Language Models | Yuxuan Lai, et al. | arXiv | [`PDF`](https://arxiv.org/pdf/2104.07204.pdf)
+
+| 模型 | 版本 | TensorFlow | PyTorch | 作者| 源地址 | 应用领域 |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| LatticeBERT  |  tiny(L4) | | [阿里云](https://alice-open.oss-cn-zhangjiakou.aliyuncs.com/LatticeBERT/chinese_labert-tiny-std-512.tar.gz) | [Alibaba](https://github.com/alibaba) | [github](https://github.com/alibaba/AliceMind/tree/main/LatticeBERT) | 通用  |
+| LatticeBERT  |  small(L6) | | [阿里云](https://alice-open.oss-cn-zhangjiakou.aliyuncs.com/LatticeBERT/chinese_labert-lite-std-512.tar.gz) | [Alibaba](https://github.com/alibaba) | [github](https://github.com/alibaba/AliceMind/tree/main/LatticeBERT) | 通用  |
+| LatticeBERT  |  base(L12) | | [阿里云](https://alice-open.oss-cn-zhangjiakou.aliyuncs.com/LatticeBERT/chinese_labert-base-std-512.tar.gz) | [Alibaba](https://github.com/alibaba) | [github](https://github.com/alibaba/AliceMind/tree/main/LatticeBERT) | 通用  |
+
 
 ## NLG系列
 
@@ -321,6 +332,7 @@
 
 ## 更新
 
+* 2021.08.16 增加Lattice-BERT: Leveraging Multi-Granularity Representations in Chinese Pre-trained Language Models
 * 2021.07.19 增加roformer-sim-v2：利用标注数据增强版本
 * 2021.07.15 增加BERT-CCPoem：古典诗歌语料训练的BERT
 * 2021.07.06 增加ChineseBERT：Chinese Pretraining Enhanced by Glyph and Pinyin Information
