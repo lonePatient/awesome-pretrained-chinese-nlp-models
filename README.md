@@ -22,6 +22,7 @@
   - [Lattice-BERT](#Lattice-BERT)
 + [NLG系列](#NLG系列)
   - [GPT](#GPT)
+  - [GPT-3](#GPT-3)
   - [NEZHA-GEN](#NEZHA-GEN)
   - [CPM-Generate](#CPM-Generate)
   - [T5](#T5)
@@ -243,6 +244,16 @@
 | GPT2-对联模型  |  base   |  | <p>[Google Drive](https://drive.google.com/drive/folders/1ZnsvS7oHRVueNKj_SeEhiQt86aze3ojj?usp=sharing)</br>[百度网盘-i5n0](https://pan.baidu.com/s/1j9yVQwjlXZq58wOyXK4lcg)</p> | [Zeyao Du](https://github.com/Morizeyao)        | [GPT2-Chinese](https://github.com/Morizeyao/GPT2-Chinese)    | 对联 |
 | roformer-gpt  |  base(L12) | [百度网盘-2nnn](https://pan.baidu.com/s/11YTnWLX0ThQr2P2yW0P7GA) | | [ZhuiyiTechnology](https://github.com/ZhuiyiTechnology) | [github](https://github.com/ZhuiyiTechnology/roformer) | 通用  |
 
+### GPT-3
+
++ 2019 | Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context | Zihang Dai, et al. | arXiv | [`PDF`](https://arxiv.org/abs/1901.02860)
+
++ 2020 | Language Models are Few-Shot Learners | Tom B. Brown, et al. | arXiv | [`PDF`](https://arxiv.org/abs/2005.14165)
+
+| 模型 | 版本 | 介绍 | PyTorch | 作者| 源地址 | 应用领域 |
+| ---- | ---- | ---- | ---- | ---- | ---- |---- |
+| Chinese-Transformer-XL |  29亿参数(GPT-3) | [项目首页](https://gpt-3.aminer.cn/) | [模型下载](http://dorc-model-team.ks3-cn-beijing.ksyun.com/ren-zhi/my-model/mp_rank_00_model_states.pt) | [THUDM](https://github.com/THUDM) | [github](https://github.com/THUDM/Chinese-Transformer-XL) | 通用  |
+
 ### NEZHA-Gen
 
 + 2019 | NEZHA: Neural Contextualized Representation for Chinese Language Understanding | Junqiu Wei, et al. | arXiv | [`PDF`](https://arxiv.org/abs/1909.00204)
@@ -343,6 +354,7 @@
 
 ## 更新
 
+* 2021.08.19 增加Chinese-Transformer-XL：基于中文预训练语料WuDaoCorpus（290G）训练的GPT-3模型
 * 2021.08.16 增加CPM-2: Large-scale Cost-effective Pre-trained Language Models
 * 2021.08.16 增加Lattice-BERT: Leveraging Multi-Granularity Representations in Chinese Pre-trained Language Models
 * 2021.07.19 增加roformer-sim-v2：利用标注数据增强版本
