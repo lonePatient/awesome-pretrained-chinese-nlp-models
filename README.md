@@ -28,6 +28,7 @@
   - [T5](#T5)
   - [T5-PEGASUS](#T5-PEGASUS)
   - [盘古α](#PanGu-Alpha)
+  - [EVA](#EVA)
 + [NLU-NLG系列](#NLU-NLG系列)
   - [UniLM](#UniLM)
   - [Simbert](#Simbert)
@@ -312,6 +313,14 @@
 | 盘古α-2.6B |  2.6G | [项目首页](https://git.openi.org.cn/PCL-Platform.Intelligence/PanGu-Alpha/src/branch/master) | [模型下载](https://git.openi.org.cn/PCL-Platform.Intelligence/PanGu-Alpha/src/branch/master) | [PCL-Platform.Intelligence](https://git.openi.org.cn/PCL-Platform.Intelligence) | [github](https://git.openi.org.cn/PCL-Platform.Intelligence/PanGu-Alpha) | 通用  |
 | 盘古α-13B |  12G | [项目首页](https://git.openi.org.cn/PCL-Platform.Intelligence/PanGu-Alpha/src/branch/master) | [模型下载](https://git.openi.org.cn/PCL-Platform.Intelligence/PanGu-Alpha/src/branch/master) | [PCL-Platform.Intelligence](https://git.openi.org.cn/PCL-Platform.Intelligence) | [github](https://git.openi.org.cn/PCL-Platform.Intelligence/PanGu-Alpha) | 通用  |
 
+### EVA
+
++ 2021 | EVA: An Open-Domain Chinese Dialogue System with Large-Scale Generative Pre-Training | Hao Zhou, et al. | arXiv | [`PDF`](https://arxiv.org/abs/2108.01547)
+
+| 模型 | 版本 | 介绍 | 模型下载 | 作者| 源地址 | 应用领域 | 备注 |
+| ---- | ---- | ---- | ---- | ---- | ---- |---- |---- |
+| EVA |  28亿参数 | [项目首页](https://wudaoai.cn/model/detail/EVA) | [模型下载](https://wudaoai.cn/model/download?resourceId=1428554651225075712&filename=eva-ckpt.tar.gz) | [thu-coai](https://github.com/thu-coai) | [github](https://github.com/thu-coai/EVA) | 中文开放域对话  | 需要登陆才能下载 |
+
 ## NLU-NLG系列
 
 ### UniLM
@@ -354,6 +363,7 @@
 
 ## 更新
 
+* 2021.09.10 增加EVA: An Open-Domain Chinese Dialogue System with Large-Scale Generative Pre-Training
 * 2021.08.19 增加Chinese-Transformer-XL：基于中文预训练语料WuDaoCorpus（290G）训练的GPT-3模型
 * 2021.08.16 增加CPM-2: Large-scale Cost-effective Pre-trained Language Models
 * 2021.08.16 增加Lattice-BERT: Leveraging Multi-Granularity Representations in Chinese Pre-trained Language Models
