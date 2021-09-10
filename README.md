@@ -371,15 +371,15 @@
 
 | 模型 | 版本 | 介绍 | 模型下载 | 作者| 源地址 | 应用领域 | 备注 |
 | ---- | ---- | ---- | ---- | ---- | ---- |---- |---- |
-| BriVL(WenLan) |  1B参数 | [项目首页](https://wudaoai.cn/model/detail/BriVL) | [模型下载](https://wudaoai.cn/model/download?resourceId=1425655534320660480&filename=BriVL-1.0-1B-zh.tar) | [BAAI-WuDao](https://github.com/BAAI-WuDao) | [github](https://github.com/BAAI-WuDao/BriVlL) | 中文通用图文  | 需要登陆才能下载 |
+| BriVL(WenLan) |  10亿参数 | [项目首页](https://wudaoai.cn/model/detail/BriVL) | [模型下载](https://wudaoai.cn/model/download?resourceId=1425655534320660480&filename=BriVL-1.0-1B-zh.tar) | [BAAI-WuDao](https://github.com/BAAI-WuDao) | [github](https://github.com/BAAI-WuDao/BriVlL) | 中文通用图文  | 需要登陆才能下载 |
 
 
 ## 更新
 
-* 2021.09.10 增加WenLan: Bridging Vision and Language by Large-Scale Multi-Modal Pre-Training，首个中文通用图文多模态大规模预训练模型。
-* 2021.09.10 增加EVA: An Open-Domain Chinese Dialogue System with Large-Scale Generative Pre-Training，一个开放领域的中文对话预训练模型。
+* 2021.09.10 增加[WenLan: Bridging Vision and Language by Large-Scale Multi-Modal Pre-Training](#WenLan)，首个中文通用图文多模态大规模预训练模型。
+* 2021.09.10 增加[EVA: An Open-Domain Chinese Dialogue System with Large-Scale Generative Pre-Training](#EVA)，一个开放领域的中文对话预训练模型。
 * 2021.08.19 增加Chinese-Transformer-XL：基于中文预训练语料WuDaoCorpus（290G）训练的GPT-3模型。
-* 2021.08.16 增加CPM-2: Large-scale Cost-effective Pre-trained Language Models
+* 2021.08.16 增加[CPM-2: Large-scale Cost-effective Pre-trained Language Models](#CPM-2)
 * 2021.08.16 增加Lattice-BERT: Leveraging Multi-Granularity Representations in Chinese Pre-trained Language Models
 * 2021.07.19 增加roformer-sim-v2：利用标注数据增强版本
 * 2021.07.15 增加BERT-CCPoem：古典诗歌语料训练的BERT
