@@ -389,16 +389,16 @@
 * 2021.09.19 增加[CogView: Mastering Text-to-Image Generation via Transformers](#CogView),世界最大的中文多模态生成模型,模型支持文生成图为基础的多领域下游任务.
 * 2021.09.10 增加[WenLan: Bridging Vision and Language by Large-Scale Multi-Modal Pre-Training](#WenLan)，首个中文通用图文多模态大规模预训练模型。
 * 2021.09.10 增加[EVA: An Open-Domain Chinese Dialogue System with Large-Scale Generative Pre-Training](#EVA)，一个开放领域的中文对话预训练模型。
-* 2021.08.19 增加Chinese-Transformer-XL：基于中文预训练语料WuDaoCorpus（290G）训练的GPT-3模型。
+* 2021.08.19 增加[Chinese-Transformer-XL](#GPT-3)：基于中文预训练语料WuDaoCorpus（290G）训练的GPT-3模型。
 * 2021.08.16 增加[CPM-2: Large-scale Cost-effective Pre-trained Language Models](#CPM-2)
-* 2021.08.16 增加Lattice-BERT: Leveraging Multi-Granularity Representations in Chinese Pre-trained Language Models
-* 2021.07.19 增加roformer-sim-v2：利用标注数据增强版本
-* 2021.07.15 增加BERT-CCPoem：古典诗歌语料训练的BERT
-* 2021.07.06 增加ChineseBERT：Chinese Pretraining Enhanced by Glyph and Pinyin Information
-* 2021.06.22 增加StructBERT
-* 2021.06.14 增加RoFormer：Enhanced Transformer with Rotary Position Embedding
-* 2021.05.25 增加ERNIE-Gram
-* 2021.04.28 增加PanGu-Alpha
-* 2021.03.16 增加T5-PEGASUS
+* 2021.08.16 增加[Lattice-BERT: Leveraging Multi-Granularity Representations in Chinese Pre-trained Language Models](#Lattice-BERT)
+* 2021.07.19 增加[roformer-sim-v2](#RoFormer-sim)：利用标注数据增强版本
+* 2021.07.15 增加[BERT-CCPoem](#BERT)：古典诗歌语料训练的BERT
+* 2021.07.06 增加[ChineseBERT：Chinese Pretraining Enhanced by Glyph and Pinyin Information](#BERT)
+* 2021.06.22 增加[StructBERT: Incorporating Language Structures into Pre-training for Deep Language Understanding](#StructBERT)
+* 2021.06.14 增加[RoFormer：Enhanced Transformer with Rotary Position Embedding](#RoFormer)
+* 2021.05.25 增加[ERNIE-Gram: Pre-Training with Explicitly N-Gram Masked Language Modeling for Natural Language Understanding ]((#ERNIE))
+* 2021.04.28 增加[PanGu-α: Large-scale Autoregressive Pretrained Chinese Language Models with Auto-parallel Computation ](#PanGu-Alpha)
+* 2021.03.16 增加[T5-PEGASUS: 开源一个中文生成式预训练模型](#T5-PEGASUS)
 * 2021.03.09 增加UER系列模型
-* 2021.03.04 增加WoBERT
+* 2021.03.04 增加[WoBERT: 基于词颗粒度的中文](#WoBERT)
