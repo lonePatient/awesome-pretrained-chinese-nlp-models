@@ -373,10 +373,8 @@
 
 | 模型 | 版本 | TensorFlow | PyTorch | 作者| 源地址 | 应用领域 |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| CPT-base  |  base(L12) |  | [huggingface](https://huggingface.co/fnlp/cpt-base)| [
-fastNLP](https://github.com/fastnlp) | [github](https://github.com/fastnlp/CPT) | 通用  |
-| CPT-large  |  large(L24) |  | [huggingface](https://huggingface.co/fnlp/cpt-large)| [
-fastNLP](https://github.com/fastnlp) | [github](https://github.com/fastnlp/CPT) | 通用  |
+| CPT-base  |  base(L12) |  | [huggingface](https://huggingface.co/fnlp/cpt-base)| [fastNLP](https://github.com/fastnlp) | [github](https://github.com/fastnlp/CPT) | 通用  |
+| CPT-large  |  large(L24) |  | [huggingface](https://huggingface.co/fnlp/cpt-large)| [fastNLP](https://github.com/fastnlp) | [github](https://github.com/fastnlp/CPT) | 通用  |
 
 ## Multi-Modal
 
