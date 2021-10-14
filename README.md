@@ -327,6 +327,15 @@
 | ---- | ---- | ---- | ---- | ---- | ---- |---- |---- |
 | EVA |  28亿参数 | [项目首页](https://wudaoai.cn/model/detail/EVA) | [模型下载](https://wudaoai.cn/model/download?resourceId=1428554651225075712&filename=eva-ckpt.tar.gz) | [thu-coai](https://github.com/thu-coai) | [github](https://github.com/thu-coai/EVA) | 中文开放域对话  | 需要登陆才能下载 |
 
+### BART
+
++ 2019 | BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension | Mike Lewis, et al. | arxiv | [`PDF`](https://arxiv.org/abs/1910.13461)
+
+| 模型 | 版本 | TensorFlow | PyTorch | 作者| 源地址 | 应用领域 |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| BART-base  |  base |  | [huggingface](https://huggingface.co/fnlp/bart-base-chinese)| [fastNLP](https://github.com/fastnlp) | [github](https://github.com/fastnlp/CPT) | 中文通用  |
+| BART-large  |  large |  | [huggingface](https://huggingface.co/fnlp/bart-large-chinese)| [fastNLP](https://github.com/fastnlp) | [github](https://github.com/fastnlp/CPT) | 中文通用  |
+
 ## NLU-NLG系列
 
 ### UniLM
@@ -406,6 +415,7 @@
 
 ## 更新
 
+* 2021.10.14 增加[中文版BART](#BART),训练比较可靠的中文版BART，为中文生成类任务如摘要等提供Baseline.
 * 2021.10.14 增加[CPT: A Pre-Trained Unbalanced Transformer for Both Chinese Language Understanding and Generation](#CPT),CPT：兼顾理解和生成的中文预训练模型.
 * 2021.10.13 增加[紫东太初多模态大模型](#紫东太初): 全球首个多模态图文音预训练模型,实现了视觉-文本-语音三模态统一表示，构建了三模态预训练大模型。
 * 2021.09.19 增加[CogView: Mastering Text-to-Image Generation via Transformers](#CogView),世界最大的中文多模态生成模型,模型支持文生成图为基础的多领域下游任务.
