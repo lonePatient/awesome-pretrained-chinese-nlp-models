@@ -20,6 +20,7 @@
   - [RoFormer](#RoFormer)
   - [StructBERT](#StructBERT)
   - [Lattice-BERT](#Lattice-BERT)
+  - [Mengzi-BERT](#Mengzi-BERT)
 + [NLG系列](#NLG系列)
   - [GPT](#GPT)
   - [GPT-3](#GPT-3)
@@ -228,6 +229,13 @@
 | LatticeBERT  |  small(L6) | | [阿里云](https://alice-open.oss-cn-zhangjiakou.aliyuncs.com/LatticeBERT/chinese_labert-lite-std-512.tar.gz) | [Alibaba](https://github.com/alibaba) | [github](https://github.com/alibaba/AliceMind/tree/main/LatticeBERT) | 通用  |
 | LatticeBERT  |  base(L12) | | [阿里云](https://alice-open.oss-cn-zhangjiakou.aliyuncs.com/LatticeBERT/chinese_labert-base-std-512.tar.gz) | [Alibaba](https://github.com/alibaba) | [github](https://github.com/alibaba/AliceMind/tree/main/LatticeBERT) | 通用  |
 
+### Mengzi-BERT
+
++ 2021 | Mengzi: Towards Lightweight yet Ingenious Pre-trained Models for Chinese | Zhuosheng Zhang, et al. | arXiv | [`PDF`](https://arxiv.org/abs/2110.06696)
+
+| 模型 | 版本 | TensorFlow | PyTorch | 作者| 源地址 | 应用领域 |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| Mengzi-BERT  |  base(L12) | | [huggingface](https://huggingface.co/Langboat/mengzi-bert-base) | [Langboat](https://github.com/Langboat) | [github](https://github.com/Langboat/Mengzi) | 通用  |
 
 ## NLG系列
 
@@ -415,6 +423,7 @@
 
 ## 更新
 
+* 2021.10.18 增加[Mengzi: Towards Lightweight yet Ingenious Pre-trained Models for Chinese](#Mengzi-BERT),基于语言学信息融入和训练加速等方法研发了 Mengzi 系列模型.
 * 2021.10.14 增加[中文版BART](#BART),训练比较可靠的中文版BART，为中文生成类任务如摘要等提供Baseline.
 * 2021.10.14 增加[CPT: A Pre-Trained Unbalanced Transformer for Both Chinese Language Understanding and Generation](#CPT),CPT：兼顾理解和生成的中文预训练模型.
 * 2021.10.13 增加[紫东太初多模态大模型](#紫东太初): 全球首个多模态图文音预训练模型,实现了视觉-文本-语音三模态统一表示，构建了三模态预训练大模型。
