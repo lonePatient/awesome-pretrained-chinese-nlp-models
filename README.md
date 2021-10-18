@@ -28,6 +28,7 @@
   - [CPM-Generate](#CPM-Generate)
   - [T5](#T5)
   - [T5-PEGASUS](#T5-PEGASUS)
+  - [Mengzi-T5](#Mengzi-T5)
   - [盘古α](#PanGu-Alpha)
   - [EVA](#EVA)
   - [BART](#BART)
@@ -41,6 +42,7 @@
   - [WenLan](#WenLan)
   - [CogView](#CogView)
   - [紫东太初](#紫东太初)
+  - [Mengzi-oscar](#Mengzi-oscar)
 + [更新日志](#更新)
 
 ## NLU系列
@@ -236,6 +238,7 @@
 | 模型 | 版本 | TensorFlow | PyTorch | 作者| 源地址 | 应用领域 |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | Mengzi-BERT  |  base(L12) | | [huggingface](https://huggingface.co/Langboat/mengzi-bert-base) | [Langboat](https://github.com/Langboat) | [github](https://github.com/Langboat/Mengzi) | 通用  |
+| Mengzi-BERT-fin  |  base(L12) | | [huggingface](https://huggingface.co/Langboat/mengzi-bert-base-fin) | [Langboat](https://github.com/Langboat) | [github](https://github.com/Langboat/Mengzi) | 金融财经  |
 
 ## NLG系列
 
@@ -317,6 +320,14 @@
 | T5 PEGASUS | small |[百度网盘-qguk](https://pan.baidu.com/s/1bXRVWnDyAck9VfSO9_1oJQ) | | [ZhuiyiTechnology](https://github.com/ZhuiyiTechnology) | [github](https://github.com/ZhuiyiTechnology/t5-pegasus) | 通用 |
 
 >  Keras转PyTorch可参考: [t5-pegasus-pytorch](https://github.com/renmada/t5-pegasus-pytorch)
+
+### Mengzi-T5
+
++ 2021 | Mengzi: Towards Lightweight yet Ingenious Pre-trained Models for Chinese | Zhuosheng Zhang, et al. | arXiv | [`PDF`](https://arxiv.org/abs/2110.06696)
+
+| 模型 | 版本 | TensorFlow | PyTorch | 作者| 源地址 | 应用领域 |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| Mengzi-T5  |  base(L12) | | [huggingface](https://huggingface.co/Langboat/mengzi-t5-base) | [Langboat](https://github.com/Langboat) | [github](https://github.com/Langboat/Mengzi) | 通用  |
 
 ### PanGu-Alpha
 
@@ -420,6 +431,14 @@
 | 紫东太初-text[GPT] |  32亿参数 | [项目首页](https://gitee.com/zidongtaichu/multi-modal-models/tree/master/text) | [百度网盘-nos5](https://pan.baidu.com/s/1Wsu5OVlQBNai24NhNiaqRw) | [中科院自动化所](https://gitee.com/zidongtaichu) | [github](https://gitee.com/zidongtaichu/multi-modal-models) | 中文通用 | 紫东太初多模态大模型中的文本预训练模型 |
 | 紫东太初-vision |   | [项目首页](https://gitee.com/zidongtaichu/multi-modal-models/tree/master/vision) | [模型下载](https://gitee.com/zidongtaichu/multi-modal-models/tree/master/vision) | [中科院自动化所](https://gitee.com/zidongtaichu) | [github](https://gitee.com/zidongtaichu/multi-modal-models) | 视觉领域 | 紫东太初多模态大模型中的视觉预训练模型 |
 | 紫东太初-speech  |  | [项目首页](https://gitee.com/zidongtaichu/multi-modal-models/tree/master/speech) | [模型下载](https://gitee.com/zidongtaichu/multi-modal-models/tree/master/speech) | [中科院自动化所](https://gitee.com/zidongtaichu) | [github](https://gitee.com/zidongtaichu/multi-modal-models) | 语音领域 | 紫东太初多模态大模型中的语音检测与识别多任务模型 |
+
+### Mengzi-oscar
+
++ 2021 | Mengzi: Towards Lightweight yet Ingenious Pre-trained Models for Chinese | Zhuosheng Zhang, et al. | arXiv | [`PDF`](https://arxiv.org/abs/2110.06696)
+
+| 模型 | 版本 | TensorFlow | PyTorch | 作者| 源地址 | 应用领域 |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| Mengzi-oscar  |  base(L12) | | [huggingface](https://huggingface.co/Langboat/mengzi-oscar-base) | [Langboat](https://github.com/Langboat) | [github](https://github.com/Langboat/Mengzi) | 中文多模态-图文  |
 
 ## 更新
 
