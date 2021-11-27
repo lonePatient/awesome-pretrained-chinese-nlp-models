@@ -22,7 +22,8 @@
   - [Lattice-BERT](#Lattice-BERT)
   - [Mengzi-BERT](#Mengzi-BERT)
   - [TaCL](#TaCL) 
-  - [MC-BERT](#MC-BERT) 
+  - [MC-BERT](#MC-BERT)
+  - [二郎神](#二郎神)
 + [NLG系列](#NLG系列)
   - [GPT](#GPT)
   - [GPT-3](#GPT-3)
@@ -34,12 +35,15 @@
   - [盘古α](#PanGu-Alpha)
   - [EVA](#EVA)
   - [BART](#BART)
+  - [闻仲](#闻仲)
+  - [余元](#余元)
 + [NLU-NLG系列](#NLU-NLG系列)
   - [UniLM](#UniLM)
   - [Simbert](#Simbert)
   - [RoFormer-sim](#RoFormer-sim)
   - [CPM-2](#CPM-2)
   - [CPT](#CPT)
+  - [#周文王](#周文王)
 + [Multi-Modal](#Multi-Modal)
   - [WenLan](#WenLan)
   - [CogView](#CogView)
@@ -258,6 +262,11 @@
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | MC-BERT  |  base(L12) | | [link](https://drive.google.com/open?id=1ccXRvaeox5XCNP_aSk_ttLBY695Erlok) | [alibaba-research](https://github.com/alibaba-research) | [github](https://github.com/alibaba-research/ChineseBLUE) | 生物医疗  |
 
+### 二郎神
+
+| 模型 | 版本 |类型| TensorFlow | PyTorch | 作者| 源地址 | 应用领域 |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |---- |
+| Erlangshen  |  large(L24) | bert | | [huggingface](https://huggingface.co/IDEA-CCNL/Erlangshen-1.3B) | [IDEA-CCNL](https://github.com/IDEA-CCNL) | [github](https://github.com/IDEA-CCNL/Fengshenbang-LM) | 中文通用  |
 
 ## NLG系列
 
@@ -374,6 +383,17 @@
 | BART-base  |  base |  | [huggingface](https://huggingface.co/fnlp/bart-base-chinese)| [fastNLP](https://github.com/fastnlp) | [github](https://github.com/fastnlp/CPT) | 中文通用  |
 | BART-large  |  large |  | [huggingface](https://huggingface.co/fnlp/bart-large-chinese)| [fastNLP](https://github.com/fastnlp) | [github](https://github.com/fastnlp/CPT) | 中文通用  |
 
+### 闻仲
+
+| 模型 | 版本 |类型| TensorFlow | PyTorch | 作者| 源地址 | 应用领域 |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |---- |
+| Wenzhong  |  large(L24) | GPT2 | | [huggingface](https://huggingface.co/IDEA-CCNL/Wenzhong-3.5B) | [IDEA-CCNL](https://github.com/IDEA-CCNL) | [github](https://github.com/IDEA-CCNL/Fengshenbang-LM) | 中文通用  |
+
+### 余元
+| 模型 | 版本 |类型| TensorFlow | PyTorch | 作者| 源地址 | 应用领域 |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |---- |
+| Yuyuan |  large(L24) | GPT2 | | [huggingface](https://huggingface.co/IDEA-CCNL/Yuyuan-3.5B) | [IDEA-CCNL](https://github.com/IDEA-CCNL) | [github](https://github.com/IDEA-CCNL/Fengshenbang-LM) | 医学领域  |
+
 ## NLU-NLG系列
 
 ### UniLM
@@ -403,6 +423,13 @@
 | roformer-sim  |  base(L12) | [百度网盘-2cgz](https://pan.baidu.com/s/1f1FB288nv1a6jYjsNCordg) | | [ZhuiyiTechnology](https://github.com/ZhuiyiTechnology) | [github](https://github.com/ZhuiyiTechnology/roformer-sim) | 通用  |
 | roformer-sim  |  small(L6) | [百度网盘-h68q](https://pan.baidu.com/s/1r0eJ7shGwQ0RzV9BTFFW4g) | | [ZhuiyiTechnology](https://github.com/ZhuiyiTechnology) | [github](https://github.com/ZhuiyiTechnology/roformer-sim) | 通用  |
 | roformer-sim-v2  |  base(L12) | [百度网盘-w15n](https://pan.baidu.com/s/1Igh3tSvSu_ahDZmGaOlVoA) | | [ZhuiyiTechnology](https://github.com/ZhuiyiTechnology) | [github](https://github.com/ZhuiyiTechnology/roformer-sim) | 通用  |
+
+### 周文王
+
+| 模型 | 版本 |类型| TensorFlow | PyTorch | 作者| 源地址 | 应用领域 |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |---- |
+| Zhouwenwang  |  base(L12) | roformer | | [huggingface](https://huggingface.co/IDEA-CCNL/Zhouwenwang-110M) | [IDEA-CCNL](https://github.com/IDEA-CCNL) | [github](https://github.com/IDEA-CCNL/Fengshenbang-LM) | 中文通用  |
+| Zhouwenwang  |  large(L24) | roformer | | [huggingface](https://huggingface.co/IDEA-CCNL/Zhouwenwang-1.3B) | [IDEA-CCNL](https://github.com/IDEA-CCNL) | [github](https://github.com/IDEA-CCNL/Fengshenbang-LM) | 中文通用  |
 
 ### CPM-2
 
@@ -461,6 +488,7 @@
 
 ## 更新
 
+* 2021.11.27 增加IDEA研究院开源的封神榜系列语言模型，包含[二郎神](#二郎神)、[周文王](#周文王)、[闻仲](#闻仲)、[余元](#余元)。
 * 2021.11.25 增加[MC-BERT: Conceptualized Representation Learning for Chinese Biomedical Text Mining](#MC-BERT), 生物医学领域的中文预训练模型.
 * 2021.11.24 增加[TaCL: Improving BERT Pre-training with Token-aware Contrastive Learning](#TaCL), Token-aware对比学习预训练模型.
 * 2021.10.18 增加[Mengzi: Towards Lightweight yet Ingenious Pre-trained Models for Chinese](#Mengzi-BERT),基于语言学信息融入和训练加速等方法研发了 Mengzi 系列模型.
