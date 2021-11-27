@@ -45,7 +45,7 @@
   - [RoFormer-sim](#RoFormer-sim)
   - [CPM-2](#CPM-2)
   - [CPT](#CPT)
-  - [#周文王](#周文王)
+  - [周文王](#周文王)
 + [Multi-Modal](#Multi-Modal)
   - [WenLan](#WenLan)
   - [CogView](#CogView)
