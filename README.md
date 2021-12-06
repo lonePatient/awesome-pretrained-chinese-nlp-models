@@ -51,6 +51,9 @@
   - [CogView](#CogView)
   - [紫东太初](#紫东太初)
   - [Mengzi-oscar](#Mengzi-oscar)
++ [Table](#Table)
+  - [SDCUP](#SDCUP)
+
 + [更新日志](#更新)
 
 ## NLU系列
@@ -501,8 +504,20 @@
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | Mengzi-oscar  |  base(L12) | | [huggingface](https://huggingface.co/Langboat/mengzi-oscar-base) | [Langboat](https://github.com/Langboat) | [github](https://github.com/Langboat/Mengzi) | 中文多模态-图文  |
 
+## Table
+
+### SDCUP
+
++ 2021 | Improving Text-to-SQL with Schema Dependency Learning | Binyuan Hui, et al. | arXiv | [`PDF`](https://arxiv.org/abs/2103.04399)
+
+| 模型 | 版本 | TensorFlow | PyTorch | 作者| 源地址 | 应用领域 |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| sdcup  |  base | | [阿里云](http://alice-open.oss-cn-zhangjiakou.aliyuncs.com/SDCUP/sdcup_base_model.bin-50000) | [Alibaba](https://github.com/alibaba) | [github](https://github.com/alibaba/AliceMind/tree/main/SDCUP) | 中文表格  |
+| sdcup  |  large | | [阿里云](http://alice-open.oss-cn-zhangjiakou.aliyuncs.com/SDCUP/sdcup_large_model.bin-60000) | [Alibaba](https://github.com/alibaba) | [github](https://github.com/alibaba/AliceMind/tree/main/SDCUP) | 中文表格  |
+
 ## 更新
 
+* 2021.12.06 增加[SDCUP: Improving Text-to-SQL with Schema Dependency Learning](#SDCUP),达摩院深度语言模型体系 AliceMind 发布中文社区首个表格预训练模型 SDCUP。
 * 2021.11.27 增加[RWKV](#RWKV)中文预训练生成模型,类似 GPT-2,模型参考地址：[RWKV-LM](https://github.com/BlinkDL/RWKV-LM)
 * 2021.11.27 增加IDEA研究院开源的封神榜系列语言模型，包含[二郎神](#二郎神)、[周文王](#周文王)、[闻仲](#闻仲)、[余元](#余元)。
 * 2021.11.25 增加[MC-BERT: Conceptualized Representation Learning for Chinese Biomedical Text Mining](#MC-BERT), 生物医学领域的中文预训练模型.
