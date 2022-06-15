@@ -49,6 +49,7 @@
   - [CPM-2](#CPM-2)
   - [CPT](#CPT)
   - [周文王](#周文王)
+  - [GLM](#GLM)
 + [Multi-Modal](#Multi-Modal)
   - [WenLan](#WenLan)
   - [CogView](#CogView)
@@ -504,6 +505,16 @@
 | CPT-base  |  base(L12) |  | [huggingface](https://huggingface.co/fnlp/cpt-base)| [fastNLP](https://github.com/fastnlp) | [github](https://github.com/fastnlp/CPT) | 通用  |
 | CPT-large  |  large(L24) |  | [huggingface](https://huggingface.co/fnlp/cpt-large)| [fastNLP](https://github.com/fastnlp) | [github](https://github.com/fastnlp/CPT) | 通用  |
 
+### GLM
+
++ 2022 | GLM: General Language Model Pretraining with Autoregressive Blank Infilling | Zhengxiao Du, et al. | arXiv | [`PDF`](https://arxiv.org/abs/2103.10360)
+
+| 模型 | 版本 | TensorFlow | PyTorch | 作者| 源地址 | 应用领域 |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| GLM  |  large | | [地址](https://mailstsinghuaeducn-my.sharepoint.com/personal/duzx16_mails_tsinghua_edu_cn/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fduzx16%5Fmails%5Ftsinghua%5Fedu%5Fcn%2FDocuments%2Fmodels&ga=1) | [THUDM](https://github.com/THUDM) | [github](https://github.com/THUDM/glm) | 通用  |
+| GLM  |  xxlarge | | [地址](https://wudaoai.cn/model/download?resourceId=1420992103650996224&filename=GLM-10B-zh.tar.bz2) | [THUDM](https://github.com/THUDM) | [github](https://github.com/THUDM/glm) | 通用  |
+
+
 ## Multi-Modal
 
 ### WenLan
@@ -553,6 +564,7 @@
 
 ## 更新
 
+* 2022.06.15 增加[GLM: General Language Model Pretraining with Autoregressive Blank Infilling](#CLM),提出了一种新的通用语言模型 GLM(General Language Model)。 使用自回归填空目标进行预训练，可以针对各种自然语言理解和生成任务进行微调。
 * 2022.05.16 增加[GAU-α](#GAU-α),主要提出了一个融合了Attention层和FFN层的新设计GAU（Gated Attention Unit，门控注意力单元），它是新模型更快、更省、更好的关键，此外它使得整个模型只有一种层，也显得更为优雅。
 * 2022.03.27 增加[RoFormer-V2](#RoFormer),RoFormer升级版，主要通过结构的简化来提升速度，并通过无监督预训练和有监督预训练的结合来提升效果，从而达到了速度与效果的“双赢”。
 * 2022.03.02 增加[MobileBERT](#MobileBERT),MobileBERT是BERT-large模型更“苗条”的版本，使用了瓶颈结构（bottleneck）并且对自注意力和前馈神经网络之间的平衡做了细致的设计。
