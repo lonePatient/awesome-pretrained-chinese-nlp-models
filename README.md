@@ -55,6 +55,7 @@
   - [CogView](#CogView)
   - [紫东太初](#紫东太初)
   - [Mengzi-oscar](#Mengzi-oscar)
+  - [R2D2](#R2D2)
 + [Table](#Table)
   - [SDCUP](#SDCUP)
 
@@ -551,6 +552,15 @@
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | Mengzi-oscar  |  base(L12) | | [huggingface](https://huggingface.co/Langboat/mengzi-oscar-base) | [Langboat](https://github.com/Langboat) | [github](https://github.com/Langboat/Mengzi) | 中文多模态-图文  |
 
+### R2D2
+
++ 2022 | Zero and R2D2: A Large-scale Chinese Cross-modal Benchmark and A Vision-Language Framework | Chunyu Xie, et al. | arXiv | [`PDF`](https://arxiv.org/abs/2205.03860)
+
+| 模型 | 版本 | TensorFlow | PyTorch | 作者| 源地址 | 首页| 应用领域 |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| R2D2ViT-L  |  large | | [Google](https://drive.google.com/file/d/18Fd3vGvj0Dz8rPlxROxugjZaF8Z4jf7g/view) | [yuxie11](https://github.com/yuxie11) | [github](https://github.com/yuxie11/R2D2) |[zero](https://zero.so.com/) |中文多模态-图文  |
+|PRD2ViT-L |  large | | [Google](https://drive.google.com/file/d/15zDdam7_-YT0suA3Wc226vvxcyBxWZ_O/view?usp=sharing) | [yuxie11](https://github.com/yuxie11) | [github](https://github.com/yuxie11/R2D2) |[zero](https://zero.so.com/) |中文多模态-图文  |
+
 ## Table
 
 ### SDCUP
@@ -564,6 +574,7 @@
 
 ## 更新
 
+* 2022.06.22 增加[Zero and R2D2: A Large-scale Chinese Cross-modal Benchmark and A Vision-Language Framework](#R2D2)，基于大规模中文跨模态基准数据集Zero，训练视觉语言预训练框架 R2D2，用于大规模跨模态学习。
 * 2022.06.15 增加[GLM: General Language Model Pretraining with Autoregressive Blank Infilling](#CLM),提出了一种新的通用语言模型 GLM(General Language Model)。 使用自回归填空目标进行预训练，可以针对各种自然语言理解和生成任务进行微调。
 * 2022.05.16 增加[GAU-α](#GAU-α),主要提出了一个融合了Attention层和FFN层的新设计GAU（Gated Attention Unit，门控注意力单元），它是新模型更快、更省、更好的关键，此外它使得整个模型只有一种层，也显得更为优雅。
 * 2022.03.27 增加[RoFormer-V2](#RoFormer),RoFormer升级版，主要通过结构的简化来提升速度，并通过无监督预训练和有监督预训练的结合来提升效果，从而达到了速度与效果的“双赢”。
