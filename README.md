@@ -17,7 +17,7 @@
   - [ELECTRA](#ELECTRA)
   - [ZEN](#ZEN)
   - [ERNIE](#ERNIE)
-  - [ERNIE3.0](#ERNIE3.0)
+  - [ERNIE3](#ERNIE3)
   - [RoFormer](#RoFormer)
   - [StructBERT](#StructBERT)
   - [Lattice-BERT](#Lattice-BERT)
@@ -223,7 +223,7 @@
 
 > PaddlePaddle转PyTorch可参考: [ERNIE-Pytorch](https://github.com/nghuyong/ERNIE-Pytorch)
 
-### ERNIE3.0
+### ERNIE3
 
 + 2021 | ERNIE 3.0: Large-scale Knowledge Enhanced Pre-training for Language Understanding and Generation | Yu Sun, et al. | arXiv | [`PDF`](https://arxiv.org/abs/2107.02137)
 
@@ -590,7 +590,7 @@
 
 ## 更新
 
-* 2022.06.29 增加[ERNIE 3.0](#ERNIE3.0),大规模知识增强预训练语言理解和生成.
+* 2022.06.29 增加[ERNIE 3.0](#ERNIE3),大规模知识增强预训练语言理解和生成.
 * 2022.06.22 增加[Zero and R2D2: A Large-scale Chinese Cross-modal Benchmark and A Vision-Language Framework](#R2D2)，基于大规模中文跨模态基准数据集Zero，训练视觉语言预训练框架 R2D2，用于大规模跨模态学习。
 * 2022.06.15 增加[GLM: General Language Model Pretraining with Autoregressive Blank Infilling](#CLM),提出了一种新的通用语言模型 GLM(General Language Model)。 使用自回归填空目标进行预训练，可以针对各种自然语言理解和生成任务进行微调。
 * 2022.05.16 增加[GAU-α](#GAU-α),主要提出了一个融合了Attention层和FFN层的新设计GAU（Gated Attention Unit，门控注意力单元），它是新模型更快、更省、更好的关键，此外它使得整个模型只有一种层，也显得更为优雅。
