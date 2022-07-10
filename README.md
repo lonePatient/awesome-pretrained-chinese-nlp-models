@@ -57,6 +57,7 @@
   - [紫东太初](#紫东太初)
   - [Mengzi-oscar](#Mengzi-oscar)
   - [R2D2](#R2D2)
+  - [Chinese-CLIP])(#Chinese-CLIP)
 + [Table](#Table)
   - [SDCUP](#SDCUP)
 
@@ -577,6 +578,14 @@
 | R2D2ViT-L  |  large | | [Google](https://drive.google.com/file/d/18Fd3vGvj0Dz8rPlxROxugjZaF8Z4jf7g/view) | [yuxie11](https://github.com/yuxie11) | [github](https://github.com/yuxie11/R2D2) |[zero](https://zero.so.com/) |中文多模态-图文  |
 |PRD2ViT-L |  large | | [Google](https://drive.google.com/file/d/15zDdam7_-YT0suA3Wc226vvxcyBxWZ_O/view?usp=sharing) | [yuxie11](https://github.com/yuxie11) | [github](https://github.com/yuxie11/R2D2) |[zero](https://zero.so.com/) |中文多模态-图文  |
 
+### Chinese-CLIP
+
++ 2021 | Learning Transferable Visual Models From Natural Language Supervision | Alec Radford, et al. | arXiv | [`PDF`](https://arxiv.org/abs/2103.00020)
+
+| 模型 | 版本 | TensorFlow | PyTorch | 作者| 源地址 | 应用领域 |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| Chinese-CLIP  |  base | | [aliyuncs](https://clip-cn-beijing.oss-cn-beijing.aliyuncs.com/checkpoints/clip_cn_vit-b-16.pt) | [OFA Sys](https://github.com/OFA-Sys) | [github](https://github.com/OFA-Sys/Chinese-CLIP) | 中文多模态-图文  |
+
 ## Table
 
 ### SDCUP
@@ -590,6 +599,7 @@
 
 ## 更新
 
+* 2022.07.10 增加[Chinese-CLIP](#Chinese-CLIP),CLIP模型的中文版本，使用大规模中文数据进行训练（~2亿图文对），旨在帮助用户实现中文领域的跨模态检索、图像表示等.
 * 2022.06.29 增加[ERNIE 3.0](#ERNIE3),大规模知识增强预训练语言理解和生成.
 * 2022.06.22 增加[Zero and R2D2: A Large-scale Chinese Cross-modal Benchmark and A Vision-Language Framework](#R2D2)，基于大规模中文跨模态基准数据集Zero，训练视觉语言预训练框架 R2D2，用于大规模跨模态学习。
 * 2022.06.15 增加[GLM: General Language Model Pretraining with Autoregressive Blank Infilling](#CLM),提出了一种新的通用语言模型 GLM(General Language Model)。 使用自回归填空目标进行预训练，可以针对各种自然语言理解和生成任务进行微调。
