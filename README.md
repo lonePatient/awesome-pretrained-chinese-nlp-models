@@ -57,7 +57,7 @@
   - [紫东太初](#紫东太初)
   - [Mengzi-oscar](#Mengzi-oscar)
   - [R2D2](#R2D2)
-  - [Chinese-CLIP])(#Chinese-CLIP)
+  - [Chinese-CLIP](#Chinese-CLIP)
 + [Table](#Table)
   - [SDCUP](#SDCUP)
 
