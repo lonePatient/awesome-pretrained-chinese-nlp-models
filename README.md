@@ -281,7 +281,7 @@
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | Mengzi-BERT  |  base(L12) | | [huggingface](https://huggingface.co/Langboat/mengzi-bert-base) | [Langboat](https://github.com/Langboat) | [github](https://github.com/Langboat/Mengzi) | 通用  |
 | Mengzi-BERT-fin  |  base(L12) | | [huggingface](https://huggingface.co/Langboat/mengzi-bert-base-fin) | [Langboat](https://github.com/Langboat) | [github](https://github.com/Langboat/Mengzi) | 金融财经  |
-| bloom-6b4-zh  |  6B(L30) | | [huggingface](https://huggingface.co/Langboat/bloom-6b4-zh) | [Langboat](https://github.com/Langboat) | [github](-) | 通用  |
+| bloom-6b4-zh  |  6B(L30) | | [huggingface](https://huggingface.co/Langboat/bloom-6b4-zh) | [Langboat](https://huggingface.co/Langboat) (作者另有bloom-389m-zh到bloom-2b5-zh等多个中文模型) | [github](https://github.com/huggingface/transformers) | 通用  |
 
 ### TaCL
 
