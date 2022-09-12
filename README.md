@@ -281,6 +281,7 @@
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | Mengzi-BERT  |  base(L12) | | [huggingface](https://huggingface.co/Langboat/mengzi-bert-base) | [Langboat](https://github.com/Langboat) | [github](https://github.com/Langboat/Mengzi) | 通用  |
 | Mengzi-BERT-fin  |  base(L12) | | [huggingface](https://huggingface.co/Langboat/mengzi-bert-base-fin) | [Langboat](https://github.com/Langboat) | [github](https://github.com/Langboat/Mengzi) | 金融财经  |
+| bloom-6b4-zh  |  6B(L30) | | [huggingface](https://huggingface.co/Langboat/bloom-6b4-zh) | [Langboat](https://github.com/Langboat) | [github](-) | 通用  |
 
 ### TaCL
 
@@ -430,6 +431,8 @@
 | ---- | ---- | ---- | ---- | ---- | ---- |---- |
 | 盘古α-2.6B |  2.6G | [项目首页](https://git.openi.org.cn/PCL-Platform.Intelligence/PanGu-Alpha/src/branch/master) | [模型下载](https://git.openi.org.cn/PCL-Platform.Intelligence/PanGu-Alpha/src/branch/master) | [PCL-Platform.Intelligence](https://git.openi.org.cn/PCL-Platform.Intelligence) | [github](https://git.openi.org.cn/PCL-Platform.Intelligence/PanGu-Alpha) | 通用  |
 | 盘古α-13B |  12G | [项目首页](https://git.openi.org.cn/PCL-Platform.Intelligence/PanGu-Alpha/src/branch/master) | [模型下载](https://git.openi.org.cn/PCL-Platform.Intelligence/PanGu-Alpha/src/branch/master) | [PCL-Platform.Intelligence](https://git.openi.org.cn/PCL-Platform.Intelligence) | [github](https://git.openi.org.cn/PCL-Platform.Intelligence/PanGu-Alpha) | 通用  |
+| 盘古α-2.6B pytorch版本|  2.6G | [项目首页](https://git.openi.org.cn/PCL-Platform.Intelligence/PanGu-Alpha-GPU/src/branch/master/panguAlpha_pytorch) | [模型下载](https://git.openi.org.cn/PCL-Platform.Intelligence/PanGu-Alpha-GPU/src/branch/master/panguAlpha_pytorch#user-content-%E6%A8%A1%E5%9E%8B%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD) | [PCL-Platform.Intelligence](https://git.openi.org.cn/PCL-Platform.Intelligence) | [github](https://git.openi.org.cn/PCL-Platform.Intelligence/PanGu-Alpha-GPU) | 通用  |
+| 盘古α-13B pytorch版本 |  12G | [项目首页](https://git.openi.org.cn/PCL-Platform.Intelligence/PanGu-Alpha-GPU/src/branch/master/panguAlpha_pytorch) | [模型下载](https://git.openi.org.cn/PCL-Platform.Intelligence/PanGu-Alpha-GPU/src/branch/master/panguAlpha_pytorch#user-content-%E6%A8%A1%E5%9E%8B%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD) | [PCL-Platform.Intelligence](https://git.openi.org.cn/PCL-Platform.Intelligence) | [github](https://git.openi.org.cn/PCL-Platform.Intelligence/PanGu-Alpha-GPU) | 通用  |
 
 ### EVA
 
@@ -531,6 +534,7 @@
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | GLM  |  large | | [地址](https://mailstsinghuaeducn-my.sharepoint.com/personal/duzx16_mails_tsinghua_edu_cn/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fduzx16%5Fmails%5Ftsinghua%5Fedu%5Fcn%2FDocuments%2Fmodels&ga=1) | [THUDM](https://github.com/THUDM) | [github](https://github.com/THUDM/glm) | 通用  |
 | GLM  |  xxlarge | | [地址](https://wudaoai.cn/model/download?resourceId=1420992103650996224&filename=GLM-10B-zh.tar.bz2) | [THUDM](https://github.com/THUDM) | [github](https://github.com/THUDM/glm) | 通用  |
+| GLM-130B  |  130B | | [地址](https://models.aminer.cn/glm/zh-CN/download/GLM-130B) | [THUDM](https://models.aminer.cn/glm-130b/) | [github](https://github.com/THUDM/GLM-130B) | 通用  |
 
 
 ## Multi-Modal
@@ -599,10 +603,13 @@
 
 ## 更新
 
+* 2022.09.11 增加[bloom-6b4](#Mengzi-BERT),多语言预训练bloom系列生成模型7b1参数(https://huggingface.co/bigscience/bloom-7b1 )的中文vocab提取，bloom系列另有最大176B模型(https://huggingface.co/bigscience/bloom ).
+* 2022.09.11 增加[GLM-130B](#GLM),提出了开源的双语预训练生成模型 GLM(General Language Model)。
+* 2022.09.11 增加[PanGu-α: Large-scale Autoregressive Pretrained Chinese Language Models with Auto-parallel Computation ](#PanGu-Alpha) 2.6B和13B 生成模型pytorch版
 * 2022.07.10 增加[Chinese-CLIP](#Chinese-CLIP),CLIP模型的中文版本，使用大规模中文数据进行训练（~2亿图文对），旨在帮助用户实现中文领域的跨模态检索、图像表示等.
 * 2022.06.29 增加[ERNIE 3.0](#ERNIE3),大规模知识增强预训练语言理解和生成.
 * 2022.06.22 增加[Zero and R2D2: A Large-scale Chinese Cross-modal Benchmark and A Vision-Language Framework](#R2D2)，基于大规模中文跨模态基准数据集Zero，训练视觉语言预训练框架 R2D2，用于大规模跨模态学习。
-* 2022.06.15 增加[GLM: General Language Model Pretraining with Autoregressive Blank Infilling](#CLM),提出了一种新的通用语言模型 GLM(General Language Model)。 使用自回归填空目标进行预训练，可以针对各种自然语言理解和生成任务进行微调。
+* 2022.06.15 增加[GLM: General Language Model Pretraining with Autoregressive Blank Infilling](#GLM),提出了一种新的通用语言模型 GLM(General Language Model)。 使用自回归填空目标进行预训练，可以针对各种自然语言理解和生成任务进行微调。
 * 2022.05.16 增加[GAU-α](#GAU-α),主要提出了一个融合了Attention层和FFN层的新设计GAU（Gated Attention Unit，门控注意力单元），它是新模型更快、更省、更好的关键，此外它使得整个模型只有一种层，也显得更为优雅。
 * 2022.03.27 增加[RoFormer-V2](#RoFormer),RoFormer升级版，主要通过结构的简化来提升速度，并通过无监督预训练和有监督预训练的结合来提升效果，从而达到了速度与效果的“双赢”。
 * 2022.03.02 增加[MobileBERT](#MobileBERT),MobileBERT是BERT-large模型更“苗条”的版本，使用了瓶颈结构（bottleneck）并且对自注意力和前馈神经网络之间的平衡做了细致的设计。
