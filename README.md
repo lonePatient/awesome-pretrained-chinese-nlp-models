@@ -43,6 +43,7 @@
   - [闻仲](#闻仲)
   - [余元](#余元)
   - [RWKV](#RWKV)
+  - [Bloom](#Bloom)
 + [NLU-NLG系列](#NLU-NLG系列)
   - [UniLM](#UniLM)
   - [Simbert](#Simbert)
@@ -281,7 +282,14 @@
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | Mengzi-BERT  |  base(L12) | | [huggingface](https://huggingface.co/Langboat/mengzi-bert-base) | [Langboat](https://github.com/Langboat) | [github](https://github.com/Langboat/Mengzi) | 通用  |
 | Mengzi-BERT-fin  |  base(L12) | | [huggingface](https://huggingface.co/Langboat/mengzi-bert-base-fin) | [Langboat](https://github.com/Langboat) | [github](https://github.com/Langboat/Mengzi) | 金融财经  |
-| bloom-6b4-zh  |  6B(L30) | | [huggingface](https://huggingface.co/Langboat/bloom-6b4-zh) | [Langboat](https://github.com/Langboat) | [github](-) | 通用  |
+
+### Bloom
+
++ 2022 | Bloom: BigScience Large Open-science Open-access Multilingual Language Model | huggingface bigscience | - | [`BLOG`](https://bigscience.huggingface.co/blog/bloom)
+
+| 模型 | 版本 | TensorFlow | PyTorch | 作者| 源地址 | 应用领域 |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| bloom-6b4-zh  |  6B(L30) | | [huggingface](https://huggingface.co/Langboat/bloom-6b4-zh) | [Langboat](https://huggingface.co/Langboat) (作者另有bloom-389m-zh到bloom-2b5-zh等多个中文模型) | [github](https://github.com/huggingface/transformers) | 通用  |
 
 ### TaCL
 
@@ -603,7 +611,7 @@
 
 ## 更新
 
-* 2022.09.11 增加[bloom-6b4](#Mengzi-BERT),多语言预训练bloom系列生成模型7b1参数(https://huggingface.co/bigscience/bloom-7b1 )的中文vocab提取，bloom系列另有最大176B模型(https://huggingface.co/bigscience/bloom).
+* 2022.09.11 增加[bloom-6b4](#Bloom),多语言预训练bloom系列生成模型7b1参数(https://huggingface.co/bigscience/bloom-7b1 )的中文vocab提取，bloom系列另有最大176B模型(https://huggingface.co/bigscience/bloom).
 * 2022.09.11 增加[GLM-130B](#GLM),提出了开源的双语预训练生成模型 GLM(General Language Model)。
 * 2022.09.11 增加[PanGu-α: Large-scale Autoregressive Pretrained Chinese Language Models with Auto-parallel Computation](#PanGu-Alpha) 2.6B和13B 生成模型pytorch版
 * 2022.07.10 增加[Chinese-CLIP](#Chinese-CLIP),CLIP模型的中文版本，使用大规模中文数据进行训练（~2亿图文对），旨在帮助用户实现中文领域的跨模态检索、图像表示等.
