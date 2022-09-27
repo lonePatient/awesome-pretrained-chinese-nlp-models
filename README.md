@@ -52,6 +52,7 @@
   - [CPT](#CPT)
   - [周文王](#周文王)
   - [GLM](#GLM)
+  - [PLUG](#PLUG)
 + [Multi-Modal](#Multi-Modal)
   - [WenLan](#WenLan)
   - [CogView](#CogView)
@@ -544,6 +545,14 @@
 | GLM  |  xxlarge | | [地址](https://wudaoai.cn/model/download?resourceId=1420992103650996224&filename=GLM-10B-zh.tar.bz2) | [THUDM](https://github.com/THUDM) | [github](https://github.com/THUDM/glm) | 通用  |
 | GLM-130B  |  130B | | [地址](https://models.aminer.cn/glm/zh-CN/download/GLM-130B) | [THUDM](https://models.aminer.cn/glm-130b/) | [github](https://github.com/THUDM/GLM-130B) | 通用  |
 
+### PLUG
+
++ 2019 | StructBERT: Incorporating Language Structures into Pre-training for Deep Language Understanding | Wei Wang, et al. | arXiv | [`PDF`](https://arxiv.org/abs/1908.04577)
++ 2020 | PALM: Pre-training an Autoencoding&Autoregressive Language Model for Context-conditioned Generation | Bin Bi, et al. | ACL| [`PDF`](https://aclanthology.org/2020.emnlp-main.700/)
+
+| 模型 | 版本 | 模型下载 | 作者| 源地址 | 应用领域 |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| PLUG  |  large(L24 27B) |[AliceMind](https://www.alice-mind.com/portal#/) | [Alibaba](https://github.com/alibaba) | [github](https://github.com/alibaba/AliceMind/tree/main/StructBERT) | 通用  |
 
 ## Multi-Modal
 
@@ -611,6 +620,7 @@
 
 ## 更新
 
+* 2022.09.27 增加[PLUG](#PLUG),PLUG集语言理解与生成能力于一身，支持文本生成、问答、语义理解等多类下游任务，PLUG开源将助力开发者在语言理解和语言生成上做出更多延拓。
 * 2022.09.11 增加[bloom-6b4](#Bloom),多语言预训练bloom系列生成模型7b1参数(https://huggingface.co/bigscience/bloom-7b1 )的中文vocab提取，bloom系列另有最大176B模型(https://huggingface.co/bigscience/bloom).
 * 2022.09.11 增加[GLM-130B](#GLM),提出了开源的双语预训练生成模型 GLM(General Language Model)。
 * 2022.09.11 增加[PanGu-α: Large-scale Autoregressive Pretrained Chinese Language Models with Auto-parallel Computation](#PanGu-Alpha) 2.6B和13B 生成模型pytorch版
