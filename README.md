@@ -605,7 +605,8 @@
 
 | 模型 | 版本 | TensorFlow | PyTorch | 作者| 源地址 | 应用领域 |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| Chinese-CLIP  |  base | | [aliyuncs](https://clip-cn-beijing.oss-cn-beijing.aliyuncs.com/checkpoints/clip_cn_vit-b-16.pt) | [OFA Sys](https://github.com/OFA-Sys) | [github](https://github.com/OFA-Sys/Chinese-CLIP) | 中文多模态-图文  |
+| Chinese-CLIP  |  base | | [aliyuncs](https://clip-cn-beijing.oss-cn-beijing.aliyuncs.com/checkpoints/clip_cn_vit-b-16.pt) | [
+billjie1](https://github.com/billjie1) | [github](https://github.com/billjie1/Chinese-CLIP) | 中文多模态-图文  |
 
 ## Table
 
