@@ -32,6 +32,7 @@
   - [DeBERTa](#DeBERTa)
   - [GlyphBERT](#GlyphBERT)
   - [CKBERT](#CKBERT)
+  - [LERT](#LERT)
 + [NLG系列](#NLG系列)
   - [GPT](#GPT)
   - [GPT-3](#GPT-3)
@@ -376,6 +377,16 @@
 | pai-ckbert-large-zh  |  large | | [huggingface](https://huggingface.co/alibaba-pai/pai-ckbert-large-zh) | [Alibaba](https://github.com/alibaba) | [github](https://huggingface.co/alibaba-pai) | 通用  |
 | pai-ckbert-huge-zh  |  huge | | [huggingface](https://huggingface.co/alibaba-pai/pai-ckbert-huge-zh) | [Alibaba](https://github.com/alibaba) | [github](https://huggingface.co/alibaba-pai) | 通用  |
 
+### LERT
+
++ 2022 | 待定 |  et al. | arXiv | [待定]()
+
+| 模型 | 版本 | TensorFlow | PyTorch | 作者| 源地址 | 应用领域 |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| Chinese-LERT-small  |  15m | [百度网盘-4vuy](https://pan.baidu.com/s/1fBk3em8a5iCMwPLJEBq2pQ?pwd=4vuy)| [huggingface](https://huggingface.co/hfl/chinese-lert-small) | [Yiming Cui](https://github.com/ymcui) | [github](https://github.com/ymcui/LERT) | 通用  |
+| Chinese-LERT-base  |  400m | [百度网盘-9jgi](https://pan.baidu.com/s/1_yb1jCDJ4s2P8OrF_5E_Tg?pwd=9jgi)| [huggingface](https://huggingface.co/hfl/chinese-lert-base) | [Yiming Cui](https://github.com/ymcui) | [github](https://github.com/ymcui/LERT) | 通用  |
+| Chinese-LERT-large  |  1.2G | [百度网盘-s82t](https://pan.baidu.com/s/1pxsS3almc90DPvMXH6BMYQ?pwd=s82t)| [huggingface](https://huggingface.co/hfl/chinese-lert-large) | [Yiming Cui](https://github.com/ymcui) | [github](https://github.com/ymcui/LERT) | 通用  |
+
 ## NLG系列
 
 ### GPT
@@ -664,6 +675,7 @@
 
 ## 更新
 
+* 2022.10.31 增加[LERT](#LERT),为了验证通过显式注入语言学知识预训练模型能否获得进一步性能提升，HFL提出了一种**语言学信息增强的预训练模型LERT**，融合了多种语言学知识。大量实验结果表明，在同等训练数据规模下，LERT能够带来显著性能提升。
 * 2022.10.14 增加[CKBERT](#CKBERT)，中文知识库增强BERT预训练语言模型。
 * 2022.10.01 增加[GlyphBERT](#GlyphBERT), GlyphBERT是一个包含了汉字字形特征中文预训练模型。它通过将输入的字符渲染成图像并设计成多通道位置特征图的形式，并设计了一个两层 残差卷积神经网络模块来提取字符的图像特征进行训练。
 * 2022.09.30 增加[DeBERTa](#DeBERTa)，一个中文版的DeBERTa-v2，我们用悟道语料库(180G版本)进行预训练，在预训练阶段中使用了封神框架。
