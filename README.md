@@ -57,6 +57,7 @@
   - [周文王](#周文王)
   - [GLM](#GLM)
   - [PLUG](#PLUG)
+  - [OPD](#OPD)
 + [Multi-Modal](#Multi-Modal)
   - [WenLan](#WenLan)
   - [CogView](#CogView)
@@ -601,6 +602,14 @@
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | PLUG  |  large(L24 27B) |[AliceMind-需要申请](https://www.alice-mind.com/portal#/) | [Alibaba](https://github.com/alibaba) | [github](https://github.com/alibaba/AliceMind/tree/main/StructBERT) | 通用  |
 
+### OPD
+
++ 2022 | 待定 | , et al. | arXiv | [`PDF`]()
+
+| 模型 | 版本 | 介绍 | 模型下载 | 作者| 源地址 | 应用领域 | 备注 |
+| ---- | ---- | ---- | ---- | ---- | ---- |---- |---- |
+| OPD |  6.3B | [项目首页](http://coai.cs.tsinghua.edu.cn/static/opd/) | [模型下载](http://coai.cs.tsinghua.edu.cn/static/opd/) | [thu-coai](https://github.com/thu-coai) | [github](https://github.com/thu-coai/OPD) | 中文开放域对话  | 需要申请才能下载 |
+
 ## Multi-Modal
 
 ### WenLan
@@ -680,6 +689,7 @@
 
 ## 更新
 
+* 2022.11.9 增加[OPD](#OPD),OPD是一个中文开放域对话预训练模型，拥有63亿参数，在70GB高质量对话数据上进行训练而成.`大规模` & `高性能`
 * 2022.11.8 更新[Chinese-CLIP](#Chinese-CLIP),Chinese-CLIP是中文多模态图文表征模型，更新后Chinese-CLIP扩充到5个模型规模，同时增加了技术报告论文以及检索demo，同时在达摩院ModelScope平台同步集成。
 * 2022.10.31 增加[LERT](#LERT),为了验证通过显式注入语言学知识预训练模型能否获得进一步性能提升，HFL提出了一种**语言学信息增强的预训练模型LERT**，融合了多种语言学知识。大量实验结果表明，在同等训练数据规模下，LERT能够带来显著性能提升。
 * 2022.10.14 增加[CKBERT](#CKBERT)，中文知识库增强BERT预训练语言模型。
