@@ -69,6 +69,7 @@
   - [AltCLIP](#AltCLIP)
   - [AltDiffusion](#AltDiffusion)
   - [Taiyi-Stable-Diffusion](#Taiyi-Stable-Diffusion)
+  - [#wukong](#wukong)
 + [Table](#Table)
   - [SDCUP](#SDCUP)
 
@@ -706,6 +707,15 @@
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | Taiyi-Stable-Diffusion  |  1B | | [huggingface](https://huggingface.co/IDEA-CCNL/Taiyi-Stable-Diffusion-1B-Chinese-v0.1) | [IDEA-CCNL](https://github.com/IDEA-CCNL) | [github](https://github.com/IDEA-CCNL/Fengshenbang-LM) | 中文多模态-图文  |
 
+### wukong
+
++ 2022 | Wukong: A 100 Million Large-scale Chinese Cross-modal Pre-training Benchmark | Jiaxi Gu, et al. | arXiv | [`PDF`](https://arxiv.org/abs/2202.06767)
+
+| 模型 | 版本 | TensorFlow | PyTorch | 作者| 源地址 | 应用领域 |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| CLIP  |  |  | [url](https://wukong-dataset.github.io/wukong-dataset/benchmark.html) | [HUAWEI](https://github.com/huawei-noah)  | [github](https://github.com/huawei-noah/Pretrained-Language-Model) | 中文多模态-图文 |
+| FILIP  |  |  | [url](https://wukong-dataset.github.io/wukong-dataset/benchmark.html) | [HUAWEI](https://github.com/huawei-noah)  | [github](https://github.com/huawei-noah/Pretrained-Language-Model) | 中文多模态-图文 |
+| wukong  |  |  | [url](https://wukong-dataset.github.io/wukong-dataset/benchmark.html) | [HUAWEI](https://github.com/huawei-noah)  | [github](https://github.com/huawei-noah/Pretrained-Language-Model) | 中文多模态-图文 |
 
 ## Table
 
@@ -720,6 +730,7 @@
 
 ## 更新
 
+* 2022.12.01 增加[wukong](#wukong),基于一个名为「悟空」的大型中文跨模态数据集，其中包含来自网络的 1 亿个图文对，预训练的多模态模型。
 * 2022.11.30 增加[AltDiffusion](#AltDiffusion)，使用 AltCLIP 作为text encoder，基于 Stable Diffusion 训练了中英双语Diffusion模型(AltDiffusion)
 * 2022.11.30 增加[AltCLIP](#AltCLIP),一个简单高效的方法去训练更加优秀的双语CLIP模型,名为AltCLIP。AltCLIP基于 OpenAI CLIP 训练。
 * 2022.11.30 增加[Taiyi-Stable-Diffusion](#Taiyi-Stable-Diffusion),首个开源的中英双语Stable Diffusion模型，基于0.2亿筛选过的中文图文对训练。
