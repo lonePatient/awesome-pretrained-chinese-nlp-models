@@ -69,7 +69,7 @@
   - [AltCLIP](#AltCLIP)
   - [AltDiffusion](#AltDiffusion)
   - [Taiyi-Stable-Diffusion](#Taiyi-Stable-Diffusion)
-  - [#wukong](#wukong)
+  - [wukong](#wukong)
 + [Table](#Table)
   - [SDCUP](#SDCUP)
 
