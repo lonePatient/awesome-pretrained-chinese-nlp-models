@@ -48,6 +48,7 @@
   - [余元](#余元)
   - [RWKV](#RWKV)
   - [Bloom](#Bloom)
+  - [PromptCLUE](#PromptCLUE)
 + [NLU-NLG系列](#NLU-NLG系列)
   - [UniLM](#UniLM)
   - [Simbert](#Simbert)
@@ -528,6 +529,13 @@
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |---- |
 | RWKV |  base(L12) | 类似GPT-2 | | [github](https://github.com/BlinkDL/AI-Writer/releases) | [PENG Bo](https://github.com/BlinkDL) | [github](https://github.com/BlinkDL/AI-Writer) | 小说  |
 
+### PromptCLUE
+
+| 模型 | 版本 | TensorFlow | PyTorch | 作者| 源地址 | 应用领域 |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+|  PromptCLUE |  base(L12) | | [huggingface](https://huggingface.co/ClueAI/PromptCLUE-base) | [ClueAI](https://huggingface.co/ClueAI) | [github](https://github.com/clue-ai/PromptCLUE) | 通用  |
+|  PromptCLUE-v1-5 |  base(L12) | | [huggingface](https://huggingface.co/ClueAI/PromptCLUE-base-v1-5) | [ClueAI](https://huggingface.co/ClueAI) | [github](https://github.com/clue-ai/PromptCLUE) | 通用  |
+|  PromptCLUE-large |  large | | [API在线调用](https://www.clueai.cn/) | [ClueAI](https://huggingface.co/ClueAI) | [github](https://github.com/clue-ai/PromptCLUE) | 通用  |
 
 ## NLU-NLG系列
 
@@ -728,6 +736,7 @@
 
 ## 更新
 
+* 2022.12.10 增加[PromptCLUE](#PromptCLUE),全中文任务零样本学习模型,基于1000亿token中文语料上预训练，并且在数百种任务上进行Prompt任务式训练。
 * 2022.12.01 增加[wukong](#wukong),基于一个名为「悟空」的大型中文跨模态数据集，其中包含来自网络的 1 亿个图文对，预训练的多模态模型。
 * 2022.11.30 增加[AltDiffusion](#AltDiffusion)，使用 AltCLIP 作为text encoder，基于 Stable Diffusion 训练了中英双语Diffusion模型(AltDiffusion)
 * 2022.11.30 增加[AltCLIP](#AltCLIP),一个简单高效的方法去训练更加优秀的双语CLIP模型,名为AltCLIP。AltCLIP基于 OpenAI CLIP 训练。
