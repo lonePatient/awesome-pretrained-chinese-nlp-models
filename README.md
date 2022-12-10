@@ -2,7 +2,13 @@
 
 在自然语言处理领域中，预训练语言模型（Pretrained Language Models）已成为非常重要的基础技术，本仓库主要收集目前网上公开的一些高质量中文预训练模型(感谢分享资源的大佬)，并将持续更新......
 
-**注**: 🤗[huggingface](https://github.com/huggingface/transformers)模型下载地址: 1. [huggingface官方地址](https://huggingface.co/models)
+### 模型开源平台
+
+1. 🤗[huggingface](https://github.com/huggingface/transformers): The AI community building the future.
+* 模型下载地址: [https://huggingface.co/models](https://huggingface.co/models)
+
+2. [ModelScope](https://modelscope.cn/home): ModelScope平台是以模型为中心的模型开源社区
+* 模型下载地址:[https://modelscope.cn/models](https://modelscope.cn/models)
 
 # Expand Table of Contents
 + [更新日志](#更新)
