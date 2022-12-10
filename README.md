@@ -5,7 +5,7 @@
 **注**: 🤗[huggingface](https://github.com/huggingface/transformers)模型下载地址: 1. [huggingface官方地址](https://huggingface.co/models)
 
 # Expand Table of Contents
-
++ [更新日志](#更新)
 + [NLU系列](#NLU系列)
   - [BERT](#BERT)
   - [RoBERTa](#RoBERTa)
@@ -72,8 +72,6 @@
   - [wukong](#wukong)
 + [Table](#Table)
   - [SDCUP](#SDCUP)
-
-+ [更新日志](#更新)
 
 ## NLU系列
 
@@ -593,8 +591,8 @@
 
 | 模型 | 版本 | TensorFlow | PyTorch | 作者| 源地址 | 应用领域 |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| GLM  |  large | | [地址](https://mailstsinghuaeducn-my.sharepoint.com/personal/duzx16_mails_tsinghua_edu_cn/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fduzx16%5Fmails%5Ftsinghua%5Fedu%5Fcn%2FDocuments%2Fmodels&ga=1) | [THUDM](https://github.com/THUDM) | [github](https://github.com/THUDM/glm) | 通用  |
-| GLM  |  xxlarge | | [地址](https://wudaoai.cn/model/download?resourceId=1420992103650996224&filename=GLM-10B-zh.tar.bz2) | [THUDM](https://github.com/THUDM) | [github](https://github.com/THUDM/glm) | 通用  |
+| GLM  |  large | | [Huggingface](https://huggingface.co/BAAI/glm-large-chinese | [THUDM](https://github.com/THUDM) | [github](https://github.com/THUDM/glm) | 通用  |
+| GLM  |  xxlarge | | [Huggingface](https://huggingface.co/BAAI/glm-10b-chinese) | [THUDM](https://github.com/THUDM) | [github](https://github.com/THUDM/glm) | 通用  |
 | GLM-130B  |  130B | | [地址](https://models.aminer.cn/glm/zh-CN/download/GLM-130B) | [THUDM](https://models.aminer.cn/glm-130b/) | [github](https://github.com/THUDM/GLM-130B) | 通用  |
 
 ### PLUG
@@ -778,3 +776,16 @@
 * 2021.03.09 增加UER系列模型
 * 2021.03.04 增加[WoBERT: 基于词颗粒度的中文](#WoBERT)
 * 2020.11.11 初始化BERT系列模型[BERT](#BERT)
+
+### Misc
+#### &#8627; Stargazers
+[![Stargazers repo roster for ](https://reporoster.com/stars/lonePatient/awesome-pretrained-chinese-nlp-models)](https://github.com/lonePatient/awesome-pretrained-chinese-nlp-models/stargazers)
+
+#### &#8627; Forkers
+[![Forkers repo roster for](https://reporoster.com/forks/lonePatient/awesome-pretrained-chinese-nlp-models)](https://github.com/lonePatient/awesome-pretrained-chinese-nlp-models/network/members)
+
+#### &#8627; Star History
+<div align="center">
+[![Star History Chart](https://api.star-history.com/svg?repos=lonePatient/awesome-pretrained-chinese-nlp-models&type=Date)](https://star-history.com/#lonePatient/awesome-pretrained-chinese-nlp-models&Date)
+
+</div>
