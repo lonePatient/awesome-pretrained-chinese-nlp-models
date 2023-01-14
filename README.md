@@ -55,6 +55,7 @@
   - [RWKV](#RWKV)
   - [Bloom](#Bloom)
   - [PromptCLUE](#PromptCLUE)
+  - [ChatYuan](#ChatYuan)
 + [NLU-NLG系列](#NLU-NLG系列)
   - [UniLM](#UniLM)
   - [Simbert](#Simbert)
@@ -543,6 +544,13 @@
 |  PromptCLUE-v1-5 |  base(L12) | | [huggingface](https://huggingface.co/ClueAI/PromptCLUE-base-v1-5) | [ClueAI](https://huggingface.co/ClueAI) | [github](https://github.com/clue-ai/PromptCLUE) | 通用  |
 |  PromptCLUE-large |  large | | [API在线调用](https://www.clueai.cn/) | [ClueAI](https://huggingface.co/ClueAI) | [github](https://github.com/clue-ai/PromptCLUE) | 通用  |
 
+### ChatYuan
+
+| 模型 | 版本 |类型| TensorFlow | PyTorch | 作者| 源地址 | 应用领域 |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |---- |
+| ChatYuan |  large | T5 | | [huggingface](https://huggingface.co/ClueAI/ChatYuan-large-v1) | [ClueAI](https://github.com/clue-ai) | [github](https://github.com/clue-ai/ChatYuan) | 元语功能型对话  |
+
+
 ## NLU-NLG系列
 
 ### UniLM
@@ -742,6 +750,7 @@
 
 ## 更新
 
+* 2023.01.14 增加[ChatYuan](#ChatYuan),ChatYuan模型可以用于问答、结合上下文做对话、做各种生成任务，包括创意性写作，也能回答一些像法律、新冠等领域问题。
 * 2022.12.10 增加[PromptCLUE](#PromptCLUE),全中文任务零样本学习模型,基于1000亿token中文语料上预训练，并且在数百种任务上进行Prompt任务式训练。
 * 2022.12.01 增加[wukong](#wukong),基于一个名为「悟空」的大型中文跨模态数据集，其中包含来自网络的 1 亿个图文对，预训练的多模态模型。
 * 2022.11.30 增加[AltDiffusion](#AltDiffusion)，使用 AltCLIP 作为text encoder，基于 Stable Diffusion 训练了中英双语Diffusion模型(AltDiffusion)
