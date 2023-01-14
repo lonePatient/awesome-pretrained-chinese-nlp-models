@@ -56,6 +56,7 @@
   - [Bloom](#Bloom)
   - [PromptCLUE](#PromptCLUE)
   - [ChatYuan](#ChatYuan)
+  - [SkyText](#SkyText)
 + [NLU-NLG系列](#NLU-NLG系列)
   - [UniLM](#UniLM)
   - [Simbert](#Simbert)
@@ -550,6 +551,11 @@
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |---- |
 | ChatYuan |  large | T5 | | [huggingface](https://huggingface.co/ClueAI/ChatYuan-large-v1) | [ClueAI](https://github.com/clue-ai) | [github](https://github.com/clue-ai/ChatYuan) | 元语功能型对话  |
 
+### SkyText
+
+| 模型 | 版本 |类型| TensorFlow | PyTorch | 作者| 源地址 | 应用领域 |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |---- |
+| SkyText  |  large | GPT3 | | [huggingface](https://huggingface.co/SkyWork/SkyText) | [SkyWorkAIGC](https://github.com/SkyWorkAIGC) | [github](https://github.com/SkyWorkAIGC/SkyText-CN-GPT3) | 通用  |
 
 ## NLU-NLG系列
 
@@ -750,6 +756,7 @@
 
 ## 更新
 
+* 2023.01.14 增加[SkyText](#SkyText),SkyText是由奇点智源发布的中文GPT3预训练大模型，可以进行聊天、问答、中英互译等不同的任务.
 * 2023.01.14 增加[ChatYuan](#ChatYuan),ChatYuan模型可以用于问答、结合上下文做对话、做各种生成任务，包括创意性写作，也能回答一些像法律、新冠等领域问题。
 * 2022.12.10 增加[PromptCLUE](#PromptCLUE),全中文任务零样本学习模型,基于1000亿token中文语料上预训练，并且在数百种任务上进行Prompt任务式训练。
 * 2022.12.01 增加[wukong](#wukong),基于一个名为「悟空」的大型中文跨模态数据集，其中包含来自网络的 1 亿个图文对，预训练的多模态模型。
