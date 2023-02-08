@@ -620,7 +620,7 @@
 
 | 模型 | 版本 | TensorFlow | PyTorch | 作者| 源地址 | 应用领域 |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| GLM  |  large | | [Huggingface](https://huggingface.co/BAAI/glm-large-chinese | [THUDM](https://github.com/THUDM) | [github](https://github.com/THUDM/glm) | 通用  |
+| GLM  |  large | | [Huggingface](https://huggingface.co/BAAI/glm-large-chinese) | [THUDM](https://github.com/THUDM) | [github](https://github.com/THUDM/glm) | 通用  |
 | GLM  |  xxlarge | | [Huggingface](https://huggingface.co/BAAI/glm-10b-chinese) | [THUDM](https://github.com/THUDM) | [github](https://github.com/THUDM/glm) | 通用  |
 | GLM-130B  |  130B | | [申请地址1](https://models.aminer.cn/glm/zh-CN/download/GLM-130B)[申请地址2](https://docs.google.com/forms/d/e/1FAIpQLSehr5Dh_i3TwACmFFi8QEgIVNYGmSPwV0GueIcsUev0NEfUug/viewform) | [THUDM](https://models.aminer.cn/glm-130b/) | [github](https://github.com/THUDM/GLM-130B) | 通用  |
 
