@@ -12,6 +12,7 @@
 
 # Expand Table of Contents
 + [更新日志](#更新)
++ [LLM](#LLM)
 + [NLU系列](#NLU系列)
   - [BERT](#BERT)
   - [RoBERTa](#RoBERTa)
@@ -81,6 +82,7 @@
   - [wukong](#wukong)
 + [Table](#Table)
   - [SDCUP](#SDCUP)
+
 
 ## NLU系列
 
@@ -533,9 +535,14 @@
 
 ### RWKV
 
++ 2021 | An Attention Free Transformer | Shuangfei Zhai, et al. | arxiv | [`PDF`](https://arxiv.org/abs/2105.14103)
++ 2022 | The RWKV Language Model . | [github](https://github.com/BlinkDL/RWKV-LM)
+
 | 模型 | 版本 |类型| TensorFlow | PyTorch | 作者| 源地址 | 应用领域 |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |---- |
-| RWKV |  base(L12) | 类似GPT-2 | | [github](https://github.com/BlinkDL/AI-Writer/releases) | [PENG Bo](https://github.com/BlinkDL) | [github](https://github.com/BlinkDL/AI-Writer) | 小说  |
+| RWKV |  base(L12) |  | | [github](https://github.com/BlinkDL/AI-Writer/releases) | [PENG Bo](https://github.com/BlinkDL) | [github](https://github.com/BlinkDL/AI-Writer) | 小说  |
+| RWKV |  7B |  | | [huggingface](https://huggingface.co/BlinkDL/rwkv-4-pile-7b) | [PENG Bo](https://github.com/BlinkDL) | [github](https://github.com/BlinkDL/ChatRWKV) | 小说  |
+| RWKV |  14B |  | | [huggingface](https://huggingface.co/BlinkDL/rwkv-4-pile-7b/tree/main) | [PENG Bo](https://github.com/BlinkDL) | [github](https://github.com/BlinkDL/ChatRWKV) | 小说  |
 
 ### PromptCLUE
 
@@ -631,7 +638,7 @@
 
 | 模型 | 版本 | 模型下载 | 作者| 源地址 | 应用领域 |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| PLUG  |  large(L24 27B) |[AliceMind-需要申请](https://www.alice-mind.com/portal#/) | [Alibaba](https://github.com/alibaba) | [github](https://github.com/alibaba/AliceMind/tree/main/StructBERT) | 通用  |
+| PLUG  |  27B |[AliceMind-需要申请](https://www.alice-mind.com/portal#/) | [Alibaba](https://github.com/alibaba) | [github](https://github.com/alibaba/AliceMind/tree/main/StructBERT) | 通用  |
 
 ### OPD
 
@@ -755,8 +762,32 @@
 | sdcup  |  base | | [阿里云](http://alice-open.oss-cn-zhangjiakou.aliyuncs.com/SDCUP/sdcup_base_model.bin-50000) | [Alibaba](https://github.com/alibaba) | [github](https://github.com/alibaba/AliceMind/tree/main/SDCUP) | 中文表格  |
 | sdcup  |  large | | [阿里云](http://alice-open.oss-cn-zhangjiakou.aliyuncs.com/SDCUP/sdcup_large_model.bin-60000) | [Alibaba](https://github.com/alibaba) | [github](https://github.com/alibaba/AliceMind/tree/main/SDCUP) | 中文表格  |
 
+## LLM
+
+> 大规模语言模型：表格中只罗列出参数量`大于10B`以上模型。
+
+|  模型  | 大小 |   结构   |    语言    |      下载      |     作者       |     项目地址    |  时间   |       文献     |
+| :----: | :---: | :----: | :----: | :----: | :----: | :----: | :-----: | :----: |
+|   CPM-Bee   | 10B  |       Decoder       |   中英文   |                            待发布                            |             [OpenBMB](https://live.openbmb.org/)             |       [CPM-Live](https://github.com/OpenBMB/CPM-Live)        | 2023-01 |                                                              |
+|    BLOOM    | 176B |       Decoder       |   多语言   |    [ckpt-95000](https://huggingface.co/bigscience/bloom)     |     [BigScience](https://github.com/bigscience-workshop)     | [Megatron-DeepSpeed](https://github.com/bigscience-workshop/Megatron-DeepSpeed) | 2022-11 |        [paper](https://arxiv.org/pdf/2211.05100.pdf)         |
+|  *BLOOMZ*   | 176B |       Decoder       |   多语言   |     [ckpt-498](https://huggingface.co/bigscience/bloomz)     |     [BigScience](https://github.com/bigscience-workshop)     | [Megatron-DeepSpeed](https://github.com/bigscience-workshop/Megatron-DeepSpeed) | 2022-11 |            [paper](https://arxiv.org/abs/2211.01)            |
+|  CPM-Ant+   | 10B  |       Decoder       |   中英文   | [ckpt](http://openbmb.oss-cn-hongkong.aliyuncs.com/model_center/cpm-ant-plus-10b/cpm-ant-plus-10b.zip) |             [OpenBMB](https://live.openbmb.org/)             |       [CPM-Live](https://github.com/OpenBMB/CPM-Live)        | 2022-10 | [blog](https://www.openbmb.org/community/blogs/blogpage?id=98afef2ce45f4fe9a4bc15a66d7ccb92) |
+|     GLM     | 130B |       Decoder       |   中英文   | [申请下载](https://docs.google.com/forms/d/e/1FAIpQLSehr5Dh_i3TwACmFFi8QEgIVNYGmSPwV0GueIcsUev0NEfUug/viewform) |             [清华大学](https://github.com/THUDM)             |        [GLM-130B](https://github.com/THUDM/GLM-130B)         | 2022-10 |           [paper](http://arxiv.org/abs/2210.02414)           |
+|   CPM-Ant   | 10B  |       Decoder       |    中文    | [ckpt](https://openbmb.oss-cn-hongkong.aliyuncs.com/model_center/cpmlive-10b/cpm_live_10B.zip) |             [OpenBMB](https://live.openbmb.org/)             |       [CPM-Live](https://github.com/OpenBMB/CPM-Live)        | 2022-09 | [blog](https://www.openbmb.org/community/blogs/blogpage?id=98afef2ce45f4fe9a4bc15a66d7ccb92) |
+|     GLM     | 10B  |       Decoder       |    中文    | [ckpt](https://lfs.aminer.cn/misc/cogview/glm-10b-chinese.zip) |             [清华大学](https://github.com/THUDM)             |             [GLM](https://github.com/THUDM/GLM)              | 2022-09 |          [paper](https://arxiv.org/abs/2103.10360)           |
+|  CodeGeeX   | 13B  |       Decoder       | 多语言code | [申请下载](https://models.aminer.cn/codegeex/download/request) |             [清华大学](https://github.com/THUDM)             |        [CodeGeeX](https://github.com/THUDM/CodeGeeX)         | 2022-06 |       [blog](https://models.aminer.cn/codegeex/blog/)        |
+|    CPM-2    | 11B  |   encoder-decoder   |    中文    | [申请下载](https://resource.wudao.baai.ac.cn/home?ind=2&name=WuDao%20WenYuan&id=1394901846484627456) |            [智源研究院](https://www.baai.ac.cn/)             |           [CPM](https://github.com/TsinghuaAI/CPM)           | 2021-06 |          [paper](https://arxiv.org/abs/2106.10715)           |
+|    CPM-2    | 11B  |   encoder-decoder   |   中英文   | [申请下载](https://resource.wudao.baai.ac.cn/home?ind=2&name=WuDao%20WenYuan&id=1394901846484627456) |            [智源研究院](https://www.baai.ac.cn/)             |           [CPM](https://github.com/TsinghuaAI/CPM)           | 2021-06 |          [paper](https://arxiv.org/abs/2106.10715)           |
+|    CPM-2    | 200B | encoder-decoder,MOE |   中英文   | [申请下载](https://resource.wudao.baai.ac.cn/home?ind=2&name=WuDao%20WenYuan&id=1394901846484627456) |            [智源研究院](https://www.baai.ac.cn/)             |           [CPM](https://github.com/TsinghuaAI/CPM)           | 2021-06 |          [paper](https://arxiv.org/abs/2106.10715)           |
+| PanGu-Alpha | 13B  |       Decoder       |    中文    | [ckpt](https://openi.pcl.ac.cn/PCL-Platform.Intelligence/PanGu-Alpha) | [鹏城实验室](https://openi.pcl.ac.cn/PCL-Platform.Intelligence) | [PanGu-Alpha](https://openi.pcl.ac.cn/PCL-Platform.Intelligence/PanGu-Alpha) | 2021-05 |        [paper](https://arxiv.org/pdf/2104.12369.pdf)         |
+| PanGu-Alpha | 200B |       Decoder       |    中文    |                            待发布                            | [鹏城实验室](https://openi.pcl.ac.cn/PCL-Platform.Intelligence) | [PanGu-Alpha](https://openi.pcl.ac.cn/PCL-Platform.Intelligence/PanGu-Alpha) | 2021-05 |        [paper](https://arxiv.org/pdf/2104.12369.pdf)         |
+|    PLUG     | 27B  |   encoder-decoder   |    中文    |       [申请下载](https://www.alice-mind.com/portal#/)        |       [阿里巴巴](https://www.alice-mind.com/portal#/)        |      [AliceMind](https://github.com/alibaba/AliceMind)       | 2021-04 |                                                              |
+|    GPT-3    | 13B  |       Decoder       |    中文    |                            待发布                            |      [达摩院](https://modelscope.cn/organization/damo)       | [GPT-3预训练生成模型](https://modelscope.cn/models/damo/nlp_gpt3_text-generation_13B/summary) | 2021-04 |                                                              |
+|    GPT-3    | 30B  |       Decoder       |    中文    |                            待发布                            |      [达摩院](https://modelscope.cn/organization/damo)       | [GPT-3预训练生成模型](https://modelscope.cn/models/damo/nlp_gpt3_text-generation_30B/summary) | 2021-04 |                                                              |
+
 ## 更新
 
+* 2023.02.21 增加[LLM](#LLM),大规模语言模型列表，只罗列出参数量大于10B以上模型，其余量级模型，可参考对应的项目地址。
 * 2023.01.14 增加[SkyText](#SkyText),SkyText是由奇点智源发布的中文GPT3预训练大模型，可以进行聊天、问答、中英互译等不同的任务.
 * 2023.01.14 增加[ChatYuan](#ChatYuan),ChatYuan模型可以用于问答、结合上下文做对话、做各种生成任务，包括创意性写作，也能回答一些像法律、新冠等领域问题。
 * 2022.12.10 增加[PromptCLUE](#PromptCLUE),全中文任务零样本学习模型,基于1000亿token中文语料上预训练，并且在数百种任务上进行Prompt任务式训练。
