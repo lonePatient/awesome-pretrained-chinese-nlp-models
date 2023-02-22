@@ -766,7 +766,7 @@
 
 > 大规模语言模型：表格中只罗列出参数量`大于10B`以上模型。
 
-|  模型  | 大小 |   结构   |    语言    |      下载      |     作者       |     项目地址    |  时间   |       文献     |
+|  模型  | 大小 |   结构   |    语言    |      下载      |     机构       |     项目地址    |  时间   |       文献     |
 | :----: | :---: | :----: | :----: | :----: | :----: | :----: | :-----: | :----: |
 |   CPM-Bee   | 10B  |       Decoder       |   中英文   |                            待发布                            |             [OpenBMB](https://live.openbmb.org/)             |       [CPM-Live](https://github.com/OpenBMB/CPM-Live)        | 2023-01 |                                                              |
 |    BLOOM    | 176B |       Decoder       |   多语言   |    [ckpt-95000](https://huggingface.co/bigscience/bloom)     |     [BigScience](https://github.com/bigscience-workshop)     | [Megatron-DeepSpeed](https://github.com/bigscience-workshop/Megatron-DeepSpeed) | 2022-11 |        [paper](https://arxiv.org/pdf/2211.05100.pdf)         |
@@ -776,6 +776,7 @@
 |   CPM-Ant   | 10B  |       Decoder       |    中文    | [ckpt](https://openbmb.oss-cn-hongkong.aliyuncs.com/model_center/cpmlive-10b/cpm_live_10B.zip) |             [OpenBMB](https://live.openbmb.org/)             |       [CPM-Live](https://github.com/OpenBMB/CPM-Live)        | 2022-09 | [blog](https://www.openbmb.org/community/blogs/blogpage?id=98afef2ce45f4fe9a4bc15a66d7ccb92) |
 |     GLM     | 10B  |       Decoder       |    中文    | [ckpt](https://lfs.aminer.cn/misc/cogview/glm-10b-chinese.zip) |             [清华大学](https://github.com/THUDM)             |             [GLM](https://github.com/THUDM/GLM)              | 2022-09 |          [paper](https://arxiv.org/abs/2103.10360)           |
 |  CodeGeeX   | 13B  |       Decoder       | 多语言code | [申请下载](https://models.aminer.cn/codegeex/download/request) |             [清华大学](https://github.com/THUDM)             |        [CodeGeeX](https://github.com/THUDM/CodeGeeX)         | 2022-06 |       [blog](https://models.aminer.cn/codegeex/blog/)        |
+|    源1.0    | 245B  |   Decoder   |    中文    | [API申请](https://air.inspur.com/home) |            [浪潮](https://air.inspur.com/home)             |           [Yian-1.0](https://github.com/Shawn-Inspur/Yuan-1.0)       | 2021-09 |          [paper](https://arxiv.org/abs/2110.04725)           |
 |    CPM-2    | 11B  |   encoder-decoder   |    中文    | [申请下载](https://resource.wudao.baai.ac.cn/home?ind=2&name=WuDao%20WenYuan&id=1394901846484627456) |            [智源研究院](https://www.baai.ac.cn/)             |           [CPM](https://github.com/TsinghuaAI/CPM)           | 2021-06 |          [paper](https://arxiv.org/abs/2106.10715)           |
 |    CPM-2    | 11B  |   encoder-decoder   |   中英文   | [申请下载](https://resource.wudao.baai.ac.cn/home?ind=2&name=WuDao%20WenYuan&id=1394901846484627456) |            [智源研究院](https://www.baai.ac.cn/)             |           [CPM](https://github.com/TsinghuaAI/CPM)           | 2021-06 |          [paper](https://arxiv.org/abs/2106.10715)           |
 |    CPM-2    | 200B | encoder-decoder,MOE |   中英文   | [申请下载](https://resource.wudao.baai.ac.cn/home?ind=2&name=WuDao%20WenYuan&id=1394901846484627456) |            [智源研究院](https://www.baai.ac.cn/)             |           [CPM](https://github.com/TsinghuaAI/CPM)           | 2021-06 |          [paper](https://arxiv.org/abs/2106.10715)           |
