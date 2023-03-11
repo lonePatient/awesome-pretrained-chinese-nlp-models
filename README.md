@@ -10,6 +10,9 @@
 2. [ModelScope](https://modelscope.cn/home): ModelScope平台是以模型为中心的模型开源社区
 * 模型下载地址:[https://modelscope.cn/models](https://modelscope.cn/models)
 
+3. [flagopen](https://flagopen.baai.ac.cn/#/home): flagopen飞智大模型技术开源体系
+* 模型下载地址: [https://model.baai.ac.cn/models](https://model.baai.ac.cn/models)
+
 # Expand Table of Contents
 + [更新日志](#更新)
 + [LLM](#LLM)
