@@ -16,15 +16,19 @@
 ### 开源数据集库
 
 1. huggfaceing数据集仓库: [https://huggingface.co/datasets](https://huggingface.co/datasets)
-**备注：** huggfaceing数据集提供了覆盖自然语言处理、计算机视觉、语音和多模态的丰富数据集内容，内置100多个多语言公共数据集下载
+
+**备注：** 提供了覆盖自然语言处理、计算机视觉、语音和多模态的丰富数据集内容，内置100多个多语言公共数据集下载
 
 2. ModelScope数据集仓库:[https://modelscope.cn/datasets](https://modelscope.cn/datasets)
-**备注：** ModelScope 数据集提供了覆盖自然语言处理、计算机视觉、语音和多模态的丰富数据集内容，更有阿里巴巴集团贡献的专业领域数据集，
+
+**备注：** 提供了覆盖自然语言处理、计算机视觉、语音和多模态的丰富数据集内容，更有阿里巴巴集团贡献的专业领域数据集，
 
 3. flagopen数据集仓库: [https://data.baai.ac.cn/data](https://data.baai.ac.cn/data)
-**备注：** 内置多个多语言、多任务形式公共数据集下载，有特定任务数据集，如Objects365物体检测；也包含大规模预训练语言模型数据集，如WuDaoCorpora
+
+**备注：** 内置公共数据集下载，可下200G大规模预训练语料[WuDaoCorpora](https://data.baai.ac.cn/details/WuDaoCorporaText)
 
 4. cluebenchmarks数据集仓库：[https://www.cluebenchmarks.com/dataSet_search.html](https://www.cluebenchmarks.com/dataSet_search.html)
+
 **备注：** 多个中英文NLP数据集，并可申请下载100GB的高质量中文预训练语料[CLUECorpus2020](https://github.com/CLUEbenchmark/CLUECorpus2020)
 
 # Expand Table of Contents
