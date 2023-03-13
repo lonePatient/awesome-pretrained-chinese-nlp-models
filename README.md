@@ -826,8 +826,11 @@
 4. cluebenchmarks数据集仓库：[https://www.cluebenchmarks.com/dataSet_search.html](https://www.cluebenchmarks.com/dataSet_search.html)
 * 多个中英文NLP数据集，并可申请下载100GB的高质量中文预训练语料[CLUECorpus2020](https://github.com/CLUEbenchmark/CLUECorpus2020)
 
-5. [MNBVC](https://github.com/esbatmop/MNBVC)
-* Massive Never-ending BT Vast Chinese corpus,超大规模中文语料集
+5. [MNBVC](https://github.com/esbatmop/MNBVC): Massive Never-ending BT Vast Chinese corpus
+* 超大规模中文语料集
+
+6. OpenDataLab数据集仓库: [https://opendatalab.com/](https://opendatalab.com/)
+* OpenDataLab 是有影响力的数据开源开放平台，公开数据集触手可及。
 
 ## 更新
 
