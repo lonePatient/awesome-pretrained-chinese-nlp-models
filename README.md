@@ -832,6 +832,9 @@
 6. OpenDataLab数据集仓库: [https://opendatalab.com/](https://opendatalab.com/)
 * OpenDataLab 是有影响力的数据开源开放平台，公开数据集触手可及。
 
+7. [OSCAR](https://oscar-project.org/): Open Super-large Crawled Aggregated coRpus, 多语言数据集
+* 最新版本包含1.4T的中文语言数据集
+
 ## 更新
 
 * 2023.03.11 增加[ProphetNet](#ProphetNet),提出了一种新的自监督学习目标——同时预测多个未来字符，在序列到序列的多个自然语言生成任务都取得了优异性能。
