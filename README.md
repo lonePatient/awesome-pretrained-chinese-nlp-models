@@ -5,6 +5,7 @@
 # Expand Table of Contents
 + [更新日志](#更新)
 + [LLM](#LLM)
++ [ChatLLM](#ChatLLM)
 + [开源模型库平台](#开源模型库平台)
 + [开源数据集库](#开源数据集库)
 + [NLU系列](#NLU系列)
@@ -801,6 +802,14 @@
 |    PLUG     | 27B  |   encoder-decoder   |    中文    |       [申请下载](https://www.alice-mind.com/portal#/)        |       [阿里巴巴](https://www.alice-mind.com/portal#/)        |      [AliceMind](https://github.com/alibaba/AliceMind)       | 2021-04 |                                                              |
 |    GPT-3    | 13B  |       Decoder       |    中文    |                            待发布                            |      [达摩院](https://modelscope.cn/organization/damo)       | [GPT-3预训练生成模型](https://modelscope.cn/models/damo/nlp_gpt3_text-generation_13B/summary) | 2021-04 |                                                              |
 |    GPT-3    | 30B  |       Decoder       |    中文    |                            待发布                            |      [达摩院](https://modelscope.cn/organization/damo)       | [GPT-3预训练生成模型](https://modelscope.cn/models/damo/nlp_gpt3_text-generation_30B/summary) | 2021-04 |                                                              |                                                             |
+## ChatLLM
+
+> 具备问答和对话等功能的大型语言模型。
+
+|    模型     | 大小 |        结构         |    语言    |                             下载                             |                             机构                             |                           项目地址                           |  时间   |                             文献                             |
+| :---------: | :--: | :-----------------: | :--------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :-----: | :----------------------------------------------------------: |
+| ChatGLM-6B  |  6B  |       Decoder       |  中英双语  |       [ckpt](https://huggingface.co/THUDM/chatglm-6b)        |             [清华大学](https://github.com/THUDM)             |      [ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B)       | 2023-03 |                                                              |
+
 ## 开源模型库平台
 
 1. 🤗[huggingface](https://huggingface.co/): The AI community building the future.
@@ -837,6 +846,7 @@
 
 ## 更新
 
+* 2023.03.14 增加[ChatLLM](#ChatLLM)列表，主要收集具备问答跟对话等功能的大型语言模型,并增加ChatGLM模型。
 * 2023.03.11 增加[ProphetNet](#ProphetNet),提出了一种新的自监督学习目标——同时预测多个未来字符，在序列到序列的多个自然语言生成任务都取得了优异性能。
 * 2023.03.10 增加[RoCBert](#RoCBert),利用对抗学习生成更多噪声数据，用来进行中文BERT模型的训练，得到鲁棒性更强的中文BERT模型。
 * 2023.03.03 更新[LLM](#LLM),新增多语言模型`Flan-ul2`和`Flan-t5-xxl`
