@@ -806,10 +806,11 @@
 
 > 具备问答和对话等功能的大型语言模型。
 
-|    模型    | 大小 |  结构   |   语言   |                             下载                             |                 机构                  |                     项目地址                      |  时间   |                      文献                      |   备注   |
-| :--------: | :--: | :-----: | :------: | :----------------------------------------------------------: | :-----------------------------------: | :-----------------------------------------------: | :-----: | :--------------------------------------------: | :------: |
-| ChatGLM-6B |  6B  | Decoder | 中英双语 |       [ckpt](https://huggingface.co/THUDM/chatglm-6b)        | [清华大学](https://github.com/THUDM)  | [ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) | 2023-03 |                                                |          |
-|  ChatRWKV  |  7B  |   RNN   | 中/英文  | [ckpt](https://huggingface.co/BlinkDL/rwkv-4-pile-7b/tree/main) | [BlinkDL](https://github.com/BlinkDL) |  [ChatRWKV](https://github.com/BlinkDL/ChatRWKV)  | 2023-01 | [blog](https://zhuanlan.zhihu.com/p/609154637) | 中文小说 |
+|    模型    | 大小 |  结构   |   语言   |                             下载                             |                  机构                  |                     项目地址                      |  时间   |                      文献                      |   备注   |
+| :--------: | :--: | :-----: | :------: | :----------------------------------------------------------: | :------------------------------------: | :-----------------------------------------------: | :-----: | :--------------------------------------------: | :------: |
+|   BELLE    |  7B  | Decoder |  中英文  |    [ckpt](https://huggingface.co/BelleGroup/BELLE-7B-2M)     | [贝壳](https://github.com/LianjiaTech) |   [BELLE](https://github.com/LianjiaTech/BELLE)   | 2023-03 | [Bloom](https://arxiv.org/pdf/2211.05100.pdf)  |          |
+| ChatGLM-6B |  6B  | Decoder | 中英双语 |       [ckpt](https://huggingface.co/THUDM/chatglm-6b)        |  [清华大学](https://github.com/THUDM)  | [ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) | 2023-03 |                                                |          |
+|  ChatRWKV  |  7B  |   RNN   | 中/英文  | [ckpt](https://huggingface.co/BlinkDL/rwkv-4-pile-7b/tree/main) | [BlinkDL](https://github.com/BlinkDL)  |  [ChatRWKV](https://github.com/BlinkDL/ChatRWKV)  | 2023-01 | [blog](https://zhuanlan.zhihu.com/p/609154637) | 中文小说 |
 
 ## 开源模型库平台
 
@@ -847,6 +848,7 @@
 
 ## 更新
 
+* 2023.03.20 增加[BELLE](#ChatLLM),开源中文对话大模型-70亿参数,基于Stanford Alpaca，对中文做了优化，模型调优仅使用由ChatGPT生产的数据.
 * 2023.03.14 增加[ChatLLM](#ChatLLM)列表，主要收集具备问答跟对话等功能的大型语言模型,并增加ChatGLM模型。
 * 2023.03.11 增加[ProphetNet](#ProphetNet),提出了一种新的自监督学习目标——同时预测多个未来字符，在序列到序列的多个自然语言生成任务都取得了优异性能。
 * 2023.03.10 增加[RoCBert](#RoCBert),利用对抗学习生成更多噪声数据，用来进行中文BERT模型的训练，得到鲁棒性更强的中文BERT模型。
