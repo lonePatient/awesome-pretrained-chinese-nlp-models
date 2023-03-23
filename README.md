@@ -855,7 +855,7 @@
 | :--------------------: | :--: | :-------: | :----------------------------------------------------------: | :-----------------------------------------------: | :----------------------------------------------------------: | :------: |
 |     GuanacoDataset     |  /   | 中/多语言 | [dataset](https://huggingface.co/datasets/JosephusCheung/GuanacoDataset) |    [Guanaco](https://github.com/Guanaco-Model)    |      [guanaco-model](https://guanaco-model.github.io/)       |          |
 | alpaca-chinese-dataset |  /   |   中文    | [dataset](https://github.com/carbonz0/alpaca-chinese-dataset) |      [carbonz](https://github.com/carbonz0)       | [alpaca-chinese-dataset](https://github.com/carbonz0/alpaca-chinese-dataset) | 机器翻译 |
-|        ChatRWKV        | 0.5M |   中文    | [dataset](https://huggingface.co/datasets/BelleGroup/generated_train_0.5M_CN) | [Ke Technologies](https://github.com/LianjiaTech) |        [BELLE](https://github.com/LianjiaTech/BELLE)         |          |
+|     generated_train_0.5M_CN        | 0.5M |   中文    | [dataset](https://huggingface.co/datasets/BelleGroup/generated_train_0.5M_CN) | [Ke Technologies](https://github.com/LianjiaTech) |        [BELLE](https://github.com/LianjiaTech/BELLE)         |          |
 
 
 ## 更新
