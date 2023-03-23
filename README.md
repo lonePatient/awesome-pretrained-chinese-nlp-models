@@ -8,6 +8,7 @@
 + [ChatLLM](#ChatLLM)
 + [开源模型库平台](#开源模型库平台)
 + [开源数据集库](#开源数据集库)
++ [中文指令数据集](#中文指令数据集)
 + [NLU系列](#NLU系列)
   - [BERT](#BERT)
   - [RoBERTa](#RoBERTa)
@@ -846,8 +847,20 @@
 7. [OSCAR](https://oscar-project.org/): Open Super-large Crawled Aggregated coRpus, 多语言数据集
 * 最新版本包含1.4T的中文语言数据集
 
+## 中文指令数据集
+
+> 收集包含中文的指令数据集，用于微调语言模型。
+
+|          模型          | 大小 |   语言    |                             下载                             |                       作者                        |                           项目地址                           |   备注   |
+| :--------------------: | :--: | :-------: | :----------------------------------------------------------: | :-----------------------------------------------: | :----------------------------------------------------------: | :------: |
+|     GuanacoDataset     |  /   | 中/多语言 | [dataset](https://huggingface.co/datasets/JosephusCheung/GuanacoDataset) |    [Guanaco](https://github.com/Guanaco-Model)    |      [guanaco-model](https://guanaco-model.github.io/)       |          |
+| alpaca-chinese-dataset |  /   |   中文    | [dataset](https://github.com/carbonz0/alpaca-chinese-dataset) |      [carbonz](https://github.com/carbonz0)       | [alpaca-chinese-dataset](https://github.com/carbonz0/alpaca-chinese-dataset) | 机器翻译 |
+|        ChatRWKV        | 0.5M |   中文    | [dataset](https://huggingface.co/datasets/BelleGroup/generated_train_0.5M_CN) | [Ke Technologies](https://github.com/LianjiaTech) |        [BELLE](https://github.com/LianjiaTech/BELLE)         |          |
+
+
 ## 更新
 
+* 2023.03.23 增加[中文指令数据集](#中文指令数据集)，并初始化三个已公开数据集。
 * 2023.03.20 增加[BELLE](#ChatLLM),开源中文对话大模型-70亿参数,基于Stanford Alpaca，对中文做了优化，模型调优仅使用由ChatGPT生产的数据.
 * 2023.03.14 增加[ChatLLM](#ChatLLM)列表，主要收集具备问答跟对话等功能的大型语言模型,并增加ChatGLM模型。
 * 2023.03.11 增加[ProphetNet](#ProphetNet),提出了一种新的自监督学习目标——同时预测多个未来字符，在序列到序列的多个自然语言生成任务都取得了优异性能。
