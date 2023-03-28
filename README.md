@@ -807,23 +807,26 @@
 
 > 具备问答和对话等功能的大型语言模型。
 
-|         模型         | 大小 |  结构   |   语言   |                             下载                             |               机构/个人                |                           项目地址                           |  时间   |                      文献                      |        备注         |
-| :------------------: | :--: | :-----: | :------: | :----------------------------------------------------------: | :------------------------------------: | :----------------------------------------------------------: | :-----: | :--------------------------------------------: | :-----------------: |
-| Chinese-LLaMA-Alpaca |  7B  | Decoder |   中文   |                          [lora-ckpt](https://github.com/ymcui/Chinese-LLaMA-Alpaca)                          | [Yiming Cui](https://github.com/ymcui) | [Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca) | 2023-03 |                                                | Chinese LLaMA model |
-|        Luotuo        |  7B  | Decoder |   中文   | [ckpt](https://huggingface.co/silk-road/luotuo-lora-7b-0.3)  |         商汤科技&华中师范大学          | [Chinese-alpaca-lora](https://github.com/LC1332/Chinese-alpaca-lora) | 2023-03 |                                                | Chinese LLaMA model |
-|        BELLE         |  7B  | Decoder |  中英文  |    [ckpt](https://huggingface.co/BelleGroup/BELLE-7B-2M)     | [贝壳](https://github.com/LianjiaTech) |        [BELLE](https://github.com/LianjiaTech/BELLE)         | 2023-03 | [Bloom](https://arxiv.org/pdf/2211.05100.pdf)  |                     |
-|      ChatGLM-6B      |  6B  | Decoder | 中英双语 |       [ckpt](https://huggingface.co/THUDM/chatglm-6b)        |  [清华大学](https://github.com/THUDM)  |      [ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B)       | 2023-03 |                                                |                     |
-|       ChatRWKV       |  7B  |   RNN   | 中/英文  | [ckpt](https://huggingface.co/BlinkDL/rwkv-4-pile-7b/tree/main) | [BlinkDL](https://github.com/BlinkDL)  |       [ChatRWKV](https://github.com/BlinkDL/ChatRWKV)        | 2023-01 | [blog](https://zhuanlan.zhihu.com/p/609154637) |      中文小说       |
+|         模型         | 大小 |  结构   |   语言   |                             下载                             |                机构/个人                |                           项目地址                           |  时间   |                      文献                      |        备注         |
+| :------------------: | :--: | :-----: | :------: | :----------------------------------------------------------: | :-------------------------------------: | :----------------------------------------------------------: | :-----: | :--------------------------------------------: | :-----------------: |
+|      ChatLLaMA       |  7B  | Decoder |  多语言  |    [ckpt](https://huggingface.co/P01son/ChatLLaMA-zh-7B)     | [Li Yudong](https://github.com/ydli-ai) | [Chinese-ChatLLaMA](https://github.com/ydli-ai/Chinese-ChatLLaMA) | 2023-03 |                                                |                     |
+| Chinese-LLaMA-Alpaca |  7B  | Decoder |   中文   |  [lora-ckpt](https://github.com/ymcui/Chinese-LLaMA-Alpaca)  | [Yiming Cui](https://github.com/ymcui)  | [Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca) | 2023-03 |                                                | Chinese LLaMA model |
+|        Luotuo        |  7B  | Decoder |   中文   | [ckpt](https://huggingface.co/silk-road/luotuo-lora-7b-0.3)  |          商汤科技&华中师范大学          | [Chinese-alpaca-lora](https://github.com/LC1332/Chinese-alpaca-lora) | 2023-03 |                                                | Chinese LLaMA model |
+|        BELLE         |  7B  | Decoder |  中英文  |    [ckpt](https://huggingface.co/BelleGroup/BELLE-7B-2M)     | [贝壳](https://github.com/LianjiaTech)  |        [BELLE](https://github.com/LianjiaTech/BELLE)         | 2023-03 | [Bloom](https://arxiv.org/pdf/2211.05100.pdf)  |                     |
+|      ChatGLM-6B      |  6B  | Decoder | 中英双语 |       [ckpt](https://huggingface.co/THUDM/chatglm-6b)        |  [清华大学](https://github.com/THUDM)   |      [ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B)       | 2023-03 |                                                |                     |
+|       ChatRWKV       |  7B  |   RNN   | 中/英文  | [ckpt](https://huggingface.co/BlinkDL/rwkv-4-pile-7b/tree/main) |  [BlinkDL](https://github.com/BlinkDL)  |       [ChatRWKV](https://github.com/BlinkDL/ChatRWKV)        | 2023-01 | [blog](https://zhuanlan.zhihu.com/p/609154637) |      中文小说       |
 
 ## 中文指令数据集
 
 > 收集包含中文的指令数据集，用于微调语言模型。
 
-|          模型          | 大小 |   语言    |                             下载                             |                       作者                        |                           项目地址                           |   备注   |
-| :--------------------: | :--: | :-------: | :----------------------------------------------------------: | :-----------------------------------------------: | :----------------------------------------------------------: | :------: |
-|     GuanacoDataset     |  /   | 中/多语言 | [dataset](https://huggingface.co/datasets/JosephusCheung/GuanacoDataset) |    [Guanaco](https://github.com/Guanaco-Model)    |      [guanaco-model](https://guanaco-model.github.io/)       |          |
-| alpaca-chinese-dataset |  /   |   中文    | [dataset](https://github.com/carbonz0/alpaca-chinese-dataset) |      [carbonz](https://github.com/carbonz0)       | [alpaca-chinese-dataset](https://github.com/carbonz0/alpaca-chinese-dataset) | 机器翻译 |
-|     generated_train_0.5M_CN        | 0.5M |   中文    | [dataset](https://huggingface.co/datasets/BelleGroup/generated_train_0.5M_CN) | [Ke Technologies](https://github.com/LianjiaTech) |        [BELLE](https://github.com/LianjiaTech/BELLE)         |          |
+|          模型           | 大小 |   语言    |                             下载                             |                       作者                        |                           项目地址                           |   备注   |
+| :---------------------: | :--: | :-------: | :----------------------------------------------------------: | :-----------------------------------------------: | :----------------------------------------------------------: | :------: |
+|     GuanacoDataset      |  /   | 中/多语言 | [dataset](https://huggingface.co/datasets/JosephusCheung/GuanacoDataset) |    [Guanaco](https://github.com/Guanaco-Model)    |      [guanaco-model](https://guanaco-model.github.io/)       |          |
+| alpaca_chinese_dataset  |  /   |   中文    |                          [datset]()                          |       [akou](https://github.com/hikariming)       | [alpaca_chinese_dataset](https://github.com/hikariming/alpaca_chinese_dataset) | 人工校验 |
+| alpaca-chinese-dataset  |  /   |   中文    | [dataset](https://github.com/carbonz0/alpaca-chinese-dataset) |      [carbonz](https://github.com/carbonz0)       | [alpaca-chinese-dataset](https://github.com/carbonz0/alpaca-chinese-dataset) | 机器翻译 |
+|  generated_train_1M_CN  |  1M  |   中文    | [dataset](https://huggingface.co/datasets/BelleGroup/generated_train_1M_CN) | [Ke Technologies](https://github.com/LianjiaTech) |        [BELLE](https://github.com/LianjiaTech/BELLE)         |          |
+| generated_train_0.5M_CN | 0.5M |   中文    | [dataset](https://huggingface.co/datasets/BelleGroup/generated_train_0.5M_CN) | [Ke Technologies](https://github.com/LianjiaTech) |        [BELLE](https://github.com/LianjiaTech/BELLE)         |          |
 
 
 ## 开源模型库平台
