@@ -78,6 +78,7 @@
   - [AltDiffusion](#AltDiffusion)
   - [Taiyi-Stable-Diffusion](#Taiyi-Stable-Diffusion)
   - [wukong](#wukong)
+  - [OFA](#OFA)
 + [Table](#Table)
   - [SDCUP](#SDCUP)
 
@@ -898,6 +899,17 @@
 
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
+### OFA
+
++ 2022 | OFA: Unifying Architectures, Tasks, and Modalities Through a Simple Sequence-to-Sequence Learning Framework | Peng Wang, et al. | arXiv | [`PDF`](https://arxiv.org/pdf/2202.03052.pdf)
+
+| 模型   | 版本 | TensorFlow | PyTorch                                                      | 作者                                     | 源地址                                                       | 应用领域        |
+| ------ | ---- | ---------- | ------------------------------------------------------------ | ---------------------------------------- | ------------------------------------------------------------ | --------------- |
+| OFA  |      |            | [link](https://github.com/OFA-Sys/OFA/blob/main/checkpoints_cn.md) | [OFA-Sys](https://github.com/OFA-Sys) | [github](https://github.com/OFA-Sys/OFA) | 中文多模态-图文 |
+| OFA-Chinese  |      |            | [Huggingface](https://huggingface.co/YeungNLP/ofa-cn-base-muge-v2) | [Yang JianXin](https://github.com/yangjianxin1) | [github](https://github.com/yangjianxin1/OFA-Chinese) | 中文多模态-图文 |
+
+<p align="right">[<a href="#top">Back to Top</a>]</p>
+
 ## Table
 
 ### SDCUP
@@ -1011,6 +1023,7 @@
 
 ## 更新
 
+* 2023.03.29 增加[OFA](#OFA),中文多模态统一预训练模型,OFA是阿里巴巴发布的多模态统一预训练模型.
 * 2023.03.29 更新[中文指令数据集](#中文指令数据集)，增加InstructionWild数据集。
 * 2023.03.23 增加[中文指令数据集](#中文指令数据集)，并初始化三个已公开数据集。
 * 2023.03.20 增加[BELLE](#ChatLLM),开源中文对话大模型-70亿参数,基于Stanford Alpaca，对中文做了优化，模型调优仅使用由ChatGPT生产的数据.
