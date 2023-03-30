@@ -958,6 +958,8 @@
 |         模型         | 大小 |      结构      |   语言   |                             下载                             |                机构/个人                |                           项目地址                           |  时间   |                      文献                      |        备注         |
 | :------------------: | :--: | :------------: | :------: | :----------------------------------------------------------: | :-------------------------------------: | :----------------------------------------------------------: | :-----: | :--------------------------------------------: | :-----------------: |
 |      ChatLLaMA       |  7B  |    Decoder     |  多语言  |    [ckpt](https://huggingface.co/P01son/ChatLLaMA-zh-7B)     | [Li Yudong](https://github.com/ydli-ai) | [Chinese-ChatLLaMA](https://github.com/ydli-ai/Chinese-ChatLLaMA) | 2023-03 |                                                |                     |
+|    Chinese-Vicuna    | 13B  |    Decoder     |   中文   | [ckpt](https://huggingface.co/Chinese-Vicuna/Chinese-Vicuna-lora-13b-belle-and-guanaco) |   [Facico](https://github.com/Facico)   |  [Chinese-Vicuna](https://github.com/Facico/Chinese-Vicuna)  | 2023-03 |                                                |                     |
+|    Chinese-Vicuna    |  7B  |    Decoder     |   中文   | [ckpt](https://huggingface.co/Chinese-Vicuna/Chinese-Vicuna-lora-7b-belle-and-guanaco) |   [Facico](https://github.com/Facico)   |  [Chinese-Vicuna](https://github.com/Facico/Chinese-Vicuna)  | 2023-03 |                                                |                     |
 |     ChatYuan-V2      | 0.7B | Encoder-Decder |  中英文  | [ckpt](https://huggingface.co/ClueAI/ChatYuan-large-v2/tree/main) | [元语智能](https://github.com/clue-ai)  |       [ChatYuan](https://github.com/clue-ai/ChatYuan)        | 2023-03 |                                                |                     |
 | Chinese-LLaMA-Alpaca |  7B  |    Decoder     |   中文   |  [lora-ckpt](https://github.com/ymcui/Chinese-LLaMA-Alpaca)  | [Yiming Cui](https://github.com/ymcui)  | [Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca) | 2023-03 |                                                | Chinese LLaMA model |
 |        Luotuo        |  7B  |    Decoder     |   中文   | [ckpt](https://huggingface.co/silk-road/luotuo-lora-7b-0.3)  |          商汤科技&华中师范大学          | [Chinese-alpaca-lora](https://github.com/LC1332/Chinese-alpaca-lora) | 2023-03 |                                                | Chinese LLaMA model |
@@ -973,9 +975,11 @@
 
 |                  模型                   | 大小 |   语言    |                             下载                             |                       作者                        |                           项目地址                           |   备注   |
 | :-------------------------------------: | :--: | :-------: | :----------------------------------------------------------: | :-----------------------------------------------: | :----------------------------------------------------------: | :------: |
+|                Zhihu-KOL                |  /   |   中文    | [ dataset](https://huggingface.co/datasets/wangrui6/Zhihu-KOL) |    [Rui Wang](https://huggingface.co/wangrui6)    |      [Zhihu-KOL](https://github.com/wangrui6/Zhihu-KOL)      |          |
 |             InstructionWild             | 104k |  中英文   | [dataset](https://github.com/XueFuzhao/InstructionWild/tree/main/data) |    [Xue Fuzhao](https://github.com/XueFuzhao)     | [InstructionWild](https://github.com/XueFuzhao/InstructionWild) |          |
 |             GuanacoDataset              |  /   | 中/多语言 | [dataset](https://huggingface.co/datasets/JosephusCheung/GuanacoDataset) |    [Guanaco](https://github.com/Guanaco-Model)    |      [guanaco-model](https://guanaco-model.github.io/)       |          |
-|         alpaca_chinese_dataset          |  /   |   中文    |                          [datset]()                          |       [akou](https://github.com/hikariming)       | [alpaca_chinese_dataset](https://github.com/hikariming/alpaca_chinese_dataset) | 人工校验 |
+|       Traditional-Chinese-alpaca        | 52K  |   中文    | [dataset](https://github.com/ntunlplab/traditional-chinese-alpaca/tree/main/data) |    [NTU NLP Lab](https://github.com/ntunlplab)    | [Traditional-Chinese Alpaca](https://github.com/ntunlplab/traditional-chinese-alpaca) | gpt翻译  |
+|         alpaca_chinese_dataset          |  /   |   中文    |                         [dataset]()                          |       [akou](https://github.com/hikariming)       | [alpaca_chinese_dataset](https://github.com/hikariming/alpaca_chinese_dataset) | 人工校验 |
 |         alpaca-chinese-dataset          |  /   |   中文    | [dataset](https://github.com/carbonz0/alpaca-chinese-dataset) |      [carbonz](https://github.com/carbonz0)       | [alpaca-chinese-dataset](https://github.com/carbonz0/alpaca-chinese-dataset) | 机器翻译 |
 |          generated_train_1M_CN          |  1M  |   中文    | [dataset](https://huggingface.co/datasets/BelleGroup/generated_train_1M_CN) | [Ke Technologies](https://github.com/LianjiaTech) |        [BELLE](https://github.com/LianjiaTech/BELLE)         |          |
 |         generated_train_0.5M_CN         | 0.5M |   中文    | [dataset](https://huggingface.co/datasets/BelleGroup/generated_train_0.5M_CN) | [Ke Technologies](https://github.com/LianjiaTech) |        [BELLE](https://github.com/LianjiaTech/BELLE)         |          |
@@ -1023,6 +1027,7 @@
 
 ## 更新
 
+* 2023.03.30 增加Chinese-Vicuna模型，Traditional-Chinese-alpaca数据集
 * 2023.03.29 增加[OFA](#OFA),中文多模态统一预训练模型,OFA是阿里巴巴发布的多模态统一预训练模型.
 * 2023.03.29 更新[中文指令数据集](#中文指令数据集)，增加InstructionWild数据集。
 * 2023.03.23 增加[中文指令数据集](#中文指令数据集)，并初始化三个已公开数据集。
