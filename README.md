@@ -974,17 +974,18 @@
 
 > 收集包含中文的指令数据集，用于微调语言模型。
 
-|                  模型                   | 大小 |   语言    |                             下载                             |                       作者                        |                           项目地址                           |   备注   |
-| :-------------------------------------: | :--: | :-------: | :----------------------------------------------------------: | :-----------------------------------------------: | :----------------------------------------------------------: | :------: |
-|                Zhihu-KOL                |  /   |   中文    | [ dataset](https://huggingface.co/datasets/wangrui6/Zhihu-KOL) |    [Rui Wang](https://huggingface.co/wangrui6)    |      [Zhihu-KOL](https://github.com/wangrui6/Zhihu-KOL)      |          |
-|             InstructionWild             | 104k |  中英文   | [dataset](https://github.com/XueFuzhao/InstructionWild/tree/main/data) |    [Xue Fuzhao](https://github.com/XueFuzhao)     | [InstructionWild](https://github.com/XueFuzhao/InstructionWild) |          |
-|             GuanacoDataset              |  /   | 中/多语言 | [dataset](https://huggingface.co/datasets/JosephusCheung/GuanacoDataset) |    [Guanaco](https://github.com/Guanaco-Model)    |      [guanaco-model](https://guanaco-model.github.io/)       |          |
-|       Traditional-Chinese-alpaca        | 52K  |   中文    | [dataset](https://github.com/ntunlplab/traditional-chinese-alpaca/tree/main/data) |    [NTU NLP Lab](https://github.com/ntunlplab)    | [Traditional-Chinese Alpaca](https://github.com/ntunlplab/traditional-chinese-alpaca) | gpt翻译  |
-|         alpaca_chinese_dataset          |  /   |   中文    |                         [dataset]()                          |       [akou](https://github.com/hikariming)       | [alpaca_chinese_dataset](https://github.com/hikariming/alpaca_chinese_dataset) | 人工校验 |
-|         alpaca-chinese-dataset          |  /   |   中文    | [dataset](https://github.com/carbonz0/alpaca-chinese-dataset) |      [carbonz](https://github.com/carbonz0)       | [alpaca-chinese-dataset](https://github.com/carbonz0/alpaca-chinese-dataset) | 机器翻译 |
-|          generated_train_1M_CN          |  1M  |   中文    | [dataset](https://huggingface.co/datasets/BelleGroup/generated_train_1M_CN) | [Ke Technologies](https://github.com/LianjiaTech) |        [BELLE](https://github.com/LianjiaTech/BELLE)         |          |
-|         generated_train_0.5M_CN         | 0.5M |   中文    | [dataset](https://huggingface.co/datasets/BelleGroup/generated_train_0.5M_CN) | [Ke Technologies](https://github.com/LianjiaTech) |        [BELLE](https://github.com/LianjiaTech/BELLE)         |          |
-| HC3 人类-ChatGPT 问答对比语料集（中文） |  /   |   中文    | [dataset](https://www.modelscope.cn/datasets/simpleai/HC3-Chinese/summary) |   [SimpleAI](https://github.com/Hello-SimpleAI)   | [chatgpt-comparison-detection](https://github.com/Hello-SimpleAI/chatgpt-comparison-detection) |          |
+|            模型            | 大小 |   语言    |                             下载                             |                       作者                        |                           项目地址                           |          备注          |
+| :------------------------: | :--: | :-------: | :----------------------------------------------------------: | :-----------------------------------------------: | :----------------------------------------------------------: | :--------------------: |
+|         Zhihu-KOL          |  /   |   中文    | [ dataset](https://huggingface.co/datasets/wangrui6/Zhihu-KOL) |    [Rui Wang](https://huggingface.co/wangrui6)    |      [Zhihu-KOL](https://github.com/wangrui6/Zhihu-KOL)      |                        |
+|      InstructionWild       | 104k |  中英文   | [dataset](https://github.com/XueFuzhao/InstructionWild/tree/main/data) |    [Xue Fuzhao](https://github.com/XueFuzhao)     | [InstructionWild](https://github.com/XueFuzhao/InstructionWild) |                        |
+|         Alpaca-CoT         |  /.  |  中英文   | [dataset](https://huggingface.co/datasets/QingyiSi/Alpaca-CoT/tree/main) |   [Qingyi Si](https://huggingface.co/QingyiSi)    |    [Alpaca-CoT](https://github.com/PhoebusSi/Alpaca-CoT)     | 多个数据集汇总(有重叠) |
+|       GuanacoDataset       |  /   | 中/多语言 | [dataset](https://huggingface.co/datasets/JosephusCheung/GuanacoDataset) |    [Guanaco](https://github.com/Guanaco-Model)    |      [guanaco-model](https://guanaco-model.github.io/)       |                        |
+| Traditional-Chinese-alpaca | 52K  |   中文    | [dataset](https://github.com/ntunlplab/traditional-chinese-alpaca/tree/main/data) |    [NTU NLP Lab](https://github.com/ntunlplab)    | [Traditional-Chinese Alpaca](https://github.com/ntunlplab/traditional-chinese-alpaca) |        gpt翻译         |
+|   alpaca_chinese_dataset   |  /   |   中文    |                         [dataset]()                          |       [akou](https://github.com/hikariming)       | [alpaca_chinese_dataset](https://github.com/hikariming/alpaca_chinese_dataset) |        人工校验        |
+|   alpaca-chinese-dataset   |  /   |   中文    | [dataset](https://github.com/carbonz0/alpaca-chinese-dataset) |      [carbonz](https://github.com/carbonz0)       | [alpaca-chinese-dataset](https://github.com/carbonz0/alpaca-chinese-dataset) |        机器翻译        |
+|   generated_train_1M_CN    |  1M  |   中文    | [dataset](https://huggingface.co/datasets/BelleGroup/generated_train_1M_CN) | [Ke Technologies](https://github.com/LianjiaTech) |        [BELLE](https://github.com/LianjiaTech/BELLE)         |                        |
+|  generated_train_0.5M_CN   | 0.5M |   中文    | [dataset](https://huggingface.co/datasets/BelleGroup/generated_train_0.5M_CN) | [Ke Technologies](https://github.com/LianjiaTech) |        [BELLE](https://github.com/LianjiaTech/BELLE)         |                        |
+|   HC3 人类-ChatGPT 问答    |  /   |   中文    | [dataset](https://www.modelscope.cn/datasets/simpleai/HC3-Chinese/summary) |   [SimpleAI](https://github.com/Hello-SimpleAI)   | [chatgpt-comparison-detection](https://github.com/Hello-SimpleAI/chatgpt-comparison-detection) |                        |
 
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
@@ -1106,3 +1107,5 @@
 [![Star History Chart](https://api.star-history.com/svg?repos=lonePatient/awesome-pretrained-chinese-nlp-models&type=Date)](https://star-history.com/#lonePatient/awesome-pretrained-chinese-nlp-models&Date)
 
 </div>
+
+![Visitor Count](https://profile-counter.glitch.me/lonepatient/count.svg)
