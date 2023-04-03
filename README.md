@@ -1,7 +1,7 @@
 # Awesome Pretrained Chinese NLP Models[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-<center>
+
 ![](./resources/LLMS.png "图片来自于论文: [A Survey of Large Language Models](https://arxiv.org/pdf/2303.18223.pdf)")
-</center>
+
 在自然语言处理领域中，预训练语言模型（Pretrained Language Models）已成为非常重要的基础技术，本仓库主要收集目前网上公开的一些高质量中文预训练模型(感谢分享资源的大佬)，并将持续更新......
 
 # Expand Table of Contents
