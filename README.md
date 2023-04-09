@@ -1,6 +1,7 @@
 # Awesome Pretrained Chinese NLP Models[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-![](./resources/LLMS.png "图片来自于论文: [A Survey of Large Language Models](https://arxiv.org/pdf/2303.18223.pdf)")
+![](/resources/LLMS.png)
+<div align="center"> 图片来自于论文: [A Survey of Large Language Models](https://arxiv.org/pdf/2303.18223.pdf) </deiv>
 
 在自然语言处理领域中，预训练语言模型（Pretrained Language Models）已成为非常重要的基础技术，本仓库主要收集目前网上公开的一些高质量中文预训练模型(感谢分享资源的大佬)，并将持续更新......
 
@@ -341,8 +342,8 @@
 
 + 2022 | Bloom: BigScience Large Open-science Open-access Multilingual Language Model | huggingface bigscience | - | [`BLOG`](https://bigscience.huggingface.co/blog/bloom)
 
-| 模型         | 版本    | TensorFlow | PyTorch                                                     | 作者                                                         | 源地址                                                | 应用领域 |
-| ------------ | ------- | ---------- | ----------------------------------------------------------- | ------------------------------------------------------------ | ----------------------------------------------------- | -------- |
+| 模型         | 版本    | TensorFlow | PyTorch                                                     | 作者                                        | 源地址                                                | 应用领域 |
+| ------------ | ------- | ---------- | ----------------------------------------------------------- | ------------------------------------------- | ----------------------------------------------------- | -------- |
 | bloom-6b4-zh | 6B(L30) |            | [huggingface](https://huggingface.co/Langboat/bloom-6b4-zh) | [Langboat](https://huggingface.co/Langboat) | [github](https://github.com/huggingface/transformers) | 通用     |
 
 > 注：作者另有bloom-389m-zh到bloom-2b5-zh等多个中文模型
@@ -593,41 +594,7 @@
 | EVA2.0-large  | large    | [项目首页](https://wudaoai.cn/model/detail/EVA) | [huggingface](https://huggingface.co/thu-coai/EVA2.0-large)  | [thu-coai](https://github.com/thu-coai) | [github](https://github.com/thu-coai/EVA) | 中文开放域对话 |                  |
 | EVA2.0-base   | base     | [项目首页](https://wudaoai.cn/model/detail/EVA) | [huggingface](https://huggingface.co/thu-coai/EVA2.0-base)   | [thu-coai](https://github.com/thu-coai) | [github](https://github.com/thu-coai/EVA) | 中文开放域对话 |                  |
 
-<p align="right">[<a href="#top">Back to Top</a>]</p>
-
-### BART
-
-+ 2019 | BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension | Mike Lewis, et al. | arxiv | [`PDF`](https://arxiv.org/abs/1910.13461)
-
-| 模型       | 版本  | TensorFlow | PyTorch                                                      | 作者                                  | 源地址                                   | 应用领域 |
-| ---------- | ----- | ---------- | ------------------------------------------------------------ | ------------------------------------- | ---------------------------------------- | -------- |
-| BART-base  | base  |            | [huggingface](https://huggingface.co/fnlp/bart-base-chinese) | [fastNLP](https://github.com/fastnlp) | [github](https://github.com/fastnlp/CPT) | 中文通用 |
-| BART-large | large |            | [huggingface](https://huggingface.co/fnlp/bart-large-chinese) | [fastNLP](https://github.com/fastnlp) | [github](https://github.com/fastnlp/CPT) | 中文通用 |
-
-<p align="right">[<a href="#top">Back to Top</a>]</p>
-
-### 闻仲
-
-| 模型     | 版本       | 类型 | TensorFlow | PyTorch                                                      | 作者                                      | 源地址                                                 | 应用领域 |
-| -------- | ---------- | ---- | ---------- | ------------------------------------------------------------ | ----------------------------------------- | ------------------------------------------------------ | -------- |
-| Wenzhong | large(L24) | GPT2 |            | [huggingface](https://huggingface.co/IDEA-CCNL/Wenzhong-3.5B) | [IDEA-CCNL](https://github.com/IDEA-CCNL) | [github](https://github.com/IDEA-CCNL/Fengshenbang-LM) | 中文通用 |
-
-<p align="right">[<a href="#top">Back to Top</a>]</p>
-
-### 余元
-
-| 模型   | 版本       | 类型 | TensorFlow | PyTorch                                                     | 作者                                      | 源地址                                                 | 应用领域 |
-| ------ | ---------- | ---- | ---------- | ----------------------------------------------------------- | ----------------------------------------- | ------------------------------------------------------ | -------- |
-| Yuyuan | large(L24) | GPT2 |            | [huggingface](https://huggingface.co/IDEA-CCNL/Yuyuan-3.5B) | [IDEA-CCNL](https://github.com/IDEA-CCNL) | [github](https://github.com/IDEA-CCNL/Fengshenbang-LM) | 医学领域 |
-
-<p align="right">[<a href="#top">Back to Top</a>]</p>
-
-### RWKV
-
-+ 2021 | An Attention Free Transformer | Shuangfei Zhai, et al. | arxiv | [`PDF`](https://arxiv.org/abs/2105.14103)
-+ 2022 | The RWKV Language Model . | [github](https://github.com/BlinkDL/RWKV-LM)
-
-| 模型 | 版本      | 类型 | TensorFlow | PyTorch                                                      | 作者                                  | 源地址                                         | 应用领域 |
+<p align="right">[<a href="#top">Back to Top</a>]</p>-
 | ---- | --------- | ---- | ---------- | ------------------------------------------------------------ | ------------------------------------- | ---------------------------------------------- | -------- |
 | RWKV | base(L12) |      |            | [github](https://github.com/BlinkDL/AI-Writer/releases)      | [PENG Bo](https://github.com/BlinkDL) | [github](https://github.com/BlinkDL/AI-Writer) | 小说     |
 | RWKV | 7B        |      |            | [huggingface](https://huggingface.co/BlinkDL/rwkv-4-pile-7b) | [PENG Bo](https://github.com/BlinkDL) | [github](https://github.com/BlinkDL/ChatRWKV)  | 小说     |
@@ -647,9 +614,9 @@
 
 ### ChatYuan
 
-| 模型     | 版本  | 类型 | TensorFlow | PyTorch                                                      | 作者                                 | 源地址                                        | 应用领域       |
-| -------- | ----- | ---- | ---------- | ------------------------------------------------------------ | ------------------------------------ | --------------------------------------------- | -------------- |
-| ChatYuan | large | T5   |            | [huggingface](https://huggingface.co/ClueAI/ChatYuan-large-v1) | [ClueAI](https://github.com/clue-ai) | [github](https://github.com/clue-ai/ChatYuan) | 功能型对话 |
+| 模型              | 版本  | 类型 | TensorFlow | PyTorch                                                      | 作者                                 | 源地址                                        | 应用领域   |
+| ----------------- | ----- | ---- | ---------- | ------------------------------------------------------------ | ------------------------------------ | --------------------------------------------- | ---------- |
+| ChatYuan          | large | T5   |            | [huggingface](https://huggingface.co/ClueAI/ChatYuan-large-v1) | [ClueAI](https://github.com/clue-ai) | [github](https://github.com/clue-ai/ChatYuan) | 功能型对话 |
 | ChatYuan-large-v2 | large | T5   |            | [huggingface](https://huggingface.co/ClueAI/ChatYuan-large-v2) | [ClueAI](https://github.com/clue-ai) | [github](https://github.com/clue-ai/ChatYuan) | 功能型对话 |
 
 <p align="right">[<a href="#top">Back to Top</a>]</p>
@@ -905,10 +872,10 @@
 
 + 2022 | OFA: Unifying Architectures, Tasks, and Modalities Through a Simple Sequence-to-Sequence Learning Framework | Peng Wang, et al. | arXiv | [`PDF`](https://arxiv.org/pdf/2202.03052.pdf)
 
-| 模型   | 版本 | TensorFlow | PyTorch                                                      | 作者                                     | 源地址                                                       | 应用领域        |
-| ------ | ---- | ---------- | ------------------------------------------------------------ | ---------------------------------------- | ------------------------------------------------------------ | --------------- |
-| OFA  |      |            | [link](https://github.com/OFA-Sys/OFA/blob/main/checkpoints_cn.md) | [OFA-Sys](https://github.com/OFA-Sys) | [github](https://github.com/OFA-Sys/OFA) | 中文多模态-图文 |
-| OFA-Chinese  |      |            | [Huggingface](https://huggingface.co/YeungNLP/ofa-cn-base-muge-v2) | [Yang JianXin](https://github.com/yangjianxin1) | [github](https://github.com/yangjianxin1/OFA-Chinese) | 中文多模态-图文 |
+| 模型        | 版本 | TensorFlow | PyTorch                                                      | 作者                                            | 源地址                                                | 应用领域        |
+| ----------- | ---- | ---------- | ------------------------------------------------------------ | ----------------------------------------------- | ----------------------------------------------------- | --------------- |
+| OFA         |      |            | [link](https://github.com/OFA-Sys/OFA/blob/main/checkpoints_cn.md) | [OFA-Sys](https://github.com/OFA-Sys)           | [github](https://github.com/OFA-Sys/OFA)              | 中文多模态-图文 |
+| OFA-Chinese |      |            | [Huggingface](https://huggingface.co/YeungNLP/ofa-cn-base-muge-v2) | [Yang JianXin](https://github.com/yangjianxin1) | [github](https://github.com/yangjianxin1/OFA-Chinese) | 中文多模态-图文 |
 
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
@@ -929,27 +896,28 @@
 
 > 大规模语言模型：表格中只罗列出参数量`大于10B`以上模型。
 
-|    模型     | 大小 |        结构         |    语言    |                             下载                             |                             机构                             |                           项目地址                           |  时间   |                             文献                             |
-| :---------: | :--: | :-----------------: | :--------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :-----: | :----------------------------------------------------------: |
-|  flan-ul2   | 20B  |   encoder-decoder   |   多语言   |   [ckpt](https://huggingface.co/google/flan-ul2/tree/main)   |            [Google](https://ai.google/research/)             | [ul2](https://github.com/google-research/google-research/tree/master/ul2) | 2023-03 |       [paper](https://arxiv.org/pdf/2205.05131v3.pdf)        |
-|   CPM-Bee   | 10B  |       Decoder       |   中英文   |                            待发布                            |             [OpenBMB](https://live.openbmb.org/)             |       [CPM-Live](https://github.com/OpenBMB/CPM-Live)        | 2023-01 |                                                              |
-|    BLOOM    | 176B |       Decoder       |   多语言   |    [ckpt-95000](https://huggingface.co/bigscience/bloom)     |     [BigScience](https://github.com/bigscience-workshop)     | [Megatron-DeepSpeed](https://github.com/bigscience-workshop/Megatron-DeepSpeed) | 2022-11 |        [paper](https://arxiv.org/pdf/2211.05100.pdf)         |
-|  *BLOOMZ*   | 176B |       Decoder       |   多语言   |     [ckpt-498](https://huggingface.co/bigscience/bloomz)     |     [BigScience](https://github.com/bigscience-workshop)     | [Megatron-DeepSpeed](https://github.com/bigscience-workshop/Megatron-DeepSpeed) | 2022-11 |            [paper](https://arxiv.org/abs/2211.01)            |
-| flan-t5-xxl | 11B  |   encoder-decoder   |   多语言   |      [ckpt](https://huggingface.co/google/flan-t5-xxl)       |            [Google](https://ai.google/research/)             |        [t5x](https://github.com/google-research/t5x)         | 2022-11 |        [paper](https://arxiv.org/pdf/2210.11416.pdf)         |
-|  CPM-Ant+   | 10B  |       Decoder       |   中英文   | [ckpt](http://openbmb.oss-cn-hongkong.aliyuncs.com/model_center/cpm-ant-plus-10b/cpm-ant-plus-10b.zip) |             [OpenBMB](https://live.openbmb.org/)             |       [CPM-Live](https://github.com/OpenBMB/CPM-Live)        | 2022-10 | [blog](https://www.openbmb.org/community/blogs/blogpage?id=98afef2ce45f4fe9a4bc15a66d7ccb92) |
-|     GLM     | 130B |       Decoder       |   中英文   | [申请下载](https://docs.google.com/forms/d/e/1FAIpQLSehr5Dh_i3TwACmFFi8QEgIVNYGmSPwV0GueIcsUev0NEfUug/viewform) |             [清华大学](https://github.com/THUDM)             |        [GLM-130B](https://github.com/THUDM/GLM-130B)         | 2022-10 |           [paper](http://arxiv.org/abs/2210.02414)           |
-|   CPM-Ant   | 10B  |       Decoder       |    中文    | [ckpt](https://openbmb.oss-cn-hongkong.aliyuncs.com/model_center/cpmlive-10b/cpm_live_10B.zip) |             [OpenBMB](https://live.openbmb.org/)             |       [CPM-Live](https://github.com/OpenBMB/CPM-Live)        | 2022-09 | [blog](https://www.openbmb.org/community/blogs/blogpage?id=98afef2ce45f4fe9a4bc15a66d7ccb92) |
-|     GLM     | 10B  |       Decoder       |    中文    | [ckpt](https://lfs.aminer.cn/misc/cogview/glm-10b-chinese.zip) |             [清华大学](https://github.com/THUDM)             |             [GLM](https://github.com/THUDM/GLM)              | 2022-09 |          [paper](https://arxiv.org/abs/2103.10360)           |
-|  CodeGeeX   | 13B  |       Decoder       | 多语言code | [申请下载](https://models.aminer.cn/codegeex/download/request) |             [清华大学](https://github.com/THUDM)             |        [CodeGeeX](https://github.com/THUDM/CodeGeeX)         | 2022-06 |       [blog](https://models.aminer.cn/codegeex/blog/)        |
-|    源1.0    | 245B |       Decoder       |    中文    |            [API申请](https://air.inspur.com/home)            |             [浪潮](https://air.inspur.com/home)              |     [Yian-1.0](https://github.com/Shawn-Inspur/Yuan-1.0)     | 2021-09 |          [paper](https://arxiv.org/abs/2110.04725)           |
-|    CPM-2    | 11B  |   encoder-decoder   |    中文    | [申请下载](https://resource.wudao.baai.ac.cn/home?ind=2&name=WuDao%20WenYuan&id=1394901846484627456) |            [智源研究院](https://www.baai.ac.cn/)             |           [CPM](https://github.com/TsinghuaAI/CPM)           | 2021-06 |          [paper](https://arxiv.org/abs/2106.10715)           |
-|    CPM-2    | 10B  |   encoder-decoder   |   中英文   | [申请下载](https://resource.wudao.baai.ac.cn/home?ind=2&name=WuDao%20WenYuan&id=1394901846484627456) |            [智源研究院](https://www.baai.ac.cn/)             |           [CPM](https://github.com/TsinghuaAI/CPM)           | 2021-06 |          [paper](https://arxiv.org/abs/2106.10715)           |
-|    CPM-2    | 200B | encoder-decoder,MOE |   中英文   | [申请下载](https://resource.wudao.baai.ac.cn/home?ind=2&name=WuDao%20WenYuan&id=1394901846484627456) |            [智源研究院](https://www.baai.ac.cn/)             |           [CPM](https://github.com/TsinghuaAI/CPM)           | 2021-06 |          [paper](https://arxiv.org/abs/2106.10715)           |
-| PanGu-Alpha | 13B  |       Decoder       |    中文    | [ckpt](https://openi.pcl.ac.cn/PCL-Platform.Intelligence/PanGu-Alpha) | [鹏城实验室](https://openi.pcl.ac.cn/PCL-Platform.Intelligence) | [PanGu-Alpha](https://openi.pcl.ac.cn/PCL-Platform.Intelligence/PanGu-Alpha) | 2021-05 |        [paper](https://arxiv.org/pdf/2104.12369.pdf)         |
-| PanGu-Alpha | 200B |       Decoder       |    中文    |                            待发布                            | [鹏城实验室](https://openi.pcl.ac.cn/PCL-Platform.Intelligence) | [PanGu-Alpha](https://openi.pcl.ac.cn/PCL-Platform.Intelligence/PanGu-Alpha) | 2021-05 |        [paper](https://arxiv.org/pdf/2104.12369.pdf)         |
-|    PLUG     | 27B  |   encoder-decoder   |    中文    |       [申请下载](https://www.alice-mind.com/portal#/)        |       [阿里巴巴](https://www.alice-mind.com/portal#/)        |      [AliceMind](https://github.com/alibaba/AliceMind)       | 2021-04 |                                                              |
-|    GPT-3    | 13B  |       Decoder       |    中文    |                            待发布                            |      [达摩院](https://modelscope.cn/organization/damo)       | [GPT-3预训练生成模型](https://modelscope.cn/models/damo/nlp_gpt3_text-generation_13B/summary) | 2021-04 |                                                              |
-|    GPT-3    | 30B  |       Decoder       |    中文    |                            待发布                            |      [达摩院](https://modelscope.cn/organization/damo)       | [GPT-3预训练生成模型](https://modelscope.cn/models/damo/nlp_gpt3_text-generation_30B/summary) | 2021-04 |                                                    |
+|       模型        | 大小 |        结构         |    语言    |                             下载                             |                          机构/个人                           |                           项目地址                           |  时间   |                             文献                             |
+| :---------------: | :--: | :-----------------: | :--------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :-----: | :----------------------------------------------------------: |
+| Chinese-LLaMA-13B | 13B  |       Decoder       |   中英文   | [ckpt](https://huggingface.co/ziqingyang/chinese-llama-lora-13b) |            [Yiming Cui](https://github.com/ymcui)            | [Chinese-LLaMA-Alpac](https://github.com/ymcui/Chinese-LLaMA-Alpaca) | 2023-04 |                                                              |
+|     flan-ul2      | 20B  |   encoder-decoder   |   多语言   |   [ckpt](https://huggingface.co/google/flan-ul2/tree/main)   |            [Google](https://ai.google/research/)             | [ul2](https://github.com/google-research/google-research/tree/master/ul2) | 2023-03 |       [paper](https://arxiv.org/pdf/2205.05131v3.pdf)        |
+|      CPM-Bee      | 10B  |       Decoder       |   中英文   |                            待发布                            |             [OpenBMB](https://live.openbmb.org/)             |       [CPM-Live](https://github.com/OpenBMB/CPM-Live)        | 2023-01 |                                                              |
+|       BLOOM       | 176B |       Decoder       |   多语言   |    [ckpt-95000](https://huggingface.co/bigscience/bloom)     |     [BigScience](https://github.com/bigscience-workshop)     | [Megatron-DeepSpeed](https://github.com/bigscience-workshop/Megatron-DeepSpeed) | 2022-11 |        [paper](https://arxiv.org/pdf/2211.05100.pdf)         |
+|     *BLOOMZ*      | 176B |       Decoder       |   多语言   |     [ckpt-498](https://huggingface.co/bigscience/bloomz)     |     [BigScience](https://github.com/bigscience-workshop)     | [Megatron-DeepSpeed](https://github.com/bigscience-workshop/Megatron-DeepSpeed) | 2022-11 |            [paper](https://arxiv.org/abs/2211.01)            |
+|    flan-t5-xxl    | 11B  |   encoder-decoder   |   多语言   |      [ckpt](https://huggingface.co/google/flan-t5-xxl)       |            [Google](https://ai.google/research/)             |        [t5x](https://github.com/google-research/t5x)         | 2022-11 |        [paper](https://arxiv.org/pdf/2210.11416.pdf)         |
+|     CPM-Ant+      | 10B  |       Decoder       |   中英文   | [ckpt](http://openbmb.oss-cn-hongkong.aliyuncs.com/model_center/cpm-ant-plus-10b/cpm-ant-plus-10b.zip) |             [OpenBMB](https://live.openbmb.org/)             |       [CPM-Live](https://github.com/OpenBMB/CPM-Live)        | 2022-10 | [blog](https://www.openbmb.org/community/blogs/blogpage?id=98afef2ce45f4fe9a4bc15a66d7ccb92) |
+|        GLM        | 130B |       Decoder       |   中英文   | [申请下载](https://docs.google.com/forms/d/e/1FAIpQLSehr5Dh_i3TwACmFFi8QEgIVNYGmSPwV0GueIcsUev0NEfUug/viewform) |             [清华大学](https://github.com/THUDM)             |        [GLM-130B](https://github.com/THUDM/GLM-130B)         | 2022-10 |           [paper](http://arxiv.org/abs/2210.02414)           |
+|      CPM-Ant      | 10B  |       Decoder       |    中文    | [ckpt](https://openbmb.oss-cn-hongkong.aliyuncs.com/model_center/cpmlive-10b/cpm_live_10B.zip) |             [OpenBMB](https://live.openbmb.org/)             |       [CPM-Live](https://github.com/OpenBMB/CPM-Live)        | 2022-09 | [blog](https://www.openbmb.org/community/blogs/blogpage?id=98afef2ce45f4fe9a4bc15a66d7ccb92) |
+|        GLM        | 10B  |       Decoder       |    中文    | [ckpt](https://lfs.aminer.cn/misc/cogview/glm-10b-chinese.zip) |             [清华大学](https://github.com/THUDM)             |             [GLM](https://github.com/THUDM/GLM)              | 2022-09 |          [paper](https://arxiv.org/abs/2103.10360)           |
+|     CodeGeeX      | 13B  |       Decoder       | 多语言code | [申请下载](https://models.aminer.cn/codegeex/download/request) |             [清华大学](https://github.com/THUDM)             |        [CodeGeeX](https://github.com/THUDM/CodeGeeX)         | 2022-06 |       [blog](https://models.aminer.cn/codegeex/blog/)        |
+|       源1.0       | 245B |       Decoder       |    中文    |            [API申请](https://air.inspur.com/home)            |             [浪潮](https://air.inspur.com/home)              |     [Yian-1.0](https://github.com/Shawn-Inspur/Yuan-1.0)     | 2021-09 |          [paper](https://arxiv.org/abs/2110.04725)           |
+|       CPM-2       | 11B  |   encoder-decoder   |    中文    | [申请下载](https://resource.wudao.baai.ac.cn/home?ind=2&name=WuDao%20WenYuan&id=1394901846484627456) |            [智源研究院](https://www.baai.ac.cn/)             |           [CPM](https://github.com/TsinghuaAI/CPM)           | 2021-06 |          [paper](https://arxiv.org/abs/2106.10715)           |
+|       CPM-2       | 10B  |   encoder-decoder   |   中英文   | [申请下载](https://resource.wudao.baai.ac.cn/home?ind=2&name=WuDao%20WenYuan&id=1394901846484627456) |            [智源研究院](https://www.baai.ac.cn/)             |           [CPM](https://github.com/TsinghuaAI/CPM)           | 2021-06 |          [paper](https://arxiv.org/abs/2106.10715)           |
+|       CPM-2       | 200B | encoder-decoder,MOE |   中英文   | [申请下载](https://resource.wudao.baai.ac.cn/home?ind=2&name=WuDao%20WenYuan&id=1394901846484627456) |            [智源研究院](https://www.baai.ac.cn/)             |           [CPM](https://github.com/TsinghuaAI/CPM)           | 2021-06 |          [paper](https://arxiv.org/abs/2106.10715)           |
+|    PanGu-Alpha    | 13B  |       Decoder       |    中文    | [ckpt](https://openi.pcl.ac.cn/PCL-Platform.Intelligence/PanGu-Alpha) | [鹏城实验室](https://openi.pcl.ac.cn/PCL-Platform.Intelligence) | [PanGu-Alpha](https://openi.pcl.ac.cn/PCL-Platform.Intelligence/PanGu-Alpha) | 2021-05 |        [paper](https://arxiv.org/pdf/2104.12369.pdf)         |
+|    PanGu-Alpha    | 200B |       Decoder       |    中文    |                            待发布                            | [鹏城实验室](https://openi.pcl.ac.cn/PCL-Platform.Intelligence) | [PanGu-Alpha](https://openi.pcl.ac.cn/PCL-Platform.Intelligence/PanGu-Alpha) | 2021-05 |        [paper](https://arxiv.org/pdf/2104.12369.pdf)         |
+|       PLUG        | 27B  |   encoder-decoder   |    中文    |       [申请下载](https://www.alice-mind.com/portal#/)        |       [阿里巴巴](https://www.alice-mind.com/portal#/)        |      [AliceMind](https://github.com/alibaba/AliceMind)       | 2021-04 |                                                              |
+|       GPT-3       | 13B  |       Decoder       |    中文    |                            待发布                            |      [达摩院](https://modelscope.cn/organization/damo)       | [GPT-3预训练生成模型](https://modelscope.cn/models/damo/nlp_gpt3_text-generation_13B/summary) | 2021-04 |                                                              |
+|       GPT-3       | 30B  |       Decoder       |    中文    |                            待发布                            |      [达摩院](https://modelscope.cn/organization/damo)       | [GPT-3预训练生成模型](https://modelscope.cn/models/damo/nlp_gpt3_text-generation_30B/summary) | 2021-04 |                                                              |
 
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
@@ -957,23 +925,27 @@
 
 > 具备问答和对话等功能的大型语言模型。
 
-|         模型         | 大小 |      结构      |   语言   |                             下载                             |                    机构/个人                    |                           项目地址                           |  时间   |                      文献                      | 备注 |
-| :------------------: | :--: | :------------: | :------: | :----------------------------------------------------------: | :---------------------------------------------: | :----------------------------------------------------------: | :-----: | :--------------------------------------------: | :--: |
-|  BELLE-LLAMA-13B-2M  | 13B  |    Decoder     |   中文   | [ckpt](https://huggingface.co/BelleGroup/BELLE-LLAMA-13B-2M) |     [贝壳](https://github.com/LianjiaTech)      |        [BELLE](https://github.com/LianjiaTech/BELLE)         | 2023-04 |                                                |      |
-|   Altay (阿勒泰羊)   | 65B  |    Decoder     |   中文   |                          [待更新]()                          | [香港科技大学](https://github.com/OptimalScale) |       [LMFlow](https://github.com/OptimalScale/LMFlow)       | 2023-04 |                                                |      |
-|   Hetian (和田羊)    | 33B  |    Decoder     |   中文   | [ckpt](https://drive.google.com/file/d/1IqgqLHwNkWQ7BffheZnqD6a-8Zul1bk6/view?usp=share_link) | [香港科技大学](https://github.com/OptimalScale) |       [LMFlow](https://github.com/OptimalScale/LMFlow)       | 2023-04 |                                                |      |
-|  Dongshan (东山羊)   | 13B  |    Decoder     |   中文   | [ckpt](https://drive.google.com/file/d/1m_rpe6rNpN59kWvjJ3GfKeEmS-68TRYr/view?usp=share_link) | [香港科技大学](https://github.com/OptimalScale) |       [LMFlow](https://github.com/OptimalScale/LMFlow)       | 2023-04 |                                                |      |
-|      Hu (湖羊)       |  7B  |    Decoder     |   中文   | [ckpt](https://drive.google.com/file/d/1x5JLae3akVkfFeDhSe3TEyUbPn_GNFyb/view?usp=share_link) | [香港科技大学](https://github.com/OptimalScale) |       [LMFlow](https://github.com/OptimalScale/LMFlow)       | 2023-04 |                                                |      |
-|      ChatLLaMA       |  7B  |    Decoder     |  多语言  |    [ckpt](https://huggingface.co/P01son/ChatLLaMA-zh-7B)     |     [Li Yudong](https://github.com/ydli-ai)     | [Chinese-ChatLLaMA](https://github.com/ydli-ai/Chinese-ChatLLaMA) | 2023-03 |                                                |      |
-|    Chinese-Vicuna    | 13B  |    Decoder     |   中文   | [ckpt](https://huggingface.co/Chinese-Vicuna/Chinese-Vicuna-lora-13b-belle-and-guanaco) |       [Facico](https://github.com/Facico)       |  [Chinese-Vicuna](https://github.com/Facico/Chinese-Vicuna)  | 2023-03 |                                                |      |
-|    Chinese-Vicuna    |  7B  |    Decoder     |   中文   | [ckpt](https://huggingface.co/Chinese-Vicuna/Chinese-Vicuna-lora-7b-belle-and-guanaco) |       [Facico](https://github.com/Facico)       |  [Chinese-Vicuna](https://github.com/Facico/Chinese-Vicuna)  | 2023-03 |                                                |      |
-|     ChatYuan-V2      | 0.7B | Encoder-Decder |  中英文  | [ckpt](https://huggingface.co/ClueAI/ChatYuan-large-v2/tree/main) |     [元语智能](https://github.com/clue-ai)      |       [ChatYuan](https://github.com/clue-ai/ChatYuan)        | 2023-03 |                                                |      |
-| Chinese-LLaMA-Alpaca |  7B  |    Decoder     |   中文   |  [lora-ckpt](https://github.com/ymcui/Chinese-LLaMA-Alpaca)  |     [Yiming Cui](https://github.com/ymcui)      | [Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca) | 2023-03 |                                                |      |
-|        Luotuo        |  7B  |    Decoder     |   中文   | [ckpt](https://huggingface.co/silk-road/luotuo-lora-7b-0.3)  |              商汤科技&华中师范大学              | [Chinese-alpaca-lora](https://github.com/LC1332/Chinese-alpaca-lora) | 2023-03 |                                                |      |
-|     BELLE-LLAMA      |  7B  |    Decoder     |  中英文  | [ckpt](https://huggingface.co/BelleGroup/BELLE-LLAMA-7B-2M)  |     [贝壳](https://github.com/LianjiaTech)      |        [BELLE](https://github.com/LianjiaTech/BELLE)         | 2023-03 |                                                |      |
-|     BELLE-BLOOM      |  7B  |    Decoder     |  中英文  |    [ckpt](https://huggingface.co/BelleGroup/BELLE-7B-2M)     |     [贝壳](https://github.com/LianjiaTech)      |        [BELLE](https://github.com/LianjiaTech/BELLE)         | 2023-03 | [Bloom](https://arxiv.org/pdf/2211.05100.pdf)  |      |
-|      ChatGLM-6B      |  6B  |    Decoder     | 中英双语 |       [ckpt](https://huggingface.co/THUDM/chatglm-6b)        |      [清华大学](https://github.com/THUDM)       |      [ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B)       | 2023-03 |                                                |      |
-|       ChatRWKV       |  7B  |      RNN       | 中/英文  | [ckpt](https://huggingface.co/BlinkDL/rwkv-4-pile-7b/tree/main) |      [BlinkDL](https://github.com/BlinkDL)      |       [ChatRWKV](https://github.com/BlinkDL/ChatRWKV)        | 2023-01 | [blog](https://zhuanlan.zhihu.com/p/609154637) | 小说 |
+|        模型        | 大小  |      结构      |   语言   |                             下载                             |                    机构/个人                    |                           项目地址                           |  时间   |                      文献                      | 备注 |
+| :----------------: | :---: | :------------: | :------: | :----------------------------------------------------------: | :---------------------------------------------: | :----------------------------------------------------------: | :-----: | :--------------------------------------------: | :--: |
+|     DoctorGLM      |  6B   | Encoder-Decder |   中文   |                          [待更新]()                          | [xionghonglin](https://github.com/xionghonglin) |    [DoctorGLM](https://github.com/xionghonglin/DoctorGLM)    | 2023-04 |                                                |      |
+|    Firefly-2b6     | 2..6B |    Decoder     |   中文   |                          [待更新]()                          | [Yang JianXin](https://github.com/yangjianxin1) |      [Firefly](https://github.com/yangjianxin1/Firefly)      | 2023-04 |                                                |      |
+|    firefly-1b4     | 1.4B  |    Decoder     |   中文   |     [ckpt](https://huggingface.co/YeungNLP/firefly-1b4)      | [Yang JianXin](https://github.com/yangjianxin1) |      [Firefly](https://github.com/yangjianxin1/Firefly)      | 2023-04 |                                                |      |
+| Chinese-Alpaca-13B |  13B  |    Decoder     |   中文   | [lora-ckpt](https://huggingface.co/ziqingyang/chinese-alpaca-lora-13b) |     [Yiming Cui](https://github.com/ymcui)      | [Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca) | 2023-04 |                                                |      |
+| BELLE-LLAMA-13B-2M |  13B  |    Decoder     |   中文   | [ckpt](https://huggingface.co/BelleGroup/BELLE-LLAMA-13B-2M) |     [贝壳](https://github.com/LianjiaTech)      |        [BELLE](https://github.com/LianjiaTech/BELLE)         | 2023-04 |                                                |      |
+|  LLaMA-65B-tuned   |  65B  |    Decoder     |   中文   |                          [待更新]()                          | [香港科技大学](https://github.com/OptimalScale) |       [LMFlow](https://github.com/OptimalScale/LMFlow)       | 2023-04 |                                                |      |
+|  LLaMA-33B-tuned   |  33B  |    Decoder     |   中文   | [ckpt](https://drive.google.com/file/d/1IqgqLHwNkWQ7BffheZnqD6a-8Zul1bk6/view?usp=share_link) | [香港科技大学](https://github.com/OptimalScale) |       [LMFlow](https://github.com/OptimalScale/LMFlow)       | 2023-04 |                                                |      |
+|  LLaMA-13B-tuned   |  13B  |    Decoder     |   中文   | [ckpt](https://drive.google.com/file/d/1m_rpe6rNpN59kWvjJ3GfKeEmS-68TRYr/view?usp=share_link) | [香港科技大学](https://github.com/OptimalScale) |       [LMFlow](https://github.com/OptimalScale/LMFlow)       | 2023-04 |                                                |      |
+|   LLaMA-7B-tuned   |  7B   |    Decoder     |   中文   | [ckpt](https://drive.google.com/file/d/1x5JLae3akVkfFeDhSe3TEyUbPn_GNFyb/view?usp=share_link) | [香港科技大学](https://github.com/OptimalScale) |       [LMFlow](https://github.com/OptimalScale/LMFlow)       | 2023-04 |                                                |      |
+|     ChatLLaMA      |  7B   |    Decoder     |  多语言  |    [ckpt](https://huggingface.co/P01son/ChatLLaMA-zh-7B)     |     [Li Yudong](https://github.com/ydli-ai)     | [Chinese-ChatLLaMA](https://github.com/ydli-ai/Chinese-ChatLLaMA) | 2023-03 |                                                |      |
+|   Chinese-Vicuna   |  13B  |    Decoder     |   中文   | [ckpt](https://huggingface.co/Chinese-Vicuna/Chinese-Vicuna-lora-13b-belle-and-guanaco) |       [Facico](https://github.com/Facico)       |  [Chinese-Vicuna](https://github.com/Facico/Chinese-Vicuna)  | 2023-03 |                                                |      |
+|   Chinese-Vicuna   |  7B   |    Decoder     |   中文   | [ckpt](https://huggingface.co/Chinese-Vicuna/Chinese-Vicuna-lora-7b-belle-and-guanaco) |       [Facico](https://github.com/Facico)       |  [Chinese-Vicuna](https://github.com/Facico/Chinese-Vicuna)  | 2023-03 |                                                |      |
+|    ChatYuan-V2     | 0.7B  | Encoder-Decder |  中英文  | [ckpt](https://huggingface.co/ClueAI/ChatYuan-large-v2/tree/main) |     [元语智能](https://github.com/clue-ai)      |       [ChatYuan](https://github.com/clue-ai/ChatYuan)        | 2023-03 |                                                |      |
+| Chinese-Alpaca-7B  |  7B   |    Decoder     |   中文   | [lora-ckpt](https://huggingface.co/ziqingyang/chinese-alpaca-lora-7b) |     [Yiming Cui](https://github.com/ymcui)      | [Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca) | 2023-03 |                                                |      |
+|       Luotuo       |  7B   |    Decoder     |   中文   | [ckpt](https://huggingface.co/silk-road/luotuo-lora-7b-0.3)  |              商汤科技&华中师范大学              | [Chinese-alpaca-lora](https://github.com/LC1332/Chinese-alpaca-lora) | 2023-03 |                                                |      |
+|    BELLE-LLAMA     |  7B   |    Decoder     |  中英文  | [ckpt](https://huggingface.co/BelleGroup/BELLE-LLAMA-7B-2M)  |     [贝壳](https://github.com/LianjiaTech)      |        [BELLE](https://github.com/LianjiaTech/BELLE)         | 2023-03 |                                                |      |
+|    BELLE-BLOOM     |  7B   |    Decoder     |  中英文  |    [ckpt](https://huggingface.co/BelleGroup/BELLE-7B-2M)     |     [贝壳](https://github.com/LianjiaTech)      |        [BELLE](https://github.com/LianjiaTech/BELLE)         | 2023-03 | [Bloom](https://arxiv.org/pdf/2211.05100.pdf)  |      |
+|     ChatGLM-6B     |  6B   | Encoder-Decder | 中英双语 |       [ckpt](https://huggingface.co/THUDM/chatglm-6b)        |      [清华大学](https://github.com/THUDM)       |      [ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B)       | 2023-03 |                                                |      |
+|      ChatRWKV      |  7B   |      RNN       | 中/英文  | [ckpt](https://huggingface.co/BlinkDL/rwkv-4-pile-7b/tree/main) |      [BlinkDL](https://github.com/BlinkDL)      |       [ChatRWKV](https://github.com/BlinkDL/ChatRWKV)        | 2023-01 | [blog](https://zhuanlan.zhihu.com/p/609154637) | 小说 |
 
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
@@ -983,6 +955,7 @@
 
 |            模型            | 大小  |   语言    |                             下载                             |                       作者                        |                           项目地址                           |          备注          |
 | :------------------------: | :---: | :-------: | :----------------------------------------------------------: | :-----------------------------------------------: | :----------------------------------------------------------: | :--------------------: |
+| generated_chat_0.4M | 0.4M | 中文 | [dataset](https://huggingface.co/datasets/BelleGroup/generated_chat_0.4M) | [Ke Technologies](https://github.com/LianjiaTech) | [BELLE](https://github.com/LianjiaTech/BELLE) | 个性化角色对话数据 |
 |    multiturn_chat_0.8M     | 0.8M  |   中文    | [dataset](https://huggingface.co/datasets/BelleGroup/multiturn_chat_0.8M) | [Ke Technologies](https://github.com/LianjiaTech) |        [BELLE](https://github.com/LianjiaTech/BELLE)         |      多轮任务对话      |
 |     school_math_0.25M      | 0.25M |   中文    | [dataset](https://huggingface.co/datasets/BelleGroup/school_math_0.25M) | [Ke Technologies](https://github.com/LianjiaTech) |        [BELLE](https://github.com/LianjiaTech/BELLE)         |     中文数学题数据     |
 |         Zhihu-KOL          |   /   |   中文    | [ dataset](https://huggingface.co/datasets/wangrui6/Zhihu-KOL) |    [Rui Wang](https://huggingface.co/wangrui6)    |      [Zhihu-KOL](https://github.com/wangrui6/Zhihu-KOL)      |                        |
@@ -992,9 +965,11 @@
 | Traditional-Chinese-alpaca |  52K  |   中文    | [dataset](https://github.com/ntunlplab/traditional-chinese-alpaca/tree/main/data) |    [NTU NLP Lab](https://github.com/ntunlplab)    | [Traditional-Chinese Alpaca](https://github.com/ntunlplab/traditional-chinese-alpaca) |        gpt翻译         |
 |   alpaca_chinese_dataset   |   /   |   中文    |                         [dataset]()                          |       [akou](https://github.com/hikariming)       | [alpaca_chinese_dataset](https://github.com/hikariming/alpaca_chinese_dataset) |        人工校验        |
 |   alpaca-chinese-dataset   |   /   |   中文    | [dataset](https://github.com/carbonz0/alpaca-chinese-dataset) |      [carbonz](https://github.com/carbonz0)       | [alpaca-chinese-dataset](https://github.com/carbonz0/alpaca-chinese-dataset) |        机器翻译        |
+| train_2M_CN | 2M | 中文 | [dataset](https://huggingface.co/datasets/BelleGroup/train_2M_CN) | [Ke Technologies](https://github.com/LianjiaTech) | [BELLE](https://github.com/LianjiaTech/BELLE) |  |
 |        train_1M_CN         |  1M   |   中文    | [dataset](https://huggingface.co/datasets/BelleGroup/train_1M_CN) | [Ke Technologies](https://github.com/LianjiaTech) |        [BELLE](https://github.com/LianjiaTech/BELLE)         |                        |
 |       train_0.5M_CN        | 0.5M  |   中文    | [dataset](https://huggingface.co/datasets/BelleGroup/train_0.5M_CN) | [Ke Technologies](https://github.com/LianjiaTech) |        [BELLE](https://github.com/LianjiaTech/BELLE)         |                        |
-|   HC3 人类-ChatGPT 问答    |   /   |   中文    | [dataset](https://www.modelscope.cn/datasets/simpleai/HC3-Chinese/summary) |   [SimpleAI](https://github.com/Hello-SimpleAI)   | [chatgpt-comparison-detection](https://github.com/Hello-SimpleAI/chatgpt-comparison-detection) |                        |
+|    HC3 人类-ChatGPT 问答    |   /   |   中文    | [dataset](https://www.modelscope.cn/datasets/simpleai/HC3-Chinese/summary) |   [SimpleAI](https://github.com/Hello-SimpleAI)   | [chatgpt-comparison-detection](https://github.com/Hello-SimpleAI/chatgpt-comparison-detection) |                        |
+|     firefly-train-1.1M     | 1.1M  |   中文    | [dataset](https://huggingface.co/datasets/YeungNLP/firefly-train-1.1M) | [Jianxin Yang](https://github.com/yangjianxin1/Firefly) |                        ||
 
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
@@ -1038,6 +1013,7 @@
 
 ## 更新
 
+* 2023.04.09 更新[中文指令数据集](#中文指令数据集)[ChatLLM](#ChatLLM)，增加个性角色对话数据集、chinese-alpaca-13b模型。
 * 2023.04.03 更新[中文指令数据集](#中文指令数据集)[ChatLLM](#ChatLLM)，增加BELLE-13b模型，math-0.25，multiturn-0.8数据集。
 * 2023.04.02 更新[ChatLLM](#ChatLLM)列表，增加由香港科技大学开源的7B/13B/33B/65B中文大型语言模型
 * 2023.03.30 增加Chinese-Vicuna模型，Traditional-Chinese-alpaca数据集
