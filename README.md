@@ -969,7 +969,7 @@
 |        train_1M_CN         |  1M   |   中文    | [dataset](https://huggingface.co/datasets/BelleGroup/train_1M_CN) | [Ke Technologies](https://github.com/LianjiaTech) |        [BELLE](https://github.com/LianjiaTech/BELLE)         |                        |
 |       train_0.5M_CN        | 0.5M  |   中文    | [dataset](https://huggingface.co/datasets/BelleGroup/train_0.5M_CN) | [Ke Technologies](https://github.com/LianjiaTech) |        [BELLE](https://github.com/LianjiaTech/BELLE)         |                        |
 |    HC3 人类-ChatGPT 问答    |   /   |   中文    | [dataset](https://www.modelscope.cn/datasets/simpleai/HC3-Chinese/summary) |   [SimpleAI](https://github.com/Hello-SimpleAI)   | [chatgpt-comparison-detection](https://github.com/Hello-SimpleAI/chatgpt-comparison-detection) |                        |
-|     firefly-train-1.1M     | 1.1M  |   中文    | [dataset](https://huggingface.co/datasets/YeungNLP/firefly-train-1.1M) | [Jianxin Yang](https://github.com/yangjianxin1/Firefly) |                        ||
+|     firefly-train-1.1M     | 1.1M  |   中文    | [dataset](https://huggingface.co/datasets/YeungNLP/firefly-train-1.1M) | [Jianxin Yang](https://github.com/yangjianxin1) | [Firefly](https://github.com/yangjianxin1/Firefly) |   |
 
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
