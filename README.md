@@ -927,6 +927,8 @@
 
 |        模型        | 大小 |      结构      |   语言   |                             下载                             |                    机构/个人                    |                           项目地址                           |  时间   |                      文献                      |   备注   |
 | :----------------: | :--: | :------------: | :------: | :----------------------------------------------------------: | :---------------------------------------------: | :----------------------------------------------------------: | :-----: | :--------------------------------------------: | :------: |
+|      ChatPLUG      | 3.7B | Encoder-Decder |   中文   | [ckpt](https://modelscope.cn/models/damo/ChatPLUG-3.7B/summary) |      [阿里巴巴](https://github.com/X-PLUG)      |        [ChatPLUG](https://github.com/X-PLUG/ChatPLUG)        | 2023-04 | [paper](https://arxiv.org/pdf/2304.07849.pdf)  |          |
+|      ChatPLUG      | 240M | Encoder-Decder |   中文   | [ckpt](https://modelscope.cn/models/damo/ChatPLUG-240M/summary) |      [阿里巴巴](https://github.com/X-PLUG)      |        [ChatPLUG](https://github.com/X-PLUG/ChatPLUG)        | 2023-04 | [paper](https://arxiv.org/pdf/2304.07849.pdf)  |          |
 |    ChatGLM-Med     |  6B  | Encoder-Decder |   中文   | [ckpt](https://drive.google.com/drive/folders/1ZQSN56DloRGQ-Qj7IwzY4jV3ZHKMe9Bc) |  [哈尔滨工业大学](https://github.com/SCIR-HI)   |    [Med-ChatGLM](https://github.com/SCIR-HI/Med-ChatGLM)     | 2023-04 |                                                | 中文医学 |
 |       HuaTuo       |  7B  |     Decder     |   中文   | [lora-ckpt](https://huggingface.co/thinksoso/lora-llama-med) |  [哈尔滨工业大学](https://github.com/SCIR-HI)   | [Huatuo-Llama-Med-Chinese](https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese) | 2023-04 |                                                | 中文医学 |
 |     DoctorGLM      |  6B  | Encoder-Decder |   中文   |                          [待更新]()                          | [xionghonglin](https://github.com/xionghonglin) |    [DoctorGLM](https://github.com/xionghonglin/DoctorGLM)    | 2023-04 |                                                | 中文医学 |
@@ -1019,6 +1021,7 @@
 
 ## 更新
 
+* 2023.04.19 增加[ChatPLUG](#ChatLLM)，该模型基于PLUG，使用亿级互联网社交数据、百科数据预训练和百万级高质量对话数据进行instruction微调得到。
 * 2023.04.18 增加[COIG](#中文指令数据集)数据集，用不同方法构建中文指令数据集的项目，收集了大约20万个中文指令样本。
 * 2023.04.13 更新[ChatLLM](#ChatLLM)，增加HuaTuo,Med_ChatGLM两个医学模型。
 * 2023.04.09 更新[中文指令数据集](#中文指令数据集)[ChatLLM](#ChatLLM)，增加个性角色对话数据集、chinese-alpaca-13b模型。
