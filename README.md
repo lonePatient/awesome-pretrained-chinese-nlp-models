@@ -933,6 +933,8 @@
 |       模型        | 大小 |        结构         |    语言    |                             下载                             |                          机构/个人                           |                           项目地址                           |  时间   |                             文献                             |
 | :---------------: | :--: | :-----------------: | :--------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :-----: | :----------------------------------------------------------: |
 |     MOSS-003      | 16B  |       Decoder       |   中英文   |    [ckpt](https://huggingface.co/fnlp/moss-moon-003-base)    |           [复旦大学](https://github.com/OpenLMLab)           |          [MOSS](https://github.com/OpenLMLab/MOSS)           | 2023-04 |                                                              |
+|  BBT-2-13B-Text   | 13B  |       Decoder       |    中文    |     [邮件申请下载](https://bbt.ssymmetry.com/model.html)     |        [超对称](https://bbt.ssymmetry.com/model.html)        |                              /                               | 2023-04 |                                                              |
+|  BBT-2-12B-Text   | 12B  |       Decoder       |    中文    |     [邮件申请下载](https://bbt.ssymmetry.com/model.html)     |        [超对称](https://bbt.ssymmetry.com/model.html)        |                              /                               | 2023-04 |                                                              |
 | Chinese-LLaMA-13B | 13B  |       Decoder       |   中英文   | [ckpt](https://huggingface.co/ziqingyang/chinese-llama-lora-13b) |            [Yiming Cui](https://github.com/ymcui)            | [Chinese-LLaMA-Alpac](https://github.com/ymcui/Chinese-LLaMA-Alpaca) | 2023-04 |                                                              |
 |     flan-ul2      | 20B  |   encoder-decoder   |   多语言   |   [ckpt](https://huggingface.co/google/flan-ul2/tree/main)   |            [Google](https://ai.google/research/)             | [ul2](https://github.com/google-research/google-research/tree/master/ul2) | 2023-03 |       [paper](https://arxiv.org/pdf/2205.05131v3.pdf)        |
 |      CPM-Bee      | 10B  |       Decoder       |   中英文   |                            待发布                            |             [OpenBMB](https://live.openbmb.org/)             |       [CPM-Live](https://github.com/OpenBMB/CPM-Live)        | 2023-01 |                                                              |
@@ -1001,6 +1003,7 @@
 |     moss-002-sft-data      | 1.1M  |  中英文   | [dataset](https://huggingface.co/datasets/fnlp/moss-002-sft-data) |           [复旦大学](https://github.com/OpenLMLab)           |          [MOSS](https://github.com/OpenLMLab/MOSS)           | 2023-04 |                                               |
 |     moss-003-sft-data      | 1.1M  |  中英文   | [dataset](https://github.com/OpenLMLab/MOSS/tree/main/SFT_data/conversations/conversation_without_plugins) |           [复旦大学](https://github.com/OpenLMLab)           |          [MOSS](https://github.com/OpenLMLab/MOSS)           | 2023-04 |                                               |
 |  moss-003-sft-plugin-data  | 300K  |  中英文   | [dataset](https://github.com/OpenLMLab/MOSS/tree/main/SFT_data/conversations/conversation_with_plugins) |           [复旦大学](https://github.com/OpenLMLab)           |          [MOSS](https://github.com/OpenLMLab/MOSS)           | 2023-04 |                                               |
+|       Safety-Prompts       | 100K  |   中文    |    [dataset](https://github.com/thu-coai/Safety-Prompts)     |           [清华大学](https://github.com/thu-coai)            | [Safety-Prompts](https://github.com/thu-coai/Safety-Prompts) | 2023-04 |   [评测平台](http://115.182.62.166:18000/)    |
 |           OASST1           |   /   |  多语言   | [dataset](https://huggingface.co/datasets/OpenAssistant/oasst1) |    [OpenAssistant](https://huggingface.co/OpenAssistant)     | [Open-Assistant](https://github.com/LAION-AI/Open-Assistant) | 2023-04 |                                               |
 |         ShareChat          |  90K  |  中英文   |     [dataset](https://paratranz.cn/projects/6725/files)      |         [czhko](https://paratranz.cn/projects/6725)          |            [](https://paratranz.cn/projects/6725)            | 2023-04 |                                               |
 |         GPT-4-LLM          |  52K  |   中文    | [dataset](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM/blob/main/data/alpaca_gpt4_data_zh.json) | [Instruction-Tuning-with-GPT-4](https://github.com/Instruction-Tuning-with-GPT-4) | [GPT-4-LLM](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM) | 2023-04 |   [paper](https://arxiv.org/abs/2304.03277)   |
@@ -1065,6 +1068,7 @@
 
 ## 更新
 
+* 2023.04.25 增加[BBT](#LLM)，基于Transformer和Decoder-Only的架构开发了BigBang Transformer「乾元」大规模预训练语言模型。
 * 2023.04.21 增加[MOSS](#ChatLLM),更新复旦大学开源的MOSS模型以及对应的数据集。
 * 2023.04.20 增加[Phoenix](#ChatLLM),基于BLOOMZ-mt模型微调得到的大语言模型。
 * 2023.04.19 增加[ChatPLUG](#ChatLLM)，该模型基于PLUG，使用亿级互联网社交数据、百科数据预训练和百万级高质量对话数据进行instruction微调得到。
@@ -1153,3 +1157,4 @@
 </div>
 
 ![Visitor Count](https://profile-counter.glitch.me/lonepatient/count.svg)
+
