@@ -970,6 +970,8 @@
 
 |           模型           |  大小   |      结构      |   语言   |                             下载                             |                       机构/个人                        |                           项目地址                           |  时间   |                           文献                           |            备注            |
 | :----------------------: | :-----: | :------------: | :------: | :----------------------------------------------------------: | :----------------------------------------------------: | :----------------------------------------------------------: | :-----: | :------------------------------------------------------: | :------------------------: |
+|        OpenBuddy         |   7B    |    Decoder     |  多语言  | [ckpt](https://github.com/OpenBuddy/OpenBuddy/blob/main/models.md) |       [OpenBuddy](https://github.com/OpenBuddy)        |     [OpenBuddy](https://github.com/OpenBuddy/OpenBuddy)      | 2023-05 |                                                          |                            |
+|        OpenBuddy         |   13B   |    Decoder     |  多语言  | [申请下载](https://github.com/OpenBuddy/OpenBuddy/blob/main/models.md) |       [OpenBuddy](https://github.com/OpenBuddy)        |     [OpenBuddy](https://github.com/OpenBuddy/OpenBuddy)      | 2023-05 |                                                          |                            |
 |      YuYan-dialogue      |   11B   |    Decoder     |   中文   | [ckpt](https://huggingface.co/FUXI/yuyan-dialogue/tree/main) |        [网易伏羲](https://huggingface.co/FUXI)         |                              /                               | 2023-04 | [paper](https://aclanthology.org/2022.naacl-industry.8/) |                            |
 |        ChatLLaMA         |   13B   |    Decoder     |   中文   |  [ckpt](https://huggingface.co/P01son/ChatLLaMA-zh-13b-hf)   |        [Li Yudong](https://github.com/ydli-ai)         | [Chinese-ChatLLaMA](https://github.com/ydli-ai/Chinese-ChatLLaMA) | 2023-04 |                                                          |                            |
 |         扁鹊-1.0         |  0.7B   | Encoder-Decder |   中文   |      [ckpt](https://huggingface.co/scutcyr/BianQue-1.0)      |         [scutcyr](https://github.com/scutcyr)          |        [BianQue](https://github.com/scutcyr/BianQue)         | 2023-04 |                                                          |        医疗问答系统        |
@@ -1078,6 +1080,7 @@
 
 ## 更新
 
+* 2023.05.08 增加[OpenBuddy](#ChatLLM),一款强大的开源多语言聊天机器人模型。
 * 2023.04.26 更新[LLaMA-zh、YuYan](#LLM),增加LLama-zh、Yuyan、扁鹊等LLM和chatLLm模型
 * 2023.04.25 增加[BBT](#LLM)，基于Transformer和Decoder-Only的架构开发了BigBang Transformer「乾元」大规模预训练语言模型。
 * 2023.04.21 增加[MOSS](#ChatLLM),更新复旦大学开源的MOSS模型以及对应的数据集。
