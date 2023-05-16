@@ -967,9 +967,9 @@
 ## ChatLLM
 
 > 具备问答和对话等功能的大型语言模型。
-
 |           模型           |  大小   |      结构      |   语言   |                             下载                             |                       机构/个人                        |                           项目地址                           |  时间   |                           文献                           |            备注            |
 | :----------------------: | :-----: | :------------: | :------: | :----------------------------------------------------------: | :----------------------------------------------------: | :----------------------------------------------------------: | :-----: | :------------------------------------------------------: | :------------------------: |
+|          BiLLa           |   7B    |    Decoder     |  中英文  |          [ckpt](https://github.com/Neutralzz/BiLLa)          |       [Zhongli Li](https://github.com/Neutralzz)       |         [BiLLa](https://github.com/Neutralzz/BiLLa)          | 2023-05 |                                                          |                            |
 |        Bactrian-X        |   13B   |    Decoder     |  多语言  | [lora-ckpt](https://huggingface.co/MBZUAI/bactrian-x-13b-lora) |        [MBZUAI](https://github.com/mbzuai-nlp)         |    [bactrian-x](https://github.com/mbzuai-nlp/bactrian-x)    | 2023-05 |                                                          |                            |
 |        Bactrian-X        |   7B    |    Decoder     |  多语言  | [lora-ckpt](https://huggingface.co/MBZUAI/bactrian-x-llama-7b-lora) |        [MBZUAI](https://github.com/mbzuai-nlp)         |    [bactrian-x](https://github.com/mbzuai-nlp/bactrian-x)    | 2023-05 |                                                          |                            |
 |       Bactrian-ZH        |   7B    |    Decoder     |   中文   |        [lora-ckpt](https://huggingface.co/haonan-li)         |        [MBZUAI](https://github.com/mbzuai-nlp)         |    [bactrian-x](https://github.com/mbzuai-nlp/bactrian-x)    | 2023-05 |                                                          |                            |
@@ -1086,6 +1086,7 @@
 
 ## 更新
 
+* 2023.05.16 增加[BiLLa](#ChatLLM),开源中英文双语大模型。
 * 2023.05.12 增加[Bactrian-X](#ChatLLM),开源多语言大模型。
 * 2023.05.08 增加[OpenBuddy](#ChatLLM),一款强大的开源多语言聊天机器人模型。
 * 2023.04.26 更新[LLaMA-zh、YuYan](#LLM),增加LLama-zh、Yuyan、扁鹊等LLM和chatLLm模型
