@@ -9,6 +9,7 @@
 + [更新日志](#更新)
 + [LLM](#LLM)
 + [ChatLLM](#ChatLLM)
++ [MultiModal-ChatLLM](#MultiModal-ChatLLM)
 + [开源模型库平台](#开源模型库平台)
 + [开源数据集库](#开源数据集库)
 + [中文指令数据集](#中文指令数据集)
@@ -1011,6 +1012,16 @@
 
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
+## MultiModal-ChatLLM
+
+> 收集包含中文的多模态大语言模型。
+
+| 模型 | 大小 |      语言模型      |      视觉模型      |   语言   |                      下载                       |              机构/个人               |                     项目地址                      |  时间   | 文献 |  备注  |
+| :--: | :--: | :------------: | :------: | :---------------------------------------------: | :-----------------------------------------------: | :-----: | :--: | :--: | :--: | :--: |
+|  VisualGLM-6B  |  6B  | [ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) | [BLIP2-Qformer](https://arxiv.org/abs/2301.12597) | 中英 | [ckpt](https://huggingface.co/THUDM/visualglm-6b) | [清华大学](https://github.com/THUDM) | [VisualGLM-6B](https://github.com/THUDM/VisualGLM-6B) | 2023-05 |      |      |
+
+<p align="right">[<a href="#top">Back to Top</a>]</p>
+
 ## 中文指令数据集
 
 > 收集包含中文的指令数据集，用于微调语言模型。
@@ -1087,6 +1098,7 @@
 
 ## 更新
 
+* 2023.05.18 增加[VisualGLM-6B](#MultiModal-ChatLLM),VisualGLM-6B 是一个开源的，支持图像、中文和英文的多模态对话语言模型。
 * 2023.05.16 增加[BiLLa](#ChatLLM),开源中英文双语大模型。
 * 2023.05.12 增加[Bactrian-X](#ChatLLM),开源多语言大模型。
 * 2023.05.08 增加[OpenBuddy](#ChatLLM),一款强大的开源多语言聊天机器人模型。
