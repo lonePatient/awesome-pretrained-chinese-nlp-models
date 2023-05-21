@@ -933,6 +933,7 @@
 
 |       模型        | 大小 |        结构         |    语言    |                             下载                             |                          机构/个人                           |                           项目地址                           |  时间   |                             文献                             |
 | :---------------: | :--: | :-----------------: | :--------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :-----: | :----------------------------------------------------------: |
+| Ziya-LLaMA-7B-Reward |  7B  | Decoder | 中英文 | [ckpt](https://huggingface.co/IDEA-CCNL/Ziya-LLaMA-7B-Reward) | [IDEA研究院](https://github.com/IDEA-CCNL) | [Fengshenbang-LM](https://github.com/IDEA-CCNL/Fengshenbang-LM) | 2023-05 |      |
 |       YuYan       | 11B  |       Decoder       |    中文    |        [ckpt](https://huggingface.co/FUXI/yuyan-11b)         |           [网易伏羲](https://huggingface.co/FUXI)            |                              /                               | 2023-04 |   [paper](https://aclanthology.org/2022.naacl-industry.8/)   |
 |     LLaMA-zh      | 65B  |       Decoder       |    中文    |                          [待更新]()                          |           [Li Yudong](https://github.com/ydli-ai)            | [Chinese-ChatLLaMA](https://github.com/ydli-ai/Chinese-ChatLLaMA) | 2023-04 |        [blog](https://zhuanlan.zhihu.com/p/616748134)        |
 |     LLaMA-zh      | 33B  |       Decoder       |    中文    |    [ckpt](https://huggingface.co/P01son/LLaMA-zh-33b-hf)     |           [Li Yudong](https://github.com/ydli-ai)            | [Chinese-ChatLLaMA](https://github.com/ydli-ai/Chinese-ChatLLaMA) | 2023-04 |        [blog](https://zhuanlan.zhihu.com/p/616748134)        |
@@ -971,6 +972,7 @@
 
 |           模型           |  大小   |      结构      |   语言   |                             下载                             |                       机构/个人                        |                           项目地址                           |  时间   |                           文献                           |             备             |
 | :----------------------: | :-----: | :------------: | :------: | :----------------------------------------------------------: | :----------------------------------------------------: | :----------------------------------------------------------: | :-----: | :------------------------------------------------------: | :------------------------: |
+| Ziya-LLaMA-13B-v1 | 13B  | Decoder | 中英文 |  [ckpt](https://huggingface.co/IDEA-CCNL/Ziya-LLaMA-13B-v1)  | [IDEA研究院](https://github.com/IDEA-CCNL) | [Fengshenbang-LM](https://github.com/IDEA-CCNL/Fengshenbang-LM) | 2023-05 |  [Blog](https://mp.weixin.qq.com/s/IeXgq8blGoeVbpIlAUCAjA)   |      |
 | BLOOMChat V1.0 | 176B | Decoder | 多语言 | [ckpt](https://huggingface.co/sambanovasystems/BLOOMChat-176B-v1) | [SambaNova Systems](https://sambanova.ai/) | [bloomchat](https://github.com/sambanova/bloomchat) | 2023-05 | [Blog](https://sambanova.ai/blog/introducing-bloomchat-176b-the-multilingual-chat-based-llm/) |      |
 |          BiLLa           |   7B    |    Decoder     |  中英文  |          [ckpt](https://github.com/Neutralzz/BiLLa)          |       [Zhongli Li](https://github.com/Neutralzz)       |         [BiLLa](https://github.com/Neutralzz/BiLLa)          | 2023-05 |                       |    |
 |        Bactrian-X        |   13B   |    Decoder     |  多语言  | [lora-ckpt](https://huggingface.co/MBZUAI/bactrian-x-13b-lora) |        [MBZUAI](https://github.com/mbzuai-nlp)         |    [bactrian-x](https://github.com/mbzuai-nlp/bactrian-x)    | 2023-05 |                                                          |                            |
@@ -1099,6 +1101,7 @@
 
 ## 更新
 
+* 2023.05.21 增加[ziya,BLOOMChat](#ChatLLM),Ziya-LLaMA-13B-v1拥有130亿参数，从LLaMA-13B开始重新构建中文词表，进行千亿token量级的已知的最大规模继续预训练，使模型具备原生中文能力.
 * 2023.05.18 增加[VisualGLM-6B](#MultiModal-ChatLLM),VisualGLM-6B 是一个开源的，支持图像、中文和英文的多模态对话语言模型。
 * 2023.05.16 增加[BiLLa](#ChatLLM),开源中英文双语大模型。
 * 2023.05.12 增加[Bactrian-X](#ChatLLM),开源多语言大模型。
