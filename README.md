@@ -972,6 +972,7 @@
 
 |           模型           |  大小   |      结构      |   语言   |                             下载                             |                       机构/个人                        |                           项目地址                           |  时间   |                           文献                           |             备             |
 | :----------------------: | :-----: | :------------: | :------: | :----------------------------------------------------------: | :----------------------------------------------------: | :----------------------------------------------------------: | :-----: | :------------------------------------------------------: | :------------------------: |
+| XuanYuan | 176B | Decoder | 中文 | [申请下载](https://huggingface.co/xyz-nlp/XuanYuan2.0) | [度小满](https://github.com/Duxiaoman-DI) | [XuanYuan](https://github.com/Duxiaoman-DI/XuanYuan) | 2023-05 | [Paper](https://arxiv.org/abs/2305.12002) | 中文金融 |
 | Ziya-LLaMA-13B-v1 | 13B  | Decoder | 中英文 |  [ckpt](https://huggingface.co/IDEA-CCNL/Ziya-LLaMA-13B-v1)  | [IDEA研究院](https://github.com/IDEA-CCNL) | [Fengshenbang-LM](https://github.com/IDEA-CCNL/Fengshenbang-LM) | 2023-05 |  [Blog](https://mp.weixin.qq.com/s/IeXgq8blGoeVbpIlAUCAjA)   |      |
 | BLOOMChat V1.0 | 176B | Decoder | 多语言 | [ckpt](https://huggingface.co/sambanovasystems/BLOOMChat-176B-v1) | [SambaNova Systems](https://sambanova.ai/) | [bloomchat](https://github.com/sambanova/bloomchat) | 2023-05 | [Blog](https://sambanova.ai/blog/introducing-bloomchat-176b-the-multilingual-chat-based-llm/) |      |
 |          BiLLa           |   7B    |    Decoder     |  中英文  |          [ckpt](https://github.com/Neutralzz/BiLLa)          |       [Zhongli Li](https://github.com/Neutralzz)       |         [BiLLa](https://github.com/Neutralzz/BiLLa)          | 2023-05 |                       |    |
@@ -1019,9 +1020,10 @@
 
 > 收集包含中文的多模态大语言模型。
 
-| 模型 | 大小 |      语言模型      |      视觉模型      |   语言   |                      下载                       |              机构/个人               |                     项目地址                      |  时间   | 文献 |  备注  |
-| :--: | :--: | :------------: | :------: | :---------------------------------------------: | :-----------------------------------------------: | :-----: | :--: | :--: | :--: | :--: |
-|  VisualGLM-6B  |  6B  | [ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) | [BLIP2-Qformer](https://arxiv.org/abs/2301.12597) | 中英 | [ckpt](https://huggingface.co/THUDM/visualglm-6b) | [清华大学](https://github.com/THUDM) | [VisualGLM-6B](https://github.com/THUDM/VisualGLM-6B) | 2023-05 |      |      |
+|     模型     | 大小 |                     语言模型                      |                     视觉模型                      | 语言 |                             下载                             |                        机构/个人                         |                       项目地址                        |  时间   | 文献 |     备注     |
+| :----------: | :--: | :-----------------------------------------------: | :-----------------------------------------------: | :--: | :----------------------------------------------------------: | :------------------------------------------------------: | :---------------------------------------------------: | :-----: | :--: | :----------: |
+|   XrayGLM    |  6B  | [ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) | [BLIP2-Qformer](https://arxiv.org/abs/2301.12597) | 中英 | [ckpt-300](https://huggingface.co/wangrongsheng/XrayGLM-300) [ckpt-3000](https://huggingface.co/wangrongsheng/XrayGLM-3000) | [澳门理工大学](https://www.mpu.edu.mo/esca/zh/index.php) |  [XrayGLM](https://github.com/WangRongsheng/XrayGLM)  | 2023-05 |      | 中文领域医学 |
+| VisualGLM-6B |  6B  | [ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) | [BLIP2-Qformer](https://arxiv.org/abs/2301.12597) | 中英 |      [ckpt](https://huggingface.co/THUDM/visualglm-6b)       |           [清华大学](https://github.com/THUDM)           | [VisualGLM-6B](https://github.com/THUDM/VisualGLM-6B) | 2023-05 |      |              |
 
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
@@ -1101,6 +1103,7 @@
 
 ## 更新
 
+* 2023.05.26 增加[XuanYuan](#ChatLLM),[XrayGLM](#MultiModal-ChatLLM),XuanYuan是国内首个开源的千亿级中文对话大模型,XrayGLM是中文医学领域多模态大语言模型。
 * 2023.05.21 增加[ziya,BLOOMChat](#ChatLLM),Ziya-LLaMA-13B-v1拥有130亿参数，从LLaMA-13B开始重新构建中文词表，进行千亿token量级的已知的最大规模继续预训练，使模型具备原生中文能力.
 * 2023.05.18 增加[VisualGLM-6B](#MultiModal-ChatLLM),VisualGLM-6B 是一个开源的，支持图像、中文和英文的多模态对话语言模型。
 * 2023.05.16 增加[BiLLa](#ChatLLM),开源中英文双语大模型。
