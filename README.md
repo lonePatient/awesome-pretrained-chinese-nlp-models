@@ -970,8 +970,9 @@
 
 > 具备问答和对话等功能的大型语言模型。
 
-|           模型           |  大小   |      结构      |   语言   |                             下载                             |                       机构/个人                        |                           项目地址                           |  时间   |                           文献                           |             备             |
+|           模型           |  大小   |      结构      |   语言   |                             下载                             |                       机构/个人                        |                           项目地址                           |  时间   |                           文献                           |             备注             |
 | :----------------------: | :-----: | :------------: | :------: | :----------------------------------------------------------: | :----------------------------------------------------: | :----------------------------------------------------------: | :-----: | :------------------------------------------------------: | :------------------------: |
+| ChatYuan-7B | 7B   | Decoder | 中英文 | [ckpt](https://huggingface.co/tiansz/ChatYuan-7B-merge) | [ClueAI](https://github.com/clue-ai) | [ChatYuan-7B](https://github.com/clue-ai/ChatYuan-7B) | 2023-06 |      | LLAMA-7B |
 | HuatuoGPT |  7B  | Decoder | 中文 | [ckpt](https://huggingface.co/FreedomIntelligence/HuatuoGPT-v1) | [香港中文大学](https://github.com/FreedomIntelligence) | [HuatuoGPT](https://github.com/FreedomIntelligence/HuatuoGPT) | 2023-05 | [Paper](https://arxiv.org/pdf/2305.15075.pdf) | 中文医学 |
 | LexiLaw |  6B  | Decoder | 中文 | [ckpt](https://github.com/CSHaitao/LexiLaw) | [Haitao Li](https://github.com/CSHaitao) | [LexiLaw](https://github.com/CSHaitao/LexiLaw) | 2023-05 | [Paper](https://arxiv.org/abs/2305.12002) | 中文法律 |
 | XuanYuan | 176B | Decoder | 中文 | [申请下载](https://huggingface.co/xyz-nlp/XuanYuan2.0) | [度小满](https://github.com/Duxiaoman-DI) | [XuanYuan](https://github.com/Duxiaoman-DI/XuanYuan) | 2023-05 | [Paper](https://arxiv.org/abs/2305.12002) | 中文金融 |
