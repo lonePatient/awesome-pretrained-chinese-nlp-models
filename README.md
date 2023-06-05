@@ -7,9 +7,10 @@
 
 # Expand Table of Contents
 + [更新日志](#更新)
-+ [LLM](#LLM)
-+ [ChatLLM](#ChatLLM)
-+ [MultiModal-ChatLLM](#MultiModal-ChatLLM)
++ [基础大模型](#LLM)
++ [对话大模型](#ChatLLM)
++ [多模态对话大模型](#MultiModal-ChatLLM)
++ [大模型评估基准](#大模型评估基准)
 + [开源模型库平台](#开源模型库平台)
 + [开源数据集库](#开源数据集库)
 + [中文指令数据集](#中文指令数据集)
@@ -1086,6 +1087,14 @@
 |     firefly-train-1.1M     | 1.1M  |   中文    | [dataset](https://huggingface.co/datasets/YeungNLP/firefly-train-1.1M) |       [Jianxin Yang](https://github.com/yangjianxin1)        |      [Firefly](https://github.com/yangjianxin1/Firefly)      | 2023-03 |                                               |
 
 <p align="right">[<a href="#top">Back to Top</a>]</p>
+
+## 大模型评估基准
+
+### C-Eval
+
+C-Eval 是一个全面的中文基础模型评估套件。它包含了13948个多项选择题，涵盖了52个不同的学科和四个难度级别，查看[论文](https://arxiv.org/abs/2305.08322)了解更多细节。
+
+[[官方网站](https://cevalbenchmark.com/)]   [[Github](https://github.com/SJTU-LIT/ceval)] [[论文](https://arxiv.org/abs/2305.08322)]
 
 ## 开源模型库平台
 
