@@ -13,7 +13,8 @@
 + [开源模型库平台](#开源模型库平台)
 + [开源数据集库](#开源数据集库)
 + [中文指令数据集](#中文指令数据集)
-+ <details><summary>[NLU系列](#NLU系列)</summary>
++ <details><summary>NLU系列</summary>
+  
   - [BERT](#BERT)
   - [RoBERTa](#RoBERTa)
   - [ALBERT](#ALBERT)
@@ -41,8 +42,10 @@
   - [CKBERT](#CKBERT)
   - [LERT](#LERT)
   - [RoCBert](#RoCBert)
+  
 </details>
-+ [NLG系列](#NLG系列)
++ <details><summary>NLG系列</summary>
+  
   - [GPT](#GPT)
   - [GPT-3](#GPT-3)
   - [NEZHA-GEN](#NEZHA-GEN)
@@ -61,7 +64,10 @@
   - [ChatYuan](#ChatYuan)
   - [SkyText](#SkyText)
   - [ProphetNet](#ProphetNet)
-+ [NLU-NLG系列](#NLU-NLG系列)
+  
+</details>
++ <details><summary>NLU-NLG系列</summary>
+  
   - [UniLM](#UniLM)
   - [Simbert](#Simbert)
   - [RoFormer-sim](#RoFormer-sim)
@@ -71,7 +77,9 @@
   - [GLM](#GLM)
   - [PLUG](#PLUG)
   - [OPD](#OPD)
-+ [Multi-Modal](#Multi-Modal)
+</details>
++ <details><summary>Multi-Modal</summary>
+  
   - [WenLan](#WenLan)
   - [CogView](#CogView)
   - [紫东太初](#紫东太初)
@@ -84,8 +92,13 @@
   - [Taiyi-Stable-Diffusion](#Taiyi-Stable-Diffusion)
   - [wukong](#wukong)
   - [OFA](#OFA)
-+ [Table](#Table)
+  
+</details>
++ <details><summary>Table</summary>
+  
   - [SDCUP](#SDCUP)
+  
+</details>
 
 
 ## NLU系列
