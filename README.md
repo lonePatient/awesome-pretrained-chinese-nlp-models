@@ -44,6 +44,7 @@
   - [RoCBert](#RoCBert)
   
 </details>
+
 + <details><summary>NLG系列</summary>
   
   - [GPT](#GPT)
@@ -66,6 +67,7 @@
   - [ProphetNet](#ProphetNet)
   
 </details>
+
 + <details><summary>NLU-NLG系列</summary>
   
   - [UniLM](#UniLM)
@@ -78,6 +80,7 @@
   - [PLUG](#PLUG)
   - [OPD](#OPD)
 </details>
+
 + <details><summary>Multi-Modal</summary>
   
   - [WenLan](#WenLan)
@@ -94,6 +97,7 @@
   - [OFA](#OFA)
   
 </details>
+
 + <details><summary>Table</summary>
   
   - [SDCUP](#SDCUP)
