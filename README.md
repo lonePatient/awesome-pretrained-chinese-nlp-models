@@ -13,7 +13,7 @@
 + [开源模型库平台](#开源模型库平台)
 + [开源数据集库](#开源数据集库)
 + [中文指令数据集](#中文指令数据集)
-+ [NLU系列](#NLU系列)
++ <details><summary>[NLU系列](#NLU系列)</summary>
   - [BERT](#BERT)
   - [RoBERTa](#RoBERTa)
   - [ALBERT](#ALBERT)
@@ -41,6 +41,7 @@
   - [CKBERT](#CKBERT)
   - [LERT](#LERT)
   - [RoCBert](#RoCBert)
+</details>
 + [NLG系列](#NLG系列)
   - [GPT](#GPT)
   - [GPT-3](#GPT-3)
@@ -1023,10 +1024,12 @@
 
 > 收集包含中文的多模态大语言模型。
 
-|     模型     | 大小 |                     语言模型                      |                     视觉模型                      | 语言 |                             下载                             |                        机构/个人                         |                       项目地址                        |  时间   | 文献 |     备注     |
-| :----------: | :--: | :-----------------------------------------------: | :-----------------------------------------------: | :--: | :----------------------------------------------------------: | :------------------------------------------------------: | :---------------------------------------------------: | :-----: | :--: | :----------: |
-|   XrayGLM    |  6B  | [ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) | [BLIP2-Qformer](https://arxiv.org/abs/2301.12597) | 中英 | [ckpt-300](https://huggingface.co/wangrongsheng/XrayGLM-300) [ckpt-3000](https://huggingface.co/wangrongsheng/XrayGLM-3000) | [澳门理工大学](https://www.mpu.edu.mo/esca/zh/index.php) |  [XrayGLM](https://github.com/WangRongsheng/XrayGLM)  | 2023-05 |      | 中文领域医学 |
-| VisualGLM-6B |  6B  | [ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) | [BLIP2-Qformer](https://arxiv.org/abs/2301.12597) | 中英 |      [ckpt](https://huggingface.co/THUDM/visualglm-6b)       |           [清华大学](https://github.com/THUDM)           | [VisualGLM-6B](https://github.com/THUDM/VisualGLM-6B) | 2023-05 |      |              |
+|           模型           | 大小 |                           语言模型                           |                     视觉模型                      | 语言 |                             下载                             |                        机构/个人                         |                           项目地址                           |  时间   | 文献 |     备注     |
+| :----------------------: | :--: | :----------------------------------------------------------: | :-----------------------------------------------: | :--: | :----------------------------------------------------------: | :------------------------------------------------------: | :----------------------------------------------------------: | :-----: | :--: | :----------: |
+| Ziya-BLIP2-14B-Visual-v1 | 14B  | [LLaMA-13B](https://huggingface.co/IDEA-CCNL/Ziya-LLaMA-13B-v1) |                       BLIP2                       | 中英 | [ckpt](https://huggingface.co/IDEA-CCNL/Ziya-BLIP2-14B-Visual-v1) |        [IDEA研究院](https://github.com/IDEA-CCNL)        | [Fengshenbang-LM](https://github.com/IDEA-CCNL/Fengshenbang-LM) | 2023-06 |      |              |
+|         XrayGLM          |  6B  |      [ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B)       | [BLIP2-Qformer](https://arxiv.org/abs/2301.12597) | 中英 | [ckpt-300](https://huggingface.co/wangrongsheng/XrayGLM-300) [ckpt-3000](https://huggingface.co/wangrongsheng/XrayGLM-3000) | [澳门理工大学](https://www.mpu.edu.mo/esca/zh/index.php) |     [XrayGLM](https://github.com/WangRongsheng/XrayGLM)      | 2023-05 |      | 中文领域医学 |
+|       VisualGLM-6B       |  6B  |      [ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B)       | [BLIP2-Qformer](https://arxiv.org/abs/2301.12597) | 中英 |      [ckpt](https://huggingface.co/THUDM/visualglm-6b)       |           [清华大学](https://github.com/THUDM)           |    [VisualGLM-6B](https://github.com/THUDM/VisualGLM-6B)     | 2023-05 |      |              |
+
 
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
