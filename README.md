@@ -952,6 +952,7 @@
 
 |       模型        | 大小 |        结构         |    语言    |                             下载                             |                          机构/个人                           |                           项目地址                           |  时间   |                             文献                             |
 | :---------------: | :--: | :-----------------: | :--------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :-----: | :----------------------------------------------------------: |
+| BiLLa-7B-LLM |  7B  | Decoder | 中英文 | [ckpt](https://huggingface.co/Neutralzz/BiLLa-7B-LLM) | [Zhongli Li](https://github.com/Neutralzz) | [BiLLa](https://github.com/Neutralzz/BiLLa) | 2023-05 |      |
 | Ziya-LLaMA-7B-Reward |  7B  | Decoder | 中英文 | [ckpt](https://huggingface.co/IDEA-CCNL/Ziya-LLaMA-7B-Reward) | [IDEA研究院](https://github.com/IDEA-CCNL) | [Fengshenbang-LM](https://github.com/IDEA-CCNL/Fengshenbang-LM) | 2023-05 |      |
 |       YuYan       | 11B  |       Decoder       |    中文    |        [ckpt](https://huggingface.co/FUXI/yuyan-11b)         |           [网易伏羲](https://huggingface.co/FUXI)            |                              /                               | 2023-04 |   [paper](https://aclanthology.org/2022.naacl-industry.8/)   |
 |     LLaMA-zh      | 65B  |       Decoder       |    中文    |                          [待更新]()                          |           [Li Yudong](https://github.com/ydli-ai)            | [Chinese-ChatLLaMA](https://github.com/ydli-ai/Chinese-ChatLLaMA) | 2023-04 |        [blog](https://zhuanlan.zhihu.com/p/616748134)        |
@@ -992,6 +993,7 @@
 |           模型           |  大小   |      结构      |   语言   |                             下载                             |                       机构/个人                        |                           项目地址                           |  时间   |                           文献                           |             备注             |
 | :----------------------: | :-----: | :------------: | :------: | :----------------------------------------------------------: | :----------------------------------------------------: | :----------------------------------------------------------: | :-----: | :------------------------------------------------------: | :------------------------: |
 | ChatYuan-7B | 7B   | Decoder | 中英文 | [ckpt](https://huggingface.co/tiansz/ChatYuan-7B-merge) | [ClueAI](https://github.com/clue-ai) | [ChatYuan-7B](https://github.com/clue-ai/ChatYuan-7B) | 2023-06 |      | LLAMA-7B |
+| BiLLa-7B-SFT | 7B | Decoder | 中英文 | [ckpt](https://huggingface.co/Neutralzz/BiLLa-7B-SFT) | [Zhongli Li](https://github.com/Neutralzz) | [BiLLa](https://github.com/Neutralzz/BiLLa) | 2023-05 |  |  |
 | HuatuoGPT |  7B  | Decoder | 中文 | [ckpt](https://huggingface.co/FreedomIntelligence/HuatuoGPT-v1) | [香港中文大学](https://github.com/FreedomIntelligence) | [HuatuoGPT](https://github.com/FreedomIntelligence/HuatuoGPT) | 2023-05 | [Paper](https://arxiv.org/pdf/2305.15075.pdf) | 中文医学 |
 | LexiLaw |  6B  | Decoder | 中文 | [ckpt](https://github.com/CSHaitao/LexiLaw) | [Haitao Li](https://github.com/CSHaitao) | [LexiLaw](https://github.com/CSHaitao/LexiLaw) | 2023-05 | [Paper](https://arxiv.org/abs/2305.12002) | 中文法律 |
 | XuanYuan | 176B | Decoder | 中文 | [申请下载](https://huggingface.co/xyz-nlp/XuanYuan2.0) | [度小满](https://github.com/Duxiaoman-DI) | [XuanYuan](https://github.com/Duxiaoman-DI/XuanYuan) | 2023-05 | [Paper](https://arxiv.org/abs/2305.12002) | 中文金融 |
@@ -1042,12 +1044,13 @@
 
 > 收集包含中文的多模态大语言模型。
 
-|           模型           | 大小 |                           语言模型                           |                     视觉模型                      | 语言 |                             下载                             |                        机构/个人                         |                           项目地址                           |  时间   | 文献 |     备注     |
-| :----------------------: | :--: | :----------------------------------------------------------: | :-----------------------------------------------: | :--: | :----------------------------------------------------------: | :------------------------------------------------------: | :----------------------------------------------------------: | :-----: | :--: | :----------: |
-| Ziya-BLIP2-14B-Visual-v1 | 14B  | [LLaMA-13B](https://huggingface.co/IDEA-CCNL/Ziya-LLaMA-13B-v1) |                       BLIP2                       | 中英 | [ckpt](https://huggingface.co/IDEA-CCNL/Ziya-BLIP2-14B-Visual-v1) |        [IDEA研究院](https://github.com/IDEA-CCNL)        | [Fengshenbang-LM](https://github.com/IDEA-CCNL/Fengshenbang-LM) | 2023-06 |      |              |
-|         XrayGLM          |  6B  |      [ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B)       | [BLIP2-Qformer](https://arxiv.org/abs/2301.12597) | 中英 | [ckpt-300](https://huggingface.co/wangrongsheng/XrayGLM-300) [ckpt-3000](https://huggingface.co/wangrongsheng/XrayGLM-3000) | [澳门理工大学](https://www.mpu.edu.mo/esca/zh/index.php) |     [XrayGLM](https://github.com/WangRongsheng/XrayGLM)      | 2023-05 |      | 中文领域医学 |
-|       VisualGLM-6B       |  6B  |      [ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B)       | [BLIP2-Qformer](https://arxiv.org/abs/2301.12597) | 中英 |      [ckpt](https://huggingface.co/THUDM/visualglm-6b)       |           [清华大学](https://github.com/THUDM)           |    [VisualGLM-6B](https://github.com/THUDM/VisualGLM-6B)     | 2023-05 |      |              |
-
+|           模型           | 大小 |                           语言模型                           |                       视觉模型                        | 语言 |                             下载                             |                        机构/个人                         |                           项目地址                           |  时间   | 文献 |     备注     |
+| :----------------------: | :--: | :----------------------------------------------------------: | :---------------------------------------------------: | :--: | :----------------------------------------------------------: | :------------------------------------------------------: | :----------------------------------------------------------: | :-----: | :--: | :----------: |
+| Ziya-BLIP2-14B-Visual-v1 | 14B  | [LLaMA-13B](https://huggingface.co/IDEA-CCNL/Ziya-LLaMA-13B-v1) |                         BLIP2                         | 中英 | [ckpt](https://huggingface.co/IDEA-CCNL/Ziya-BLIP2-14B-Visual-v1) |        [IDEA研究院](https://github.com/IDEA-CCNL)        | [Fengshenbang-LM](https://github.com/IDEA-CCNL/Fengshenbang-LM) | 2023-06 |      |              |
+|    Video-LLaMA-BiLLA     |  7B  | [BiLLa-7B]([BiLLa-7B](https://huggingface.co/Neutralzz/BiLLa-7B-SFT)) | [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4) | 中英 | [ckpt](https://huggingface.co/DAMO-NLP-SG/Video-LLaMA-Series/resolve/main/finetune-billa7b-zh.pth) |    [达摩院多语言NLP](https://github.com/DAMO-NLP-SG)     |  [Video-LLaMA](https://github.com/DAMO-NLP-SG/Video-LLaMA)   | 2023-05 |      |              |
+|     Video-LLaMA-Ziya     | 13B  | [Ziya-13B](https://huggingface.co/IDEA-CCNL/Ziya-LLaMA-13B-v1) | [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4) | 中英 | [ckpt](https://huggingface.co/DAMO-NLP-SG/Video-LLaMA-Series/resolve/main/finetune-ziya13b-zh.pth) |    [达摩院多语言NLP](https://github.com/DAMO-NLP-SG)     |  [Video-LLaMA](https://github.com/DAMO-NLP-SG/Video-LLaMA)   | 2023-05 |      |              |
+|         XrayGLM          |  6B  |      [ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B)       |   [BLIP2-Qformer](https://arxiv.org/abs/2301.12597)   | 中英 | [ckpt-300](https://huggingface.co/wangrongsheng/XrayGLM-300) [ckpt-3000](https://huggingface.co/wangrongsheng/XrayGLM-3000) | [澳门理工大学](https://www.mpu.edu.mo/esca/zh/index.php) |     [XrayGLM](https://github.com/WangRongsheng/XrayGLM)      | 2023-05 |      | 中文领域医学 |
+|       VisualGLM-6B       |  6B  |      [ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B)       |   [BLIP2-Qformer](https://arxiv.org/abs/2301.12597)   | 中英 |      [ckpt](https://huggingface.co/THUDM/visualglm-6b)       |           [清华大学](https://github.com/THUDM)           |    [VisualGLM-6B](https://github.com/THUDM/VisualGLM-6B)     | 2023-05 |      |              |
 
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
@@ -1096,6 +1099,8 @@ C-Eval 是一个全面的中文基础模型评估套件。它包含了13948个�
 
 [[官方网站](https://cevalbenchmark.com/)]   [[Github](https://github.com/SJTU-LIT/ceval)] [[论文](https://arxiv.org/abs/2305.08322)]
 
+<p align="right">[<a href="#top">Back to Top</a>]</p>
+
 ## 开源模型库平台
 
 1. 🤗[huggingface](https://huggingface.co/): The AI community building the future.
@@ -1136,6 +1141,7 @@ C-Eval 是一个全面的中文基础模型评估套件。它包含了13948个�
 
 ## 更新
 
+* 2023.06.06 增加[Video-LLaMA](#MultiModal-ChatLLM),[BiLLa](#ChatLLM),Video-LLaMA是一个用于视频理解的指令调整的视觉语言模型，BiLLa是开源的推理能力增强的中英双语LLaMA模型。
 * 2023.05.26 增加[XuanYuan](#ChatLLM),[XrayGLM](#MultiModal-ChatLLM),XuanYuan是国内首个开源的千亿级中文对话大模型,XrayGLM是中文医学领域多模态大语言模型。
 * 2023.05.21 增加[ziya,BLOOMChat](#ChatLLM),Ziya-LLaMA-13B-v1拥有130亿参数，从LLaMA-13B开始重新构建中文词表，进行千亿token量级的已知的最大规模继续预训练，使模型具备原生中文能力.
 * 2023.05.18 增加[VisualGLM-6B](#MultiModal-ChatLLM),VisualGLM-6B 是一个开源的，支持图像、中文和英文的多模态对话语言模型。
