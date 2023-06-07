@@ -952,6 +952,7 @@
 
 |       模型        | 大小 |        结构         |    语言    |                             下载                             |                          机构/个人                           |                           项目地址                           |  时间   |                             文献                             |
 | :---------------: | :--: | :-----------------: | :--------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :-----: | :----------------------------------------------------------: |
+| TigerBot-7b-base |  7B  | Decoder | 多语言 | [ckpt](https://huggingface.co/TigerResearch/tigerbot-7b-base) | [虎博科技](https://github.com/TigerResearch) | [TigerBot](https://github.com/TigerResearch/TigerBot) | 2023-06 |      |
 | BiLLa-7B-LLM |  7B  | Decoder | 中英文 | [ckpt](https://huggingface.co/Neutralzz/BiLLa-7B-LLM) | [Zhongli Li](https://github.com/Neutralzz) | [BiLLa](https://github.com/Neutralzz/BiLLa) | 2023-05 |      |
 | Ziya-LLaMA-7B-Reward |  7B  | Decoder | 中英文 | [ckpt](https://huggingface.co/IDEA-CCNL/Ziya-LLaMA-7B-Reward) | [IDEA研究院](https://github.com/IDEA-CCNL) | [Fengshenbang-LM](https://github.com/IDEA-CCNL/Fengshenbang-LM) | 2023-05 |      |
 |       YuYan       | 11B  |       Decoder       |    中文    |        [ckpt](https://huggingface.co/FUXI/yuyan-11b)         |           [网易伏羲](https://huggingface.co/FUXI)            |                              /                               | 2023-04 |   [paper](https://aclanthology.org/2022.naacl-industry.8/)   |
@@ -992,6 +993,8 @@
 
 |           模型           |  大小   |      结构      |   语言   |                             下载                             |                       机构/个人                        |                           项目地址                           |  时间   |                           文献                           |             备注             |
 | :----------------------: | :-----: | :------------: | :------: | :----------------------------------------------------------: | :----------------------------------------------------: | :----------------------------------------------------------: | :-----: | :------------------------------------------------------: | :------------------------: |
+| TigerBot-sft | 180B | Decoder | 多语言 | [ckpt](https://huggingface.co/TigerResearch/tigerbot-180b-research) | [虎博科技](https://github.com/TigerResearch) | [TigerBot](https://github.com/TigerResearch/TigerBot) | 2023-06 |      |      |
+| TigerBot-sft |  7B  | Decoder | 多语言 | [ckpt](https://huggingface.co/TigerResearch/tigerbot-7b-sft) | [虎博科技](https://github.com/TigerResearch) | [TigerBot](https://github.com/TigerResearch/TigerBot) | 2023-06 |      |      |
 | ChatYuan-7B | 7B   | Decoder | 中英文 | [ckpt](https://huggingface.co/tiansz/ChatYuan-7B-merge) | [ClueAI](https://github.com/clue-ai) | [ChatYuan-7B](https://github.com/clue-ai/ChatYuan-7B) | 2023-06 |      | LLAMA-7B |
 | BiLLa-7B-SFT | 7B | Decoder | 中英文 | [ckpt](https://huggingface.co/Neutralzz/BiLLa-7B-SFT) | [Zhongli Li](https://github.com/Neutralzz) | [BiLLa](https://github.com/Neutralzz/BiLLa) | 2023-05 |  |  |
 | HuatuoGPT |  7B  | Decoder | 中文 | [ckpt](https://huggingface.co/FreedomIntelligence/HuatuoGPT-v1) | [香港中文大学](https://github.com/FreedomIntelligence) | [HuatuoGPT](https://github.com/FreedomIntelligence/HuatuoGPT) | 2023-05 | [Paper](https://arxiv.org/pdf/2305.15075.pdf) | 中文医学 |
@@ -1060,6 +1063,7 @@
 
 |            名称            | 大小  |   语言    |                             下载                             |                             作者                             |                           项目地址                           | 时间    |                     备注                      |
 | :------------------------: | :---: | :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | ------- | :-------------------------------------------: |
+| Tigerbot-dataset | 120k | 中英文 | [dataset](https://github.com/TigerResearch/TigerBot) | [虎博科技](https://github.com/TigerResearch) | [TigerBot](https://github.com/TigerResearch/TigerBot) | 2023-06 |      |
 | lawyer-llama |  /   | 中文 | [dataset](https://github.com/AndrewZhe/lawyer-llama/tree/main/data) | [Quzhe Huang](https://github.com/AndrewZhe) | [lawyer-llama](https://github.com/AndrewZhe/lawyer-llama) | 2023-05 | 中文法律 |
 |         Bactrian-X         |  67K  |  多语言   | [dataset](https://huggingface.co/datasets/MBZUAI/Bactrian-X) |           [MBZUAI](https://github.com/mbzuai-nlp)            |    [bactrian-x](https://github.com/mbzuai-nlp/bactrian-x)    | 2023-05 |                                               |
 |      CrimeKgAssitant       |  52k  |   中文    |       [dataset](https://github.com/LiuHC0428/LAW-GPT)        |         [hongchengliu](https://github.com/LiuHC0428)         |       [LAW-GPT](https://github.com/LiuHC0428/LAW-GPT)        | 2023-05 |                   中文法律                    |
@@ -1141,6 +1145,7 @@ C-Eval 是一个全面的中文基础模型评估套件。它包含了13948个�
 
 ## 更新
 
+* 2023.06.07 增加[Tigerbot](#ChatLLM),TigerBot是一款国产自研的多语言任务大模型,开源7B和180B大小。
 * 2023.06.06 增加[Video-LLaMA](#MultiModal-ChatLLM),[BiLLa](#ChatLLM),Video-LLaMA是一个用于视频理解的指令调整的视觉语言模型，BiLLa是开源的推理能力增强的中英双语LLaMA模型。
 * 2023.05.26 增加[XuanYuan](#ChatLLM),[XrayGLM](#MultiModal-ChatLLM),XuanYuan是国内首个开源的千亿级中文对话大模型,XrayGLM是中文医学领域多模态大语言模型。
 * 2023.05.21 增加[ziya,BLOOMChat](#ChatLLM),Ziya-LLaMA-13B-v1拥有130亿参数，从LLaMA-13B开始重新构建中文词表，进行千亿token量级的已知的最大规模继续预训练，使模型具备原生中文能力.
