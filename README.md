@@ -952,6 +952,7 @@
 
 |       模型        | 大小 |        结构         |    语言    |                             下载                             |                          机构/个人                           |                           项目地址                           |  时间   |                             文献                             |
 | :---------------: | :--: | :-----------------: | :--------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :-----: | :----------------------------------------------------------: |
+| Chinese-LLaMA-33B | 33B  | Decoder | 中英文 | [ckpt](https://huggingface.co/ziqingyang/chinese-llama-lora-33b) | [Yiming Cui](https://github.com/ymcui) | [Chinese-LLaMA-Alpac](https://github.com/ymcui/Chinese-LLaMA-Alpaca) | 2023-06 |      |
 | TigerBot-7b-base |  7B  | Decoder | 多语言 | [ckpt](https://huggingface.co/TigerResearch/tigerbot-7b-base) | [虎博科技](https://github.com/TigerResearch) | [TigerBot](https://github.com/TigerResearch/TigerBot) | 2023-06 |      |
 | BiLLa-7B-LLM |  7B  | Decoder | 中英文 | [ckpt](https://huggingface.co/Neutralzz/BiLLa-7B-LLM) | [Zhongli Li](https://github.com/Neutralzz) | [BiLLa](https://github.com/Neutralzz/BiLLa) | 2023-05 |      |
 | Ziya-LLaMA-7B-Reward |  7B  | Decoder | 中英文 | [ckpt](https://huggingface.co/IDEA-CCNL/Ziya-LLaMA-7B-Reward) | [IDEA研究院](https://github.com/IDEA-CCNL) | [Fengshenbang-LM](https://github.com/IDEA-CCNL/Fengshenbang-LM) | 2023-05 |      |
@@ -993,6 +994,7 @@
 
 |           模型           |  大小   |      结构      |   语言   |                             下载                             |                       机构/个人                        |                           项目地址                           |  时间   |                           文献                           |             备注             |
 | :----------------------: | :-----: | :------------: | :------: | :----------------------------------------------------------: | :----------------------------------------------------: | :----------------------------------------------------------: | :-----: | :------------------------------------------------------: | :------------------------: |
+| Chinese-Alpaca-33B | 33B  | Decoder | 中文 | [lora-ckpt](https://huggingface.co/ziqingyang/chinese-alpaca-lora-33b) | [Yiming Cui](https://github.com/ymcui) | [Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca) | 2023-06 |      |      |
 | TigerBot-sft | 180B | Decoder | 多语言 | [ckpt](https://huggingface.co/TigerResearch/tigerbot-180b-research) | [虎博科技](https://github.com/TigerResearch) | [TigerBot](https://github.com/TigerResearch/TigerBot) | 2023-06 |      |      |
 | TigerBot-sft |  7B  | Decoder | 多语言 | [ckpt](https://huggingface.co/TigerResearch/tigerbot-7b-sft) | [虎博科技](https://github.com/TigerResearch) | [TigerBot](https://github.com/TigerResearch/TigerBot) | 2023-06 |      |      |
 | ChatYuan-7B | 7B   | Decoder | 中英文 | [ckpt](https://huggingface.co/tiansz/ChatYuan-7B-merge) | [ClueAI](https://github.com/clue-ai) | [ChatYuan-7B](https://github.com/clue-ai/ChatYuan-7B) | 2023-06 |      | LLAMA-7B |
@@ -1145,6 +1147,7 @@ C-Eval 是一个全面的中文基础模型评估套件。它包含了13948个�
 
 ## 更新
 
+* 2023.06.08 增加[Chinese-Alpaca-33B](#ChatLLM),[Chinese-LLaMA-33B](#LLM)，中文LLaMA/Alpaca-33B。
 * 2023.06.07 增加[Tigerbot](#ChatLLM),TigerBot是一款国产自研的多语言任务大模型,开源7B和180B大小。
 * 2023.06.06 增加[Video-LLaMA](#MultiModal-ChatLLM),[BiLLa](#ChatLLM),Video-LLaMA是一个用于视频理解的指令调整的视觉语言模型，BiLLa是开源的推理能力增强的中英双语LLaMA模型。
 * 2023.05.26 增加[XuanYuan](#ChatLLM),[XrayGLM](#MultiModal-ChatLLM),XuanYuan是国内首个开源的千亿级中文对话大模型,XrayGLM是中文医学领域多模态大语言模型。
