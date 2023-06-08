@@ -994,6 +994,8 @@
 
 |           模型           |  大小   |      结构      |   语言   |                             下载                             |                       机构/个人                        |                           项目地址                           |  时间   |                           文献                           |             备注             |
 | :----------------------: | :-----: | :------------: | :------: | :----------------------------------------------------------: | :----------------------------------------------------: | :----------------------------------------------------------: | :-----: | :------------------------------------------------------: | :------------------------: |
+| YuLan-Chat-65B | 65B  | Decoder | 中英文 | [lora-ckpt](https://huggingface.co/RUCAIBox/YuLan-Chat-65b-delta) | [中国人民大学](https://github.com/RUC-GSAI) | [YuLan-Chat](https://github.com/RUC-GSAI/YuLan-Chat) | 2023-06 |      |      |
+| YuLan-Chat-13B | 13B  | Decoder | 中英文 | [lora-ckpt](https://huggingface.co/RUCAIBox/YuLan-Chat-13b-delta) | [中国人民大学](https://github.com/RUC-GSAI) | [YuLan-Chat](https://github.com/RUC-GSAI/YuLan-Chat) | 2023-06 |      |      |
 | Chinese-Alpaca-33B | 33B  | Decoder | 中文 | [lora-ckpt](https://huggingface.co/ziqingyang/chinese-alpaca-lora-33b) | [Yiming Cui](https://github.com/ymcui) | [Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca) | 2023-06 |      |      |
 | TigerBot-sft | 180B | Decoder | 多语言 | [ckpt](https://huggingface.co/TigerResearch/tigerbot-180b-research) | [虎博科技](https://github.com/TigerResearch) | [TigerBot](https://github.com/TigerResearch/TigerBot) | 2023-06 |      |      |
 | TigerBot-sft |  7B  | Decoder | 多语言 | [ckpt](https://huggingface.co/TigerResearch/tigerbot-7b-sft) | [虎博科技](https://github.com/TigerResearch) | [TigerBot](https://github.com/TigerResearch/TigerBot) | 2023-06 |      |      |
@@ -1147,6 +1149,7 @@ C-Eval 是一个全面的中文基础模型评估套件。它包含了13948个�
 
 ## 更新
 
+* 2023.06.08 增加[YuLan](#ChatLLM),YuLan是由中国人名大学开源的双语言任务大模型,开源13B和65B大小。
 * 2023.06.08 增加[Chinese-Alpaca-33B](#ChatLLM),[Chinese-LLaMA-33B](#LLM)，中文LLaMA/Alpaca-33B。
 * 2023.06.07 增加[Tigerbot](#ChatLLM),TigerBot是一款国产自研的多语言任务大模型,开源7B和180B大小。
 * 2023.06.06 增加[Video-LLaMA](#MultiModal-ChatLLM),[BiLLa](#ChatLLM),Video-LLaMA是一个用于视频理解的指令调整的视觉语言模型，BiLLa是开源的推理能力增强的中英双语LLaMA模型。
