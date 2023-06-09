@@ -1268,6 +1268,12 @@ C-Eval 是一个全面的中文基础模型评估套件。它包含了13948个�
 
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
+### 贡献者
+
+<a href="https://github.com/eryajf/learn-github/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=lonePatient/awesome-pretrained-chinese-nlp-models" />
+</a>
+
 ### Misc
 #### &#8627; Stargazers
 [![Stargazers repo roster for ](https://reporoster.com/stars/lonePatient/awesome-pretrained-chinese-nlp-models)](https://github.com/lonePatient/awesome-pretrained-chinese-nlp-models/stargazers)
