@@ -163,6 +163,9 @@
 
 |           模型           |  大小   |      结构      |   语言   |                             下载                             |                       机构/个人                        |                           项目地址                           |  时间   |                           文献                           |             备注             |
 | :----------------------: | :-----: | :------------: | :------: | :----------------------------------------------------------: | :----------------------------------------------------: | :----------------------------------------------------------: | :-----: | :------------------------------------------------------: | :------------------------: |
+|        Anima         | 33B  | Decoder | 中文 |       [ckpt](https://huggingface.co/lyogavin/Anima33B)       |   [Gavin Li](https://github.com/lyogavin)   | [Anima](https://github.com/lyogavin/Anima)![Star](https://img.shields.io/github/stars/lyogavin/Anima.svg?style=social&label=Star) | 2023-06 |      | QLoRA |
+| OpenLLaMA-Chinese-3B |  3B  | Decoder | 中文 | [ckpt](https://huggingface.co/FittenTech/openllama-chinese-3b) | [FittenTech](https://github.com/FittenTech) | [OpenLLaMA-Chinese](https://github.com/FittenTech/OpenLLaMA-Chinese)![Star](https://img.shields.io/github/stars/FittenTech/OpenLLaMA-Chinese.svg?style=social&label=Star) | 2023-06 |      |       |
+| OpenLLaMA-Chinese-7B |  7B  | Decoder | 中文 | [ckpt](https://huggingface.co/FittenTech/openllama-chinese-7b) | [FittenTech](https://github.com/FittenTech) | [OpenLLaMA-Chinese](https://github.com/FittenTech/OpenLLaMA-Chinese)![Star](https://img.shields.io/github/stars/FittenTech/OpenLLaMA-Chinese.svg?style=social&label=Star) | 2023-06 |      |       |
 | 扁鹊-2.0 | 6B | Encoder-Decder | 中文 | [ckpt](https://huggingface.co/scutcyr/BianQue-2) | [华南理工大学](https://github.com/scutcyr) | [BianQue](https://github.com/scutcyr/BianQue)![Star](https://img.shields.io/github/stars/scutcyr/BianQue.svg?style=social&label=Star) | 2023-06 |  | 医疗问答系统 |
 | SoulChat | 6B | Encoder-Decder | 中文 | [ckpt](https://huggingface.co/scutcyr/SoulChat) | [华南理工大学](https://github.com/scutcyr) | [SoulChat](https://github.com/scutcyr/SoulChat)![Star](https://img.shields.io/github/stars/scutcyr/SoulChat.svg?style=social&label=Star) | 2023-06 |  | 心理健康 |
 | openbuddy-falcon-7b-v1.5 | 7B | Decoder | 多语言 | [ckpt](https://huggingface.co/OpenBuddy/openbuddy-falcon-7b-v1.5-fp16) | [OpenBuddy](https://github.com/OpenBuddy) | [OpenBuddy](https://github.com/OpenBuddy/OpenBuddy)![Star](https://img.shields.io/github/stars/OpenBuddy/OpenBuddy.svg?style=social&label=Star) | 2023-06 |  |  |
@@ -707,8 +710,8 @@ C-Eval 是一个全面的中文基础模型评估套件。它包含了13948个�
 
 | 模型      | 版本  | PyTorch                                               | 作者                                      | 源地址 | 备注         |
 | --------- | ----- | ----------------------------------------------------- | ----------------------------------------- | ------ | ------------ |
-| m3e-base  | base  | [m3e-base](https://huggingface.co/moka-ai/m3e-base)   | [Moka-AI](https://huggingface.co/moka-ai) | /      | 文本嵌入模型 |
-| M3e-small | Small | [m3e-small](https://huggingface.co/moka-ai/m3e-small) | [Moka-AI](https://huggingface.co/moka-ai) | /      | 文本嵌入模型 |
+| m3e-base  | base  | [m3e-base](https://huggingface.co/moka-ai/m3e-base)   | [Moka-AI](https://huggingface.co/moka-ai) | [uniem](https://github.com/wangyuxinwhy/uniem)![Star](https://img.shields.io/github/stars/wangyuxinwhy/uniem.svg?style=social&label=Star)     | 文本嵌入模型 |
+| M3e-small | Small | [m3e-small](https://huggingface.co/moka-ai/m3e-small) | [Moka-AI](https://huggingface.co/moka-ai) | [uniem](https://github.com/wangyuxinwhy/uniem)![Star](https://img.shields.io/github/stars/wangyuxinwhy/uniem.svg?style=social&label=Star)      | 文本嵌入模型 |
 
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
@@ -1183,6 +1186,7 @@ C-Eval 是一个全面的中文基础模型评估套件。它包含了13948个�
 
 ## 更新
 
+* 2023.06.13 增加[OpenLLaMA-Chinese](#ChatLLM),OpenLLaMA-Chinese是免费的中文大型语言模型，基于OpenLLaMA，可用于非商业和商业目的。
 * 2023.06.09 增加[QA-CLIP](#QA-CLIP),[M3E](#M3E),[Aquila](#LLM),QA-CLIP是中文CLIP模型,M3E是文本嵌入模型,Aquila是语言大模型。
 * 2023.06.08 增加[YuLan](#ChatLLM),YuLan是由中国人名大学开源的双语言任务大模型,开源13B和65B大小。
 * 2023.06.08 增加[Chinese-Alpaca-33B](#ChatLLM),[Chinese-LLaMA-33B](#LLM)，中文LLaMA/Alpaca-33B。
