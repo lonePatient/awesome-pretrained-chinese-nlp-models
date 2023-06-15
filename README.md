@@ -118,6 +118,7 @@
 
 |       模型        | 大小 |        结构         |    语言    |                             下载                             |                          机构/个人                           |                           项目地址                           |  时间   |                             文献                             |                             备注                             |
 | :---------------: | :--: | :-----------------: | :--------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :-----: | :----------------------------------------------------------: | ------------------------------------------------------------ |
+| Baichuan-7B |  7B  | Decoder | 中英文 | [ckpt](https://huggingface.co/baichuan-inc/baichuan-7B) | [百川智能](https://github.com/baichuan-inc) | [baichuan-7B](https://github.com/baichuan-inc/baichuan-7B)![Star](https://img.shields.io/github/stars/baichuan-inc/baichuan-7B.svg?style=social&label=Star) | 2023-06 |      |
 | Chinese-Falcon-7B |  7B  | Decoder | 中英文 | [ckpt](https://huggingface.co/Linly-AI/Chinese-Falcon-7B) | [深圳大学计算机视觉研究所](https://github.com/CVI-SZU) | [Linly](https://github.com/CVI-SZU/Linly)![Star](https://img.shields.io/github/stars/CVI-SZU/Linly.svg?style=social&label=Star) | 2023-06 | [Blog](https://zhuanlan.zhihu.com/p/636994073) |
 | AtomGPT_8k | 13B | Decoder | 中英文 | [ckpt](https://huggingface.co/AtomEchoAI/AtomGPT_8k) | [原子回声](https://github.com/AtomEcho) | [AtomGPT](https://github.com/AtomEcho/AtomGPT)![Star](https://img.shields.io/github/stars/AtomEcho/AtomGPT.svg?style=social&label=Star) | 2023-06 |  |  |
 | AquilaCode-7B-TS | 7B | Decoder | 中英文 | [ckpt](https://model.baai.ac.cn/model-detail/100099) | [智源研究院](https://huggingface.co/BAAI) | / | 2023-06 |  |  |
@@ -1188,6 +1189,7 @@ C-Eval 是一个全面的中文基础模型评估套件。它包含了13948个�
 
 ## 更新
 
+* 2023.06.15 增加[Baichuan-7B](#LLM),baichuan-7B是由百川智能开发的一个开源可商用的大规模预训练语言模型。
 * 2023.06.14 增加[Chinese-Falcon](#LLM),Chinese-Falcon 模型在 Falcon 基础上扩充中文词表，在中英文数据上增量预训练。 模型以 Apache License 2.0 协议开源，支持商业用途。。
 * 2023.06.13 增加[OpenLLaMA-Chinese](#ChatLLM),OpenLLaMA-Chinese是免费的中文大型语言模型，基于OpenLLaMA，可用于非商业和商业目的。
 * 2023.06.09 增加[QA-CLIP](#QA-CLIP),[M3E](#M3E),[Aquila](#LLM),QA-CLIP是中文CLIP模型,M3E是文本嵌入模型,Aquila是语言大模型。
