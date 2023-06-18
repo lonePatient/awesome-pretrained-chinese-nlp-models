@@ -1190,7 +1190,7 @@ C-Eval 是一个全面的中文基础模型评估套件。它包含了13948个�
 
 ## 更新
 
-* 2023.06.18 增加[ZhiXiB](#ChatLLM),ZhiXi基于Llama的针对知识抽取的大模型。
+* 2023.06.18 增加[ZhiXi](#ChatLLM),ZhiXi基于Llama的针对知识抽取的大模型。
 * 2023.06.15 增加[Baichuan-7B](#LLM),baichuan-7B是由百川智能开发的一个开源可商用的大规模预训练语言模型。
 * 2023.06.14 增加[Chinese-Falcon](#LLM),Chinese-Falcon 模型在 Falcon 基础上扩充中文词表，在中英文数据上增量预训练。 模型以 Apache License 2.0 协议开源，支持商业用途。。
 * 2023.06.13 增加[OpenLLaMA-Chinese](#ChatLLM),OpenLLaMA-Chinese是免费的中文大型语言模型，基于OpenLLaMA，可用于非商业和商业目的。
