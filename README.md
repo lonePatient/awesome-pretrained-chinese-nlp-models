@@ -165,6 +165,7 @@
 
 |           模型           |  大小   |      结构      |   语言   |                             下载                             |                       机构/个人                        |                           项目地址                           |  时间   |                           文献                           |             备注             |
 | :----------------------: | :-----: | :------------: | :------: | :----------------------------------------------------------: | :----------------------------------------------------: | :----------------------------------------------------------: | :-----: | :------------------------------------------------------: | :------------------------: |
+| ZhiXi-13B-Diff | 13B  | Decoder | 中英 | [ckpt](https://huggingface.co/zjunlp/zhixi-13b-diff) | [浙江大学](https://github.com/zjunlp) | [KnowLLM](https://github.com/zjunlp/KnowLM)![Star](https://img.shields.io/github/stars/zjunlp/KnowLM.svg?style=social&label=Star) | 2023-06 |      |      |
 |        Anima         | 33B  | Decoder | 中文 |       [ckpt](https://huggingface.co/lyogavin/Anima33B)       |   [Gavin Li](https://github.com/lyogavin)   | [Anima](https://github.com/lyogavin/Anima)![Star](https://img.shields.io/github/stars/lyogavin/Anima.svg?style=social&label=Star) | 2023-06 |      | QLoRA |
 | OpenLLaMA-Chinese-13B |  13B  | Decoder | 中文 | [ckpt](https://huggingface.co/FittenTech/openllama-chinese-13b) | [FittenTech](https://github.com/FittenTech) | [OpenLLaMA-Chinese](https://github.com/FittenTech/OpenLLaMA-Chinese)![Star](https://img.shields.io/github/stars/FittenTech/OpenLLaMA-Chinese.svg?style=social&label=Star) | 2023-06 |      |       |
 | OpenLLaMA-Chinese-3B |  3B  | Decoder | 中文 | [ckpt](https://huggingface.co/FittenTech/openllama-chinese-3b) | [FittenTech](https://github.com/FittenTech) | [OpenLLaMA-Chinese](https://github.com/FittenTech/OpenLLaMA-Chinese)![Star](https://img.shields.io/github/stars/FittenTech/OpenLLaMA-Chinese.svg?style=social&label=Star) | 2023-06 |      |       |
@@ -1189,6 +1190,7 @@ C-Eval 是一个全面的中文基础模型评估套件。它包含了13948个�
 
 ## 更新
 
+* 2023.06.18 增加[ZhiXiB](#ChatLLM),ZhiXi基于Llama的针对知识抽取的大模型。
 * 2023.06.15 增加[Baichuan-7B](#LLM),baichuan-7B是由百川智能开发的一个开源可商用的大规模预训练语言模型。
 * 2023.06.14 增加[Chinese-Falcon](#LLM),Chinese-Falcon 模型在 Falcon 基础上扩充中文词表，在中英文数据上增量预训练。 模型以 Apache License 2.0 协议开源，支持商业用途。。
 * 2023.06.13 增加[OpenLLaMA-Chinese](#ChatLLM),OpenLLaMA-Chinese是免费的中文大型语言模型，基于OpenLLaMA，可用于非商业和商业目的。
