@@ -126,8 +126,11 @@
 ## LLM
 
 > 大规模基础模型：表格中只罗列出参数量`大于7B`以上模型。
+> 
 > ND:  Non-Causal Decoder or Prefix LM
+> 
 > CD:  Causal Decoder
+> 
 > ED:  Encoder-Decoder
 
 |         模型         | 大小 | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             | 备注 |
@@ -183,7 +186,9 @@
 > 具备问答和对话等功能的大型语言模型。
 >
 > ND:  Non-Causal Decoder or Prefix LM
+> 
 > CD:  Causal Decoder
+> 
 > ED:  Encoder-Decoder
 
 |           模型           |  大小   | 时间    | 语言 |     领域     |                             下载                             |                           项目地址                           |                       机构/个人                        |      结构      |                             文献                             |
