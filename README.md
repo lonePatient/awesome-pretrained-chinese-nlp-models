@@ -286,6 +286,8 @@
 
 |           模型           | 大小 |  时间   |                           语言模型                           |                       视觉模型                        | 语言 | 领域 |                             下载                             |                           项目地址                           |                        机构/个人                         |                   文献                    |
 | :----------------------: | :--: | :-----: | :----------------------------------------------------------: | :---------------------------------------------------: | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :---------------------------------------: |
+| VisCPM-Chat | 10B  | 2023-06 |                   CPM-Bee                    |                           Q-Former                           | 中英 | 通用 |      [ckpt](https://huggingface.co/openbmb/VisCPM-Chat)      | [VisCPM](https://github.com/OpenBMB/VisCPM)![Star](https://img.shields.io/github/stars/OpenBMB/VisCPM.svg?style=social&label=Star) | [OpenBMB](https://github.com/OpenBMB) |  |
+| VisCPM-Paint | 10B | 2023-06 | CPM-Bee | [Stable Diffusion 2.1](https://github.com/Stability-AI/stablediffusion) | 中英 | 通用 | [ckpt](https://huggingface.co/openbmb/VisCPM-Paint) | [VisCPM](https://github.com/OpenBMB/VisCPM)![Star](https://img.shields.io/github/stars/OpenBMB/VisCPM.svg?style=social&label=Star) | [OpenBMB](https://github.com/OpenBMB) |  |
 | XrayPULSE |  7B  | 2023-06 | [PULSE](https://github.com/openmedlab/PULSE) | [MedCLIP](https://github.com/RyanWangZf/MedCLIP) | 中文 | 医学 | [ckpt](https://drive.google.com/file/d/1VsO61-3DFuK4ysGPvoD4_JZaRFKvAJR_/view?usp=drive_link) | [XrayPULSE](https://github.com/openmedlab/XrayPULSE)![Star](https://img.shields.io/github/stars/openmedlab/XrayPULSE.svg?style=social&label=Star) | [OpenMEDLab](https://github.com/OpenMEDLab) |      |
 | SEEChat | 6B | 2023-06 | [ChatGLM](https://github.com/THUDM/ChatGLM-6B) |                 CLIP-ViT                  | 中文 |  /   | [ckpt](https://github.com/360CVGroup/SEEChat) | [SEEChat](https://github.com/360CVGroup/SEEChat)![Star](https://img.shields.io/github/stars/360CVGroup/SEEChat.svg?style=social&label=Star) |       [360](https://github.com/360CVGroup)       |                                               |
 | Ziya-BLIP2-14B-Visual-v1 | 14B  | 2023-06 | [LLaMA-13B](https://huggingface.co/IDEA-CCNL/Ziya-LLaMA-13B-v1) |                         BLIP2                         | 中英 | 通用 | [ckpt](https://huggingface.co/IDEA-CCNL/Ziya-BLIP2-14B-Visual-v1) | [Fengshenbang-LM](https://github.com/IDEA-CCNL/Fengshenbang-LM)![Star](https://img.shields.io/github/stars/IDEA-CCNL/Fengshenbang-LM.svg?style=social&label=Star) |        [IDEA研究院](https://github.com/IDEA-CCNL)        |                                           |
@@ -1410,6 +1412,7 @@ MiniMax 最新一代的中文大语言模型帮助人类高效写作、激发创
 
 ## 更新
 
+* 2023.06.30 增加[VisCPM](#MultiModal-ChatLLM),VisCPM 是一个开源的多模态大模型系列，支持中英双语的多模态对话能力（VisCPM-Chat模型）和文到图生成能力（VisCPM-Paint模型），在中文多模态开源模型中达到最佳水平。
 * 2023.06.28  增加[PULSE](#ChatLLM),PULSE-中文医疗大语言模型。
 * 2023.06.26  增加[CoLLaMA](#ChatLLM),CoLLaMA是基于代码的多语言大模型。
 * 2023.06.25 增加[ChatGLM2-6B](#ChatLLM),ChatGLM2-6B 是开源中英双语对话模型 ChatGLM-6B 的第二代版本。
