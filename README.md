@@ -195,6 +195,9 @@
 
 |           模型           |  大小   | 时间    | 语言 |     领域     |                             下载                             |                           项目地址                           |                       机构/个人                        |      架构      |                             文献                             |
 | :----------------------: | :-----: | ------- | :--: | :----------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :------------: | :----------------------------------------------------------: |
+| vicuna | 33B | 2023-07 | 中文 | 通用 | [bdNet-hiks](https://pan.baidu.com/s/1EH19ablXVLYQP1f-IaPS-Q?pwd=hiks) | [chinese-StableVicuna](https://github.com/ziwang-com/chinese-StableVicuna)![Star](https://img.shields.io/github/stars/ziwang-com/chinese-StableVicuna.svg?style=social&label=Star) | [ziwang-com](https://github.com/ziwang-com) | CD |  |
+| CuteGPT | 13B | 2023-07 | 中英 | 通用 | [ckpt](https://huggingface.co/XuYipei/kw-cutegpt-13b-base) | [CuteGPT](https://github.com/Abbey4799/CuteGPT)![Star](https://img.shields.io/github/stars/Abbey4799/CuteGPT.svg?style=social&label=Star) | [复旦大学知识工场](http://kw.fudan.edu.cn/) | CD |  |
+| ailawyer | 13B | 2023-07 | 中英 | 法律 | [ckpt](https://huggingface.co/openkg/ailawyer) | [JurisLMs](https://github.com/seudl/JurisLMs)![Star](https://img.shields.io/github/stars/seudl/JurisLMs.svg?style=social&label=Star) | [openkg](https://huggingface.co/openkg) | CD |  |
 | educhat-sft-002-13b | 13B  | 2023-06 | 中英 | 教育 | [ckpt](https://huggingface.co/ecnu-icalk/educhat-sft-002-13b) | [EduChat](https://github.com/icalk-nlp/EduChat)![Star](https://img.shields.io/github/stars/icalk-nlp/EduChat.svg?style=social&label=Star) | [华东师范大学](https://github.com/icalk-nlp) | CD |  |
 | educhat-sft-002-7b |  7B  | 2023-06 | 中英 | 教育 | [ckpt](https://huggingface.co/ecnu-icalk/educhat-sft-002-7b) | [EduChat](https://github.com/icalk-nlp/EduChat)![Star](https://img.shields.io/github/stars/icalk-nlp/EduChat.svg?style=social&label=Star) | [华东师范大学](https://github.com/icalk-nlp) | CD |  |
 | Media LLaMA | 7B | 2023-06 | 中文 | 自媒体 | [ckpt-onfo](https://pan.baidu.com/s/1tEuj0SvwJK4czQPCE6gI9w?pwd=onfo) | [Media-LLaMA](https://github.com/IMOSR/Media-LLaMA)![Star](https://img.shields.io/github/stars/IMOSR/Media-LLaMA.svg?style=social&label=Star) | [智媒开源研究院](https://github.com/IMOSR) | CD |  |
@@ -291,6 +294,7 @@
 
 |           模型           | 大小 |  时间   |                           语言模型                           |                       视觉模型                        | 语言 | 领域 |                             下载                             |                           项目地址                           |                        机构/个人                         |                   文献                    |
 | :----------------------: | :--: | :-----: | :----------------------------------------------------------: | :---------------------------------------------------: | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :---------------------------------------: |
+| yuren | 7B | 2023-07 | [baichuan-7B](https://huggingface.co/baichuan-inc/baichuan-7B) | [CLIP](https://huggingface.co/laion/CLIP-ViT-L-14-DataComp.XL-s13B-b90K) | 中英 | 通用 | [ckpt](https://huggingface.co/pleisto/yuren-baichuan-7b) | [yuren-baichuan-7b](https://github.com/pleisto/yuren-baichuan-7b)![Star](https://img.shields.io/github/stars/pleisto/yuren-baichuan-7b.svg?style=social&label=Star) | [Pleisto](https://github.com/pleisto) |  |
 | VisCPM-Chat | 10B  | 2023-06 |                   CPM-Bee                    |                           Q-Former                           | 中英 | 通用 |      [ckpt](https://huggingface.co/openbmb/VisCPM-Chat)      | [VisCPM](https://github.com/OpenBMB/VisCPM)![Star](https://img.shields.io/github/stars/OpenBMB/VisCPM.svg?style=social&label=Star) | [OpenBMB](https://github.com/OpenBMB) |  |
 | VisCPM-Paint | 10B | 2023-06 | CPM-Bee | [Stable Diffusion 2.1](https://github.com/Stability-AI/stablediffusion) | 中英 | 通用 | [ckpt](https://huggingface.co/openbmb/VisCPM-Paint) | [VisCPM](https://github.com/OpenBMB/VisCPM)![Star](https://img.shields.io/github/stars/OpenBMB/VisCPM.svg?style=social&label=Star) | [OpenBMB](https://github.com/OpenBMB) |  |
 | XrayPULSE |  7B  | 2023-06 | [PULSE](https://github.com/openmedlab/PULSE) | [MedCLIP](https://github.com/RyanWangZf/MedCLIP) | 中文 | 医学 | [ckpt](https://drive.google.com/file/d/1VsO61-3DFuK4ysGPvoD4_JZaRFKvAJR_/view?usp=drive_link) | [XrayPULSE](https://github.com/openmedlab/XrayPULSE)![Star](https://img.shields.io/github/stars/openmedlab/XrayPULSE.svg?style=social&label=Star) | [OpenMEDLab](https://github.com/OpenMEDLab) |      |
@@ -1418,9 +1422,10 @@ MiniMax 最新一代的中文大语言模型帮助人类高效写作、激发创
 
 ## 更新
 
+* 2023.07.04 增加[yuren](#MultiModal-ChatLLM),[vicuna,CuteGPT,ailawyer](#ChatLLM)
 * 2023.06.30 增加[VisCPM](#MultiModal-ChatLLM),VisCPM 是一个开源的多模态大模型系列，支持中英双语的多模态对话能力（VisCPM-Chat模型）和文到图生成能力（VisCPM-Paint模型），在中文多模态开源模型中达到最佳水平。
-* 2023.06.28  增加[PULSE](#ChatLLM),PULSE-中文医疗大语言模型。
-* 2023.06.26  增加[CoLLaMA](#ChatLLM),CoLLaMA是基于代码的多语言大模型。
+* 2023.06.28 增加[PULSE](#ChatLLM),PULSE-中文医疗大语言模型。
+* 2023.06.26 增加[CoLLaMA](#ChatLLM),CoLLaMA是基于代码的多语言大模型。
 * 2023.06.25 增加[ChatGLM2-6B](#ChatLLM),ChatGLM2-6B 是开源中英双语对话模型 ChatGLM-6B 的第二代版本。
 * 2023.06.24 增加[TechGPT](#ChatLLM),TechGPT是“东北大学知识图谱研究组”发布的垂直领域大语言模型。
 * 2023.06.20 增加[Yayi、BayLing](#ChatLLM),百聆（BayLing）是一个强化了语言对齐的指令跟随大规模语言模型;Yayi大模型 在百万级人工构造的高质量领域数据上进行指令微调得到，训练数据覆盖媒体宣传、舆情分析、公共安全、金融风控、城市治理等五大领域。
