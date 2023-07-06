@@ -135,6 +135,7 @@
 
 |         模型         | 大小 | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             | 备注 |
 | :------------------: | :--: | ------- | :--: | ---- | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: | ---- |
+| 书生·浦语-lm |  7B  | 2023-07 | 中文 | 通用 | [ckpt](https://huggingface.co/internlm/internlm-7b) | [InternLM](https://github.com/InternLM/InternLM)![Star](https://img.shields.io/github/stars/InternLM/InternLM.svg?style=social&label=Star) | [上海人工智能实验室](https://github.com/InternLM) |  CD  | [InternLM-techreport](https://github.com/InternLM/InternLM-techreport/tree/main) |      |
 | educhat-base-002-13b | 13B  | 2023-06 | 中英 | 教育 | [ckpt](https://huggingface.co/butyuhao/educhat-base-002-13b) | [EduChat](https://github.com/icalk-nlp/EduChat)![Star](https://img.shields.io/github/stars/icalk-nlp/EduChat.svg?style=social&label=Star) | [华东师范大学](https://github.com/icalk-nlp) |  CD  |      |      |
 | educhat-base-002-7b  |  7B  | 2023-06 | 中英 | 教育 | [ckpt](https://huggingface.co/ecnu-icalk/educhat-base-002-7b) | [EduChat](https://github.com/icalk-nlp/EduChat)![Star](https://img.shields.io/github/stars/icalk-nlp/EduChat.svg?style=social&label=Star) | [华东师范大学](https://github.com/icalk-nlp) |  CD  |      |      |
 |     Baichuan-7B      |  7B  | 2023-06 | 中英 | 通用 |   [ckpt](https://huggingface.co/baichuan-inc/baichuan-7B)    | [baichuan-7B](https://github.com/baichuan-inc/baichuan-7B)![Star](https://img.shields.io/github/stars/baichuan-inc/baichuan-7B.svg?style=social&label=Star) |         [百川智能](https://github.com/baichuan-inc)          |  CD  |                                                              |      |
@@ -195,6 +196,8 @@
 
 |           模型           |  大小   | 时间    | 语言 |     领域     |                             下载                             |                           项目地址                           |                       机构/个人                        |      架构      |                             文献                             |
 | :----------------------: | :-----: | ------- | :--: | :----------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :------------: | :----------------------------------------------------------: |
+| 书生·浦语-chat |  7B  | 2023-07 | 中文 | 通用 | [ckpt](https://huggingface.co/internlm/internlm-chat-7b) | [InternLM](https://github.com/InternLM/InternLM)![Star](https://img.shields.io/github/stars/InternLM/InternLM.svg?style=social&label=Star) | [上海人工智能实验室](https://github.com/InternLM) | CD | [InternLM-techreport](https://github.com/InternLM/InternLM-techreport/tree/main) |
+| ShenNong-TCM-LLM |  7B  | 2023-07 | 中英 | 医学 |                         [ckpt]()                         | [ShenNong-TCM-LLM](https://github.com/michael-wzhu/ShenNong-TCM-LLM)![Star](https://img.shields.io/github/stars/michael-wzhu/ShenNong-TCM-LLM.svg?style=social&label=Star) |  [michael-wzhu](https://github.com/michael-wzhu)  | CD |  |
 | vicuna | 33B | 2023-07 | 中文 | 通用 | [bdNet-hiks](https://pan.baidu.com/s/1EH19ablXVLYQP1f-IaPS-Q?pwd=hiks) | [chinese-StableVicuna](https://github.com/ziwang-com/chinese-StableVicuna)![Star](https://img.shields.io/github/stars/ziwang-com/chinese-StableVicuna.svg?style=social&label=Star) | [ziwang-com](https://github.com/ziwang-com) | CD |  |
 | CuteGPT | 13B | 2023-07 | 中英 | 通用 | [ckpt](https://huggingface.co/XuYipei/kw-cutegpt-13b-base) | [CuteGPT](https://github.com/Abbey4799/CuteGPT)![Star](https://img.shields.io/github/stars/Abbey4799/CuteGPT.svg?style=social&label=Star) | [复旦大学知识工场](http://kw.fudan.edu.cn/) | CD |  |
 | ailawyer | 13B | 2023-07 | 中英 | 法律 | [ckpt](https://huggingface.co/openkg/ailawyer) | [JurisLMs](https://github.com/seudl/JurisLMs)![Star](https://img.shields.io/github/stars/seudl/JurisLMs.svg?style=social&label=Star) | [openkg](https://huggingface.co/openkg) | CD |  |
@@ -1422,6 +1425,7 @@ MiniMax 最新一代的中文大语言模型帮助人类高效写作、激发创
 
 ## 更新
 
+* 2023.07.04 增加[书生·浦语](#ChatLLM),书生·浦语大模型，包含面向实用场景的70亿参数基础模型与对话模型.
 * 2023.07.04 增加[yuren](#MultiModal-ChatLLM),[vicuna,CuteGPT,ailawyer](#ChatLLM)
 * 2023.06.30 增加[VisCPM](#MultiModal-ChatLLM),VisCPM 是一个开源的多模态大模型系列，支持中英双语的多模态对话能力（VisCPM-Chat模型）和文到图生成能力（VisCPM-Paint模型），在中文多模态开源模型中达到最佳水平。
 * 2023.06.28 增加[PULSE](#ChatLLM),PULSE-中文医疗大语言模型。
