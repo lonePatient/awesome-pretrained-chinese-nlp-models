@@ -135,6 +135,7 @@
 
 |       模型        | 大小  | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             | 备注 |
 | :---------------: | :---: | ------- | :--: | ---- | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: | ---- |
+| Baichuan-13B | 13B  | 2023-07 | 中文 | 通用 | [ckpt](https://huggingface.co/baichuan-inc/Baichuan-13B-Base) | [Baichuan-13B](https://github.com/baichuan-inc/Baichuan-13B)![Star](https://img.shields.io/github/stars/baichuan-inc/Baichuan-13B.svg?style=social&label=Star) | [百川智能](https://github.com/baichuan-inc) |  CD  |      |      |
 |     TigerBot      |  7B   | 2023-07 | 多语 | 通用 | [ckpt](https://huggingface.co/TigerResearch/tigerbot-7b-base-v2) | [TigerBot](https://github.com/TigerResearch/TigerBot)![Star](https://img.shields.io/github/stars/TigerResearch/TigerBot.svg?style=social&label=Star) |         [虎博科技](https://github.com/TigerResearch)         |  CD  |                                                              |      |
 |   书生·浦语-lm    |  7B   | 2023-07 | 中文 | 通用 |     [ckpt](https://huggingface.co/internlm/internlm-7b)      | [InternLM](https://github.com/InternLM/InternLM)![Star](https://img.shields.io/github/stars/InternLM/InternLM.svg?style=social&label=Star) |      [上海人工智能实验室](https://github.com/InternLM)       |  CD  | [InternLM-techreport](https://github.com/InternLM/InternLM-techreport/tree/main) |      |
 | educhat-base-002  | 7/13B | 2023-06 | 中英 | 教育 | [ckpt-13B](https://huggingface.co/butyuhao/educhat-base-002-13b) [ckpt-7B](https://huggingface.co/ecnu-icalk/educhat-base-002-7b) | [EduChat](https://github.com/icalk-nlp/EduChat)![Star](https://img.shields.io/github/stars/icalk-nlp/EduChat.svg?style=social&label=Star) |         [华东师范大学](https://github.com/icalk-nlp)         |  CD  |                                                              |      |
@@ -195,6 +196,7 @@
 
 |           模型           |  大小   | 时间    | 语言 |     领域     |                             下载                             |                           项目地址                           |                       机构/个人                        | 架构 |                             文献                             |
 | :----------------------: | :-----: | ------- | :--: | :----------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| Baichuan-13B |   13B    | 2023-07 | 中文 | 通用 | [ckpt](https://huggingface.co/baichuan-inc/Baichuan-13B-Chat) | [Baichuan-13B](https://github.com/baichuan-inc/Baichuan-13B)![Star](https://img.shields.io/github/stars/baichuan-inc/Baichuan-13B.svg?style=social&label=Star) | [百川智能](https://github.com/baichuan-inc) | CD |  |
 | WizardLM | 7/13/30B | 2023-07 | 多语 | 通用 | [ckpt-7B](https://huggingface.co/WizardLM/WizardLM-7B-V1.0) [ckpt-13B](https://huggingface.co/WizardLM/WizardLM-13B-V1.1) [ckpt-30B](https://huggingface.co/WizardLM/WizardLM-30B-V1.0) | [WizardLM](https://github.com/nlpxucan/WizardLM)![Star](https://img.shields.io/github/stars/nlpxucan/WizardLM.svg?style=social&label=Star) | [operatorx](https://github.com/nlpxucan) | CD | [Paper](https://arxiv.org/pdf/2304.12244) |
 | WizardCoder | 15B | 2023-07 | 多语 | 代码 | [ckpt-15B](https://huggingface.co/WizardLM/WizardCoder-15B-V1.0) | [WizardLM](https://github.com/nlpxucan/WizardLM)![Star](https://img.shields.io/github/stars/nlpxucan/WizardLM.svg?style=social&label=Star) | [operatorx](https://github.com/nlpxucan) |  CD  | [Paper](https://arxiv.org/abs/2306.08568) |
 |     TigerBot-v2-sft      |   7B    | 2023-07 | 多语 |     通用     | [ckpt](https://huggingface.co/TigerResearch/tigerbot-7b-sft-v2) | [TigerBot](https://github.com/TigerResearch/TigerBot)![Star](https://img.shields.io/github/stars/TigerResearch/TigerBot.svg?style=social&label=Star) |      [虎博科技](https://github.com/TigerResearch)      |  CD  |                                                              |
@@ -1428,6 +1430,7 @@ MiniMax 最新一代的中文大语言模型帮助人类高效写作、激发创
 
 ## 更新
 
+* 2023.07.11 增加[Baichuan-13B](#LLM),baichuan-13B是由百川智能开发的一个开源可商用的大规模预训练语言模型。
 * 2023.07.10 增加WizardLM-13B-V1.1
 * 2023.07.09 增加VisualCLA多模态大模型
 * 2023.07.04 增加[书生·浦语](#ChatLLM),书生·浦语大模型，包含面向实用场景的70亿参数基础模型与对话模型.
