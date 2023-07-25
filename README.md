@@ -24,6 +24,8 @@
 
 + [开源中文指令数据集](#中文指令数据集)
 
++ [Other Awesome](#other awesome)
+
 + <details><summary>NLU系列</summary>
   
   - [BERT](#BERT)
@@ -573,6 +575,50 @@ MiniMax 最新一代的中文大语言模型帮助人类高效写作、激发创
 
 7. [OSCAR](https://oscar-project.org/): Open Super-large Crawled Aggregated coRpus, 多语言数据集
 * 最新版本包含1.4T的中文语言数据集
+
+<p align="right">[<a href="#top">Back to Top</a>]</p>
+
+## other awesome
+
+####  1. Awesome-Chatgpt![Star](https://img.shields.io/github/stars/awesome-chatgpt/awesome-chatgpt.svg?style=social&label=Star) [github](https://github.com/awesome-chatgpt/awesome-chatgpt)
+
+本项目旨在收集关于ChatGPT 的资源、工具、应用和用法等。
+
+#### 2. Awesome-ChatGPT-Prompts![Star](https://img.shields.io/github/stars/f/awesome-chatgpt-prompts.svg?style=social&label=Star) [github](https://github.com/f/awesome-chatgpt-prompts)
+
+本项目旨在收集关于ChatGPT 模型使用的Prompts示例集。
+
+#### 3. Awesome-LLM![Star](https://img.shields.io/github/stars/Hannibal046/Awesome-LLM.svg?style=social&label=Star) [github](https://github.com/Hannibal046/Awesome-LLM)
+
+本项目旨在收集有关大型语言模型相关资料，尤其是 ChatGPT 的论文的精选列表。它还包含 LLM 训练框架、部署 LLM 的工具、有关 LLM 的课程和教程以及所有公开可用的 LLM 模型和 API。
+
+#### 4. Awesome-LangChain![Star](https://img.shields.io/github/stars/kyrolabs/awesome-langchain.svg?style=social&label=Star) [github](https://github.com/kyrolabs/awesome-langchain)
+
+本项目旨在收集与LangChain有关应用列表。LangChain是一个惊人的框架，可以在短时间内完成相关LLM应用开发。
+
+#### 5. Awesome-Open-Gpt![Star](https://img.shields.io/github/stars/EwingYangs/awesome-open-gpt.svg?style=social&label=Star) [github](https://github.com/EwingYangs/awesome-open-gpt)
+
+本项目旨在收集关于GPT开源精选项目的合集（170+全网最全)，其中包括了一些GPT镜像、GPT增强、GPT插件、GPT工具、GPT平替的聊天机器人、开源大语言模型等等。
+
+#### 6. Awesome-Multimodal-Large-Language-Models![Star](https://img.shields.io/github/stars/BradyFU/Awesome-Multimodal-Large-Language-Models.svg?style=social&label=Star) [github](https://github.com/https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models)
+
+本项目是关于多模态大语言模型（MLLM）的精选列表，包括数据集、多模态模型、多模态语境学习、多模态思维链、llm 辅助视觉推理、基础模型等。此列表将实时更新。✨
+
+#### 7. Awesome-Transformer-Attention![Star](https://img.shields.io/github/stars/cmhungsteve/Awesome-Transformer-Attention.svg?style=social&label=Star) [github](https://github.com/cmhungsteve/Awesome-Transformer-Attention)
+
+此 repo 包含 Vision Transformer & Attention 的综合论文列表，包括论文、代码和相关网站。
+
+#### 8. Awesome-Prompt-Engineering![Star](https://img.shields.io/github/stars/promptslab/Awesome-Prompt-Engineering.svg?style=social&label=Star) [github](https://github.com/promptslab/Awesome-Prompt-Engineering)
+
+This repository contains a hand-curated resources for Prompt Engineering with a focus on Generative Pre-trained Transformer (GPT), ChatGPT, PaLM etc
+
+#### 9. Awesome-AITools![Star](https://img.shields.io/github/stars/ikaijua/Awesome-AITools.svg?style=social&label=Star) [github](https://github.com/ikaijua/Awesome-AITools)
+
+这个仓库整理AI相关的实用工具。
+
+#### 10. Awesome-Chinese-LLM![Star](https://img.shields.io/github/stars/HqWu-HITCS/Awesome-Chinese-LLM.svg?style=social&label=Star) [github](https://github.com/HqWu-HITCS/Awesome-Chinese-LLM)
+
+本项目旨在收集和梳理中文LLM相关的开源模型、应用、数据集及教程等资料，目前收录的资源已达100+个！
 
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
@@ -1449,6 +1495,7 @@ MiniMax 最新一代的中文大语言模型帮助人类高效写作、激发创
 
 ## 更新
 
+* 2023.07.25 增加相关[Awesome列表](#other awesome)
 * 2023.07.24 增加[Llama2-chinese-chat、Jiang-chat](#ChatLLM)等对话语言模型。
 * 2023.07.19 增加[LLaMA2](#LLM),Meta 发布了大家期待已久的免费可商用版本 Llama 2。
 * 2023.07.16 增加[PolyLM](#LLM),PolyLM是一个通晓多语言语言的大规模语言模型，该模型可以应用于对话问答、文本生成、机器翻译和情感分析等领域，能够自动生成高质量的多语言文本。
