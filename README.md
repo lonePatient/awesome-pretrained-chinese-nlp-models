@@ -620,6 +620,10 @@ This repository contains a hand-curated resources for Prompt Engineering with a 
 
 本项目旨在收集和梳理中文LLM相关的开源模型、应用、数据集及教程等资料，目前收录的资源已达100+个！
 
+#### 11. Awesome-LLM4Tool![Star](https://img.shields.io/github/stars/OpenGVLab/Awesome-LLM4Tool.svg?style=social&label=Star) [github](https://github.com/OpenGVLab/Awesome-LLM4Tool)
+
+Awesome-LLM4Tool is a curated list of the papers, repositories, tutorials, and anythings related to the large language models for tools.
+
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
 ## NLU系列
