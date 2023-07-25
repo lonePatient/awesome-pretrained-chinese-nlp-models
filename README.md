@@ -24,7 +24,7 @@
 
 + [开源中文指令数据集](#中文指令数据集)
 
-+ [Other Awesome](#other awesome)
++ [Other-Awesome](#other-awesome)
 
 + <details><summary>NLU系列</summary>
   
@@ -578,7 +578,7 @@ MiniMax 最新一代的中文大语言模型帮助人类高效写作、激发创
 
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
-## other awesome
+## other-awesome
 
 ####  1. Awesome-Chatgpt![Star](https://img.shields.io/github/stars/awesome-chatgpt/awesome-chatgpt.svg?style=social&label=Star) [github](https://github.com/awesome-chatgpt/awesome-chatgpt)
 
@@ -1495,7 +1495,7 @@ This repository contains a hand-curated resources for Prompt Engineering with a 
 
 ## 更新
 
-* 2023.07.25 增加相关[Awesome列表](#other awesome)
+* 2023.07.25 增加相关[Awesome列表](#other-awesome)
 * 2023.07.24 增加[Llama2-chinese-chat、Jiang-chat](#ChatLLM)等对话语言模型。
 * 2023.07.19 增加[LLaMA2](#LLM),Meta 发布了大家期待已久的免费可商用版本 Llama 2。
 * 2023.07.16 增加[PolyLM](#LLM),PolyLM是一个通晓多语言语言的大规模语言模型，该模型可以应用于对话问答、文本生成、机器翻译和情感分析等领域，能够自动生成高质量的多语言文本。
