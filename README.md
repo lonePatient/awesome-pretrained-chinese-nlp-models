@@ -627,6 +627,46 @@ This repository contains a hand-curated resources for Prompt Engineering with a 
 
 Awesome-LLM4Tool is a curated list of the papers, repositories, tutorials, and anythings related to the large language models for tools.
 
+#### 12. Awesome LLM Security![Star](https://img.shields.io/github/stars/corca-ai/awesome-llm-security.svg?style=social&label=Star) [github](https://github.com/corca-ai/awesome-llm-security)
+
+A curation of awesome tools, documents and projects about LLM Security.
+
+#### 13. Awesome AI Agents![Star](https://img.shields.io/github/stars/e2b-dev/awesome-ai-agents.svg?style=social&label=Star) [github](https://github.com/e2b-dev/awesome-ai-agents)
+
+Welcome to our list of AI agents. We structured the list into two parts: Open source projects and Closed-source projects and companies
+
+#### 14. Awesome-LLM-Large-Language-Models-Notes![Star](https://img.shields.io/github/stars/kyaiooiayk/Awesome-LLM-Large-Language-Models-Notes.svg?style=social&label=Star) [github](https://github.com/kyaiooiayk/Awesome-LLM-Large-Language-Models-Notes)
+
+LLM-Large-Language-Models-Notes
+
+#### 15. Awesome-Efficient-LLM![Star](https://img.shields.io/github/stars/horseee/Awesome-Efficient-LLM.svg?style=social&label=Star) [github](https://github.com/horseee/Awesome-Efficient-LLM)
+
+A curated list for Efficient Large Language Models。
+
+#### 16. Awesome Datasets for LLM Training![Star](https://img.shields.io/github/stars/Zjh-819/LLMDataHub.svg?style=social&label=Star) [github](https://github.com/Zjh-819/LLMDataHub)
+
+A quick guide (especially) for trending instruction finetuning datasets。
+
+#### 17. Awesome-Align-LLM-Human![Star](https://img.shields.io/github/stars/GaryYufei/AlignLLMHumanSurvey.svg?style=social&label=Star) [github](https://github.com/GaryYufei/AlignLLMHumanSurvey)
+
+A collection of papers and resources about aligning large language models (LLMs) with human.
+
+#### 18. Awesome RLHF (RL with Human Feedback)![Star](https://img.shields.io/github/stars/opendilab/awesome-RLHF.svg?style=social&label=Star) [github](https://github.com/opendilab/awesome-RLHF)
+
+This is a collection of research papers for Reinforcement Learning with Human Feedback (RLHF). And the repository will be continuously updated to track the frontier of RLHF.
+
+#### 19. Prompt-in-context-learning![Star](https://img.shields.io/github/stars/EgoAlpha/prompt-in-context-learning.svg?style=social&label=Star) [github](https://github.com/EgoAlpha/prompt-in-context-learning)
+
+An Open-Source Engineering Guide for Prompt-in-context-learning from EgoAlpha Lab.
+
+#### 20. Awesome Instruction Learning![Star](https://img.shields.io/github/stars/RenzeLou/awesome-instruction-learning.svg?style=social&label=Star) [github](https://github.com/RenzeLou/awesome-instruction-learning)
+
+An awesome reading list of Instruction Tuning (or, put it more comprehensively, Instruction Learning), including papers and datasets.
+
+#### 21. Awesome-Foundation-Models![Star](https://img.shields.io/github/stars/uncbiag/Awesome-Foundation-Models.svg?style=social&label=Star) [github](https://github.com/uncbiag/Awesome-Foundation-Models)
+
+A foundation model is a large-scale pretrained model (e.g., BERT, DALL-E, GPT-3) that can be adapted to a wide range of downstream applications. This term was first popularized by the Stanford Institute for Human-Centered Artificial Intelligence. This repository maintains a curated list of foundation models for vision and language tasks. Research papers without code are not included.
+
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
 ## NLU系列
