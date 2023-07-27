@@ -203,6 +203,7 @@
 
 |           模型           |  大小   | 时间    | 语言 |     领域     |                             下载                             |                           项目地址                           |                       机构/个人                        | 架构 |                             文献                             |
 | :----------------------: | :-----: | ------- | :--: | :----------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| WizardLM-v1.2 | 13B  | 2023-07 | 多语 | 通用 | [ckpt-13B](https://huggingface.co/WizardLM/WizardLM-13B-V1.2) | [WizardLM](https://github.com/nlpxucan/WizardLM)![Star](https://img.shields.io/github/stars/nlpxucan/WizardLM.svg?style=social&label=Star) | [operatorx](https://github.com/nlpxucan) |  CD  | [Paper](https://arxiv.org/pdf/2304.12244) |
 | TransGPT | 7B | 2023-07 | 中英 | 交通 | [ckpt](https://huggingface.co/DUOMO-Lab/TransGPT-v0) | [TransGPT](https://github.com/DUOMO/TransGPT)![Star](https://img.shields.io/github/stars/DUOMO/TransGPT.svg?style=social&label=Star) | [北京交通大学](https://github.com/DUOMO) | CD |  |
 | llama2-Chinese-chat | 13B | 2023-07 | 中英 | 通用 | [ckpt](https://www.codewithgpu.com/m/file/llama2-13b-Chinese-chat) | [llama2-Chinese-chat](https://github.com/CrazyBoyM/llama2-Chinese-chat)![Star](https://img.shields.io/github/stars/CrazyBoyM/llama2-Chinese-chat.svg?style=social&label=Star) | [Ke Bai](https://github.com/CrazyBoyM) | CD |  |
 | CodeGeeX2 | 6B | 2023-07 | 中英 | 代码 | [ckpt](https://huggingface.co/THUDM/codegeex2-6b) | [CodeGeeX2](https://github.com/THUDM/CodeGeeX2)![Star](https://img.shields.io/github/stars/THUDM/CodeGeeX2.svg?style=social&label=Star) | [清华大学](https://github.com/THUDM) | ND |  |
@@ -1542,6 +1543,7 @@ A foundation model is a large-scale pretrained model (e.g., BERT, DALL-E, GPT-3)
 
 ## 更新
 
+* 2023.07.27 增加[WizardLM-v1.2](#ChatLLM).
 * 2023.07.25 增加相关[Awesome列表](#other-awesome)
 * 2023.07.24 增加[Llama2-chinese-chat、Jiang-chat](#ChatLLM)等对话语言模型。
 * 2023.07.19 增加[LLaMA2](#LLM),Meta 发布了大家期待已久的免费可商用版本 Llama 2。
