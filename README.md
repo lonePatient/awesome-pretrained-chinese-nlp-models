@@ -203,6 +203,9 @@
 
 |           模型           |  大小   | 时间    | 语言 |     领域     |                             下载                             |                           项目地址                           |                       机构/个人                        | 架构 |                             文献                             |
 | :----------------------: | :-----: | ------- | :--: | :----------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| BatGPT | 15B | 2023-07 | 中英 | 通用 | [ckpt](https://huggingface.co/MLP-lab/BatGPT-15B-sirius) | [BatGPT](https://github.com/zcli-charlie/BatGPT)![Star](https://img.shields.io/github/stars/zcli-charlie/BatGPT.svg?style=social&label=Star) | [上海交通大学](https://huggingface.co/MLP-lab) | ND | [Paper](https://arxiv.org/abs/2307.00360) |
+| Mozi | 7B | 2023-07 | 中英 | 科技 | [ckpt](https://huggingface.co/DataHammer/mozi_llama_7b) | [science-llm](https://github.com/gmftbyGMFTBY/science-llm)![Star](https://img.shields.io/github/stars/gmftbyGMFTBY/science-llm.svg?style=social&label=Star) | [GMFTBY](https://github.com/gmftbyGMFTBY) | CD |  |
+| StarGLM | 6B | 2023-07 | 中文 | 天文 | [ckpt](https://github.com/Yu-Yang-Li/StarGLM) | [StarGLM](https://github.com/Yu-Yang-Li/StarGLM)![Star](https://img.shields.io/github/stars/Yu-Yang-Li/StarGLM.svg?style=social&label=Star) | [LI YUYANG](https://github.com/Yu-Yang-Li) | ND |  |
 | WizardLM-v1.2 | 13B  | 2023-07 | 多语 | 通用 | [ckpt-13B](https://huggingface.co/WizardLM/WizardLM-13B-V1.2) | [WizardLM](https://github.com/nlpxucan/WizardLM)![Star](https://img.shields.io/github/stars/nlpxucan/WizardLM.svg?style=social&label=Star) | [operatorx](https://github.com/nlpxucan) |  CD  | [Paper](https://arxiv.org/pdf/2304.12244) |
 | TransGPT | 7B | 2023-07 | 中英 | 交通 | [ckpt](https://huggingface.co/DUOMO-Lab/TransGPT-v0) | [TransGPT](https://github.com/DUOMO/TransGPT)![Star](https://img.shields.io/github/stars/DUOMO/TransGPT.svg?style=social&label=Star) | [北京交通大学](https://github.com/DUOMO) | CD |  |
 | llama2-Chinese-chat | 13B | 2023-07 | 中英 | 通用 | [ckpt](https://www.codewithgpu.com/m/file/llama2-13b-Chinese-chat) | [llama2-Chinese-chat](https://github.com/CrazyBoyM/llama2-Chinese-chat)![Star](https://img.shields.io/github/stars/CrazyBoyM/llama2-Chinese-chat.svg?style=social&label=Star) | [Ke Bai](https://github.com/CrazyBoyM) | CD |  |
@@ -1543,6 +1546,7 @@ A foundation model is a large-scale pretrained model (e.g., BERT, DALL-E, GPT-3)
 
 ## 更新
 
+* 2023.07.29 增加[BatGPT，Mozi，StarGLM](#ChatLLM).
 * 2023.07.27 增加[WizardLM-v1.2](#ChatLLM).
 * 2023.07.25 增加相关[Awesome列表](#other-awesome)
 * 2023.07.24 增加[Llama2-chinese-chat、Jiang-chat](#ChatLLM)等对话语言模型。
