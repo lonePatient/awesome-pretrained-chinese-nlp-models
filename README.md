@@ -137,6 +137,7 @@
 
 |       模型        | 大小  | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             | 备注 |
 | :---------------: | :---: | ------- | :--: | ---- | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: | ---- |
+| Chinese-LLaMA-2 |  7B  | 2023-07 | 中英 | 通用 | [ckpt-7B](https://huggingface.co/ziqingyang/chinese-llama-2-7b) | [hinese-LLaMA-Alpaca-2](https://github.com/ymcui/Chinese-LLaMA-Alpaca-2)![Star](https://img.shields.io/github/stars/ymcui/Chinese-LLaMA-Alpaca-2.svg?style=social&label=Star) | [Yiming Cui](https://github.com/ymcui) |  CD  |      |      |
 | Jiang-base |  13B  | 2023-07 | 中文 | 通用 |        [ckpt](https://huggingface.co/kdf/jiang-base)         |    /     |    [知未智能](https://huggingface.co/kdf)     |  CD  |      |      |
 |    bwx     | 7/13B | 2023-07 | 中文 | 通用 | [ckpt-7B](https://huggingface.co/BlueWhaleX/bwx-7B-hf) [ckpt-13B](https://huggingface.co/BlueWhaleX/bwx-13B-hf) |    /     | [蓝鲸国数](https://huggingface.co/BlueWhaleX) |  CD  |      |      |
 | Llama2 | 7/13/70B | 2023-07 | 多语 | 通用 | [ckpt-7B](https://huggingface.co/llamaste/Llama-2-7b) [ckpt-13B](https://huggingface.co/llamaste/Llama-2-13b) [ckpt-70B](https://huggingface.co/llamaste/Llama-2-70b) | [llama](https://github.com/facebookresearch/llama)![Star](https://img.shields.io/github/stars/facebookresearch/llama.svg?style=social&label=Star) | [Meta](https://github.com/facebookresearch) |  CD  | [Paper](https://scontent-hkg4-1.xx.fbcdn.net/v/t39.2365-6/10000000_663429262362723_1696968207443577320_n.pdf?_nc_cat=101&ccb=1-7&_nc_sid=3c67a6&_nc_ohc=5ol-jUSglG4AX-br54S&_nc_ht=scontent-hkg4-1.xx&oh=00_AfDzh9f2kFTRk-FIieoySi12fhBjvJP4Bv-ZJTxRtdoXJg&oe=64BBB691) |      |
@@ -203,6 +204,7 @@
 
 |           模型           |  大小   | 时间    | 语言 |     领域     |                             下载                             |                           项目地址                           |                       机构/个人                        | 架构 |                             文献                             |
 | :----------------------: | :-----: | ------- | :--: | :----------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| Chinese-Alpaca-2 | 7B | 2023-07 | 中英 | 通用 | [ckpt-7B](https://huggingface.co/ziqingyang/chinese-alpaca-2-7b) | [hinese-LLaMA-Alpaca-2](https://github.com/ymcui/Chinese-LLaMA-Alpaca-2)![Star](https://img.shields.io/github/stars/ymcui/Chinese-LLaMA-Alpaca-2.svg?style=social&label=Star) | [Yiming Cui](https://github.com/ymcui) | CD |  |
 | AntX | 7/13B | 2023-07 | 中文 | 通用 | [ckpt-7B](https://huggingface.co/AntX-ai/AntX-7B) [ckpt-13B](https://huggingface.co/AntX-ai/AntX-13B) |    /     | [AntX.ai](https://huggingface.co/AntX-ai) |  CD  |      |
 | AutoAudit | 7B | 2023-07 | 中文 | 网络安全 | [ckpt](https://github.com/ddzipp/AutoAudit/blob/main) | [AutoAudit](https://github.com/ddzipp/AutoAudit)![Star](https://img.shields.io/github/stars/ddzipp/AutoAudit.svg?style=social&label=Star) | [Jiaying Li](https://github.com/ddzipp) | CD |  |
 | Lychee | 10B | 2023-07 | 中文 | 法律 | [ckpt](https://huggingface.co/law-llm/law-glm-10b) | [lychee_law](https://github.com/davidpig/lychee_law)![Star](https://img.shields.io/github/stars/davidpig/lychee_law.svg?style=social&label=Star) | [davidpig](https://github.com/davidpig) | ND |  |
@@ -1552,6 +1554,7 @@ A foundation model is a large-scale pretrained model (e.g., BERT, DALL-E, GPT-3)
 
 ## 更新
 
+* 2023.07.31 增加[Chinese-Llama-2](#ChatLLM).原版Llama-2的基础上扩充并优化了中文词表，使用了120G大规模中文数据进行增量预训练，相关模型支持4K上下文并可通过NTK方法最高扩展至18K+
 * 2023.07.29 增加[BatGPT，Mozi，StarGLM](#ChatLLM).
 * 2023.07.27 增加[WizardLM-v1.2](#ChatLLM).
 * 2023.07.25 增加相关[Awesome列表](#other-awesome)
