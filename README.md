@@ -137,6 +137,7 @@
 
 |       模型        | 大小  | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             | 备注 |
 | :---------------: | :---: | ------- | :--: | ---- | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: | ---- |
+| 通义千问-base |  7B  | 2023-08 | 中英 | 通用 | [ckpt](https://huggingface.co/Qwen/Qwen-7B) | [Qwen-7B](https://github.com/QwenLM/Qwen-7B)![Star](https://img.shields.io/github/stars/QwenLM/Qwen-7B.svg?style=social&label=Star) | [阿里云](https://github.com/QwenLM) |  CD  | [Report](https://github.com/QwenLM/Qwen-7B/blob/main/tech_memo.md) |      |
 | Linly-Chinese-LLaMA-2 | 7/13B | 2023-07 | 中英 | 通用 | [ckpt-7B](https://huggingface.co/Linly-AI/Chinese-LLaMA-2-7B-hf) [ckpt-13B](https://huggingface.co/Linly-AI/Chinese-LLaMA-2-13B-hf) | [Linly](https://github.com/CVI-SZU/Linly)[![Star](https://camo.githubusercontent.com/e3473350860cf86aa25f4d45ae282f1bdd4ca7f86121f5b69e81b64bf2aa780c/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f4356492d535a552f4c696e6c792e7376673f7374796c653d736f6369616c266c6162656c3d53746172)](https://camo.githubusercontent.com/e3473350860cf86aa25f4d45ae282f1bdd4ca7f86121f5b69e81b64bf2aa780c/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f4356492d535a552f4c696e6c792e7376673f7374796c653d736f6369616c266c6162656c3d53746172) | [深圳大学计算机视觉研究所](https://github.com/CVI-SZU) |  CD  |      |      |
 | Chinese-LLaMA-2 |  7B  | 2023-07 | 中英 | 通用 | [ckpt-7B](https://huggingface.co/ziqingyang/chinese-llama-2-7b) | [hinese-LLaMA-Alpaca-2](https://github.com/ymcui/Chinese-LLaMA-Alpaca-2)![Star](https://img.shields.io/github/stars/ymcui/Chinese-LLaMA-Alpaca-2.svg?style=social&label=Star) | [Yiming Cui](https://github.com/ymcui) |  CD  |      |      |
 | Jiang-base |  13B  | 2023-07 | 中文 | 通用 |        [ckpt](https://huggingface.co/kdf/jiang-base)         |    /     |    [知未智能](https://huggingface.co/kdf)     |  CD  |      |      |
@@ -205,6 +206,7 @@
 
 |           模型           |  大小   | 时间    | 语言 |     领域     |                             下载                             |                           项目地址                           |                       机构/个人                        | 架构 |                             文献                             |
 | :----------------------: | :-----: | ------- | :--: | :----------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| 通义千问-chat |  7B  | 2023-08 | 中英 | 通用 | [ckpt](https://huggingface.co/Qwen/Qwen-7B-Chat) | [Qwen-7B](https://github.com/QwenLM/Qwen-7B)![Star](https://img.shields.io/github/stars/QwenLM/Qwen-7B.svg?style=social&label=Star) | [阿里云](https://github.com/QwenLM) |  CD  | [Report](https://github.com/QwenLM/Qwen-7B/blob/main/tech_memo.md) |
 | Chinese-Alpaca-2 | 7B | 2023-07 | 中英 | 通用 | [ckpt-7B](https://huggingface.co/ziqingyang/chinese-alpaca-2-7b) | [hinese-LLaMA-Alpaca-2](https://github.com/ymcui/Chinese-LLaMA-Alpaca-2)![Star](https://img.shields.io/github/stars/ymcui/Chinese-LLaMA-Alpaca-2.svg?style=social&label=Star) | [Yiming Cui](https://github.com/ymcui) | CD |  |
 | AntX | 7/13B | 2023-07 | 中文 | 通用 | [ckpt-7B](https://huggingface.co/AntX-ai/AntX-7B) [ckpt-13B](https://huggingface.co/AntX-ai/AntX-13B) |    /     | [AntX.ai](https://huggingface.co/AntX-ai) |  CD  |      |
 | AutoAudit | 7B | 2023-07 | 中文 | 网络安全 | [ckpt](https://github.com/ddzipp/AutoAudit/blob/main) | [AutoAudit](https://github.com/ddzipp/AutoAudit)![Star](https://img.shields.io/github/stars/ddzipp/AutoAudit.svg?style=social&label=Star) | [Jiaying Li](https://github.com/ddzipp) | CD |  |
@@ -1557,6 +1559,7 @@ A foundation model is a large-scale pretrained model (e.g., BERT, DALL-E, GPT-3)
 
 ## 更新
 
+* 2023.08.03 增加[通义千问](#ChatLLM),通义千问-7B（Qwen-7B）是阿里云研发的通义千问大模型系列的70亿参数规模的模型。
 * 2023.07.31 增加[LLasM、Chinese-LLaVA](#MultiModal-ChatLLM)多模态大模型
 * 2023.07.31 增加[Chinese-Llama-2](#ChatLLM).原版Llama-2的基础上扩充并优化了中文词表，使用了120G大规模中文数据进行增量预训练，相关模型支持4K上下文并可通过NTK方法最高扩展至18K+
 * 2023.07.29 增加[BatGPT，Mozi，StarGLM](#ChatLLM).
