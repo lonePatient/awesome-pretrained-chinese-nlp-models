@@ -206,6 +206,7 @@
 
 |           模型           |  大小   | 时间    | 语言 |     领域     |                             下载                             |                           项目地址                           |                       机构/个人                        | 架构 |                             文献                             |
 | :----------------------: | :-----: | ------- | :--: | :----------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| XVERSE | 13B | 2023-08 | 多语 | 通用 | [ckpt](https://huggingface.co/xverse/XVERSE-13B) | [XVERSE-13B](https://github.com/xverse-ai/XVERSE-13B)![Star](https://img.shields.io/github/stars/xverse-ai/XVERSE-13B.svg?style=social&label=Star) | [元象科技](https://github.com/xverse-ai) | CD |  |
 | huozi | 7B | 2023-08 | 中英 | 通用 | [ckpt-sft](https://huggingface.co/HIT-SCIR/huozi-7b-sft) [ckpt-rlhf](https://huggingface.co/HIT-SCIR/huozi-7b-rlhf) | [huozi](https://github.com/HIT-SCIR/huozi)![Star](https://img.shields.io/github/stars/HIT-SCIR/huozi.svg?style=social&label=Star) | [哈工大](https://github.com/HIT-SCIR) | CD |  |
 | 通义千问-chat |  7B  | 2023-08 | 中英 | 通用 | [ckpt](https://huggingface.co/Qwen/Qwen-7B-Chat) | [Qwen-7B](https://github.com/QwenLM/Qwen-7B)![Star](https://img.shields.io/github/stars/QwenLM/Qwen-7B.svg?style=social&label=Star) | [阿里云](https://github.com/QwenLM) |  CD  | [Report](https://github.com/QwenLM/Qwen-7B/blob/main/tech_memo.md) |
 | Chinese-Alpaca-2 | 7B | 2023-07 | 中英 | 通用 | [ckpt-7B](https://huggingface.co/ziqingyang/chinese-alpaca-2-7b) | [hinese-LLaMA-Alpaca-2](https://github.com/ymcui/Chinese-LLaMA-Alpaca-2)![Star](https://img.shields.io/github/stars/ymcui/Chinese-LLaMA-Alpaca-2.svg?style=social&label=Star) | [Yiming Cui](https://github.com/ymcui) | CD |  |
@@ -684,6 +685,10 @@ An awesome reading list of Instruction Tuning (or, put it more comprehensively, 
 #### 21. Awesome-Foundation-Models![Star](https://img.shields.io/github/stars/uncbiag/Awesome-Foundation-Models.svg?style=social&label=Star) [github](https://github.com/uncbiag/Awesome-Foundation-Models)
 
 A foundation model is a large-scale pretrained model (e.g., BERT, DALL-E, GPT-3) that can be adapted to a wide range of downstream applications. This term was first popularized by the Stanford Institute for Human-Centered Artificial Intelligence. This repository maintains a curated list of foundation models for vision and language tasks. Research papers without code are not included.
+
+#### 22. Awesome-AI-Devtools![Star](https://img.shields.io/github/stars/jamesmurdza/awesome-ai-devtools.svg?style=social&label=Star) [github](https://github.com/jamesmurdza/awesome-ai-devtools)
+
+This is a curated list of AI-powered developer tools. These tools leverage AI to assist developers in tasks such as code completion, refactoring, debugging, documentation, and more.
 
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
@@ -1560,6 +1565,7 @@ A foundation model is a large-scale pretrained model (e.g., BERT, DALL-E, GPT-3)
 
 ## 更新
 
+* 2023.08.07 增加[XVERSE-13B](#ChatLLM),XVERSE-13B,它支持40多种语言、8192上下文长度。在多项中英文测评中，性能超过了同尺寸（130亿参数）的LLama2、Baichuan等。
 * 2023.08.03 增加[通义千问](#ChatLLM),通义千问-7B（Qwen-7B）是阿里云研发的通义千问大模型系列的70亿参数规模的模型。
 * 2023.07.31 增加[LLasM、Chinese-LLaVA](#MultiModal-ChatLLM)多模态大模型
 * 2023.07.31 增加[Chinese-Llama-2](#ChatLLM).原版Llama-2的基础上扩充并优化了中文词表，使用了120G大规模中文数据进行增量预训练，相关模型支持4K上下文并可通过NTK方法最高扩展至18K+
