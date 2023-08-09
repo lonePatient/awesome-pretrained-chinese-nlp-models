@@ -207,6 +207,10 @@
 
 |           模型           |  大小   | 时间    | 语言 |     领域     |                             下载                             |                           项目地址                           |                       机构/个人                        | 架构 |                             文献                             |
 | :----------------------: | :-----: | ------- | :--: | :----------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| QiaoBan | 7B | 2023-08 | 中文 | 儿童情感 | [TODO]() | [QiaoBen](https://github.com/HIT-SCIR-SC/QiaoBan)![Star](https://img.shields.io/github/stars/HIT-SCIR-SC/QiaoBan.svg?style=social&label=Star) | [哈尔滨工业大学](https://github.com/HIT-SCIR-SC) |  |  |
+| HuangDi | 13B | 2023-08 | 中文 | 中医 | [ckpt](https://pan.baidu.com/s/1Mzlk5FREpTPa4M7KnMooqQ?pwd=erit) | [HuangDI](https://github.com/Zlasejd/HuangDI)![Star](https://img.shields.io/github/stars/Zlasejd/HuangDI.svg?style=social&label=Star) | [Zlasejd](https://github.com/Zlasejd) |  |  |
+| ZhongJing |  | 2023-08 | 中文 | 中医 | [TODO]() | [CMLM-ZhongJing](https://github.com/pariskang/CMLM-ZhongJing)![Star](https://img.shields.io/github/stars/pariskang/CMLM-ZhongJing.svg?style=social&label=Star) | [复旦大学](pariskang) |  |  |
+| TCMLLM | 6B | 2023-08 | 中文 | 中医 | [ckpt](https://pan.baidu.com/s/1QFx-206Ww9Xt-7_Z0RF85g) | [TCMLLM](https://github.com/2020MEAI/TCMLLM)![Star](https://img.shields.io/github/stars/2020MEAI/TCMLLM.svg?style=social&label=Star) | [2020MEAI](https://github.com/2020MEAI) | ND |  |
 |     TigerBot-chat-13B      |   13B    | 2023-07 | 中英 |     通用     | [ckpt](https://huggingface.co/TigerResearch/tigerbot-13b-chat) | [TigerBot](https://github.com/TigerResearch/TigerBot)![Star](https://img.shields.io/github/stars/TigerResearch/TigerBot.svg?style=social&label=Star) |      [虎博科技](https://github.com/TigerResearch)      |  CD  |                                                              |
 | XVERSE | 13B | 2023-08 | 多语 | 通用 | [ckpt](https://huggingface.co/xverse/XVERSE-13B) | [XVERSE-13B](https://github.com/xverse-ai/XVERSE-13B)![Star](https://img.shields.io/github/stars/xverse-ai/XVERSE-13B.svg?style=social&label=Star) | [元象科技](https://github.com/xverse-ai) | CD |  |
 | huozi | 7B | 2023-08 | 中英 | 通用 | [ckpt-sft](https://huggingface.co/HIT-SCIR/huozi-7b-sft) [ckpt-rlhf](https://huggingface.co/HIT-SCIR/huozi-7b-rlhf) | [huozi](https://github.com/HIT-SCIR/huozi)![Star](https://img.shields.io/github/stars/HIT-SCIR/huozi.svg?style=social&label=Star) | [哈工大](https://github.com/HIT-SCIR) | CD |  |
@@ -691,6 +695,10 @@ A foundation model is a large-scale pretrained model (e.g., BERT, DALL-E, GPT-3)
 #### 22. Awesome-AI-Devtools![Star](https://img.shields.io/github/stars/jamesmurdza/awesome-ai-devtools.svg?style=social&label=Star) [github](https://github.com/jamesmurdza/awesome-ai-devtools)
 
 This is a curated list of AI-powered developer tools. These tools leverage AI to assist developers in tasks such as code completion, refactoring, debugging, documentation, and more.
+
+#### 23. Awesome Autonomous GPT![Star](https://img.shields.io/github/stars/jScarletPan/awesome-autonomous-gpt.svg?style=social&label=Star) [github](https://github.com/ScarletPan/awesome-autonomous-gpt)
+
+A curated list of awesome projects and resources related to autonomous AI agents.
 
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
