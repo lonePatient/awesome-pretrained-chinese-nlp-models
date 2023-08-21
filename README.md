@@ -209,6 +209,7 @@
 
 |           模型           |  大小   | 时间    | 语言 |     领域     |                             下载                             |                           项目地址                           |                       机构/个人                        | 架构 |                             文献                             |
 | :----------------------: | :-----: | ------- | :--: | :----------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| 智海-录问 |  7B  | 2023-08 | 中文 | 法律 | [ckpt](https://pan.baidu.com/s/16lwM2rPnSq9u-UbtWbZgig) | [wisdomInterrogatory](https://github.com/zhihaiLLM/wisdomInterrogatory)![Star](https://img.shields.io/github/stars/zhihaiLLM/wisdomInterrogatory.svg?style=social&label=Star) | [zhihaiLLM](https://github.com/zhihaiLLM) |  CD  |      |
 | WizardMath-V1.0 | 7/13/70B | 2023-08 | 多语 | 数学 | [ckpt-7B](https://huggingface.co/WizardLM/WizardMath-7B-V1.0) [ckpt-13B](https://huggingface.co/WizardLM/WizardMath-13B-V1.0) [ckpt-70B](https://huggingface.co/WizardLM/WizardMath-70B-V1.0) | [WizardLM](https://github.com/nlpxucan/WizardLM)![Star](https://img.shields.io/github/stars/nlpxucan/WizardLM.svg?style=social&label=Star) | [operatorx](https://github.com/nlpxucan) | CD |  |
 | Aquila-Chat-33B |   33B    | 2023-08 | 中英 | 通用 |                           [TODO]()                           | [Aquila](https://github.com/FlagAI-Open/FlagAI/tree/master/examples/Aquila)![Star](https://img.shields.io/github/stars/FlagAI-Open/FlagAI.svg?style=social&label=Star) | [FlagAI](https://github.com/FlagAI-Open) | CD |  |
 | vicuna-V1.5-16K | 7/13B | 2023-08 | 多语 | 通用 | [ckpt-7B-16K](https://huggingface.co/lmsys/vicuna-7b-v1.5-16k) [ckpt-13B-16K](https://huggingface.co/lmsys/vicuna-13b-v1.5-16k) | [FastChat](https://github.com/lm-sys/FastChat)![Star](https://img.shields.io/github/stars/lm-sys/FastChat.svg?style=social&label=Star) | [lm-sys](https://github.com/lm-sys) |  CD  | [Paper](https://arxiv.org/abs/2306.05685) |
@@ -1584,6 +1585,7 @@ A curated list of awesome projects and resources related to autonomous AI agents
 
 ## 更新
 
+* 2023.08.21 增加[智海-录问](#ChatLLM),智海-录问(wisdomInterrogatory)是由浙江大学、阿里巴巴达摩院以及华院计算三家单位共同设计研发的法律大模型。
 * 2023.08.15 增加[WizardMath](#ChatLLM),
 * 2023.08.09 增加[TigerBot-13B](#ChatLLM),在Llama-2的基础上以虎博积累的技术和数据继续训练，不但保持了Llama-2出色的英文能力，更是在中文能力上填补了Llama-2的不足，各项主流中文任务中超过Llama-2的49%，在开源同类模型中具有竞争力。
 * 2023.08.07 增加[XVERSE-13B](#ChatLLM),XVERSE-13B,它支持40多种语言、8192上下文长度。在多项中英文测评中，性能超过了同尺寸（130亿参数）的LLama2、Baichuan等。
