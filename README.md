@@ -209,6 +209,7 @@
 
 |           模型           |  大小   | 时间    | 语言 |     领域     |                             下载                             |                           项目地址                           |                       机构/个人                        | 架构 |                             文献                             |
 | :----------------------: | :-----: | ------- | :--: | :----------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| sqlcoder | 15B | 2023-08 | 中英 | SQL-Code | [ckpt](https://huggingface.co/defog/sqlcoder) | [sqlcoder](https://github.com/defog-ai/sqlcoder) | [Defog.ai](https://github.com/defog-ai) | CD |  |
 | openbuddy | 3/7/13/40B | 2023-08 | 多语 | 通用 | [ckpt](https://github.com/OpenBuddy/OpenBuddy/blob/main/models.md) | [OpenBuddy](https://github.com/OpenBuddy/OpenBuddy)![Star](https://img.shields.io/github/stars/OpenBuddy/OpenBuddy.svg?style=social&label=Star) | [OpenBuddy](https://github.com/OpenBuddy) |  CD  |  |
 | 智海-录问 |  7B  | 2023-08 | 中文 | 法律 | [ckpt](https://pan.baidu.com/s/16lwM2rPnSq9u-UbtWbZgig) | [wisdomInterrogatory](https://github.com/zhihaiLLM/wisdomInterrogatory)![Star](https://img.shields.io/github/stars/zhihaiLLM/wisdomInterrogatory.svg?style=social&label=Star) | [zhihaiLLM](https://github.com/zhihaiLLM) |  CD  |      |
 | WizardMath-V1.0 | 7/13/70B | 2023-08 | 多语 | 数学 | [ckpt-7B](https://huggingface.co/WizardLM/WizardMath-7B-V1.0) [ckpt-13B](https://huggingface.co/WizardLM/WizardMath-13B-V1.0) [ckpt-70B](https://huggingface.co/WizardLM/WizardMath-70B-V1.0) | [WizardLM](https://github.com/nlpxucan/WizardLM)![Star](https://img.shields.io/github/stars/nlpxucan/WizardLM.svg?style=social&label=Star) | [operatorx](https://github.com/nlpxucan) | CD |  |
@@ -1588,6 +1589,7 @@ A curated list of awesome projects and resources related to autonomous AI agents
 
 ## 更新
 
+* 2023.08.25 增加[sqlcoder](#ChatLLM),一个 SOTA 大型语言模型， SQLCoder 将自然语言问题转换为 SQL 查询。在开发者的开源评估框架 SQLEval 中，SQLCoder 的性能明显优于所有主要的开源模型，并且优于 OpenAI 的 GPT-3.5。
 * 2023.08.23 增加[Qwen-VL](#MultiModal-ChatLLM),Qwen-VL 是阿里云研发的大规模视觉语言模型（Large Vision Language Model, LVLM）。Qwen-VL 可以以图像、文本、检测框作为输入，并以文本和检测框作为输出。
 * 2023.08.21 增加[智海-录问](#ChatLLM),智海-录问(wisdomInterrogatory)是由浙江大学、阿里巴巴达摩院以及华院计算三家单位共同设计研发的法律大模型。
 * 2023.08.15 增加[WizardMath](#ChatLLM),
