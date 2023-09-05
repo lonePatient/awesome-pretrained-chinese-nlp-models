@@ -24,6 +24,8 @@
 
 + [开源中文指令数据集](#中文指令数据集)
 
++ [个人推荐](#个人推荐)
+  
 + [Other-Awesome](#other-awesome)
 
 + <details><summary>NLU系列</summary>
@@ -212,6 +214,7 @@
 
 |           模型           |  大小   | 时间    | 语言 |     领域     |                             下载                             |                           项目地址                           |                       机构/个人                        | 架构 |                             文献                             |
 | :----------------------: | :-----: | ------- | :--: | :----------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| EcomGPT | 7B | 2023-09 | 中英 | 电商 | [TODO] | [EcomGPT](https://github.com/Alibaba-NLP/EcomGPT)![Star](https://img.shields.io/github/stars/Alibaba-NLP/EcomGPT.svg?style=social&label=Star) | [Alibaba](https://github.com/Alibaba-NLP) |  |  |
 | Chinese-Alpaca-2-16K | 7/13B | 2023-09 | 中英 | 通用 | [ckpt-7b](https://huggingface.co/ziqingyang/chinese-alpaca-2-7b-16k) [ckpt-13b](https://huggingface.co/ziqingyang/chinese-alpaca-2-13b-16k) | [Chinese-LLaMA-Alpaca-2](https://github.com/ymcui/Chinese-LLaMA-Alpaca-2)[![Star](https://camo.githubusercontent.com/7ff8758af0b2252b116aa7edcb250296666b1aa7b628a867f518dc87357cfc48/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f796d6375692f4368696e6573652d4c4c614d412d416c706163612d322e7376673f7374796c653d736f6369616c266c6162656c3d53746172)](https://camo.githubusercontent.com/7ff8758af0b2252b116aa7edcb250296666b1aa7b628a867f518dc87357cfc48/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f796d6375692f4368696e6573652d4c4c614d412d416c706163612d322e7376673f7374796c653d736f6369616c266c6162656c3d53746172) |            [Yiming Cui](https://github.com/ymcui)            | CD |  |
 |      InternLM-Chat-8k      |   7B    | 2023-08 | 中文 |     通用     |   [ckpt](https://huggingface.co/internlm/internlm-chat-7b-8k)   | [InternLM](https://github.com/InternLM/InternLM)![Star](https://img.shields.io/github/stars/InternLM/InternLM.svg?style=social&label=Star) |   [上海人工智能实验室](https://github.com/InternLM)    |  CD  | [InternLM-techreport](https://github.com/InternLM/InternLM-techreport/tree/main) |
 |      InternLM-Chat-v1.1      |   7B    | 2023-08 | 中文 |     通用     |   [ckpt](https://huggingface.co/internlm/internlm-chat-7b-v1_1)   | [InternLM](https://github.com/InternLM/InternLM)![Star](https://img.shields.io/github/stars/InternLM/InternLM.svg?style=social&label=Star) |   [上海人工智能实验室](https://github.com/InternLM)    |  CD  | [InternLM-techreport](https://github.com/InternLM/InternLM-techreport/tree/main) |
@@ -435,6 +438,24 @@
 |       train_0.5M_CN        | 0.5M  | 2023-03 | 中文 | [dataset](https://huggingface.co/datasets/BelleGroup/train_0.5M_CN) |        [BELLE](https://github.com/LianjiaTech/BELLE)         |      [Ke Technologies](https://github.com/LianjiaTech)       |                                               |
 |   HC3 人类-ChatGPT 问答    |   /   | 2023-03 | 中文 | [dataset](https://www.modelscope.cn/datasets/simpleai/HC3-Chinese/summary) | [chatgpt-comparison-detection](https://github.com/Hello-SimpleAI/chatgpt-comparison-detection) |        [SimpleAI](https://github.com/Hello-SimpleAI)         |                                               |
 |     firefly-train-1.1M     | 1.1M  | 2023-03 | 中文 | [dataset](https://huggingface.co/datasets/YeungNLP/firefly-train-1.1M) |      [Firefly](https://github.com/yangjianxin1/Firefly)      |       [Jianxin Yang](https://github.com/yangjianxin1)        |                                               |
+
+<p align="right">[<a href="#top">Back to Top</a>]</p>
+
+## 个人推荐
+
+> 不同任务实验过程中，相对而言整体效果还不错的模型列表。
+> 仅个人实验数据结果，主要目的是为了方便后续快速跟踪最新版本进展。
+
+|          模型          | 最新时间 | 大小        |                           项目地址                           |                           机构单位                           |
+| :--------------------: | -------- | ----------- | :----------------------------------------------------------: | :----------------------------------------------------------: |
+|        WizardLM        | 2023-08  | 7/13/30/70B | [WizardLM](https://github.com/nlpxucan/WizardLM)![Star](https://img.shields.io/github/stars/nlpxucan/WizardLM.svg?style=social&label=Star) |                             微软                             |
+|         Vicuna         | 2023-08  | 7/13/33B    | [FastChat](https://github.com/lm-sys/FastChat)![Star](https://img.shields.io/github/stars/lm-sys/FastChat.svg?style=social&label=Star) | [Large Model Systems Organization](https://github.com/lm-sys) |
+|         YuLan          | 2023-08  | 13/65B      | [YuLan-Chat](https://github.com/RUC-GSAI/YuLan-Chat)![Star](https://img.shields.io/github/stars/RUC-GSAI/YuLan-Chat.svg?style=social&label=Star) | [中国人民大学高瓴人工智能学院](https://github.com/RUC-GSAI)  |
+|        InternLM        | 2023-09  | 7B          | [InternLM](https://github.com/InternLM/InternLM)![Star](https://img.shields.io/github/stars/InternLM/InternLM.svg?style=social&label=Star) |      [上海人工智能实验室](https://github.com/InternLM)       |
+|        TigerBot        | 2023-08  | 7/13B       | [TigerBot](https://github.com/TigerResearch/TigerBot)![Star](https://img.shields.io/github/stars/TigerResearch/TigerBot.svg?style=social&label=Star) |         [虎博科技](https://github.com/TigerResearch)         |
+|        Baichuan        | 2023-08  | 7/13B       | [Baichuan-13B](https://github.com/baichuan-inc/Baichuan-13B)![Star](https://img.shields.io/github/stars/baichuan-inc/Baichuan-13B.svg?style=social&label=Star) |         [百川智能](https://github.com/baichuan-inc)          |
+|        ChatGLM         | 2023-07  | 6B          | [ChatGLM2-6B](https://github.com/THUDM/ChatGLM2-6B)![Star](https://img.shields.io/github/stars/THUDM/ChatGLM2-6B.svg?style=social&label=Star) |             [清华大学](https://github.com/THUDM)             |
+| Chinese-LLaMA-Alpaca-2 | 2023-09  | 7/13B       | [Chinese-LLaMA-Alpaca-2](https://github.com/ymcui/Chinese-LLaMA-Alpaca-2)![Star](https://img.shields.io/github/stars/ymcui/Chinese-LLaMA-Alpaca-2.svg?style=social&label=Star) |                     哈工大讯飞联合实验室                     |
 
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
