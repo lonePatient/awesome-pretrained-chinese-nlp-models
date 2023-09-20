@@ -139,6 +139,7 @@
 
 |       模型        | 大小  | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             | 备注 |
 | :---------------: | :---: | ------- | :--: | ---- | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: | ---- |
+| OpenBA-LM | 15B  | 2023-09 | 中英 | 通用 | [ckpt](https://huggingface.co/OpenBA/OpenBA-LM) | [OpenBA](https://github.com/OpenNLG/OpenBA)![Star](https://img.shields.io/github/stars/OpenNLG/OpenBA.svg?style=social&label=Star) | [OpenNLG Group](https://github.com/OpenNLG) |  ED  | [Paper](https://arxiv.org/abs/2309.10706) |      |
 |     TigerBot-Base-70B      |  80B   | 2023-09 | 多语 | 通用 | [ckpt](https://huggingface.co/TigerResearch/tigerbot-70b-base) | [TigerBot](https://github.com/TigerResearch/TigerBot)![Star](https://img.shields.io/github/stars/TigerResearch/TigerBot.svg?style=social&label=Star) |         [虎博科技](https://github.com/TigerResearch)         |  CD  |                                              [Paper](https://github.com/TigerResearch/TigerBot/wiki/TigerBot%E2%80%9070B%E5%8F%91%E5%B8%83%EF%BC%81)                |      |
 |  FLM   |   101B    | 2023-09 | 中英 | 通用 |        [ckpt](https://huggingface.co/CofeAI/FLM-101B)        |    /     |           [CofeAI](https://huggingface.co/CofeAI)            |  CD  |      |      |
 | falcon | 7/40/180B | 2023-09 | 多语 | 通用 | [ckpt-7b](https://huggingface.co/tiiuae/falcon-7b) [ckpt-40b](https://huggingface.co/tiiuae/falcon-40b) [ckpt-180b](https://huggingface.co/tiiuae/falcon-180B) |    /     | [Technology Innovation Institute](https://github.com/tiiuae) |  CD  |      |      |
@@ -218,6 +219,7 @@
 
 |           模型           |  大小   | 时间    | 语言 |     领域     |                             下载                             |                           项目地址                           |                       机构/个人                        | 架构 |                             文献                             |
 | :----------------------: | :-----: | ------- | :--: | :----------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| OpenBA-chat | 15B | 2023-09 | 中英 | 通用 | [TODO]() | [OpenBA](https://github.com/OpenNLG/OpenBA)![Star](https://img.shields.io/github/stars/OpenNLG/OpenBA.svg?style=social&label=Star) | [OpenNLG Group](https://github.com/OpenNLG) | ED | [Paper](https://arxiv.org/abs/2309.10706) |
 | 夫子•明察 | 2023-09 | 6B | 中文 | 司法 | [ckpt](https://huggingface.co/SDUIRLab/fuzi.mingcha-v1.0) | [fuzi.mingcha](https://github.com/irlab-sdu/fuzi.mingcha)![Star](https://img.shields.io/github/stars/irlab-sdu/fuzi.mingcha.svg?style=social&label=Star) | [山东大学](https://github.com/irlab-sdu) | ND |  |
 | 仲景 | 2023-09 | 13B | 中文 | 医学 | [ckpt](https://huggingface.co/Suprit) | [Zhongjing](https://github.com/SupritYoung/Zhongjing)![Star](https://img.shields.io/github/stars/SupritYoung/Zhongjing.svg?style=social&label=Star) | [Songhua Yang](https://github.com/SupritYoung) | CD | [Paper](https://arxiv.org/abs/2308.03549) |
 | WeMix-LLaMA2 | 7/70B | 2023-09 | 中英 | 通用 | [ckpt-7b](https://huggingface.co/Alpha-VLLM/WeMix-LLaMA2-7B) [ckpt-70b](https://huggingface.co/Alpha-VLLM/WeMix-LLaMA2-70B) | [WeMix-LLM](https://github.com/Alpha-VLLM/WeMix-LLM)![Star](https://img.shields.io/github/stars/Alpha-VLLM/WeMix-LLM.svg?style=social&label=Star) | [Alpha-VLLM](https://github.com/Alpha-VLLM) | CD |  |
@@ -1648,7 +1650,7 @@ A curated list of awesome projects and resources related to autonomous AI agents
 
 ## 更新
 
-* 2023.09.20 增加[InternLM-20B](#ChatLLM),InternLM-20B 已发布，包括基础版和对话版。.
+* 2023.09.20 增加[InternLM-20B、OpenBA](#ChatLLM),InternLM-20B已发布，包括基础版和对话版。OpenBA是一个从头开始预训练的开源15B双语非对称端到端模型。
 * 2023.09.08 增加[FLM-101B、falcon-180B、Openbuddy-70B、TigerBot-70B](#ChatLLM)
 * 2023.09.06 增加[Baichuan2](#ChatLLM),Baichuan 2 是百川智能推出的新一代开源大语言模型，采用 2.6 万亿 Tokens 的高质量语料训练。
 * 2023.09.01 增加[DISC-MedLLM、YuLan-Chat-2、Chinese-Alpaca-2-16K](#ChatLLM),[Vally](#MultiModal-ChatLLM)
