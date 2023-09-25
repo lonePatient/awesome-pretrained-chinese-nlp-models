@@ -220,6 +220,7 @@
 
 |           模型           |  大小   | 时间    | 语言 |     领域     |                             下载                             |                           项目地址                           |                       机构/个人                        | 架构 |                             文献                             |
 | :----------------------: | :-----: | ------- | :--: | :----------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| Colossal-LLaMA-2 | 7B | 2023-09 | 中英 | 通用 | [ckpt](https://huggingface.co/hpcai-tech/Colossal-LLaMA-2-7b-base) | [ColossalAI](https://github.com/hpcaitech/ColossalAI)![Star](https://img.shields.io/github/stars/hpcaitech/ColossalAI.svg?style=social&label=Star) | [HPC-AI Tech](https://github.com/hpcaitech) | CD | [Blog](https://www.hpc-ai.tech/blog/one-half-day-of-training-using-a-few-hundred-dollars-yields-similar-results-to-mainstream-large-models-open-source-and-commercial-free-domain-specific-llm-solution) |
 | XuanYuan-chat | 70B  | 2023-09 | 中文 | 金融 | [TODO]() | [XuanYuan](https://github.com/Duxiaoman-DI/XuanYuan)[![Star](https://camo.githubusercontent.com/ed6aa436a474d60d0574088560dfb3b3e74dc71694632a07348cdbf133aff2df/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f44757869616f6d616e2d44492f5875616e5975616e2e7376673f7374796c653d736f6369616c266c6162656c3d53746172)](https://camo.githubusercontent.com/ed6aa436a474d60d0574088560dfb3b3e74dc71694632a07348cdbf133aff2df/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f44757869616f6d616e2d44492f5875616e5975616e2e7376673f7374796c653d736f6369616c266c6162656c3d53746172) | [度小满](https://github.com/Duxiaoman-DI) |  CD  | [Report](https://github.com/Duxiaoman-DI/XuanYuan/blob/main/xuanyuan_70b_report.md) |
 | OpenBA-chat | 15B | 2023-09 | 中英 | 通用 | [TODO]() | [OpenBA](https://github.com/OpenNLG/OpenBA)![Star](https://img.shields.io/github/stars/OpenNLG/OpenBA.svg?style=social&label=Star) | [OpenNLG Group](https://github.com/OpenNLG) | ED | [Paper](https://arxiv.org/abs/2309.10706) |
 | 夫子•明察 | 2023-09 | 6B | 中文 | 司法 | [ckpt](https://huggingface.co/SDUIRLab/fuzi.mingcha-v1.0) | [fuzi.mingcha](https://github.com/irlab-sdu/fuzi.mingcha)![Star](https://img.shields.io/github/stars/irlab-sdu/fuzi.mingcha.svg?style=social&label=Star) | [山东大学](https://github.com/irlab-sdu) | ND |  |
@@ -1653,6 +1654,7 @@ A curated list of awesome projects and resources related to autonomous AI agents
 
 ## 更新
 
+* 2023.09.25 增加[Colossal-LLaMA-2-7B](#ChatLLM),相较于原始LLaMA-2，在成功提升中文能力的基础上，进一步提升其英文能力，性能可与开源社区同规模预训练SOTA模型媲美。
 * 2023.09.20 增加[InternLM-20B、OpenBA](#ChatLLM),InternLM-20B已发布，包括基础版和对话版。OpenBA是一个从头开始预训练的开源15B双语非对称端到端模型。
 * 2023.09.08 增加[FLM-101B、falcon-180B、Openbuddy-70B、TigerBot-70B](#ChatLLM)
 * 2023.09.06 增加[Baichuan2](#ChatLLM),Baichuan 2 是百川智能推出的新一代开源大语言模型，采用 2.6 万亿 Tokens 的高质量语料训练。
