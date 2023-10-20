@@ -10,11 +10,11 @@
 
 + [通用基础大模型](#Base-LLM)
 
-+ [垂直基础大模型](#Domain-Base-LLM)
++ [领域基础大模型](#Domain-Base-LLM)
 
 + [通用对话大模型](#ChatLLM)
 
-+ [垂直对话大模型](#Domain-ChatLLM)
++ [领域对话大模型](#Domain-ChatLLM)
 
 + [多模态对话大模型](#MultiModal-ChatLLM)
 
