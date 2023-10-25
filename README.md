@@ -233,6 +233,7 @@
 
 |           模型           |    大小     | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             |
 | :----------------------: | :---------: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| Zhiyin-chat | 7B | 2023-10 | 中英 | 通用 | [ckpt](https://huggingface.co/HCCL-NLP/Zhiyin-7B-Chat) | [Zhiyin](https://github.com/HCCL-NLP/Zhiyin)![Star](https://img.shields.io/github/stars/HCCL-NLP/Zhiyin.svg?style=social&label=Star) | [中科院声学所](https://github.com/HCCL-NLP) | CD |  |
 |        Ziya2-Chat        |     13B     | 2023-10 | 中英 | 通用 | [ckpt](https://modelscope.cn/models/Fengshenbang/Ziya2-13B-Chat/summary) | [Fengshenbang-LM](https://github.com/IDEA-CCNL/Fengshenbang-LM)[![Star](https://camo.githubusercontent.com/326d9c13b0dcce274258fedaf46c1d0e5ace38ca60d5a6b5b5ac3914c96874d7/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f494445412d43434e4c2f46656e677368656e62616e672d4c4d2e7376673f7374796c653d736f6369616c266c6162656c3d53746172)](https://camo.githubusercontent.com/326d9c13b0dcce274258fedaf46c1d0e5ace38ca60d5a6b5b5ac3914c96874d7/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f494445412d43434e4c2f46656e677368656e62616e672d4c4d2e7376673f7374796c653d736f6369616c266c6162656c3d53746172) |          [IDEA研究院](https://github.com/IDEA-CCNL)          |  CD  |                                                              |
 |     AquilaChat2-16K      |    7/34B    | 2023-10 | 中英 | 通用 | [ckpt-7B](https://model.baai.ac.cn/model-detail/100120) [ckpt-13B](https://model.baai.ac.cn/model-detail/100121) | [Aquila2](https://github.com/FlagAI-Open/Aquila2)![Star](https://img.shields.io/github/stars/FlagAI-Open/Aquila2.svg?style=social&label=Star) |           [FlagAI](https://github.com/FlagAI-Open)           |  CD  |                                                              |
 |       AquilaChat2        |    7/34B    | 2023-10 | 中英 | 通用 | [ckpt-7B](https://huggingface.co/BAAI/AquilaChat2-7B) [ckpt-13B](https://huggingface.co/BAAI/AquilaChat2-34B) | [Aquila2](https://github.com/FlagAI-Open/Aquila2)![Star](https://img.shields.io/github/stars/FlagAI-Open/Aquila2.svg?style=social&label=Star) |           [FlagAI](https://github.com/FlagAI-Open)           |  CD  |                                                              |
@@ -330,6 +331,7 @@
 
 |           模型           |  大小   | 时间    | 语言 |     领域     |                             下载                             |                           项目地址                           |                       机构/个人                        | 架构 |                             文献                             |
 | :----------------------: | :-----: | ------- | :--: | :----------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| zhilu | 13B | 2023-10 | 中英 | 金融 | [ckpt](https://huggingface.co/SYSU-MUCFC-FinTech-Research-Center) | / | [SYSU-MUCFC-FinTech-Research-Center](https://huggingface.co/SYSU-MUCFC-FinTech-Research-Center) | CD |  |
 | TestGPT | 7B | 2023-10 | 中文 | 测试 | [ckpt](https://huggingface.co/codefuse-ai/TestGPT-7B) | [Test-Agent](https://github.com/codefuse-ai/Test-Agent)![Star](https://img.shields.io/github/stars/codefuse-ai/Test-Agent.svg?style=social&label=Star) | [codefuse-ai](https://github.com/codefuse-ai) | CD |  |
 | cross | 7/13B | 2023-10 | 多语 | 数学 | [ckpt](https://huggingface.co/Mathoctopus) | / | [Mathoctopus](https://huggingface.co/Mathoctopus) | CD |  |
 | CodeFuse | 13/14/15/34B | 2023-10 | 中文 | 代码 | [ckpt](https://huggingface.co/codefuse-ai) | [MFTCoder](https://github.com/codefuse-ai/MFTCoder)![Star](https://img.shields.io/github/stars/codefuse-ai/MFTCoder.svg?style=social&label=Star) | [codefuse-ai](https://github.com/codefuse-ai) | CD |  |
@@ -1678,6 +1680,7 @@ A curated list of awesome projects and resources related to autonomous AI agents
 
 ## 更新
 
+* 2023.10.25 增加[zhiyin、zhilu]()
 * 2023.10.20 增加[cross、taiyi、fuyu、Ziya-visual、CodeShell、CogVLM]()
 * 2023.10.17 增加[Ziya2-13B-Base、Ziya2-13B-Chat](#ChatLLM)
 * 2023.10.12 增加[AquilaChat2-7/13B、AquilaChat2-16K、Vulture-180B](#ChatLLM)
