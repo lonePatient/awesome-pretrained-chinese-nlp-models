@@ -235,6 +235,8 @@
 
 |           模型           |    大小     | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             |
 | :----------------------: | :---------: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| Zephyr | 7B | 2023-10 | 主要英语 | 通用 | [ckpt](https://huggingface.co/HuggingFaceH4/zephyr-7b-beta) | [alignment-handbook](https://github.com/huggingface/alignment-handbook)![Star](https://img.shields.io/github/stars/huggingface/alignment-handbook.svg?style=social&label=Star) | [Hugging Face H4](https://huggingface.co/HuggingFaceH4) | CD | [Paper](https://arxiv.org/abs/2310.16944) |
+| Mistral | 7B | 2023-10 | 主要英语 | 通用 | [ckpt](https://huggingface.co/mistralai) | [mistral-src](https://github.com/mistralai/mistral-src)![Star](https://img.shields.io/github/stars/mistralai/mistral-src.svg?style=social&label=Star) | [Mistral AI](https://github.com/mistralai) | CD | [Paper](https://arxiv.org/abs/2310.06825) |
 | chatglm3 | 6B | 2023-10 | 中英 | 通用 | [ckpt](https://huggingface.co/THUDM) | [ChatGLM3](https://github.com/THUDM/ChatGLM3)![Star](https://img.shields.io/github/stars/THUDM/ChatGLM3.svg?style=social&label=Star) | [THUDM](https://github.com/THUDM) | ND |  |
 | Zhiyin-chat | 7B | 2023-10 | 中英 | 通用 | [ckpt](https://huggingface.co/HCCL-NLP/Zhiyin-7B-Chat) | [Zhiyin](https://github.com/HCCL-NLP/Zhiyin)![Star](https://img.shields.io/github/stars/HCCL-NLP/Zhiyin.svg?style=social&label=Star) | [中科院声学所](https://github.com/HCCL-NLP) | CD |  |
 |        Ziya2-Chat        |     13B     | 2023-10 | 中英 | 通用 | [ckpt](https://modelscope.cn/models/Fengshenbang/Ziya2-13B-Chat/summary) | [Fengshenbang-LM](https://github.com/IDEA-CCNL/Fengshenbang-LM)[![Star](https://camo.githubusercontent.com/326d9c13b0dcce274258fedaf46c1d0e5ace38ca60d5a6b5b5ac3914c96874d7/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f494445412d43434e4c2f46656e677368656e62616e672d4c4d2e7376673f7374796c653d736f6369616c266c6162656c3d53746172)](https://camo.githubusercontent.com/326d9c13b0dcce274258fedaf46c1d0e5ace38ca60d5a6b5b5ac3914c96874d7/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f494445412d43434e4c2f46656e677368656e62616e672d4c4d2e7376673f7374796c653d736f6369616c266c6162656c3d53746172) |          [IDEA研究院](https://github.com/IDEA-CCNL)          |  CD  |                                                              |
@@ -1685,6 +1687,7 @@ A curated list of awesome projects and resources related to autonomous AI agents
 
 ## 更新
 
+* 2023.10.31 增加[Zephyr-7B、Mistral-7b](#ChatLLM)
 * 2023.10.25 增加[zhiyin、zhilu]()
 * 2023.10.20 增加[cross、taiyi、fuyu、Ziya-visual、CodeShell、CogVLM]()
 * 2023.10.17 增加[Ziya2-13B-Base、Ziya2-13B-Chat](#ChatLLM)
