@@ -130,7 +130,7 @@
 
 </details>
 
-**备注: **
+** 备注 **
 
 >ND:  Non-Causal Decoder or Prefix LM
 
