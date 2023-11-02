@@ -236,6 +236,8 @@
 
 |           模型           |    大小     | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             |
 | :----------------------: | :---------: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| AndesGPT | 7B | 2023-11 | 中文 | 通用 | [ckpt](https://huggingface.co/OPPOResearchInstitute/AndesGPT-7B) | [AndesGPT-7B](https://github.com/OPPO-Mente-Lab/AndesGPT-7B) | [OPPO-Mente-Lab](https://github.com/OPPO-Mente-Lab) | CD |  |
+| SeaLLM-Chat | 13B  | 2023-11 | 多语 | 通用 |    [ckpt](https://huggingface.co/SeaLLMs/SeaLLM-Chat-13b)    |        [SeaLLMs](https://github.com/SeaLLMs/SeaLLMs)         |        [SeaLLMs](https://github.com/SeaLLMs)        |  CD  |  |
 | BlueLM | 7B | 2023-11 | 中英 | 通用 | [ckpt](https://huggingface.co/vivo-ai) | [BlueLM](https://github.com/vivo-ai-lab/BlueLM)![Star](https://img.shields.io/github/stars/vivo-ai-lab/BlueLM.svg?style=social&label=Star) | [vivo AI Lab](https://github.com/vivo-ai-lab) | CD |  |
 | Skywork-chat | 13B  | 2023-10 | 中文 | 通用 | [ckpt](https://huggingface.co/Skywork) | [Skywork](https://github.com/SkyworkAI/Skywork)[![Star](https://camo.githubusercontent.com/c859a810b21e64c2c67028880408fbb41b2938c68de2a4167d387dc8eddedb0c/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f536b79776f726b41492f536b79776f726b2e7376673f7374796c653d736f6369616c266c6162656c3d53746172)](https://camo.githubusercontent.com/c859a810b21e64c2c67028880408fbb41b2938c68de2a4167d387dc8eddedb0c/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f536b79776f726b41492f536b79776f726b2e7376673f7374796c653d736f6369616c266c6162656c3d53746172) |   [SkyworkAI](https://github.com/SkyworkAI)   |  CD  | [Paper](https://arxiv.org/abs/2310.16713) |
 | Zephyr | 7B | 2023-10 | 主要英语 | 通用 | [ckpt](https://huggingface.co/HuggingFaceH4/zephyr-7b-beta) | [alignment-handbook](https://github.com/huggingface/alignment-handbook)![Star](https://img.shields.io/github/stars/huggingface/alignment-handbook.svg?style=social&label=Star) | [Hugging Face H4](https://huggingface.co/HuggingFaceH4) | CD | [Paper](https://arxiv.org/abs/2310.16944) |
@@ -814,6 +816,10 @@ This is a curated list of AI-powered developer tools. These tools leverage AI to
 #### 23. Awesome-Autonomous-GPT![Star](https://img.shields.io/github/stars/ScarletPan/awesome-autonomous-gpt.svg?style=social&label=Star) [github](https://github.com/ScarletPan/awesome-autonomous-gpt)
 
 A curated list of awesome projects and resources related to autonomous AI agents.
+
+#### 24. Awesome-Papers-Autonomous-Agent![Star](https://img.shields.io/github/stars/lafmdp/Awesome-Papers-Autonomous-Agent.svg?style=social&label=Star) [github](https://github.com/lafmdp/Awesome-Papers-Autonomous-Agent)
+
+This is a collection of recent papers focusing on autonomous agent. 
 
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
@@ -1691,6 +1697,7 @@ A curated list of awesome projects and resources related to autonomous AI agents
 
 ## 更新
 
+* 2023.11.05 增加[AndesGPT-7B、SeaLLM、BlueLM](#ChatLLM)
 * 2023.10.31 增加[Zephyr-7B、Mistral-7b](#ChatLLM)
 * 2023.10.25 增加[zhiyin、zhilu]()
 * 2023.10.20 增加[cross、taiyi、fuyu、Ziya-visual、CodeShell、CogVLM]()
