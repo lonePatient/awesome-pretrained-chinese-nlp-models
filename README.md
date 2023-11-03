@@ -144,6 +144,8 @@
 
 |         模型          |   大小    | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             | 备注 |
 | :-------------------: | :-------: | ------- | :--: | ---- | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: | ---- |
+|         Yi          | 6/34B | 2023-11 | 中英 | 通用 |         [HuggingFace](https://huggingface.co/01-ai)          |                              /                               |              [01.AI](https://github.com/01-ai)               |  /   |      |      |
+|     LingoWhale      |  8B   | 2023-11 | 中英 | 通用 | [HuggingFace](https://huggingface.co/deeplang-ai/LingoWhale-8B) | [LingoWhale-8B](https://github.com/DeepLangAI/LingoWhale-8B/)![Star](https://img.shields.io/github/stars/DeepLangAI/LingoWhale-8B.svg?style=social&label=Star) |         [DeepLang AI](https://github.com/DeepLangAI)         |  CD  |      |      |
 | Skywork-base | 13B  | 2023-10 | 中文 | 通用 | [ckpt](https://huggingface.co/Skywork) | [Skywork](https://github.com/SkyworkAI/Skywork)[![Star](https://camo.githubusercontent.com/c859a810b21e64c2c67028880408fbb41b2938c68de2a4167d387dc8eddedb0c/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f536b79776f726b41492f536b79776f726b2e7376673f7374796c653d736f6369616c266c6162656c3d53746172)](https://camo.githubusercontent.com/c859a810b21e64c2c67028880408fbb41b2938c68de2a4167d387dc8eddedb0c/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f536b79776f726b41492f536b79776f726b2e7376673f7374796c653d736f6369616c266c6162656c3d53746172) |   [SkyworkAI](https://github.com/SkyworkAI)   |  CD  | [Paper](https://arxiv.org/abs/2310.16713) |      |
 | BlueLM-Base  |  7B  | 2023-11 | 中英 | 通用 | [ckpt](https://huggingface.co/vivo-ai) | [BlueLM](https://github.com/vivo-ai-lab/BlueLM)![Star](https://img.shields.io/github/stars/vivo-ai-lab/BlueLM.svg?style=social&label=Star) | [vivo AI Lab](https://github.com/vivo-ai-lab) |  CD  |                                           |      |
 | Chatglm3-base |  6B  | 2023-10 | 中英 | 通用 | [ckpt](https://huggingface.co/THUDM) | [ChatGLM3](https://github.com/THUDM/ChatGLM3)![Star](https://img.shields.io/github/stars/THUDM/ChatGLM3.svg?style=social&label=Star) | [THUDM](https://github.com/THUDM) |  ND  |      |      |
@@ -217,6 +219,7 @@
 
 |       模型        | 大小  | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             | 备注 |
 | :---------------: | :---: | ------- | :--: | ---- | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: | ---- |
+| Tongyi-Finance-Base |  14B  | 2023-11 | 中文 | 金融 | [ModelScope](https://modelscope.cn/models/TongyiFinance/Tongyi-Finance-14B/summary) | [通义金融-14B](https://modelscope.cn/models/TongyiFinance/Tongyi-Finance-14B/summary) | [通义金融大模型](https://modelscope.cn/organization/TongyiFinance) |  CD  |      |      |
 | CodeShell-base |  7B  | 2023-10 | 中英 | 代码 | [ckpt](https://huggingface.co/WisdomShell/CodeShell) | [codeshell](https://github.com/WisdomShell/codeshell)![Star](https://img.shields.io/github/stars/WisdomShell/codeshell.svg?style=social&label=Star) | [WisdomShell](https://github.com/WisdomShell) |  CD  |      |      |
 | WiNGPT-base |  7B  | 2023-09 | 中文 | 医学 | [ckpt](https://huggingface.co/winninghealth/WiNGPT2-7B-Base) | [WiNGPT2](https://github.com/winninghealth/WiNGPT2)![Star](https://img.shields.io/github/stars/winninghealth/WiNGPT2.svg?style=social&label=Star) | [Winning Health AI Research](https://github.com/winninghealth) |  CD  |      |      |
 | XuanYuan | 70B  | 2023-09 | 中文 | 金融 | [ckpt](https://huggingface.co/Duxiaoman-DI/XuanYuan-70B) | [XuanYuan](https://github.com/Duxiaoman-DI/XuanYuan)[![Star](https://camo.githubusercontent.com/ed6aa436a474d60d0574088560dfb3b3e74dc71694632a07348cdbf133aff2df/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f44757869616f6d616e2d44492f5875616e5975616e2e7376673f7374796c653d736f6369616c266c6162656c3d53746172)](https://camo.githubusercontent.com/ed6aa436a474d60d0574088560dfb3b3e74dc71694632a07348cdbf133aff2df/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f44757869616f6d616e2d44492f5875616e5975616e2e7376673f7374796c653d736f6369616c266c6162656c3d53746172) | [度小满](https://github.com/Duxiaoman-DI) |  CD  | [Report](https://github.com/Duxiaoman-DI/XuanYuan/blob/main/xuanyuan_70b_report.md) |      |
@@ -341,6 +344,9 @@
 
 |           模型           |  大小   | 时间    | 语言 |     领域     |                             下载                             |                           项目地址                           |                       机构/个人                        | 架构 |                             文献                             |
 | :----------------------: | :-----: | ------- | :--: | :----------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| DeepSeek-Coder | 1/7/33B | 2023-11 | 中英 | 代码 | [HuggingFace](https://huggingface.co/deepseek-ai) | [DeepSeek-Coder](https://github.com/deepseek-ai/DeepSeek-Coder)![Star](https://img.shields.io/github/stars/deepseek-ai/DeepSeek-Coder.svg?style=social&label=Star) | [deepseek-ai](https://github.com/deepseek-ai) |  | [Blog](https://mp.weixin.qq.com/s/BPW-kMeQNmVPpgvTlbXU1A) |
+| Phind | 34B | 2023-10 | 多语 | 代码 | [HuggingFace](https://huggingface.co/Phind) | / | [Phind](Phind) | CD | [Blog](https://www.phind.com/blog/phind-model-beats-gpt4-fast) [zh](https://mp.weixin.qq.com/s/fSVPRjNpWPVrLVA59PrIBA) |
+| Tongyi-Finance-Chat | 14B | 2023-11 | 中文 | 金融 | [ModelScope](https://modelscope.cn/models/TongyiFinance/Tongyi-Finance-14B-Chat/summary) | [通义金融-14B-Chat](https://modelscope.cn/models/TongyiFinance/Tongyi-Finance-14B-Chat/summary) | [通义金融大模型](https://modelscope.cn/organization/TongyiFinance) | CD |  |
 | Skywork-math | 13B | 2023-10 | 中文 | 数学 | [ckpt](https://huggingface.co/Skywork) | [Skywork](https://github.com/SkyworkAI/Skywork)![Star](https://img.shields.io/github/stars/SkyworkAI/Skywork.svg?style=social&label=Star) | [SkyworkAI](https://github.com/SkyworkAI) | CD | [Paper](https://arxiv.org/abs/2310.16713) |
 | XuanYuan-Chat | 70B | 2023-10 | 中英 | 金融 | [ckpt](https://huggingface.co/Duxiaoman-DI/XuanYuan-70B-Chat) | [XuanYuan](https://github.com/Duxiaoman-DI/XuanYuan)![Star](https://img.shields.io/github/stars/Duxiaoman-DI/XuanYuan.svg?style=social&label=Star) | [Duxiaoman度小满](https://github.com/Duxiaoman-DI) | CD |  |
 | zhilu | 13B | 2023-10 | 中英 | 金融 | [ckpt](https://huggingface.co/SYSU-MUCFC-FinTech-Research-Center) | / | [SYSU-MUCFC-FinTech-Research-Center](https://huggingface.co/SYSU-MUCFC-FinTech-Research-Center) | CD |  |
@@ -422,6 +428,7 @@
 
 |           模型           | 大小  |  时间   |                           语言模型                           |                          非语言模型                          | 语言 |   领域    |                             下载                             |                           项目地址                           |                        机构/个人                         |                             文献                             |
 | :----------------------: | :---: | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :----------------------------------------------------------: |
+| SPHINX | 13B | 2023-10 | / | / | 中英 | 图文 | [ckpt](https://huggingface.co/Alpha-VLLM/SPHINX) | [LLaMA2-Accessory](https://github.com/Alpha-VLLM/LLaMA2-Accessory)![Star](https://img.shields.io/github/stars/Alpha-VLLM/LLaMA2-Accessory.svg?style=social&label=Star) | [Alpha-VLLM](https://github.com/Alpha-VLLM) |  |
 | Skywork-MM | 13B | 2023-10 | / | / | 中英 | 图文 | [ckpt](https://huggingface.co/Skywork) | [Skywork](https://github.com/SkyworkAI/Skywork)[![Star](https://camo.githubusercontent.com/c859a810b21e64c2c67028880408fbb41b2938c68de2a4167d387dc8eddedb0c/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f536b79776f726b41492f536b79776f726b2e7376673f7374796c653d736f6369616c266c6162656c3d53746172)](https://camo.githubusercontent.com/c859a810b21e64c2c67028880408fbb41b2938c68de2a4167d387dc8eddedb0c/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f536b79776f726b41492f536b79776f726b2e7376673f7374796c653d736f6369616c266c6162656c3d53746172) | [SkyworkAI](https://github.com/SkyworkAI) | [Paper](https://github.com/will-singularity/Skywork-MM/blob/main/skywork_mm.pdf) |
 | CogVLM | 7/14B | 2023-10 | Qwen | ViT | 中英 | 图文 | [ckpt](https://huggingface.co/CausalLM) | / | [CausalLM](https://huggingface.co/CausalLM) |  |
 |           fuyu           |  8B   | 2023-10 |                              /                               |                              /                               | 中英 |   图文    |         [ckpt](https://huggingface.co/adept/fuyu-8b)         |                              /                               |      [Adept AI Labs](https://huggingface.co/adept)       |          [Blog](https://www.adept.ai/blog/fuyu-8b)           |
@@ -695,6 +702,9 @@ MiniMax 最新一代的中文大语言模型帮助人类高效写作、激发创
 
 3. [flagopen](https://flagopen.baai.ac.cn/#/home): flagopen飞智大模型技术开源体系
 * 模型下载地址: [https://model.baai.ac.cn/models](https://model.baai.ac.cn/models)
+
+4. [始智AI](https://wisemodel.cn/home): 中国AI开源创新社区
+* 模型下载地址: [https://wisemodel.cn/models](https://wisemodel.cn/models)
 
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
@@ -1697,7 +1707,8 @@ This is a collection of recent papers focusing on autonomous agent.
 
 ## 更新
 
-* 2023.11.05 增加[AndesGPT-7B、SeaLLM、BlueLM](#ChatLLM)
+* 2023.11.03 增加[SPHINX、Tongyi-Finance、Phind、DeepSeek-Coder](#ChatLLM)
+* 2023.11.02 增加[AndesGPT-7B、SeaLLM、BlueLM](#ChatLLM)
 * 2023.10.31 增加[Zephyr-7B、Mistral-7b](#ChatLLM)
 * 2023.10.25 增加[zhiyin、zhilu]()
 * 2023.10.20 增加[cross、taiyi、fuyu、Ziya-visual、CodeShell、CogVLM]()
