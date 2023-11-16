@@ -835,6 +835,10 @@ A curated list of awesome projects and resources related to autonomous AI agents
 
 This is a collection of recent papers focusing on autonomous agent. 
 
+#### 25. Awesome-Code-LLM![Star](https://img.shields.io/github/stars/codefuse-ai/Awesome-Code-LLM.svg?style=social&label=Star) [github](https://github.com/codefuse-ai/Awesome-Code-LLM)
+
+a comprehensive review of LLM researches for code. 
+
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
 ## NLU系列
