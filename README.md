@@ -144,6 +144,7 @@
 
 |         模型          |   大小    | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             | 备注 |
 | :-------------------: | :-------: | ------- | :--: | ---- | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: | ---- |
+| Alaya-Base |  7B  | 2023-11 | 中英 | 通用 | [HuggingFace](https://huggingface.co/DataCanvas/Alaya-7B-Base) | [Alaya](https://github.com/DataCanvasIO/Alaya)![Star](https://img.shields.io/github/stars/DataCanvasIO/Alaya.svg?style=social&label=Star) | [DataCanvasIO](https://github.com/DataCanvasIO) |  CD  |      |      |
 |         Yi-Base     | 6/34B | 2023-11 | 中英 | 通用 |         [HuggingFace](https://huggingface.co/01-ai)          |                              [Yi](https://github.com/01-ai/Yi)![Star](https://img.shields.io/github/stars/01-ai/Yi.svg?style=social&label=Star)                               |              [01.AI](https://github.com/01-ai)               |  CD   |      |      |
 |          XVERSE-Base    |     7/13/65B     | 2023-11 | 多语 | 通用 |       [Huggingface](https://huggingface.co/xverse)       | [XVERSE](https://github.com/xverse-ai/XVERSE-13B)![Star](https://img.shields.io/github/stars/xverse-ai/XVERSE-13B.svg?style=social&label=Star) |           [元象科技](https://github.com/xverse-ai)           |  CD  |                                                              |
 | Nanbeige-Base | 16B  | 2023-11 | 中英 | 通用 | [Huggingface](https://huggingface.co/Nanbeige) | [Nanbeige](https://github.com/Nanbeige/Nanbeige)![Star](https://img.shields.io/github/stars/Nanbeige/Nanbeige.svg?style=social&label=Star) | [Nanbeige LLM Lab](https://github.com/Nanbeige) |  CD  |      |      |
@@ -241,6 +242,8 @@
 
 |           模型           |    大小     | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             |
 | :----------------------: | :---------: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| Alaya-Chat | 7B | 2023-11 | 中英 | 通用 | [HuggingFace](https://huggingface.co/DataCanvas/Alaya-7B-Chat) | [Alaya](https://github.com/DataCanvasIO/Alaya)![Star](https://img.shields.io/github/stars/DataCanvasIO/Alaya.svg?style=social&label=Star) | [DataCanvasIO](https://github.com/DataCanvasIO) | CD |  |
+| OrionStar-Yi-Chat | 34B | 2023-11 | 中英 | 通用 | [HuggingFace](https://huggingface.co/OrionStarAI/OrionStar-Yi-34B-Chat) | [OrionStar-Yi-34B-Chat](https://github.com/OrionStarAI/OrionStar-Yi-34B-Chat)![Star](https://img.shields.io/github/stars/OrionStarAI/OrionStar-Yi-34B-Chat.svg?style=social&label=Star) | [OrionStarAI](https://github.com/OrionStarAI) | CD |  |
 | Nanbeige-Chat | 16B | 2023-11 | 中英 | 通用 | [Huggingface](https://huggingface.co/Nanbeige) | [Nanbeige](https://github.com/Nanbeige/Nanbeige)![Star](https://img.shields.io/github/stars/Nanbeige/Nanbeige.svg?style=social&label=Star) | [Nanbeige LLM Lab](https://github.com/Nanbeige) | CD |  |
 | OpenChat 3.5 | 7B | 2023-11 | 中英 | 通用 | [Huggingface](https://huggingface.co/openchat/openchat_3.5) | [openchat](https://github.com/imoneoi/openchat) | [OpenChat](https://github.com/imoneoi) | CD | [Paper](https://arxiv.org/pdf/2309.11235.pdf) |
 |          XVERSE-Chat    |     7/13B     | 2023-11 | 多语 | 通用 |       [Huggingface](https://huggingface.co/xverse)       | [XVERSE](https://github.com/xverse-ai/XVERSE-13B)![Star](https://img.shields.io/github/stars/xverse-ai/XVERSE-13B.svg?style=social&label=Star) |           [元象科技](https://github.com/xverse-ai)           |  CD  |                                                              |
@@ -1715,6 +1718,7 @@ a comprehensive review of LLM researches for code.
 
 ## 更新
 
+* 2023.11.20 增加[Alaya-Chat-7B、OrionStar-Yi-Chat-34B](#ChatLLM)
 * 2023.11.11 增加[XVERSE-65B、Nanbeige-Chat-16B、OpenChat 3.5](#ChatLLM)
 * 2023.11.03 增加[SPHINX、Tongyi-Finance、Phind、DeepSeek-Coder](#ChatLLM)
 * 2023.11.02 增加[AndesGPT-7B、SeaLLM、BlueLM](#ChatLLM)
