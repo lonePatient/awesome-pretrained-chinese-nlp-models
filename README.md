@@ -144,6 +144,7 @@
 
 |         模型          |   大小    | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             | 备注 |
 | :-------------------: | :-------: | ------- | :--: | ---- | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: | ---- |
+|  Yuan-2.0  | 2/51/102B | 2023-11 | 中英 | 通用 |      [baiduNet](https://github.com/IEIT-Yuan/Yuan-2.0)       | [Yuan-2.0](https://github.com/IEIT-Yuan/Yuan-2.0)![Star](https://img.shields.io/github/stars/IEIT-Yuan/Yuan-2.0.svg?style=social&label=Star) |    [IEIT-Yuan](https://github.com/IEIT-Yuan)    |  CD  |      |      |
 | Alaya-Base |  7B  | 2023-11 | 中英 | 通用 | [HuggingFace](https://huggingface.co/DataCanvas/Alaya-7B-Base) | [Alaya](https://github.com/DataCanvasIO/Alaya)![Star](https://img.shields.io/github/stars/DataCanvasIO/Alaya.svg?style=social&label=Star) | [DataCanvasIO](https://github.com/DataCanvasIO) |  CD  |      |      |
 |         Yi-Base     | 6/34B | 2023-11 | 中英 | 通用 |         [HuggingFace](https://huggingface.co/01-ai)          |                              [Yi](https://github.com/01-ai/Yi)![Star](https://img.shields.io/github/stars/01-ai/Yi.svg?style=social&label=Star)                               |              [01.AI](https://github.com/01-ai)               |  CD   |      |      |
 |          XVERSE-Base    |     7/13/65B     | 2023-11 | 多语 | 通用 |       [Huggingface](https://huggingface.co/xverse)       | [XVERSE](https://github.com/xverse-ai/XVERSE-13B)![Star](https://img.shields.io/github/stars/xverse-ai/XVERSE-13B.svg?style=social&label=Star) |           [元象科技](https://github.com/xverse-ai)           |  CD  |                                                              |
@@ -1719,6 +1720,7 @@ a comprehensive review of LLM researches for code.
 
 ## 更新
 
+* 2023.11.30 增加[Yuan-2.0](#Base-LLM)
 * 2023.11.20 增加[Alaya-Chat-7B、OrionStar-Yi-Chat-34B](#ChatLLM)
 * 2023.11.11 增加[XVERSE-65B、Nanbeige-Chat-16B、OpenChat 3.5](#ChatLLM)
 * 2023.11.03 增加[SPHINX、Tongyi-Finance、Phind、DeepSeek-Coder](#ChatLLM)
