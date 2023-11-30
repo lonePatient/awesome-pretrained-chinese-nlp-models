@@ -144,6 +144,7 @@
 
 |         模型          |   大小    | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             | 备注 |
 | :-------------------: | :-------: | ------- | :--: | ---- | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: | ---- |
+| DeepSeek-Base | 7/67B | 2023-11 | 中英 | 通用 | [HuggingFcae]() | [DeepSeek-LLM](https://github.com/deepseek-ai/DeepSeek-LLM)![Star](https://img.shields.io/github/stars/deepseek-ai/DeepSeek-LLM.svg?style=social&label=Star) | [deepseek-ai](https://github.com/deepseek-ai) |  CD  |      |      |
 |  Yuan-2.0  | 2/51/102B | 2023-11 | 中英 | 通用 |      [baiduNet](https://github.com/IEIT-Yuan/Yuan-2.0)       | [Yuan-2.0](https://github.com/IEIT-Yuan/Yuan-2.0)![Star](https://img.shields.io/github/stars/IEIT-Yuan/Yuan-2.0.svg?style=social&label=Star) |    [IEIT-Yuan](https://github.com/IEIT-Yuan)    |  CD  |      |      |
 | Alaya-Base |  7B  | 2023-11 | 中英 | 通用 | [HuggingFace](https://huggingface.co/DataCanvas/Alaya-7B-Base) | [Alaya](https://github.com/DataCanvasIO/Alaya)![Star](https://img.shields.io/github/stars/DataCanvasIO/Alaya.svg?style=social&label=Star) | [DataCanvasIO](https://github.com/DataCanvasIO) |  CD  |      |      |
 |         Yi-Base     | 6/34B | 2023-11 | 中英 | 通用 |         [HuggingFace](https://huggingface.co/01-ai)          |                              [Yi](https://github.com/01-ai/Yi)![Star](https://img.shields.io/github/stars/01-ai/Yi.svg?style=social&label=Star)                               |              [01.AI](https://github.com/01-ai)               |  CD   |      |      |
@@ -243,6 +244,7 @@
 
 |           模型           |    大小     | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             |
 | :----------------------: | :---------: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| DeepSeek-Chat | 7/67B | 2023-11 | 中英 | 通用 | [HuggingFcae]() | [DeepSeek-LLM](https://github.com/deepseek-ai/DeepSeek-LLM)![Star](https://img.shields.io/github/stars/deepseek-ai/DeepSeek-LLM.svg?style=social&label=Star) | [deepseek-ai](https://github.com/deepseek-ai) | CD |  |
 | Yi-Chat | 34B | 2023-11 | 中英 | 通用 | [HuggingFace](https://huggingface.co/01-ai) | [Yi](https://github.com/01-ai/Yi)[![Star](https://camo.githubusercontent.com/02a8d25bef659e9249b8187703dbd9786dee85e4cb16ca584565549cf363b391/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f30312d61692f59692e7376673f7374796c653d736f6369616c266c6162656c3d53746172)](https://camo.githubusercontent.com/02a8d25bef659e9249b8187703dbd9786dee85e4cb16ca584565549cf363b391/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f30312d61692f59692e7376673f7374796c653d736f6369616c266c6162656c3d53746172) | [01.AI](https://github.com/01-ai) | CD |  |
 | Alaya-Chat | 7B | 2023-11 | 中英 | 通用 | [HuggingFace](https://huggingface.co/DataCanvas/Alaya-7B-Chat) | [Alaya](https://github.com/DataCanvasIO/Alaya)![Star](https://img.shields.io/github/stars/DataCanvasIO/Alaya.svg?style=social&label=Star) | [DataCanvasIO](https://github.com/DataCanvasIO) | CD |  |
 | OrionStar-Yi-Chat | 34B | 2023-11 | 中英 | 通用 | [HuggingFace](https://huggingface.co/OrionStarAI/OrionStar-Yi-34B-Chat) | [OrionStar-Yi-34B-Chat](https://github.com/OrionStarAI/OrionStar-Yi-34B-Chat)![Star](https://img.shields.io/github/stars/OrionStarAI/OrionStar-Yi-34B-Chat.svg?style=social&label=Star) | [OrionStarAI](https://github.com/OrionStarAI) | CD |  |
@@ -1720,7 +1722,7 @@ a comprehensive review of LLM researches for code.
 
 ## 更新
 
-* 2023.11.30 增加[Yuan-2.0](#Base-LLM)
+* 2023.11.30 增加[Yuan-2.0、DeepSeek-Base](#Base-LLM),[DeepSeek-Chat](#ChatLLM)
 * 2023.11.20 增加[Alaya-Chat-7B、OrionStar-Yi-Chat-34B](#ChatLLM)
 * 2023.11.11 增加[XVERSE-65B、Nanbeige-Chat-16B、OpenChat 3.5](#ChatLLM)
 * 2023.11.03 增加[SPHINX、Tongyi-Finance、Phind、DeepSeek-Coder](#ChatLLM)
