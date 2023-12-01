@@ -439,6 +439,7 @@
 
 |           模型           | 大小  |  时间   |                           语言模型                           |                          非语言模型                          | 语言 |   领域    |                             下载                             |                           项目地址                           |                        机构/个人                         |                             文献                             |
 | :----------------------: | :---: | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :----------------------------------------------------------: |
+| Qwen-Audio | 7B | 2023-12 | [Qwen-7B](https://github.com/QwenLM/Qwen) | [Whisper-large-v2](https://github.com/openai/whisper) | 中英 | 文音 | [HuggingFace](https://huggingface.co/Qwen) | [Qwen-Audio](https://github.com/QwenLM/Qwen-Audio)![Star](https://img.shields.io/github/stars/QwenLM/Qwen-Audio.svg?style=social&label=Star) | [Qwen](https://github.com/QwenLM) | [Paper](http://arxiv.org/abs/2311.07919) |
 | SPHINX | 13B | 2023-10 | / | / | 中英 | 图文 | [ckpt](https://huggingface.co/Alpha-VLLM/SPHINX) | [LLaMA2-Accessory](https://github.com/Alpha-VLLM/LLaMA2-Accessory)![Star](https://img.shields.io/github/stars/Alpha-VLLM/LLaMA2-Accessory.svg?style=social&label=Star) | [Alpha-VLLM](https://github.com/Alpha-VLLM) |  |
 | Skywork-MM | 13B | 2023-10 | / | / | 中英 | 图文 | [ckpt](https://huggingface.co/Skywork) | [Skywork](https://github.com/SkyworkAI/Skywork)[![Star](https://camo.githubusercontent.com/c859a810b21e64c2c67028880408fbb41b2938c68de2a4167d387dc8eddedb0c/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f536b79776f726b41492f536b79776f726b2e7376673f7374796c653d736f6369616c266c6162656c3d53746172)](https://camo.githubusercontent.com/c859a810b21e64c2c67028880408fbb41b2938c68de2a4167d387dc8eddedb0c/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f536b79776f726b41492f536b79776f726b2e7376673f7374796c653d736f6369616c266c6162656c3d53746172) | [SkyworkAI](https://github.com/SkyworkAI) | [Paper](https://github.com/will-singularity/Skywork-MM/blob/main/skywork_mm.pdf) |
 | CogVLM | 7/14B | 2023-10 | Qwen | ViT | 中英 | 图文 | [ckpt](https://huggingface.co/CausalLM) | / | [CausalLM](https://huggingface.co/CausalLM) |  |
@@ -1721,7 +1722,7 @@ a comprehensive review of LLM researches for code.
 
 
 ## 更新
-* 2023.12.01 增加[Qwen-Base-1.8/72B](#Base-LLM),[Qwen-Chat-1.8/72B](#ChatLLM)
+* 2023.12.01 增加[Qwen-Base-1.8/72B](#Base-LLM),[Qwen-Chat-1.8/72B](#ChatLLM),[Qwen-Audio](#MultiModal-ChatLLM)
 * 2023.11.30 增加[Yuan-2.0、DeepSeek-Base](#Base-LLM),[DeepSeek-Chat](#ChatLLM)
 * 2023.11.20 增加[Alaya-Chat-7B、OrionStar-Yi-Chat-34B](#ChatLLM)
 * 2023.11.11 增加[XVERSE-65B、Nanbeige-Chat-16B、OpenChat 3.5](#ChatLLM)
