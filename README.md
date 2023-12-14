@@ -849,6 +849,10 @@ This is a collection of recent papers focusing on autonomous agent.
 
 a comprehensive review of LLM researches for code. 
 
+#### 26. Awesome-LLM-Compression![Star](https://img.shields.io/github/stars/HuangOwen/Awesome-LLM-Compression.svg?style=social&label=Star) [github](https://github.com/HuangOwen/Awesome-LLM-Compression)
+
+Awesome LLM compression research papers and tools to accelerate LLM training and inference.
+
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
 ## NLU系列
