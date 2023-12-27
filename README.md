@@ -5,6 +5,8 @@
 
 在自然语言处理领域中，预训练语言模型（Pretrained Language Models）已成为非常重要的基础技术，本仓库主要收集目前网上公开的一些高质量中文预训练模型、中文多模态模型、中文大语言模型等内容(感谢分享资源的大佬)，并将持续更新......
 
+{% note default simple %} 国内下载HuggingFace仓库模型推荐使用HuggingFace镜像地址: https://hf-mirror.com/ {% endnote %}
+
 # Expand Table of Contents
 + [更新日志](#更新)
 
