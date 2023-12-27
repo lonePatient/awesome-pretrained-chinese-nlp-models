@@ -238,6 +238,7 @@
 |   AquilaCode-TS   |  7B   | 2023-06 | 中英 | 代码 |     [ckpt](https://model.baai.ac.cn/model-detail/100099)     | [Aquila](https://github.com/FlagAI-Open/FlagAI/tree/master/examples/Aquila)![Star](https://img.shields.io/github/stars/FlagAI-Open/FlagAI.svg?style=social&label=Star) |          [FlagAI](https://github.com/FlagAI-Open)           |  CD  |                                                              |      |
 |      LaWGPT       |  7B   | 2023-05 | 中英 | 法律 |    [ckpt](https://huggingface.co/entity303/legal-lora-7b)    | [LawGPT](https://github.com/pengxiao-song/LaWGPT)![Star](https://img.shields.io/github/stars/pengxiao-song/LaWGPT.svg?style=social&label=Star) |      [Pengxiao Song](https://github.com/pengxiao-song)       |  CD  |                                                              |      |
 |     CodeGeeX      |  13B  | 2022-06 | 多语 | 代码 | [申请下载](https://models.aminer.cn/codegeex/download/request) |        [CodeGeeX](https://github.com/THUDM/CodeGeeX)         |             [清华大学](https://github.com/THUDM)             |  CD  |       [blog](https://models.aminer.cn/codegeex/blog/)        |      |
+| ChiMed-GPT | 13B | 2023-10 | 中文 | 医疗 | [ckpt](https://huggingface.co/SYNLP/ChiMed-GPT-1.0) | [GitHub](https://github.com/synlp/ChiMed-GPT) | [中国科学技术大学](https://github.com/synlp) | CD | [Paper](https://arxiv.org/abs/2311.06025) | 与IDEA合作，基于Ziya-v2的中文医疗大模型 |
 
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
