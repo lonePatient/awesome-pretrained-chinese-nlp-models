@@ -247,6 +247,7 @@
 
 |           模型           |    大小     | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             |
 | :----------------------: | :---------: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| kagentlms | 7/13B | 2024-01 | 中英 | 通用 | [HuggingFace](https://hf-mirror.com/kwaikeg) | [KwaiAgents](https://github.com/KwaiKEG/KwaiAgents)![Star](https://img.shields.io/github/stars/KwaiKEG/KwaiAgents.svg?style=social&label=Star) | [KwaiKEG](https://github.com/KwaiKEG) |  | Agent |
 |  YaYi2-Chat  |   30B    | 2023-12 | 多语 | 通用 | [HuggingFace](https://huggingface.co/wenge-research) | [YAYI2](https://github.com/wenge-research/YAYI2)![Star](https://img.shields.io/github/stars/wenge-research/YAYI2.svg?style=social&label=Star) | [wenge-research](https://github.com/wenge-research) |  CD  | [Paper](https://arxiv.org/abs/2312.14862) |
 | SUS-Chat | 34/72B | 2023-12 | 中英 | 通用 | [HuggingFace](https://huggingface.co/SUSTech) | [SUS-Chat](https://github.com/SUSTech-IDEA/SUS-Chat)![Star](https://img.shields.io/github/stars/SUSTech-IDEA/SUS-Chat.svg?style=social&label=Star) | [SUSTech-IDEA](https://github.com/SUSTech-IDEA) | CD |  |
 | Aquila2-Chat | 7/34/70B | 2023-12 | 中英 | 通用 |  [HuggingFace](https://huggingface.co/BAAI)   | [Aquila2](https://github.com/FlagAI-Open/Aquila2)[![Star](https://camo.githubusercontent.com/a5eb71cca8248fd292d276788da80eb4161d5279ffcdb0221ef8191047b07bcb/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f466c616741492d4f70656e2f417175696c61322e7376673f7374796c653d736f6369616c266c6162656c3d53746172)](https://camo.githubusercontent.com/a5eb71cca8248fd292d276788da80eb4161d5279ffcdb0221ef8191047b07bcb/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f466c616741492d4f70656e2f417175696c61322e7376673f7374796c653d736f6369616c266c6162656c3d53746172) |    [FlagAI](https://github.com/FlagAI-Open)     |  CD  |  |
@@ -1733,7 +1734,8 @@ Awesome LLM compression research papers and tools to accelerate LLM training and
 
 ## 更新
 
-* 2023.01.05 增加[WizardCoder-33B-V1.1](#Domain-ChatLLM)
+* 2024.01.09 增加[kagentlms](#ChatLLM),具有Agents的规划、反思、工具使用等能力的系列大模型
+* 2024.01.05 增加[WizardCoder-33B-V1.1](#Domain-ChatLLM)
 * 2023.12.27 增加[YaYi-30B-Chat](#ChatLLM)
 * 2023.12.05 增加[SUS-Chat-34B、Aquila2-Chat-70B、Alaya-Chat-7B](#ChatLLM)
 * 2023.12.01 增加[Qwen-Base-1.8/72B](#Base-LLM),[Qwen-Chat-1.8/72B](#ChatLLM),[Qwen-Audio](#MultiModal-ChatLLM)
