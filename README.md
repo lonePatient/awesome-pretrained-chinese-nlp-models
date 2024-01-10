@@ -247,6 +247,7 @@
 
 |           模型           |    大小     | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             |
 | :----------------------: | :---------: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| Telechat | 7/12B | 2024-01 | 中英 | 通用 | [HuggingFace](https://hf-mirror.com/Tele-AI) | [Telechat](https://github.com/Tele-AI/Telechat)x ![Star](https://img.shields.io/github/stars/Tele-AI/Telechat.svg?style=social&label=Star) | [Tele-AI](https://github.com/Tele-AI) | CD | [Report](https://arxiv.org/abs/2401.03804) |
 | kagentlms | 7/13B | 2024-01 | 中英 | 通用 | [HuggingFace](https://hf-mirror.com/kwaikeg) | [KwaiAgents](https://github.com/KwaiKEG/KwaiAgents)![Star](https://img.shields.io/github/stars/KwaiKEG/KwaiAgents.svg?style=social&label=Star) | [KwaiKEG](https://github.com/KwaiKEG) |  | Agent |
 |  YaYi2-Chat  |   30B    | 2023-12 | 多语 | 通用 | [HuggingFace](https://huggingface.co/wenge-research) | [YAYI2](https://github.com/wenge-research/YAYI2)![Star](https://img.shields.io/github/stars/wenge-research/YAYI2.svg?style=social&label=Star) | [wenge-research](https://github.com/wenge-research) |  CD  | [Paper](https://arxiv.org/abs/2312.14862) |
 | SUS-Chat | 34/72B | 2023-12 | 中英 | 通用 | [HuggingFace](https://huggingface.co/SUSTech) | [SUS-Chat](https://github.com/SUSTech-IDEA/SUS-Chat)![Star](https://img.shields.io/github/stars/SUSTech-IDEA/SUS-Chat.svg?style=social&label=Star) | [SUSTech-IDEA](https://github.com/SUSTech-IDEA) | CD |  |
@@ -361,6 +362,7 @@
 
 |           模型           |  大小   | 时间    | 语言 |     领域     |                             下载                             |                           项目地址                           |                       机构/个人                        | 架构 |                             文献                             |
 | :----------------------: | :-----: | ------- | :--: | :----------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| Code Millenials | 1/3/13/34B | 2023-01 | 多语 | 代码 | [HuggingFace](https://huggingface.co/budecosystem) | [code-millenials](https://github.com/BudEcosystem/code-millenials)![Star](https://img.shields.io/github/stars/BudEcosystem/code-millenials.svg?style=social&label=Star) | [BudEcosystem](https://github.com/BudEcosystem) | CD |  |
 | WizardCoder | 15/33B | 2024-01 | 多语 | 代码 | [HuggingFace](https://hf-mirror.com/WizardLM) | [WizardLM](https://github.com/nlpxucan/WizardLM)![Star](https://img.shields.io/github/stars/nlpxucan/WizardLM.svg?style=social&label=Star) | [operatorx](https://github.com/nlpxucan) |  CD  | [Paper](https://arxiv.org/abs/2306.08568) |
 | DeepSeek-Coder | 1/7/33B | 2023-11 | 中英 | 代码 | [HuggingFace](https://huggingface.co/deepseek-ai) | [DeepSeek-Coder](https://github.com/deepseek-ai/DeepSeek-Coder)![Star](https://img.shields.io/github/stars/deepseek-ai/DeepSeek-Coder.svg?style=social&label=Star) | [deepseek-ai](https://github.com/deepseek-ai) |  | [Blog](https://mp.weixin.qq.com/s/BPW-kMeQNmVPpgvTlbXU1A) |
 | Phind | 34B | 2023-10 | 多语 | 代码 | [HuggingFace](https://huggingface.co/Phind) | / | [Phind](Phind) | CD | [Blog](https://www.phind.com/blog/phind-model-beats-gpt4-fast) [zh](https://mp.weixin.qq.com/s/fSVPRjNpWPVrLVA59PrIBA) |
@@ -1734,6 +1736,7 @@ Awesome LLM compression research papers and tools to accelerate LLM training and
 
 ## 更新
 
+* 2024.01.10 增加[Telechat，Code Millenials](#ChatLLM)
 * 2024.01.09 增加[kagentlms](#ChatLLM),具有Agents的规划、反思、工具使用等能力的系列大模型
 * 2024.01.05 增加[WizardCoder-33B-V1.1](#Domain-ChatLLM)
 * 2023.12.27 增加[YaYi-30B-Chat](#ChatLLM)
