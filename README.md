@@ -247,6 +247,8 @@
 
 |           模型           |    大小     | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             |
 | :----------------------: | :---------: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| internlm2-chat | 7/20B | 2024-01 | 中英 | 通用 | [HuggingFace](https://huggingface.co/internlm) | [InternLM](https://github.com/InternLM/InternLM)![Star](https://img.shields.io/github/stars/InternLM/InternLM.svg?style=social&label=Star) | [InternLM](https://github.com/InternLM) | CD | [Report](https://github.com/InternLM/InternLM/issues/new) |
+| Chinese-Mixtral | 8x7B | 2023-01 | 中英 | 通用 | [HuggingFace](https://huggingface.co/HIT-SCIR/Chinese-Mixtral-8x7B) | / | [HIT-SCIR](https://huggingface.co/HIT-SCIR) | CD-MOE |  |
 | Telechat | 7/12B | 2024-01 | 中英 | 通用 | [HuggingFace](https://hf-mirror.com/Tele-AI) | [Telechat](https://github.com/Tele-AI/Telechat)x ![Star](https://img.shields.io/github/stars/Tele-AI/Telechat.svg?style=social&label=Star) | [Tele-AI](https://github.com/Tele-AI) | CD | [Report](https://arxiv.org/abs/2401.03804) |
 | kagentlms | 7/13B | 2024-01 | 中英 | 通用 | [HuggingFace](https://hf-mirror.com/kwaikeg) | [KwaiAgents](https://github.com/KwaiKEG/KwaiAgents)![Star](https://img.shields.io/github/stars/KwaiKEG/KwaiAgents.svg?style=social&label=Star) | [KwaiKEG](https://github.com/KwaiKEG) |  | Agent |
 |  YaYi2-Chat  |   30B    | 2023-12 | 多语 | 通用 | [HuggingFace](https://huggingface.co/wenge-research) | [YAYI2](https://github.com/wenge-research/YAYI2)![Star](https://img.shields.io/github/stars/wenge-research/YAYI2.svg?style=social&label=Star) | [wenge-research](https://github.com/wenge-research) |  CD  | [Paper](https://arxiv.org/abs/2312.14862) |
@@ -362,6 +364,7 @@
 
 |           模型           |  大小   | 时间    | 语言 |     领域     |                             下载                             |                           项目地址                           |                       机构/个人                        | 架构 |                             文献                             |
 | :----------------------: | :-----: | ------- | :--: | :----------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| deepseek-moe | 16B | 2024-01 | 中英 | 代码 | [HuggingFace](https://huggingface.co/deepseek-ai) | [DeepSeekMoE](https://github.com/deepseek-ai/DeepSeek-MoE)![Star](https://img.shields.io/github/stars/deepseek-ai/DeepSeek-MoE.svg?style=social&label=Star) | [DeepSeek](https://github.com/deepseek-ai) | CD-MOE |  |
 | Code Millenials | 1/3/13/34B | 2023-01 | 多语 | 代码 | [HuggingFace](https://huggingface.co/budecosystem) | [code-millenials](https://github.com/BudEcosystem/code-millenials)![Star](https://img.shields.io/github/stars/BudEcosystem/code-millenials.svg?style=social&label=Star) | [BudEcosystem](https://github.com/BudEcosystem) | CD |  |
 | WizardCoder | 15/33B | 2024-01 | 多语 | 代码 | [HuggingFace](https://hf-mirror.com/WizardLM) | [WizardLM](https://github.com/nlpxucan/WizardLM)![Star](https://img.shields.io/github/stars/nlpxucan/WizardLM.svg?style=social&label=Star) | [operatorx](https://github.com/nlpxucan) |  CD  | [Paper](https://arxiv.org/abs/2306.08568) |
 | DeepSeek-Coder | 1/7/33B | 2023-11 | 中英 | 代码 | [HuggingFace](https://huggingface.co/deepseek-ai) | [DeepSeek-Coder](https://github.com/deepseek-ai/DeepSeek-Coder)![Star](https://img.shields.io/github/stars/deepseek-ai/DeepSeek-Coder.svg?style=social&label=Star) | [deepseek-ai](https://github.com/deepseek-ai) |  | [Blog](https://mp.weixin.qq.com/s/BPW-kMeQNmVPpgvTlbXU1A) |
@@ -1736,6 +1739,7 @@ Awesome LLM compression research papers and tools to accelerate LLM training and
 
 ## 更新
 
+* 2024.01.19 增加[internlm2-chat，Chinese-Mixtral](#ChatLLM)
 * 2024.01.10 增加[Telechat，Code Millenials](#ChatLLM)
 * 2024.01.09 增加[kagentlms](#ChatLLM),具有Agents的规划、反思、工具使用等能力的系列大模型
 * 2024.01.05 增加[WizardCoder-33B-V1.1](#Domain-ChatLLM)
