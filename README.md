@@ -452,6 +452,7 @@
 
 |           模型           | 大小  |  时间   |                           语言模型                           |                          非语言模型                          | 语言 |   领域    |                             下载                             |                           项目地址                           |                        机构/个人                         |                             文献                             |
 | :----------------------: | :---: | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :----------------------------------------------------------: |
+| Yi-VL | 6/34B | 2024-01 | Yi | [CLIP-VIT](https://huggingface.co/laion/CLIP-ViT-H-14-laion2B-s32B-b79K) | 中英 | 图文 | [HuggingFace](https://huggingface.co/01-ai) | [Yi](https://github.com/01-ai/Yi)![Star](https://img.shields.io/github/stars/01-ai/Yi.svg?style=social&label=Star) | [01-ai](https://github.com/01-ai) |  |
 | Lyrics | 14B | 2023-12 | / | / | 中英 | 图文 | [HuggingFace](https://huggingface.co/IDEA-CCNL/Ziya-Visual-Lyrics-14B) | [Fengshenbang-LM](https://github.com/IDEA-CCNL/Fengshenbang-LM)[![Star](https://camo.githubusercontent.com/326d9c13b0dcce274258fedaf46c1d0e5ace38ca60d5a6b5b5ac3914c96874d7/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f494445412d43434e4c2f46656e677368656e62616e672d4c4d2e7376673f7374796c653d736f6369616c266c6162656c3d53746172)](https://camo.githubusercontent.com/326d9c13b0dcce274258fedaf46c1d0e5ace38ca60d5a6b5b5ac3914c96874d7/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f494445412d43434e4c2f46656e677368656e62616e672d4c4d2e7376673f7374796c653d736f6369616c266c6162656c3d53746172) | [IDEA研究院](https://github.com/IDEA-CCNL) |  |
 | Qwen-Audio | 7B | 2023-12 | [Qwen-7B](https://github.com/QwenLM/Qwen) | [Whisper-large-v2](https://github.com/openai/whisper) | 中英 | 文音 | [HuggingFace](https://huggingface.co/Qwen) | [Qwen-Audio](https://github.com/QwenLM/Qwen-Audio)![Star](https://img.shields.io/github/stars/QwenLM/Qwen-Audio.svg?style=social&label=Star) | [Qwen](https://github.com/QwenLM) | [Paper](http://arxiv.org/abs/2311.07919) |
 | SPHINX | 13B | 2023-10 | / | / | 中英 | 图文 | [ckpt](https://huggingface.co/Alpha-VLLM/SPHINX) | [LLaMA2-Accessory](https://github.com/Alpha-VLLM/LLaMA2-Accessory)![Star](https://img.shields.io/github/stars/Alpha-VLLM/LLaMA2-Accessory.svg?style=social&label=Star) | [Alpha-VLLM](https://github.com/Alpha-VLLM) |  |
@@ -1741,6 +1742,7 @@ Awesome LLM compression research papers and tools to accelerate LLM training and
 
 ## 更新
 
+* 2024.01.23 增加[Yi-VL-6/34B](#MultiModal-ChatLLM)
 * 2024.01.22 增加[orion-4B](#ChatLLM)
 * 2024.01.19 增加[internlm2-chat，Chinese-Mixtral](#ChatLLM)
 * 2024.01.10 增加[Telechat，Code Millenials](#ChatLLM)
