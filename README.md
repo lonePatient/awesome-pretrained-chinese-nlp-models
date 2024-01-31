@@ -146,6 +146,7 @@
 
 |         模型          |   大小    | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             | 备注 |
 | :-------------------: | :-------: | ------- | :--: | ---- | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: | ---- |
+| iFlytekSpark-Base | 13B  | 2024-01 | 中英 | 通用 | [mindspore](https://xihe.mindspore.cn/modelzoo/iflytek/introduce) |    /     | [科大讯飞]() |  CD  |      |      |
 | Orion-Base | 14B  | 2024-01 | 多语 | 通用 | [HuggingFace](https://huggingface.co/OrionStarAI) | [Orion](https://github.com/OrionStarAI/Orion)![Star](https://img.shields.io/github/stars/OrionStarAI/Orion.svg?style=social&label=Star) | [OrionStarAI](https://github.com/OrionStarAI) |  CD  | [Paper](https://github.com/OrionStarAI/Orion/blob/master/doc/Orion14B_v3.pdf) | RAG/Plugin |
 | YaYi2-Base | 30B  | 2023-12 | 多语 | 通用 | [HuggingFace](https://huggingface.co/wenge-research) | [YAYI2](https://github.com/wenge-research/YAYI2)![Star](https://img.shields.io/github/stars/wenge-research/YAYI2.svg?style=social&label=Star) | [wenge-research](https://github.com/wenge-research) |  CD  | [Paper](https://arxiv.org/abs/2312.14862) |      |
 | Aquila2-Base | 7/34/70B | 2023-12 | 中英 | 通用 | [HuggingFace](https://huggingface.co/BAAI) | [Aquila2](https://github.com/FlagAI-Open/Aquila2)[![Star](https://camo.githubusercontent.com/a5eb71cca8248fd292d276788da80eb4161d5279ffcdb0221ef8191047b07bcb/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f466c616741492d4f70656e2f417175696c61322e7376673f7374796c653d736f6369616c266c6162656c3d53746172)](https://camo.githubusercontent.com/a5eb71cca8248fd292d276788da80eb4161d5279ffcdb0221ef8191047b07bcb/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f466c616741492d4f70656e2f417175696c61322e7376673f7374796c653d736f6369616c266c6162656c3d53746172) | [FlagAI](https://github.com/FlagAI-Open) |  CD  |      |      |
@@ -248,6 +249,8 @@
 
 |           模型           |    大小     | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             |
 | :----------------------: | :---------: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| iFlytekSpark-Chat | 13B | 2024-01 | 中英 | 通用 | [mindspore](https://xihe.mindspore.cn/modelzoo/iflytek/introduce) | / | [科大讯飞]() | CD |  |
+| rwkv-5-world | 0.1/1/3/7B | 2023-01 | 多语 | 通用 | [HuggingFace](https://huggingface.co/BlinkDL) | [RWKV-LM](https://github.com/BlinkDL/RWKV-LM)![Star](https://img.shields.io/github/stars/BlinkDL/RWKV-LM.svg?style=social&label=Star) | [BlinkDL](https://github.com/BlinkDL) |  | [URL](https://wiki.rwkv.com/) |
 | Orion-Chat | 14B | 2024-01 | 多语 | 通用 | [HuggingFace](https://huggingface.co/OrionStarAI) | [Orion](https://github.com/OrionStarAI/Orion)![Star](https://img.shields.io/github/stars/OrionStarAI/Orion.svg?style=social&label=Star) | [OrionStarAI](https://github.com/OrionStarAI) | CD | [Paper](https://github.com/OrionStarAI/Orion/blob/master/doc/Orion14B_v3.pdf) |
 | internlm2-chat | 7/20B | 2024-01 | 中英 | 通用 | [HuggingFace](https://huggingface.co/internlm) | [InternLM](https://github.com/InternLM/InternLM)![Star](https://img.shields.io/github/stars/InternLM/InternLM.svg?style=social&label=Star) | [InternLM](https://github.com/InternLM) | CD | [Report](https://github.com/InternLM/InternLM/issues/new) |
 | Chinese-Mixtral | 8x7B | 2023-01 | 中英 | 通用 | [HuggingFace](https://huggingface.co/HIT-SCIR/Chinese-Mixtral-8x7B) | / | [HIT-SCIR](https://huggingface.co/HIT-SCIR) | CD-MOE |  |
@@ -1742,6 +1745,7 @@ Awesome LLM compression research papers and tools to accelerate LLM training and
 
 ## 更新
 
+* 2024.01.31 增加[iFlytekSpark-Chat，rwkv-5-world](#MultiModal-ChatLLM)
 * 2024.01.23 增加[Yi-VL-6/34B](#MultiModal-ChatLLM)
 * 2024.01.22 增加[orion-4B](#ChatLLM)
 * 2024.01.19 增加[internlm2-chat，Chinese-Mixtral](#ChatLLM)
