@@ -146,7 +146,8 @@
 
 |         模型          |   大小    | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             | 备注 |
 | :-------------------: | :-------: | ------- | :--: | ---- | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: | ---- |
-| Chinese-Mixtral-Base | 8x7B | 2024-01 | 中英 | 通用 | [[Baidu\]](https://pan.baidu.com/s/1nwJ8JkMTUrCkDEccg7C9Pw?pwd=33kb) [[🤗HF\]](https://huggingface.co/hfl/chinese-mixtral) | **[Chinese-Mixtral](https://github.com/ymcui/Chinese-Mixtral)**![Star](https://img.shields.io/github/stars/ymcui/Chinese-Mixtral.svg?style=social&label=Star) | [Yiming Cui](https://github.com/ymcui) | MOE  |      |      |
+| **LongAlign-Base** | 6/7/13B | 2024-02 | 中英 | 通用 | [[🤗HF\]](https://hf-mirror.com/THUDM) | **[LongAlign](https://github.com/THUDM/LongAlign)**![Star](https://img.shields.io/github/stars/THUDM/LongAlign.svg?style=social&label=Star) | [THUDM](https://github.com/THUDM) |  /   | [Paper](https://arxiv.org/abs/2401.18058) |      |
+| Chinese-Mixtral-Base | 8x7B | 2024-02 | 中英 | 通用 | [[Baidu\]](https://pan.baidu.com/s/1nwJ8JkMTUrCkDEccg7C9Pw?pwd=33kb) [[🤗HF\]](https://huggingface.co/hfl/chinese-mixtral) | **[Chinese-Mixtral](https://github.com/ymcui/Chinese-Mixtral)**![Star](https://img.shields.io/github/stars/ymcui/Chinese-Mixtral.svg?style=social&label=Star) | [Yiming Cui](https://github.com/ymcui) | MOE  |      |      |
 | iFlytekSpark-Base | 13B  | 2024-01 | 中英 | 通用 | [mindspore](https://xihe.mindspore.cn/modelzoo/iflytek/introduce) |    /     | [科大讯飞]() |  CD  |      |      |
 | Orion-Base | 14B  | 2024-01 | 多语 | 通用 | [HuggingFace](https://huggingface.co/OrionStarAI) | [Orion](https://github.com/OrionStarAI/Orion)![Star](https://img.shields.io/github/stars/OrionStarAI/Orion.svg?style=social&label=Star) | [OrionStarAI](https://github.com/OrionStarAI) |  CD  | [Paper](https://github.com/OrionStarAI/Orion/blob/master/doc/Orion14B_v3.pdf) | RAG/Plugin |
 | YaYi2-Base | 30B  | 2023-12 | 多语 | 通用 | [HuggingFace](https://huggingface.co/wenge-research) | [YAYI2](https://github.com/wenge-research/YAYI2)![Star](https://img.shields.io/github/stars/wenge-research/YAYI2.svg?style=social&label=Star) | [wenge-research](https://github.com/wenge-research) |  CD  | [Paper](https://arxiv.org/abs/2312.14862) |      |
@@ -250,7 +251,8 @@
 
 |           模型           |    大小     | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             |
 | :----------------------: | :---------: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: |
-| Chinese-Mixtral-Chat | 8x7B | 2024-01 | 中英 | 通用 | [[Baidu\]](https://pan.baidu.com/s/1nwJ8JkMTUrCkDEccg7C9Pw?pwd=33kb) [[🤗HF\]](https://huggingface.co/hfl/chinese-mixtral) | **[Chinese-Mixtral](https://github.com/ymcui/Chinese-Mixtral)**![Star](https://img.shields.io/github/stars/ymcui/Chinese-Mixtral.svg?style=social&label=Star) | [Yiming Cui](https://github.com/ymcui) | MOE |  |
+| **LongAlign-Chat** | 6/7/13B | 2024-02 | 中英 | 通用 | [[🤗HF\]](https://hf-mirror.com/THUDM) | **[LongAlign](https://github.com/THUDM/LongAlign)**![Star](https://img.shields.io/github/stars/THUDM/LongAlign.svg?style=social&label=Star) | [THUDM](https://github.com/THUDM) | / | [Paper](https://arxiv.org/abs/2401.18058) |
+| Chinese-Mixtral-Chat | 8x7B | 2024-02 | 中英 | 通用 | [[Baidu\]](https://pan.baidu.com/s/1nwJ8JkMTUrCkDEccg7C9Pw?pwd=33kb) [[🤗HF\]](https://huggingface.co/hfl/chinese-mixtral) | **[Chinese-Mixtral](https://github.com/ymcui/Chinese-Mixtral)**![Star](https://img.shields.io/github/stars/ymcui/Chinese-Mixtral.svg?style=social&label=Star) | [Yiming Cui](https://github.com/ymcui) | MOE |  |
 | iFlytekSpark-Chat | 13B | 2024-01 | 中英 | 通用 | [mindspore](https://xihe.mindspore.cn/modelzoo/iflytek/introduce) | / | [科大讯飞]() | CD |  |
 | rwkv-5-world | 0.1/1/3/7B | 2023-01 | 多语 | 通用 | [HuggingFace](https://huggingface.co/BlinkDL) | [RWKV-LM](https://github.com/BlinkDL/RWKV-LM)![Star](https://img.shields.io/github/stars/BlinkDL/RWKV-LM.svg?style=social&label=Star) | [BlinkDL](https://github.com/BlinkDL) |  | [URL](https://wiki.rwkv.com/) |
 | Orion-Chat | 14B | 2024-01 | 多语 | 通用 | [HuggingFace](https://huggingface.co/OrionStarAI) | [Orion](https://github.com/OrionStarAI/Orion)![Star](https://img.shields.io/github/stars/OrionStarAI/Orion.svg?style=social&label=Star) | [OrionStarAI](https://github.com/OrionStarAI) | CD | [Paper](https://github.com/OrionStarAI/Orion/blob/master/doc/Orion14B_v3.pdf) |
@@ -1747,7 +1749,8 @@ Awesome LLM compression research papers and tools to accelerate LLM training and
 
 ## 更新
 
-* 2024.01.31 增加[iFlytekSpark-Chat，rwkv-5-world](#MultiModal-ChatLLM)
+* 2024.02.01 增加[LongAlign-Chat，Chinese-Mixtral-Chat](#ChatLLM)
+* 2024.01.31 增加[iFlytekSpark-Chat，rwkv-5-world](#ChatLLM)
 * 2024.01.23 增加[Yi-VL-6/34B](#MultiModal-ChatLLM)
 * 2024.01.22 增加[orion-4B](#ChatLLM)
 * 2024.01.19 增加[internlm2-chat，Chinese-Mixtral](#ChatLLM)
