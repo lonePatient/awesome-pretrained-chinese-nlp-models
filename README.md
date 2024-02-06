@@ -146,6 +146,7 @@
 
 |         模型          |   大小    | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             | 备注 |
 | :-------------------: | :-------: | ------- | :--: | ---- | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: | ---- |
+| Qwen1.5-Base | 0.5/1.8/4/7/1472B | 2024-02 | 中英 | 通用 | [[🤗HF\]](https://huggingface.co/Qwen) | [Qwen1.5](https://github.com/QwenLM/Qwen1.5)![Star](https://img.shields.io/github/stars/QwenLM/Qwen1.5.svg?style=social&label=Star) | [Qwen](https://github.com/QwenLM) |  /   | [Blog](https://qwenlm.github.io/zh/blog/qwen1.5/) |      |
 | **LongAlign-Base** | 6/7/13B | 2024-02 | 中英 | 通用 | [[🤗HF\]](https://hf-mirror.com/THUDM) | **[LongAlign](https://github.com/THUDM/LongAlign)**![Star](https://img.shields.io/github/stars/THUDM/LongAlign.svg?style=social&label=Star) | [THUDM](https://github.com/THUDM) |  /   | [Paper](https://arxiv.org/abs/2401.18058) |      |
 | Chinese-Mixtral-Base | 8x7B | 2024-02 | 中英 | 通用 | [[Baidu\]](https://pan.baidu.com/s/1nwJ8JkMTUrCkDEccg7C9Pw?pwd=33kb) [[🤗HF\]](https://huggingface.co/hfl/chinese-mixtral) | **[Chinese-Mixtral](https://github.com/ymcui/Chinese-Mixtral)**![Star](https://img.shields.io/github/stars/ymcui/Chinese-Mixtral.svg?style=social&label=Star) | [Yiming Cui](https://github.com/ymcui) | MOE  |      |      |
 | iFlytekSpark-Base | 13B  | 2024-01 | 中英 | 通用 | [mindspore](https://xihe.mindspore.cn/modelzoo/iflytek/introduce) |    /     | [科大讯飞]() |  CD  |      |      |
@@ -251,6 +252,7 @@
 
 |           模型           |    大小     | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             |
 | :----------------------: | :---------: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| Qwen1.5-Char | 0.5/1.8/4/7/1472B | 2024-02 | 中英 | 通用 | [[🤗HF\]](https://huggingface.co/Qwen) | [Qwen1.5](https://github.com/QwenLM/Qwen1.5)![Star](https://img.shields.io/github/stars/QwenLM/Qwen1.5.svg?style=social&label=Star) | [Qwen](https://github.com/QwenLM) | / | [Blog](https://qwenlm.github.io/zh/blog/qwen1.5/) |
 | MiniCPM | 2B | 2024-02 | 中英 | 通用 | [[🤗HF\]](https://huggingface.co/openbmb) [ModelScope](https://modelscope.cn/organization/OpenBMB) | [MiniCPM](https://github.com/OpenBMB/MiniCPM)![Star](https://img.shields.io/github/stars/OpenBMB/MiniCPM.svg?style=social&label=Star) | [OpenBMB](https://github.com/OpenBMB) | / | [Report](https://shengdinghu.notion.site/MiniCPM-c805a17c5c8046398914e47f0542095a) |
 | **LongAlign-Chat** | 6/7/13B | 2024-02 | 中英 | 通用 | [[🤗HF\]](https://hf-mirror.com/THUDM) | **[LongAlign](https://github.com/THUDM/LongAlign)**![Star](https://img.shields.io/github/stars/THUDM/LongAlign.svg?style=social&label=Star) | [THUDM](https://github.com/THUDM) | / | [Paper](https://arxiv.org/abs/2401.18058) |
 | Chinese-Mixtral-Chat | 8x7B | 2024-02 | 中英 | 通用 | [[Baidu\]](https://pan.baidu.com/s/1nwJ8JkMTUrCkDEccg7C9Pw?pwd=33kb) [[🤗HF\]](https://huggingface.co/hfl/chinese-mixtral) | **[Chinese-Mixtral](https://github.com/ymcui/Chinese-Mixtral)**![Star](https://img.shields.io/github/stars/ymcui/Chinese-Mixtral.svg?style=social&label=Star) | [Yiming Cui](https://github.com/ymcui) | MOE |  |
@@ -1753,6 +1755,7 @@ Awesome LLM compression research papers and tools to accelerate LLM training and
 
 ## 更新
 
+* 2024.02.06 增加[Qwen1.5](#ChatLLM)
 * 2024.02.02 增加[MiniCPM, TuringMM-Chat](#ChatLLM)
 * 2024.02.01 增加[LongAlign-Chat，Chinese-Mixtral-Chat](#ChatLLM)
 * 2024.01.31 增加[iFlytekSpark-Chat，rwkv-5-world](#ChatLLM)
