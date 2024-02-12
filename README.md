@@ -30,6 +30,8 @@
 
 + [开源中文指令数据集](#中文指令数据集)
 
++ [Embedding](#Embedding)
+
 + [个人推荐](#个人推荐)
   
 + [Other-Awesome](#other-awesome)
@@ -546,6 +548,21 @@
 |     firefly-train-1.1M     | 1.1M  | 2023-03 | 中文 | [dataset](https://huggingface.co/datasets/YeungNLP/firefly-train-1.1M) |      [Firefly](https://github.com/yangjianxin1/Firefly)      |       [Jianxin Yang](https://github.com/yangjianxin1)        |                                               |
 
 <p align="right">[<a href="#top">Back to Top</a>]</p>
+
+### Embedding
+
+> MTEB排行榜:  https://huggingface.co/spaces/mteb/leaderboard [镜像](https://hf-mirror.com/spaces/mteb/leaderboard)
+
+|           模型           |  大小   | 时间    | 语言 |     领域     |                             下载                             |                           项目地址                           |                       机构/个人                        |                             文                             |
+| :----------------------: | :-----: | ------- | :--: | :----------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :----------------------------------------------------------: |
+| Dmeta-embedding | **400MB** | 2024-02 | 中文 | 通用 | [[🤗HF\]](https://hf-mirror.com/DMetaSoul/Dmeta-embedding) | / | [DMetaSoul](https://hf-mirror.com/DMetaSoul) |  |
+| bge-m3 |  | 2024-02 | 中文 | 通用 | [[🤗HF\]](https://hf-mirror.com/BAAI) | / | [BAAI](https://hf-mirror.com/BAAI) | [Paper](https://arxiv.org/pdf/2402.03216.pdf) |
+| tao-8k |  | 2023-11 | 中文 | 通用 | [[🤗HF\]](https://hf-mirror.com/amu) |  | [amu](https://hf-mirror.com/amu) |  |
+| bge | s/b/l | 2023-10 | 中文 | 通用 | [[🤗HF\]](https://hf-mirror.com/BAAI) | / | [BAAI](https://hf-mirror.com/BAAI) |  |
+| gte-zh | s/b/l | 2023-08 | 中文 | 通用 | [[🤗HF\]](https://hf-mirror.com/DMetaSoul/Dmeta-embedding) | / | Alibaba DAMO | [Paper](arXiv:2308.03281) |
+| m3e | s/b/l | 2023-06 | 中文 | 通用 | [[🤗HF\]](https://hf-mirror.com/moka-ai) | / | [Moka-AI](https://hf-mirror.com/moka-ai) |  |
+| LaBSE |  |  | 多语 | 通用 | [[🤗HF\]](https://hf-mirror.com/sentence-transformers/LaBSE) | / | [Sentence Transformers](https://hf-mirror.com/sentence-transformers) | |
+
 
 ## 个人推荐
 
