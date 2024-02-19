@@ -772,107 +772,107 @@ MiniMax 最新一代的中文大语言模型帮助人类高效写作、激发创
 
 ## other-awesome
 
-####  1. Awesome-Chatgpt![Star](https://img.shields.io/github/stars/awesome-chatgpt/awesome-chatgpt.svg?style=social&label=Star) [github](https://github.com/awesome-chatgpt/awesome-chatgpt)
+####  1. Awesome-Chatgpt ![Star](https://img.shields.io/github/stars/awesome-chatgpt/awesome-chatgpt.svg?style=social&label=Star) [github](https://github.com/awesome-chatgpt/awesome-chatgpt)
 
 本项目旨在收集关于ChatGPT 的资源、工具、应用和用法等。
 
-#### 2. Awesome-ChatGPT-Prompts![Star](https://img.shields.io/github/stars/f/awesome-chatgpt-prompts.svg?style=social&label=Star) [github](https://github.com/f/awesome-chatgpt-prompts)
+#### 2. Awesome-ChatGPT-Prompts ![Star](https://img.shields.io/github/stars/f/awesome-chatgpt-prompts.svg?style=social&label=Star) [github](https://github.com/f/awesome-chatgpt-prompts)
 
 本项目旨在收集关于ChatGPT 模型使用的Prompts示例集。
 
-#### 3. Awesome-LLM![Star](https://img.shields.io/github/stars/Hannibal046/Awesome-LLM.svg?style=social&label=Star) [github](https://github.com/Hannibal046/Awesome-LLM)
+#### 3. Awesome-LLM ![Star](https://img.shields.io/github/stars/Hannibal046/Awesome-LLM.svg?style=social&label=Star) [github](https://github.com/Hannibal046/Awesome-LLM)
 
 本项目旨在收集有关大型语言模型相关资料，尤其是 ChatGPT 的论文的精选列表。它还包含 LLM 训练框架、部署 LLM 的工具、有关 LLM 的课程和教程以及所有公开可用的 LLM 模型和 API。
 
-#### 4. Awesome-LangChain![Star](https://img.shields.io/github/stars/kyrolabs/awesome-langchain.svg?style=social&label=Star) [github](https://github.com/kyrolabs/awesome-langchain)
+#### 4. Awesome-LangChain ![Star](https://img.shields.io/github/stars/kyrolabs/awesome-langchain.svg?style=social&label=Star) [github](https://github.com/kyrolabs/awesome-langchain)
 
 本项目旨在收集与LangChain有关应用列表。LangChain是一个惊人的框架，可以在短时间内完成相关LLM应用开发。
 
-#### 5. Awesome-Open-Gpt![Star](https://img.shields.io/github/stars/EwingYangs/awesome-open-gpt.svg?style=social&label=Star) [github](https://github.com/EwingYangs/awesome-open-gpt)
+#### 5. Awesome-Open-Gpt ![Star](https://img.shields.io/github/stars/EwingYangs/awesome-open-gpt.svg?style=social&label=Star) [github](https://github.com/EwingYangs/awesome-open-gpt)
 
 本项目旨在收集关于GPT开源精选项目的合集（170+全网最全)，其中包括了一些GPT镜像、GPT增强、GPT插件、GPT工具、GPT平替的聊天机器人、开源大语言模型等等。
 
-#### 6. Awesome-Multimodal-Large-Language-Models![Star](https://img.shields.io/github/stars/BradyFU/Awesome-Multimodal-Large-Language-Models.svg?style=social&label=Star) [github](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models)
+#### 6. Awesome-Multimodal-Large-Language-Models ![Star](https://img.shields.io/github/stars/BradyFU/Awesome-Multimodal-Large-Language-Models.svg?style=social&label=Star) [github](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models)
 
 本项目是关于多模态大语言模型（MLLM）的精选列表，包括数据集、多模态模型、多模态语境学习、多模态思维链、llm 辅助视觉推理、基础模型等。此列表将实时更新。✨
 
-#### 7. Awesome-Transformer-Attention![Star](https://img.shields.io/github/stars/cmhungsteve/Awesome-Transformer-Attention.svg?style=social&label=Star) [github](https://github.com/cmhungsteve/Awesome-Transformer-Attention)
+#### 7. Awesome-Transformer-Attention ![Star](https://img.shields.io/github/stars/cmhungsteve/Awesome-Transformer-Attention.svg?style=social&label=Star) [github](https://github.com/cmhungsteve/Awesome-Transformer-Attention)
 
 此 repo 包含 Vision Transformer & Attention 的综合论文列表，包括论文、代码和相关网站。
 
-#### 8. Awesome-Prompt-Engineering![Star](https://img.shields.io/github/stars/promptslab/Awesome-Prompt-Engineering.svg?style=social&label=Star) [github](https://github.com/promptslab/Awesome-Prompt-Engineering)
+#### 8. Awesome-Prompt-Engineering ![Star](https://img.shields.io/github/stars/promptslab/Awesome-Prompt-Engineering.svg?style=social&label=Star) [github](https://github.com/promptslab/Awesome-Prompt-Engineering)
 
 This repository contains a hand-curated resources for Prompt Engineering with a focus on Generative Pre-trained Transformer (GPT), ChatGPT, PaLM etc
 
-#### 9. Awesome-AITools![Star](https://img.shields.io/github/stars/ikaijua/Awesome-AITools.svg?style=social&label=Star) [github](https://github.com/ikaijua/Awesome-AITools)
+#### 9. Awesome-AITools ![Star](https://img.shields.io/github/stars/ikaijua/Awesome-AITools.svg?style=social&label=Star) [github](https://github.com/ikaijua/Awesome-AITools)
 
 这个仓库整理AI相关的实用工具。
 
-#### 10. Awesome-Chinese-LLM![Star](https://img.shields.io/github/stars/HqWu-HITCS/Awesome-Chinese-LLM.svg?style=social&label=Star) [github](https://github.com/HqWu-HITCS/Awesome-Chinese-LLM)
+#### 10. Awesome-Chinese-LLM ![Star](https://img.shields.io/github/stars/HqWu-HITCS/Awesome-Chinese-LLM.svg?style=social&label=Star) [github](https://github.com/HqWu-HITCS/Awesome-Chinese-LLM)
 
 本项目旨在收集和梳理中文LLM相关的开源模型、应用、数据集及教程等资料，目前收录的资源已达100+个！
 
-#### 11. Awesome-LLM4Tool![Star](https://img.shields.io/github/stars/OpenGVLab/Awesome-LLM4Tool.svg?style=social&label=Star) [github](https://github.com/OpenGVLab/Awesome-LLM4Tool)
+#### 11. Awesome-LLM4Tool ![Star](https://img.shields.io/github/stars/OpenGVLab/Awesome-LLM4Tool.svg?style=social&label=Star) [github](https://github.com/OpenGVLab/Awesome-LLM4Tool)
 
 Awesome-LLM4Tool is a curated list of the papers, repositories, tutorials, and anythings related to the large language models for tools.
 
-#### 12. Awesome LLM Security![Star](https://img.shields.io/github/stars/corca-ai/awesome-llm-security.svg?style=social&label=Star) [github](https://github.com/corca-ai/awesome-llm-security)
+#### 12. Awesome LLM Security ![Star](https://img.shields.io/github/stars/corca-ai/awesome-llm-security.svg?style=social&label=Star) [github](https://github.com/corca-ai/awesome-llm-security)
 
 A curation of awesome tools, documents and projects about LLM Security.
 
-#### 13. Awesome AI Agents![Star](https://img.shields.io/github/stars/e2b-dev/awesome-ai-agents.svg?style=social&label=Star) [github](https://github.com/e2b-dev/awesome-ai-agents)
+#### 13. Awesome AI Agents ![Star](https://img.shields.io/github/stars/e2b-dev/awesome-ai-agents.svg?style=social&label=Star) [github](https://github.com/e2b-dev/awesome-ai-agents)
 
 Welcome to our list of AI agents. We structured the list into two parts: Open source projects and Closed-source projects and companies
 
-#### 14. Awesome-LLM-Large-Language-Models-Notes![Star](https://img.shields.io/github/stars/kyaiooiayk/Awesome-LLM-Large-Language-Models-Notes.svg?style=social&label=Star) [github](https://github.com/kyaiooiayk/Awesome-LLM-Large-Language-Models-Notes)
+#### 14. Awesome-LLM-Large-Language-Models-Notes ![Star](https://img.shields.io/github/stars/kyaiooiayk/Awesome-LLM-Large-Language-Models-Notes.svg?style=social&label=Star) [github](https://github.com/kyaiooiayk/Awesome-LLM-Large-Language-Models-Notes)
 
 LLM-Large-Language-Models-Notes
 
-#### 15. Awesome-Efficient-LLM![Star](https://img.shields.io/github/stars/horseee/Awesome-Efficient-LLM.svg?style=social&label=Star) [github](https://github.com/horseee/Awesome-Efficient-LLM)
+#### 15. Awesome-Efficient-LLM ![Star](https://img.shields.io/github/stars/horseee/Awesome-Efficient-LLM.svg?style=social&label=Star) [github](https://github.com/horseee/Awesome-Efficient-LLM)
 
 A curated list for Efficient Large Language Models。
 
-#### 16. Awesome Datasets for LLM Training![Star](https://img.shields.io/github/stars/Zjh-819/LLMDataHub.svg?style=social&label=Star) [github](https://github.com/Zjh-819/LLMDataHub)
+#### 16. Awesome Datasets for LLM Training ![Star](https://img.shields.io/github/stars/Zjh-819/LLMDataHub.svg?style=social&label=Star) [github](https://github.com/Zjh-819/LLMDataHub)
 
 A quick guide (especially) for trending instruction finetuning datasets。
 
-#### 17. Awesome-Align-LLM-Human![Star](https://img.shields.io/github/stars/GaryYufei/AlignLLMHumanSurvey.svg?style=social&label=Star) [github](https://github.com/GaryYufei/AlignLLMHumanSurvey)
+#### 17. Awesome-Align-LLM-Human ![Star](https://img.shields.io/github/stars/GaryYufei/AlignLLMHumanSurvey.svg?style=social&label=Star) [github](https://github.com/GaryYufei/AlignLLMHumanSurvey)
 
 A collection of papers and resources about aligning large language models (LLMs) with human.
 
-#### 18. Awesome RLHF (RL with Human Feedback)![Star](https://img.shields.io/github/stars/opendilab/awesome-RLHF.svg?style=social&label=Star) [github](https://github.com/opendilab/awesome-RLHF)
+#### 18. Awesome RLHF (RL with Human Feedback) ![Star](https://img.shields.io/github/stars/opendilab/awesome-RLHF.svg?style=social&label=Star) [github](https://github.com/opendilab/awesome-RLHF)
 
 This is a collection of research papers for Reinforcement Learning with Human Feedback (RLHF). And the repository will be continuously updated to track the frontier of RLHF.
 
-#### 19. Prompt-in-context-learning![Star](https://img.shields.io/github/stars/EgoAlpha/prompt-in-context-learning.svg?style=social&label=Star) [github](https://github.com/EgoAlpha/prompt-in-context-learning)
+#### 19. Prompt-in-context-learning ![Star](https://img.shields.io/github/stars/EgoAlpha/prompt-in-context-learning.svg?style=social&label=Star) [github](https://github.com/EgoAlpha/prompt-in-context-learning)
 
 An Open-Source Engineering Guide for Prompt-in-context-learning from EgoAlpha Lab.
 
-#### 20. Awesome Instruction Learning![Star](https://img.shields.io/github/stars/RenzeLou/awesome-instruction-learning.svg?style=social&label=Star) [github](https://github.com/RenzeLou/awesome-instruction-learning)
+#### 20. Awesome Instruction Learning ![Star](https://img.shields.io/github/stars/RenzeLou/awesome-instruction-learning.svg?style=social&label=Star) [github](https://github.com/RenzeLou/awesome-instruction-learning)
 
 An awesome reading list of Instruction Tuning (or, put it more comprehensively, Instruction Learning), including papers and datasets.
 
-#### 21. Awesome-Foundation-Models![Star](https://img.shields.io/github/stars/uncbiag/Awesome-Foundation-Models.svg?style=social&label=Star) [github](https://github.com/uncbiag/Awesome-Foundation-Models)
+#### 21. Awesome-Foundation-Models ![Star](https://img.shields.io/github/stars/uncbiag/Awesome-Foundation-Models.svg?style=social&label=Star) [github](https://github.com/uncbiag/Awesome-Foundation-Models)
 
 A foundation model is a large-scale pretrained model (e.g., BERT, DALL-E, GPT-3) that can be adapted to a wide range of downstream applications. This term was first popularized by the Stanford Institute for Human-Centered Artificial Intelligence. This repository maintains a curated list of foundation models for vision and language tasks. Research papers without code are not included.
 
-#### 22. Awesome-AI-Devtools![Star](https://img.shields.io/github/stars/jamesmurdza/awesome-ai-devtools.svg?style=social&label=Star) [github](https://github.com/jamesmurdza/awesome-ai-devtools)
+#### 22. Awesome-AI-Devtools ![Star](https://img.shields.io/github/stars/jamesmurdza/awesome-ai-devtools.svg?style=social&label=Star) [github](https://github.com/jamesmurdza/awesome-ai-devtools)
 
 This is a curated list of AI-powered developer tools. These tools leverage AI to assist developers in tasks such as code completion, refactoring, debugging, documentation, and more.
 
-#### 23. Awesome-Autonomous-GPT![Star](https://img.shields.io/github/stars/ScarletPan/awesome-autonomous-gpt.svg?style=social&label=Star) [github](https://github.com/ScarletPan/awesome-autonomous-gpt)
+#### 23. Awesome-Autonomous-GPT ![Star](https://img.shields.io/github/stars/ScarletPan/awesome-autonomous-gpt.svg?style=social&label=Star) [github](https://github.com/ScarletPan/awesome-autonomous-gpt)
 
 A curated list of awesome projects and resources related to autonomous AI agents.
 
-#### 24. Awesome-Papers-Autonomous-Agent![Star](https://img.shields.io/github/stars/lafmdp/Awesome-Papers-Autonomous-Agent.svg?style=social&label=Star) [github](https://github.com/lafmdp/Awesome-Papers-Autonomous-Agent)
+#### 24. Awesome-Papers-Autonomous-Agent ![Star](https://img.shields.io/github/stars/lafmdp/Awesome-Papers-Autonomous-Agent.svg?style=social&label=Star) [github](https://github.com/lafmdp/Awesome-Papers-Autonomous-Agent)
 
 This is a collection of recent papers focusing on autonomous agent. 
 
-#### 25. Awesome-Code-LLM![Star](https://img.shields.io/github/stars/codefuse-ai/Awesome-Code-LLM.svg?style=social&label=Star) [github](https://github.com/codefuse-ai/Awesome-Code-LLM)
+#### 25. Awesome-Code-LLM ![Star](https://img.shields.io/github/stars/codefuse-ai/Awesome-Code-LLM.svg?style=social&label=Star) [github](https://github.com/codefuse-ai/Awesome-Code-LLM)
 
 a comprehensive review of LLM researches for code. 
 
-#### 26. Awesome-LLM-Compression![Star](https://img.shields.io/github/stars/HuangOwen/Awesome-LLM-Compression.svg?style=social&label=Star) [github](https://github.com/HuangOwen/Awesome-LLM-Compression)
+#### 26. Awesome-LLM-Compression ![Star](https://img.shields.io/github/stars/HuangOwen/Awesome-LLM-Compression.svg?style=social&label=Star) [github](https://github.com/HuangOwen/Awesome-LLM-Compression)
 
 Awesome LLM compression research papers and tools to accelerate LLM training and inference.
 
