@@ -553,7 +553,10 @@
 
 |           模型           |  大小   | 时间    | 语言 |     领域     |                             下载                             |                           项目地址                           |                       机构/个人                        |                             文                             |
 | :----------------------: | :-----: | ------- | :--: | :----------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :----------------------------------------------------------: |
-| Dmeta-embedding | **400MB** | 2024-02 | 中文 | 通用 | [[🤗HF\]](https://hf-mirror.com/DMetaSoul/Dmeta-embedding) | / | [DMetaSoul](https://hf-mirror.com/DMetaSoul) |  |
+| BCE | 279M | 2024-01 | 多语 | 通用 | [[🤗HF\]](https://huggingface.co/maidalun1020/bce-embedding-base_v1) | [BCEmbedding](https://github.com/netease-youdao/BCEmbedding) | [netease-youdao](https://github.com/netease-youdao) |  |
+| Cohere | Base | 2023-09 | 多语 | 通用 | [[🤗HF\]](https://huggingface.co/Cohere) | / | [Cohere](https://huggingface.co/Cohere) | [Blog](https://txt.cohere.com/introducing-embed-v3/) |
+| jina | Base | 2023-10 | 中英 | 通用 | [[🤗HF\]](https://huggingface.co/jinaai/jina-embeddings-v2-base-zh) | / | [Jina AI](https://huggingface.co/jinaai) |  |
+| Dmeta | **400MB** | 2024-02 | 中文 | 通用 | [[🤗HF\]](https://hf-mirror.com/DMetaSoul/Dmeta-embedding) | / | [DMetaSoul](https://hf-mirror.com/DMetaSoul) |  |
 | bge-m3 |  | 2024-02 | 中文 | 通用 | [[🤗HF\]](https://hf-mirror.com/BAAI) | / | [BAAI](https://hf-mirror.com/BAAI) | [Paper](https://arxiv.org/pdf/2402.03216.pdf) |
 | tao-8k |  | 2023-11 | 中文 | 通用 | [[🤗HF\]](https://hf-mirror.com/amu) |  | [amu](https://hf-mirror.com/amu) |  |
 | bge | s/b/l | 2023-10 | 中文 | 通用 | [[🤗HF\]](https://hf-mirror.com/BAAI) | / | [BAAI](https://hf-mirror.com/BAAI) |  |
