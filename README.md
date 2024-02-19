@@ -876,6 +876,10 @@ a comprehensive review of LLM researches for code.
 
 Awesome LLM compression research papers and tools to accelerate LLM training and inference.
 
+#### 27. Autonomous-Agents ![Star](https://img.shields.io/github/stars/tmgthb/Autonomous-Agents.svg?style=social&label=Star) [github](https://github.com/tmgthb/Autonomous-Agents)
+
+Autonomous Agents (LLMs). Updated daily.
+
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
 ## NLU系列
