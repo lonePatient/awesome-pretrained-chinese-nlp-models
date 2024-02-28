@@ -883,6 +883,14 @@ Awesome LLM compression research papers and tools to accelerate LLM training and
 
 Autonomous Agents (LLMs). Updated daily.
 
+#### 28. Awesome-Large-Multimodal-Agents ![Star](https://img.shields.io/github/stars/jun0wanan/awesome-large-multimodal-agents.svg?style=social&label=Star) [github](https://github.com/jun0wanan/awesome-large-multimodal-agents)
+
+Awesome Large Multimodal Agents.
+
+#### 29. Awesome-LLM-Prompt-Optimization ![Star](https://img.shields.io/github/stars/jxzhangjhu/Awesome-LLM-Prompt-Optimization.svg?style=social&label=Star) [github](https://github.com/jxzhangjhu/Awesome-LLM-Prompt-Optimization)
+
+This repo aims to record advanced papers of LLM prompt tuning and automatic optimization (after 2022).
+
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
 ## NLU系列
