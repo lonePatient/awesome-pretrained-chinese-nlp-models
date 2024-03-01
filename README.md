@@ -147,6 +147,7 @@
 
 |         模型          |       大小        | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             | 备注       |
 | :--------: | :------: | :-------: | :----: | :----: | :-----------: | :------: | :---------------: | :--: | :--------------: | ----- |
+| Breeze-Base |  7B  | 2024-02 | 中英 | 通用 | [🤗HF](https://huggingface.co/MediaTek-Research) |    /     | [MediaTek Research](https://huggingface.co/MediaTek-Research) |      |      |      |
 |       TowerBase       |       7/13B       | 2024-02 | 多语 | 通用 |           [[🤗HF\]](https://hf-mirror.com/Unbabel)            |                              /                               |           [Unbabel](https://hf-mirror.com/Unbabel)           |  CD  |                                                              |            |
 |     Qwen1.5-Base      | 0.5/1.8/4<br>7/14/72B | 2024-02 | 中英 | 通用 |            [[🤗HF\]](https://huggingface.co/Qwen)             | [Qwen1.5](https://github.com/QwenLM/Qwen1.5)![Star](https://img.shields.io/github/stars/QwenLM/Qwen1.5.svg?style=social&label=Star) |              [Qwen](https://github.com/QwenLM)               |  /   |      [Blog](https://qwenlm.github.io/zh/blog/qwen1.5/)       |            |
 |  LongAlign-Base   |      6/7/13B      | 2024-02 | 中英 | 通用 |            [[🤗HF\]](https://hf-mirror.com/THUDM)             | [LongAlign](https://github.com/THUDM/LongAlign)![Star](https://img.shields.io/github/stars/THUDM/LongAlign.svg?style=social&label=Star) |              [THUDM](https://github.com/THUDM)               |  /   |          [Paper](https://arxiv.org/abs/2401.18058)           |            |
@@ -249,6 +250,7 @@
 
 |           模型           |    大小     | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             |
 | :----------------------: | :---------: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| Breeze-Instruct | 7B | 2024-02 | 中英 | 通用 | [🤗HF](https://huggingface.co/MediaTek-Research) | / | [MediaTek Research](https://huggingface.co/MediaTek-Research) |  |  |
 | aya-101 | 13B | 2024-02 | 多语 | 通用 | [🤗HF](https://hf-mirror.com/CohereForAI/aya-101) | / | [Cohere For AI](https://hf-mirror.com/CohereForAI/aya-101/blob/main/(https://cohere.for.ai)) | CD | [Paper](https://arxiv.org/abs/2402.07827) |
 | ChemLLM | 7B | 2024-02 | 多语 | 通用 | [🤗HF](https://hf-mirror.com/CohereForAI/aya-101) | / | [AI4Chem](https://hf-mirror.com/AI4Chem) | CD | [Paper](https://arxiv.org/abs/2402.06852) |
 | TowerInstruct | 7/13B | 2024-02 | 多语 | 通用 | [[🤗HF\]](https://hf-mirror.com/Unbabel) | / | [Unbabel](https://hf-mirror.com/Unbabel) | CD |  |
@@ -376,6 +378,7 @@
 
 |           模型           |  大小   | 时间    | 语言 |     领域     |                             下载                             |                           项目地址                           |                       机构/个人                        | 架构 |                             文献                             |
 | :----------------------: | :-----: | ------- | :--: | :----------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| starcoder2 | 3/7/15B | 2024-02 | 中英 | 代码 | [🤗HF](https://huggingface.co/bigcode) | [starcoder2](https://github.com/bigcode-project/starcoder2) | [bigcode-project](https://github.com/bigcode-project) | CD | [Paper](https://drive.google.com/file/d/17iGn3c-sYNiLyRSY-A85QOzgzGnGiVI3/view) |
 | TuringMM-Chat | 34B | 2024-02 | 中英 | 教育 | [🤗HuggingFace](https://huggingface.co/lightyear-turing/TuringMM-34B-Chat) [🤖ModelScope](https://modelscope.cn/models/lightyearturing/TuringMM-34B-Chat/summary) | / | [光年无限](https://modelscope.cn/models/lightyearturing/TuringMM-34B-Chat/summary) | CD |  |
 | deepseek-moe | 16B | 2024-01 | 中英 | 代码 | [[🤗HF\]](https://huggingface.co/deepseek-ai) | [DeepSeekMoE](https://github.com/deepseek-ai/DeepSeek-MoE)![Star](https://img.shields.io/github/stars/deepseek-ai/DeepSeek-MoE.svg?style=social&label=Star) | [DeepSeek](https://github.com/deepseek-ai) | CD-MOE |  |
 | Code Millenials | 1/3/<br/>13/34B | 2023-01 | 多语 | 代码 | [[🤗HF\]](https://huggingface.co/budecosystem) | [code-millenials](https://github.com/BudEcosystem/code-millenials)![Star](https://img.shields.io/github/stars/BudEcosystem/code-millenials.svg?style=social&label=Star) | [BudEcosystem](https://github.com/BudEcosystem) | CD |  |
@@ -1767,6 +1770,7 @@ This repo aims to record advanced papers of LLM prompt tuning and automatic opti
 
 ## 更新
 
+* 2024.03.01 增加[Breeze-Instruct, starcoder2](#ChatLLM)
 * 2024.02.18 增加[aya-101、chemLLM](#ChatLLM)
 * 2024.02.06 增加[Qwen1.5](#ChatLLM)
 * 2024.02.02 增加[MiniCPM, TuringMM-Chat](#ChatLLM)
