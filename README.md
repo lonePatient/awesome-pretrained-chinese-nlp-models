@@ -894,6 +894,10 @@ Awesome Large Multimodal Agents.
 
 This repo aims to record advanced papers of LLM prompt tuning and automatic optimization (after 2022).
 
+#### 30. Awesome-LLMs-Datasets ![Star](https://img.shields.io/github/stars/lmmlzn/Awesome-LLMs-Datasets.svg?style=social&label=Star) [github](http://github.com/lmmlzn/Awesome-LLMs-Datasets)
+
+代表性LLM文本数据集大列表，包括预训练语料库、微调指令数据集、偏好数据集、评估数据集和传统NLP数据集.
+
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
 ## NLU系列
