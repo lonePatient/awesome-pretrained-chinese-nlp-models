@@ -898,6 +898,10 @@ This repo aims to record advanced papers of LLM prompt tuning and automatic opti
 
 代表性LLM文本数据集大列表，包括预训练语料库、微调指令数据集、偏好数据集、评估数据集和传统NLP数据集.
 
+#### 30. Awesome-RAG-Survey ![Star](https://img.shields.io/github/stars/hymie122/RAG-Survey.svg?style=social&label=Star) [github](https://github.com/hymie122/RAG-Survey)
+
+This repo is constructed for collecting and categorizing papers about RAG according to our survey paper: Retrieval-Augmented Generation for AI-Generated Content: A Survey. Considering the rapid growth of this field, we will continue to update both paper and this repo.
+
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
 ## NLU系列
