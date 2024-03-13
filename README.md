@@ -250,6 +250,7 @@
 
 |           模型           |    大小     | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             |
 | :----------------------: | :---------: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| Command-R | 35B | 2024-03 | 多语 | 通用 | [🤗HF](https://huggingface.co/CohereForAI) | / | [CohereForAI](https://huggingface.co/CohereForAI) | CD | |
 | Breeze-Instruct | 7B | 2024-02 | 中英 | 通用 | [🤗HF](https://huggingface.co/MediaTek-Research) | / | [MediaTek Research](https://huggingface.co/MediaTek-Research) |  |  |
 | aya-101 | 13B | 2024-02 | 多语 | 通用 | [🤗HF](https://hf-mirror.com/CohereForAI/aya-101) | / | [Cohere For AI](https://hf-mirror.com/CohereForAI/aya-101/blob/main/(https://cohere.for.ai)) | CD | [Paper](https://arxiv.org/abs/2402.07827) |
 | ChemLLM | 7B | 2024-02 | 多语 | 通用 | [🤗HF](https://hf-mirror.com/CohereForAI/aya-101) | / | [AI4Chem](https://hf-mirror.com/AI4Chem) | CD | [Paper](https://arxiv.org/abs/2402.06852) |
@@ -1779,6 +1780,7 @@ This repo is constructed for collecting and categorizing papers about RAG accord
 
 ## 更新
 
+* 2024.03.13 增加[Command-R](#ChatLLM)
 * 2024.03.01 增加[Breeze-Instruct, starcoder2](#ChatLLM)
 * 2024.02.18 增加[aya-101、chemLLM](#ChatLLM)
 * 2024.02.06 增加[Qwen1.5](#ChatLLM)
