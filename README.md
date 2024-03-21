@@ -905,6 +905,10 @@ This repo aims to record advanced papers of LLM prompt tuning and automatic opti
 
 This repo is constructed for collecting and categorizing papers about RAG according to our survey paper: Retrieval-Augmented Generation for AI-Generated Content: A Survey. Considering the rapid growth of this field, we will continue to update both paper and this repo.
 
+#### 31. Awesome-Tool-LLM ![Star](https://img.shields.io/github/stars/zorazrw/awesome-tool-llm.svg?style=social&label=Star) [github](https://github.com/zorazrw/awesome-tool-llm)
+
+Language models (LMs) are powerful yet mostly for text-generation tasks. Tools have substantially enhanced their performance for tasks that require complex skills.
+
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
 ## NLU系列
