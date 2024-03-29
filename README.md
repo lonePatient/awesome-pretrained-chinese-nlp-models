@@ -250,6 +250,7 @@
 
 |           模型           |    大小     | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             |
 | :----------------------: | :---------: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| Qwen-MoE | 2.7B | 2024-03 | 中英 | 通用 | [🤗HF](https://huggingface.co/Qwen/Qwen1.5-MoE-A2.7B-Chat) | [Qwen1.5](https://github.com/QwenLM/Qwen1.5) ![Star](https://img.shields.io/github/stars/QwenLM/Qwen1.5.svg?style=social&label=Star) | [Qwen](https://github.com/QwenLM) | MoE | [Blog](https://qwenlm.github.io/zh/blog/qwen-moe/) |
 | Command-R | 35B | 2024-03 | 多语 | 通用 | [🤗HF](https://huggingface.co/CohereForAI) | / | [CohereForAI](https://huggingface.co/CohereForAI) | CD | |
 | Breeze-Instruct | 7B | 2024-02 | 中英 | 通用 | [🤗HF](https://huggingface.co/MediaTek-Research) | / | [MediaTek Research](https://huggingface.co/MediaTek-Research) |  |  |
 | aya-101 | 13B | 2024-02 | 多语 | 通用 | [🤗HF](https://hf-mirror.com/CohereForAI/aya-101) | / | [Cohere For AI](https://hf-mirror.com/CohereForAI/aya-101/blob/main/(https://cohere.for.ai)) | CD | [Paper](https://arxiv.org/abs/2402.07827) |
@@ -468,6 +469,7 @@
 
 |           模型           | 大小  |  时间   |                           语言模型                           |                          非语言模型                          | 语言 |   领域    |                             下载                             |                           项目地址                           |                        机构/个人                         |                             文献                             |
 | :----------------------: | :---: | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :----------------------------------------------------------: |
+| **Qwen-Audio** | 7B | 2024-03 | [Qwen-7B](https://github.com/QwenLM/Qwen) | [Whisper-large-v2](https://github.com/openai/whisper) | 中英 | 文音 | [🤗HF](https://huggingface.co/Qwen/Qwen-Audio) | [Qwen-Audio](https://github.com/QwenLM/Qwen-Audio) ![Star](https://img.shields.io/github/stars/QwenLM/Qwen-Audio.svg?style=social&label=Star) | [Qwen](https://github.com/QwenLM) | [Paper](http://arxiv.org/abs/2311.07919) |
 | DeepSeek-VL | 1.3/7B | 2024-03 | DeepSeek | SigLip/SAM | 中英 | 图文 | [🤗HF](https://huggingface.co/deepseek-ai/deepseek-vl-7b-chat) | [DeepSeek-VL](https://github.com/deepseek-ai/DeepSeek-VL)![Star](https://img.shields.io/github/stars/deepseek-ai/DeepSeek-VL.svg?style=social&label=Star) | [deepseek-ai](https://github.com/deepseek-ai) | [Paper](https://arxiv.org/abs/2403.05525) |
 | **OmniLMM** | 3/12B | 2024-02 | MiniCPM | SigLip | 中英 | 图文 | [🤗HF](https://huggingface.co/openbmb/MiniCPM-V) | [OmniLMM](https://github.com/OpenBMB/OmniLMM)![Star](https://img.shields.io/github/stars/OpenBMB/OmniLMM.svg?style=social&label=Star) | [[OpenBMB](https://github.com/OpenBMB)](https://github.com/01-ai) |  |
 | **MiniCPM-V** | 3B | 2024-02 | MiniCPM-2.4B | SigLip-400M | 中英 | 图文 | [🤗HF](https://huggingface.co/openbmb/MiniCPM-V) | [OmniLMM](https://github.com/OpenBMB/OmniLMM)![Star](https://img.shields.io/github/stars/OpenBMB/OmniLMM.svg?style=social&label=Star) | [[OpenBMB](https://github.com/OpenBMB)](https://github.com/01-ai) |  |
@@ -1785,6 +1787,7 @@ Language models (LMs) are powerful yet mostly for text-generation tasks. Tools h
 
 ## 更新
 
+* 2024.03.29 增加[Qwen-Audio、Qwen-MoE](#ChatLLM)
 * 2024.03.13 增加[Command-R](#ChatLLM)
 * 2024.03.01 增加[Breeze-Instruct, starcoder2](#ChatLLM)
 * 2024.02.18 增加[aya-101、chemLLM](#ChatLLM)
