@@ -147,6 +147,7 @@
 
 |         模型          |       大小        | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             | 备注       |
 | :--------: | :------: | :-------: | :----: | :----: | :-----------: | :------: | :---------------: | :--: | :--------------: | ----- |
+| Mengzi3-Base | 13B  | 2024-04 | 中英 | 通用 | [🤗HF](https://huggingface.co/Langboat) | [Mengzi3](https://github.com/Langboat/Mengzi3) ![Star](https://img.shields.io/github/stars/Langboat/Mengzi3.svg?style=social&label=Star) | [Langboat](https://github.com/Langboat) |  CD  |      |      |
 | Breeze-Base |  7B  | 2024-02 | 中英 | 通用 | [🤗HF](https://huggingface.co/MediaTek-Research) |    /     | [MediaTek Research](https://huggingface.co/MediaTek-Research) |      |      |      |
 |       TowerBase       |       7/13B       | 2024-02 | 多语 | 通用 |           [[🤗HF\]](https://hf-mirror.com/Unbabel)            |                              /                               |           [Unbabel](https://hf-mirror.com/Unbabel)           |  CD  |                                                              |            |
 |     Qwen1.5-Base      | 0.5/1.8/4<br>7/14/72B | 2024-02 | 中英 | 通用 |            [[🤗HF\]](https://huggingface.co/Qwen)             | [Qwen1.5](https://github.com/QwenLM/Qwen1.5)![Star](https://img.shields.io/github/stars/QwenLM/Qwen1.5.svg?style=social&label=Star) |              [Qwen](https://github.com/QwenLM)               |  /   |      [Blog](https://qwenlm.github.io/zh/blog/qwen1.5/)       |            |
@@ -250,6 +251,7 @@
 
 |           模型           |    大小     | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             |
 | :----------------------: | :---------: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| Mengzi3-Chat | 13B  | 2024-04 | 中英 | 通用 | [🤗HF](https://huggingface.co/Langboat) | [Mengzi3](https://github.com/Langboat/Mengzi3) ![Star](https://img.shields.io/github/stars/Langboat/Mengzi3.svg?style=social&label=Star) | [Langboat](https://github.com/Langboat) |  CD  |  |
 | Qwen-MoE | 2.7B | 2024-03 | 中英 | 通用 | [🤗HF](https://huggingface.co/Qwen/Qwen1.5-MoE-A2.7B-Chat) | [Qwen1.5](https://github.com/QwenLM/Qwen1.5) ![Star](https://img.shields.io/github/stars/QwenLM/Qwen1.5.svg?style=social&label=Star) | [Qwen](https://github.com/QwenLM) | MoE | [Blog](https://qwenlm.github.io/zh/blog/qwen-moe/) |
 | Command-R | 35B | 2024-03 | 多语 | 通用 | [🤗HF](https://huggingface.co/CohereForAI) | / | [CohereForAI](https://huggingface.co/CohereForAI) | CD | |
 | Breeze-Instruct | 7B | 2024-02 | 中英 | 通用 | [🤗HF](https://huggingface.co/MediaTek-Research) | / | [MediaTek Research](https://huggingface.co/MediaTek-Research) |  |  |
@@ -1787,6 +1789,7 @@ Language models (LMs) are powerful yet mostly for text-generation tasks. Tools h
 
 ## 更新
 
+* 2024.04.04 增加[Mengzi3](#ChatLLM)
 * 2024.03.29 增加[Qwen-Audio、Qwen-MoE](#ChatLLM)
 * 2024.03.13 增加[Command-R](#ChatLLM)
 * 2024.03.01 增加[Breeze-Instruct, starcoder2](#ChatLLM)
