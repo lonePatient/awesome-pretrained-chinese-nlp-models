@@ -147,6 +147,7 @@
 
 |         模型          |       大小        | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             | 备注       |
 | :--------: | :------: | :-------: | :----: | :----: | :-----------: | :------: | :---------------: | :--: | :--------------: | ----- |
+| XVERSE-MoE | A4.2B/25.8B | 2024-04 | 中英 | 通用 | [🤗HF](https://huggingface.co/xverse) | [XVERSE-MoE-A4.2B](https://github.com/xverse-ai/XVERSE-MoE-A4.2B) | [元象科技](https://github.com/xverse-ai) |  CD  |  |
 | SoftTiger-Base | 13/70B | 2024-04 | 中英 | 通用 | [🤗HF](https://huggingface.co/TigerResearch) |   [TigerBot](https://github.com/TigerResearch/TigerBot)   | [TigerResearch](https://github.com/TigerResearch) |  CD  |      |      |
 |   HammerLLM    |  1.4b  | 2024-04 | 中英 | 通用 |  [🤗HF](https://huggingface.co/DataHammer)   | [HammerLLM](https://github.com/Academic-Hammer/HammerLLM) | [DataHammer](https://github.com/Academic-Hammer)  |      |      |      |
 | Mengzi3-Base | 13B  | 2024-04 | 中英 | 通用 | [🤗HF](https://huggingface.co/Langboat) | [Mengzi3](https://github.com/Langboat/Mengzi3) ![Star](https://img.shields.io/github/stars/Langboat/Mengzi3.svg?style=social&label=Star) | [Langboat](https://github.com/Langboat) |  CD  |      |      |
@@ -1791,6 +1792,7 @@ Language models (LMs) are powerful yet mostly for text-generation tasks. Tools h
 
 ## 更新
 
+* 2024.04.12 增加[XVERSE-MoE](#LLM)
 * 2024.04.08 增加[SoftTiger、HammerLLM](#LLM)
 * 2024.04.06 增加[Qwen1.5-32B](#ChatLLM)
 * 2024.04.04 增加[Mengzi3](#ChatLLM)
