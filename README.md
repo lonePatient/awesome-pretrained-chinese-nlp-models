@@ -147,6 +147,7 @@
 
 |         模型          |       大小        | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             | 备注       |
 | :--------: | :------: | :-------: | :----: | :----: | :-----------: | :------: | :---------------: | :--: | :--------------: | ----- |
+| Zhinao-Base |  7B  | 2024-04 | 中英 | 通用 | [🤗HF](https://huggingface.co/qihoo360) [ 🤖](https://www.modelscope.cn/models/qihoo360/360Zhinao-7B-Base/summary) |    /     | [奇虎科技](https://huggingface.co/qihoo360) |  CD  |      |      |
 | XVERSE-MoE | A4.2B/25.8B | 2024-04 | 中英 | 通用 | [🤗HF](https://huggingface.co/xverse) | [XVERSE-MoE-A4.2B](https://github.com/xverse-ai/XVERSE-MoE-A4.2B) | [元象科技](https://github.com/xverse-ai) |  CD  |  |
 | SoftTiger-Base | 13/70B | 2024-04 | 中英 | 通用 | [🤗HF](https://huggingface.co/TigerResearch) |   [TigerBot](https://github.com/TigerResearch/TigerBot)   | [TigerResearch](https://github.com/TigerResearch) |  CD  |      |      |
 |   HammerLLM    |  1.4b  | 2024-04 | 中英 | 通用 |  [🤗HF](https://huggingface.co/DataHammer)   | [HammerLLM](https://github.com/Academic-Hammer/HammerLLM) | [DataHammer](https://github.com/Academic-Hammer)  |      |      |      |
@@ -254,6 +255,10 @@
 
 |           模型           |    大小     | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             |
 | :----------------------: | :---------: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| Zhinao-Chat | 7B | 2024-04 | 中英 | 通用 | [🤗HF](https://huggingface.co/qihoo360) [ 🤖](https://www.modelscope.cn/models/qihoo360/360Zhinao-7B-Base/summary) | / |[奇虎科技](https://huggingface.co/qihoo360)|CD||
+| MiniCPM-MoE | 8x2B | 2024-04 | 中英 | 通用 | [🤗HF](https://huggingface.co/openbmb/MiniCPM-MoE-8x2B) | [MiniCPM](https://github.com/OpenBMB/MiniCPM) |[OpenBMB](https://github.com/OpenBMB)|MoE||
+| Nanbeige2-Chat | 8B | 2024-04 | 中英 | 通用 | [🤗HF](https://huggingface.co/Nanbeige/Nanbeige2-8B-Chat) | [Nanbeige](https://github.com/Nanbeige/Nanbeige) |[Nanbeige LLM Lab](https://github.com/Nanbeige)|CD||
+| Sailor | 7B | 2024-04 | 多语 | 通用 | [🤗HF](https://huggingface.co/sail/Sailor-4B-Chat) | [sailor-llm](https://github.com/sail-sg/sailor-llm) |[Sea AI Lab](https://github.com/sail-sg)|CD|[Paper](https://arxiv.org/pdf/2404.03608.pdf)|
 | Mengzi3-Chat | 13B  | 2024-04 | 中英 | 通用 | [🤗HF](https://huggingface.co/Langboat) | [Mengzi3](https://github.com/Langboat/Mengzi3) ![Star](https://img.shields.io/github/stars/Langboat/Mengzi3.svg?style=social&label=Star) | [Langboat](https://github.com/Langboat) |  CD  |  |
 | Qwen-MoE | 2.7B | 2024-03 | 中英 | 通用 | [🤗HF](https://huggingface.co/Qwen/Qwen1.5-MoE-A2.7B-Chat) | [Qwen1.5](https://github.com/QwenLM/Qwen1.5) ![Star](https://img.shields.io/github/stars/QwenLM/Qwen1.5.svg?style=social&label=Star) | [Qwen](https://github.com/QwenLM) | MoE | [Blog](https://qwenlm.github.io/zh/blog/qwen-moe/) |
 | Command-R | 35B | 2024-03 | 多语 | 通用 | [🤗HF](https://huggingface.co/CohereForAI) | / | [CohereForAI](https://huggingface.co/CohereForAI) | CD | |
@@ -385,6 +390,8 @@
 
 |           模型           |  大小   | 时间    | 语言 |     领域     |                             下载                             |                           项目地址                           |                       机构/个人                        | 架构 |                             文献                             |
 | :----------------------: | :-----: | ------- | :--: | :----------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| codegemma | 2/7B | 2024-04 | 多语 | 代码 | [🤗HF](https://huggingface.co/google/codegemma-7b) | / |[Google](https://huggingface.co/google)|||
+| WaveCoder | 6.7B | 2024-04 | 多语 | 代码 | [🤗HF](https://huggingface.co/microsoft/wavecoder-ds-6.7b) | [WaveCoder](https://github.com/microsoft/WaveCoder) |[microsoft](https://huggingface.co/microsoft)||[Paper](https://arxiv.org/abs/2312.14187)|
 | ChemDFM | 13B | 2024-03 | 中英 | 化学 | [🤗HF](https://huggingface.co/OpenDFM) | / | [OpenDFM](https://huggingface.co/OpenDFM) | CD | [Paper](https://arxiv.org/abs/2401.14818) |
 | starcoder2 | 3/7/15B | 2024-02 | 中英 | 代码 | [🤗HF](https://huggingface.co/bigcode) | [starcoder2](https://github.com/bigcode-project/starcoder2) | [bigcode-project](https://github.com/bigcode-project) | CD | [Paper](https://drive.google.com/file/d/17iGn3c-sYNiLyRSY-A85QOzgzGnGiVI3/view) |
 | TuringMM-Chat | 34B | 2024-02 | 中英 | 教育 | [🤗HuggingFace](https://huggingface.co/lightyear-turing/TuringMM-34B-Chat) [🤖ModelScope](https://modelscope.cn/models/lightyearturing/TuringMM-34B-Chat/summary) | / | [光年无限](https://modelscope.cn/models/lightyearturing/TuringMM-34B-Chat/summary) | CD |  |
@@ -474,6 +481,7 @@
 
 |           模型           | 大小  |  时间   |                           语言模型                           |                          非语言模型                          | 语言 |   领域    |                             下载                             |                           项目地址                           |                        机构/个人                         |                             文献                             |
 | :----------------------: | :---: | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :----------------------------------------------------------: |
+| MiniCPM-V 2.0 | 2.8B | 2024-04 | [MiniCPM-2.4B](https://github.com/OpenBMB/MiniCPM/) | SigLip-400M | 中英 | 文图 | [🤗](https://huggingface.co/openbmb/OmniLMM-12B/) [🤖](http://120.92.209.146:8081/) | **[MiniCPM-V](https://github.com/OpenBMB/MiniCPM-V)** | [OpenBMB](https://github.com/OpenBMB) | [Blog](https://openbmb.vercel.app/minicpm-v-2) |
 | **Qwen-Audio** | 7B | 2024-03 | [Qwen-7B](https://github.com/QwenLM/Qwen) | [Whisper-large-v2](https://github.com/openai/whisper) | 中英 | 文音 | [🤗HF](https://huggingface.co/Qwen/Qwen-Audio) | [Qwen-Audio](https://github.com/QwenLM/Qwen-Audio) ![Star](https://img.shields.io/github/stars/QwenLM/Qwen-Audio.svg?style=social&label=Star) | [Qwen](https://github.com/QwenLM) | [Paper](http://arxiv.org/abs/2311.07919) |
 | DeepSeek-VL | 1.3/7B | 2024-03 | DeepSeek | SigLip/SAM | 中英 | 图文 | [🤗HF](https://huggingface.co/deepseek-ai/deepseek-vl-7b-chat) | [DeepSeek-VL](https://github.com/deepseek-ai/DeepSeek-VL)![Star](https://img.shields.io/github/stars/deepseek-ai/DeepSeek-VL.svg?style=social&label=Star) | [deepseek-ai](https://github.com/deepseek-ai) | [Paper](https://arxiv.org/abs/2403.05525) |
 | **OmniLMM** | 3/12B | 2024-02 | MiniCPM | SigLip | 中英 | 图文 | [🤗HF](https://huggingface.co/openbmb/MiniCPM-V) | [OmniLMM](https://github.com/OpenBMB/OmniLMM)![Star](https://img.shields.io/github/stars/OpenBMB/OmniLMM.svg?style=social&label=Star) | [[OpenBMB](https://github.com/OpenBMB)](https://github.com/01-ai) |  |
@@ -1792,6 +1800,7 @@ Language models (LMs) are powerful yet mostly for text-generation tasks. Tools h
 
 ## 更新
 
+* 2024.04.14 增加[MiniCPM-V2、WaveCoder、codegemma、Sailor、Nanbeige2-Chat、MiniCPM-MoE、Zhinao-Chat]()
 * 2024.04.12 增加[XVERSE-MoE](#LLM)
 * 2024.04.08 增加[SoftTiger、HammerLLM](#LLM)
 * 2024.04.06 增加[Qwen1.5-32B](#ChatLLM)
