@@ -147,6 +147,7 @@
 
 |         模型          |       大小        | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             | 备注       |
 | :--------: | :------: | :-------: | :----: | :----: | :-----------: | :------: | :---------------: | :--: | :--------------: | ----- |
+| Llama-3-Base | 8/70B | 2024-04 | 多语 | 通用 | [🤗HF](https://hf-mirror.com/meta-llama) | **[llama3](https://github.com/meta-llama/llama3)** | [Meta Llama](https://github.com/meta-llama) |  CD  |      |      |
 | Zhinao-Base |  7B  | 2024-04 | 中英 | 通用 | [🤗HF](https://huggingface.co/qihoo360) [ 🤖](https://www.modelscope.cn/models/qihoo360/360Zhinao-7B-Base/summary) |    /     | [奇虎科技](https://huggingface.co/qihoo360) |  CD  |      |      |
 | XVERSE-MoE | A4.2B/25.8B | 2024-04 | 中英 | 通用 | [🤗HF](https://huggingface.co/xverse) | [XVERSE-MoE-A4.2B](https://github.com/xverse-ai/XVERSE-MoE-A4.2B) | [元象科技](https://github.com/xverse-ai) |  CD  |  |
 | SoftTiger-Base | 13/70B | 2024-04 | 中英 | 通用 | [🤗HF](https://huggingface.co/TigerResearch) |   [TigerBot](https://github.com/TigerResearch/TigerBot)   | [TigerResearch](https://github.com/TigerResearch) |  CD  |      |      |
@@ -255,6 +256,8 @@
 
 |           模型           |    大小     | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             |
 | :----------------------: | :---------: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| Llama3-Chinese-Chat | 8B | 2024-04 | 中英 | 通用 | [🤗HF](https://huggingface.co/shenzhi-wang/Llama3-8B-Chinese-Chat) | / |[Shenzhi Wang](https://huggingface.co/shenzhi-wang)|CD||
+| Llama-3-Chat | 8/70B | 2024-04 | 多语 | 通用 | [🤗HF](https://hf-mirror.com/meta-llama) | **[llama3](https://github.com/meta-llama/llama3)** |[Meta Llama](https://github.com/meta-llama)|CD||
 | Zhinao-Chat | 7B | 2024-04 | 中英 | 通用 | [🤗HF](https://huggingface.co/qihoo360) [ 🤖](https://www.modelscope.cn/models/qihoo360/360Zhinao-7B-Base/summary) | / |[奇虎科技](https://huggingface.co/qihoo360)|CD||
 | MiniCPM-MoE | 8x2B | 2024-04 | 中英 | 通用 | [🤗HF](https://huggingface.co/openbmb/MiniCPM-MoE-8x2B) | [MiniCPM](https://github.com/OpenBMB/MiniCPM) |[OpenBMB](https://github.com/OpenBMB)|MoE||
 | Nanbeige2-Chat | 8B | 2024-04 | 中英 | 通用 | [🤗HF](https://huggingface.co/Nanbeige/Nanbeige2-8B-Chat) | [Nanbeige](https://github.com/Nanbeige/Nanbeige) |[Nanbeige LLM Lab](https://github.com/Nanbeige)|CD||
@@ -390,6 +393,7 @@
 
 |           模型           |  大小   | 时间    | 语言 |     领域     |                             下载                             |                           项目地址                           |                       机构/个人                        | 架构 |                             文献                             |
 | :----------------------: | :-----: | ------- | :--: | :----------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| CodeQwen1.5-Chat | 7B | 2024-04 | 中英 | 代码 | [🤗HF](https://hf-mirror.com/Qwen/CodeQwen1.5-7B-Chat) | **[Qwen1.5](https://github.com/QwenLM/Qwen1.5)** |[Qwen](https://github.com/QwenLM)|CD|[Blog](https://qwenlm.github.io/blog/codeqwen1.5/)|
 | codegemma | 2/7B | 2024-04 | 多语 | 代码 | [🤗HF](https://huggingface.co/google/codegemma-7b) | / |[Google](https://huggingface.co/google)|||
 | WaveCoder | 6.7B | 2024-04 | 多语 | 代码 | [🤗HF](https://huggingface.co/microsoft/wavecoder-ds-6.7b) | [WaveCoder](https://github.com/microsoft/WaveCoder) |[microsoft](https://huggingface.co/microsoft)||[Paper](https://arxiv.org/abs/2312.14187)|
 | ChemDFM | 13B | 2024-03 | 中英 | 化学 | [🤗HF](https://huggingface.co/OpenDFM) | / | [OpenDFM](https://huggingface.co/OpenDFM) | CD | [Paper](https://arxiv.org/abs/2401.14818) |
