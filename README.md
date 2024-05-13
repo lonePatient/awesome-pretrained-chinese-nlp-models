@@ -147,6 +147,7 @@
 
 |         模型          |       大小        | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             | 备注       |
 | :--------: | :------: | :-------: | :----: | :----: | :-----------: | :------: | :---------------: | :--: | :--------------: | ----- |
+| Yi-1.5-Base | 6/9/34B | 2024-05 | 中英  | 通用  | [🤗HF](https://huggingface.co/01-ai) | [Yi-1.5](https://github.com/01-ai/Yi-1.5) | [01-ai](https://github.com/01-ai) | CD  | [Paper](https://arxiv.org/abs/2403.04652) |     |
 | DeepSeek-V2-Base | A21B/236B | 2024-05 | 中英 | 通用 | [🤗HF](https://huggingface.co/deepseek-ai/DeepSeek-V2) | [DeepSeek-V2](https://github.com/deepseek-ai/DeepSeek-V2) | [deepseek-ai](https://github.com/deepseek-ai) | MOE  | [Paper](https://github.com/deepseek-ai/DeepSeek-V2/blob/main/deepseek-v2-tech-report.pdf) |      |
 | Llama-3-Base | 8/70B | 2024-04 | 多语 | 通用 | [🤗HF](https://hf-mirror.com/meta-llama) | **[llama3](https://github.com/meta-llama/llama3)** | [Meta Llama](https://github.com/meta-llama) |  CD  |      |      |
 | Zhinao-Base |  7B  | 2024-04 | 中英 | 通用 | [🤗HF](https://huggingface.co/qihoo360) [ 🤖](https://www.modelscope.cn/models/qihoo360/360Zhinao-7B-Base/summary) |    /     | [奇虎科技](https://huggingface.co/qihoo360) |  CD  |      |      |
@@ -257,6 +258,7 @@
 
 |           模型           |    大小     | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             |
 | :----------------------: | :---------: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| Yi-1.5-Chat | 6/9/34B | 2024-05 | 中英  | 通用  | [🤗HF](https://huggingface.co/01-ai) | [Yi-1.5](https://github.com/01-ai/Yi-1.5) | [01-ai](https://github.com/01-ai) | CD  | [Paper](https://arxiv.org/abs/2403.04652) |
 | DeepSeek-V2-Chat | A21B/236B | 2024-05 | 中英 | 通用 | [🤗HF](https://huggingface.co/deepseek-ai/DeepSeek-V2-Chat) | [DeepSeek-V2](https://github.com/deepseek-ai/DeepSeek-V2) | [deepseek-ai](https://github.com/deepseek-ai) | MOE | [Paper](https://github.com/deepseek-ai/DeepSeek-V2/blob/main/deepseek-v2-tech-report.pdf) |
 | XVERSE-MoE | A4.2B/25.8B | 2024-05 | 中英 | 通用 | [🤗HF](https://huggingface.co/xverse/XVERSE-MoE-A4.2B) | [XVERSE-MoE-A4.2B](https://github.com/xverse-ai/XVERSE-MoE-A4.2B) |[xverse-ai](https://github.com/xverse-ai)|MOE||
 | Llama3-zh | 8/70B | 2024-04 | 中英 | 通用 | [🤗HF](https://huggingface.co/collections/xianbao/llama3-zh-662ba8503bdfe51948a28403) | / |/|CD|llama3中文列表|
@@ -1809,6 +1811,7 @@ Language models (LMs) are powerful yet mostly for text-generation tasks. Tools h
 
 ## 更新
 
+* 2024.05.13 增加[Yi-1.5]
 * 2024.05.07 增加[XVERSE-V,DeepSeek-V2,XVERSE-MoE]
 * 2024.04.27 增加[Qwen1.5-110B, Llama3-zh](#Chat-LLM)
 * 2024.04.14 增加[MiniCPM-V2、WaveCoder、codegemma、Sailor、Nanbeige2-Chat、MiniCPM-MoE、Zhinao-Chat]()
