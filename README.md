@@ -258,6 +258,10 @@
 
 |           模型           |    大小     | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             |
 | :----------------------: | :---------: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| 星辰-Chat |  52B  | 2024-05 | 中英 | 通用 |    [🤗HF](https://hf-mirror.com/Tele-AI/TeleChat-52B)     | [TeleChat-52B](https://github.com/Tele-AI/TeleChat-52B) |    [Tele-AI](https://github.com/Tele-AI)    |  CD  |                                               |
+| LingLong  | 317M  | 2024-05 | 中英 | 通用 |  [🤗HF](https://hf-mirror.com/AlumiK/LingLong-317M-Chat)  |   [linglong](https://github.com/nkcs-iclab/linglong)    | [nkcs-iclab](https://github.com/nkcs-iclab) |  CD  |                                               |
+|  Sailor   |  14B  | 2024-05 | 7语  | 通用 |    [🤗HF](https://hf-mirror.com/sail/Sailor-14B-Chat)     |   [sailor-llm](https://github.com/sail-sg/sailor-llm)   |    [sail-sg](https://github.com/sail-sg)    |  CD  | [Paper](https://arxiv.org/pdf/2404.03608.pdf) |
+| Nanbeige2 | 8/16B | 2024-05 | 中英 | 通用 | [🤗HF](https://hf-mirror.com/Nanbeige/Nanbeige2-16B-Chat) |    [Nanbeige](https://github.com/Nanbeige/Nanbeige)     |   [Nanbeige](https://github.com/Nanbeige)   |  CD  |                                               |
 | Yi-1.5-Chat | 6/9/34B | 2024-05 | 中英  | 通用  | [🤗HF](https://huggingface.co/01-ai) | [Yi-1.5](https://github.com/01-ai/Yi-1.5) | [01-ai](https://github.com/01-ai) | CD  | [Paper](https://arxiv.org/abs/2403.04652) |
 | DeepSeek-V2-Chat | A21B/236B | 2024-05 | 中英 | 通用 | [🤗HF](https://huggingface.co/deepseek-ai/DeepSeek-V2-Chat) | [DeepSeek-V2](https://github.com/deepseek-ai/DeepSeek-V2) | [deepseek-ai](https://github.com/deepseek-ai) | MOE | [Paper](https://github.com/deepseek-ai/DeepSeek-V2/blob/main/deepseek-v2-tech-report.pdf) |
 | XVERSE-MoE | A4.2B/25.8B | 2024-05 | 中英 | 通用 | [🤗HF](https://huggingface.co/xverse/XVERSE-MoE-A4.2B) | [XVERSE-MoE-A4.2B](https://github.com/xverse-ai/XVERSE-MoE-A4.2B) |[xverse-ai](https://github.com/xverse-ai)|MOE||
@@ -491,6 +495,9 @@
 
 |           模型           | 大小  |  时间   |                           语言模型                           |                          非语言模型                          | 语言 |   领域    |                             下载                             |                           项目地址                           |                        机构/个人                         |                             文献                             |
 | :----------------------: | :---: | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :----------------------------------------------------------: |
+| HunyuanDiT | 1.5B | 2024-05 | multilingual T5 encoder | CLIP | 中英 | 文图 | [🤗](https://hf-mirror.com/Tencent-Hunyuan/HunyuanDiT) | **[HunyuanDiT](https://github.com/Tencent/HunyuanDiT)** | [Tencent](https://github.com/Tencent) | [Paper](https://arxiv.org/abs/2405.08748) |
+| **CogVLM2** |  | 2024-05 | Meta-Llama-3-8B-Instruct | / | 中英 | 文图 | [🤗](https://hf-mirror.com/THUDM/cogvlm2-llama3-chat-19B) | [CogVLM](https://github.com/THUDM/CogVLM) | [Skip to content](https://github.com/THUDM#start-of-content) |  |
+| 360VL | 8/70B | 2024-05 | LLama3 | CLIP-ViT | 中英 | 文图 | [🤗](https://hf-mirror.com/qihoo360) | [360VL](https://github.com/360CVGroup/360VL) | [360CVGroup](https://github.com/360CVGroup) |  |
 | **XVERSE-V** | 13B | 2024-05 | **XVERSE-13B-Chat** | **clip-vit-large-patch14-224** | 中英 | 文图 | [🤖](https://modelscope.cn/models/xverse/XVERSE-V-13B/summary) | [XVERSE-V-13B](https://github.com/xverse-ai/XVERSE-V-13B) | [xverse-ai](https://github.com/xverse-ai) |  |
 | MiniCPM-V 2.0 | 2.8B | 2024-04 | [MiniCPM-2.4B](https://github.com/OpenBMB/MiniCPM/) | SigLip-400M | 中英 | 文图 | [🤗](https://huggingface.co/openbmb/OmniLMM-12B/) [🤖](http://120.92.209.146:8081/) | **[MiniCPM-V](https://github.com/OpenBMB/MiniCPM-V)** | [OpenBMB](https://github.com/OpenBMB) | [Blog](https://openbmb.vercel.app/minicpm-v-2) |
 | **Qwen-Audio** | 7B | 2024-03 | [Qwen-7B](https://github.com/QwenLM/Qwen) | [Whisper-large-v2](https://github.com/openai/whisper) | 中英 | 文音 | [🤗HF](https://huggingface.co/Qwen/Qwen-Audio) | [Qwen-Audio](https://github.com/QwenLM/Qwen-Audio) ![Star](https://img.shields.io/github/stars/QwenLM/Qwen-Audio.svg?style=social&label=Star) | [Qwen](https://github.com/QwenLM) | [Paper](http://arxiv.org/abs/2311.07919) |
@@ -1811,6 +1818,7 @@ Language models (LMs) are powerful yet mostly for text-generation tasks. Tools h
 
 ## 更新
 
+* 2024.05.20 增加[CogVLM2,360VL,HunyuanDiT,星辰-Chat]
 * 2024.05.13 增加[Yi-1.5]
 * 2024.05.07 增加[XVERSE-V,DeepSeek-V2,XVERSE-MoE]
 * 2024.04.27 增加[Qwen1.5-110B, Llama3-zh](#Chat-LLM)
