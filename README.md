@@ -258,6 +258,7 @@
 
 |           模型           |    大小     | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             |
 | :----------------------: | :---------: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| Yuan2.0 | 40/A3.7B | 2024-05 | 中英 | 通用 | [🤗HF](https://huggingface.co/IEITYuan/Yuan2-M32-hf) | [Yuan2.0-M32](https://github.com/IEIT-Yuan/Yuan2.0-M32) | [IEIT-Yuan](https://github.com/IEIT-Yuan) | MOE  | [Paper](https://arxiv.org/abs/2405.17976) |
 | 星辰-Chat |  52B  | 2024-05 | 中英 | 通用 |    [🤗HF](https://hf-mirror.com/Tele-AI/TeleChat-52B)     | [TeleChat-52B](https://github.com/Tele-AI/TeleChat-52B) |    [Tele-AI](https://github.com/Tele-AI)    |  CD  |                                               |
 | LingLong  | 317M  | 2024-05 | 中英 | 通用 |  [🤗HF](https://hf-mirror.com/AlumiK/LingLong-317M-Chat)  |   [linglong](https://github.com/nkcs-iclab/linglong)    | [nkcs-iclab](https://github.com/nkcs-iclab) |  CD  |                                               |
 |  Sailor   |  14B  | 2024-05 | 7语  | 通用 |    [🤗HF](https://hf-mirror.com/sail/Sailor-14B-Chat)     |   [sailor-llm](https://github.com/sail-sg/sailor-llm)   |    [sail-sg](https://github.com/sail-sg)    |  CD  | [Paper](https://arxiv.org/pdf/2404.03608.pdf) |
@@ -1818,6 +1819,7 @@ Language models (LMs) are powerful yet mostly for text-generation tasks. Tools h
 
 ## 更新
 
+* 2024.05.30 增加[Yuan2.0-M32: Mixture of Experts with Attention Router](#ChatLLM)
 * 2024.05.20 增加[CogVLM2,360VL,HunyuanDiT,星辰-Chat]
 * 2024.05.13 增加[Yi-1.5]
 * 2024.05.07 增加[XVERSE-V,DeepSeek-V2,XVERSE-MoE]
