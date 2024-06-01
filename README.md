@@ -404,6 +404,7 @@
 
 |           模型           |  大小   | 时间    | 语言 |     领域     |                             下载                             |                           项目地址                           |                       机构/个人                        | 架构 |                             文献                             |
 | :----------------------: | :-----: | ------- | :--: | :----------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| Codestral | 22B  | 2024-05 |  /   | 代码 | [🤗HF](https://hf-mirror.com/mistralai) |    /     | [mistralai](https://github.com/mistralai) |  /   | [Blog](https://mistral.ai/news/codestral/) |
 | CodeQwen1.5-Chat | 7B | 2024-04 | 中英 | 代码 | [🤗HF](https://hf-mirror.com/Qwen/CodeQwen1.5-7B-Chat) | **[Qwen1.5](https://github.com/QwenLM/Qwen1.5)** |[Qwen](https://github.com/QwenLM)|CD|[Blog](https://qwenlm.github.io/blog/codeqwen1.5/)|
 | codegemma | 2/7B | 2024-04 | 多语 | 代码 | [🤗HF](https://huggingface.co/google/codegemma-7b) | / |[Google](https://huggingface.co/google)|||
 | WaveCoder | 6.7B | 2024-04 | 多语 | 代码 | [🤗HF](https://huggingface.co/microsoft/wavecoder-ds-6.7b) | [WaveCoder](https://github.com/microsoft/WaveCoder) |[microsoft](https://huggingface.co/microsoft)||[Paper](https://arxiv.org/abs/2312.14187)|
