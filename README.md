@@ -147,6 +147,7 @@
 
 |         模型          |       大小        | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             | 备注       |
 | :--------: | :------: | :-------: | :----: | :----: | :-----------: | :------: | :---------------: | :--: | :--------------: | ----- |
+| GLM-4-Base |  9B  | 2024-06 | 多语 | 通用 | [🤗HF](https://huggingface.co/THUDM) | [GLM-4](https://github.com/THUDM/GLM-4) | [THUDM](https://github.com/THUDM) |  /   |      |      |
 | Yi-1.5-Base | 6/9/34B | 2024-05 | 中英  | 通用  | [🤗HF](https://huggingface.co/01-ai) | [Yi-1.5](https://github.com/01-ai/Yi-1.5) | [01-ai](https://github.com/01-ai) | CD  | [Paper](https://arxiv.org/abs/2403.04652) |     |
 | DeepSeek-V2-Base | A21B/236B | 2024-05 | 中英 | 通用 | [🤗HF](https://huggingface.co/deepseek-ai/DeepSeek-V2) | [DeepSeek-V2](https://github.com/deepseek-ai/DeepSeek-V2) | [deepseek-ai](https://github.com/deepseek-ai) | MOE  | [Paper](https://github.com/deepseek-ai/DeepSeek-V2/blob/main/deepseek-v2-tech-report.pdf) |      |
 | Llama-3-Base | 8/70B | 2024-04 | 多语 | 通用 | [🤗HF](https://hf-mirror.com/meta-llama) | **[llama3](https://github.com/meta-llama/llama3)** | [Meta Llama](https://github.com/meta-llama) |  CD  |      |      |
@@ -258,6 +259,8 @@
 
 |           模型           |    大小     | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             |
 | :----------------------: | :---------: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| GLM-4-Chat  |      9B      | 2024-06 | 多语 | 通用 |          [🤗HF](https://huggingface.co/THUDM)           |         [GLM-4](https://github.com/THUDM/GLM-4)         |     [THUDM](https://github.com/THUDM)      |  /   |                                                              |
+| Skywork-MoE | 16/A22B/146B | 2024-06 | 中英 | 通用 | [🤗HF](https://huggingface.co/Skywork/Skywork-MoE-Base) | [Skywork-MoE](https://github.com/SkyworkAI/Skywork-MoE) | [SkyworkAI](https://github.com/SkyworkAI)  | MoE  | [Tech Report](https://github.com/SkyworkAI/Skywork-MoE/blob/main/skywork-moe-tech-report.pdf) |
 | Yuan2.0 | 40/A3.7B | 2024-05 | 中英 | 通用 | [🤗HF](https://huggingface.co/IEITYuan/Yuan2-M32-hf) | [Yuan2.0-M32](https://github.com/IEIT-Yuan/Yuan2.0-M32) | [IEIT-Yuan](https://github.com/IEIT-Yuan) | MOE  | [Paper](https://arxiv.org/abs/2405.17976) |
 | 星辰-Chat |  52B  | 2024-05 | 中英 | 通用 |    [🤗HF](https://hf-mirror.com/Tele-AI/TeleChat-52B)     | [TeleChat-52B](https://github.com/Tele-AI/TeleChat-52B) |    [Tele-AI](https://github.com/Tele-AI)    |  CD  |                                               |
 | LingLong  | 317M  | 2024-05 | 中英 | 通用 |  [🤗HF](https://hf-mirror.com/AlumiK/LingLong-317M-Chat)  |   [linglong](https://github.com/nkcs-iclab/linglong)    | [nkcs-iclab](https://github.com/nkcs-iclab) |  CD  |                                               |
@@ -404,6 +407,7 @@
 
 |           模型           |  大小   | 时间    | 语言 |     领域     |                             下载                             |                           项目地址                           |                       机构/个人                        | 架构 |                             文献                             |
 | :----------------------: | :-----: | ------- | :--: | :----------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :--: | :----------------------------------------------------------: |
+|  AutoCoder  |   6.7/33B    | 2024-06 |  /   | 代码 |    [🤗HF](https://huggingface.co/Bin12345/AutoCoder)    |  [AutoCoder](https://github.com/bin123apple/AutoCoder)  | [Bin Lei](https://huggingface.co/Bin12345) |  CD  |          [Paper](https://arxiv.org/abs/2405.14906)           |
 | Codestral | 22B  | 2024-05 |  /   | 代码 | [🤗HF](https://hf-mirror.com/mistralai) |    /     | [mistralai](https://github.com/mistralai) |  /   | [Blog](https://mistral.ai/news/codestral/) |
 | CodeQwen1.5-Chat | 7B | 2024-04 | 中英 | 代码 | [🤗HF](https://hf-mirror.com/Qwen/CodeQwen1.5-7B-Chat) | **[Qwen1.5](https://github.com/QwenLM/Qwen1.5)** |[Qwen](https://github.com/QwenLM)|CD|[Blog](https://qwenlm.github.io/blog/codeqwen1.5/)|
 | codegemma | 2/7B | 2024-04 | 多语 | 代码 | [🤗HF](https://huggingface.co/google/codegemma-7b) | / |[Google](https://huggingface.co/google)|||
@@ -497,6 +501,7 @@
 
 |           模型           | 大小  |  时间   |                           语言模型                           |                          非语言模型                          | 语言 |   领域    |                             下载                             |                           项目地址                           |                        机构/个人                         |                             文献                             |
 | :----------------------: | :---: | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :----------------------------------------------------------: |
+| GLM-4V | 9B | 2024-06 | GLM-4 | / | 多语 | 文图 | [🤗HF](https://huggingface.co/THUDM/glm-4v-9b) | [GLM-4](https://github.com/THUDM/GLM-4) | [THUDM](https://github.com/THUDM) | / |
 | HunyuanDiT | 1.5B | 2024-05 | multilingual T5 encoder | CLIP | 中英 | 文图 | [🤗](https://hf-mirror.com/Tencent-Hunyuan/HunyuanDiT) | **[HunyuanDiT](https://github.com/Tencent/HunyuanDiT)** | [Tencent](https://github.com/Tencent) | [Paper](https://arxiv.org/abs/2405.08748) |
 | **CogVLM2** |  | 2024-05 | Meta-Llama-3-8B-Instruct | / | 中英 | 文图 | [🤗](https://hf-mirror.com/THUDM/cogvlm2-llama3-chat-19B) | [CogVLM](https://github.com/THUDM/CogVLM) | [Skip to content](https://github.com/THUDM#start-of-content) |  |
 | 360VL | 8/70B | 2024-05 | LLama3 | CLIP-ViT | 中英 | 文图 | [🤗](https://hf-mirror.com/qihoo360) | [360VL](https://github.com/360CVGroup/360VL) | [360CVGroup](https://github.com/360CVGroup) |  |
@@ -1820,6 +1825,7 @@ Language models (LMs) are powerful yet mostly for text-generation tasks. Tools h
 
 ## 更新
 
+* 2024.04.27 增加[GLM-4、Skywork-MoE](#Chat-LLM)
 * 2024.05.30 增加[Yuan2.0-M32: Mixture of Experts with Attention Router](#ChatLLM)
 * 2024.05.20 增加[CogVLM2,360VL,HunyuanDiT,星辰-Chat]
 * 2024.05.13 增加[Yi-1.5]
