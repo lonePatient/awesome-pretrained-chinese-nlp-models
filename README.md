@@ -1825,7 +1825,7 @@ Language models (LMs) are powerful yet mostly for text-generation tasks. Tools h
 
 ## 更新
 
-* 2024.04.27 增加[GLM-4、Skywork-MoE](#Chat-LLM)
+* 2024.06.03 增加[GLM-4、Skywork-MoE](#Chat-LLM)
 * 2024.05.30 增加[Yuan2.0-M32: Mixture of Experts with Attention Router](#ChatLLM)
 * 2024.05.20 增加[CogVLM2,360VL,HunyuanDiT,星辰-Chat]
 * 2024.05.13 增加[Yi-1.5]
