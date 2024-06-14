@@ -955,6 +955,12 @@ This repo is constructed for collecting and categorizing papers about RAG accord
 
 Language models (LMs) are powerful yet mostly for text-generation tasks. Tools have substantially enhanced their performance for tasks that require complex skills.
 
+#### 32. LLM-Tool-Survey ![Star](https://img.shields.io/github/stars/quchangle1/LLM-Tool-Survey.svg?style=social&label=Star) [github](https://github.com/quchangle1/LLM-Tool-Survey)
+
+Recently, tool learning with large language models~(LLMs) has emerged as a promising paradigm for augmenting the capabilities of LLMs to tackle highly complex problems.
+
+This is the collection of papers related to tool learning with LLMs. These papers are organized according to our survey paper "Tool Learning with Large Language Models: A Survey".
+
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
 ## NLU系列
