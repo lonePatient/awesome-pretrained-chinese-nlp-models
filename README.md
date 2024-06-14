@@ -147,6 +147,7 @@
 
 |         模型          |       大小        | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             | 备注       |
 | :--------: | :------: | :-------: | :----: | :----: | :-----------: | :------: | :---------------: | :--: | :--------------: | ----- |
+| Index-Base | 1.9B | 2024-06 | 中英 | 通用 | [🤗HF](https://huggingface.co/IndexTeam/Index-1.9B-Chat) | [Index-1.9B](https://github.com/bilibili/Index-1.9B) | [bilibili](https://github.com/bilibili) |  CD  | [Report](https://github.com/bilibili/Index-1.9B/blob/main/Index-1.9B%20%E6%8A%80%E6%9C%AF%E6%8A%A5%E5%91%8A.pdf) |      |
 | Qwen2-Base | 0.5/2/5/7/72B | 2024-06 | 多语 | 通用 | [🤗HF](https://huggingface.co/Qwen) | [Qwen2](https://github.com/QwenLM/Qwen2) | [QwenLM](https://github.com/QwenLM) |  CD  | [Blog](https://qwenlm.github.io/) |      |
 | GLM-4-Base |  9B  | 2024-06 | 多语 | 通用 | [🤗HF](https://huggingface.co/THUDM) | [GLM-4](https://github.com/THUDM/GLM-4) | [THUDM](https://github.com/THUDM) |  /   |      |      |
 | Yi-1.5-Base | 6/9/34B | 2024-05 | 中英  | 通用  | [🤗HF](https://huggingface.co/01-ai) | [Yi-1.5](https://github.com/01-ai/Yi-1.5) | [01-ai](https://github.com/01-ai) | CD  | [Paper](https://arxiv.org/abs/2403.04652) |     |
@@ -260,6 +261,7 @@
 
 |           模型           |    大小     | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             |
 | :----------------------: | :---------: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| Index-Chat | 1.9B | 2024-06 | 中英 | 通用 | [🤗HF](https://huggingface.co/IndexTeam/Index-1.9B-Chat) | [Index-1.9B](https://github.com/bilibili/Index-1.9B) | [bilibili](https://github.com/bilibili) |  CD  | [Report](https://github.com/bilibili/Index-1.9B/blob/main/Index-1.9B%20%E6%8A%80%E6%9C%AF%E6%8A%A5%E5%91%8A.pdf) |
 | Qwen2-MoE  |   57B/A14B    | 2024-06 | 多语 | 通用 | [🤗HF](https://huggingface.co/Qwen) | [Qwen2](https://github.com/QwenLM/Qwen2) | [QwenLM](https://github.com/QwenLM) | MoE  | [Blog](https://qwenlm.github.io/) |
 | Qwen2-Chat | 0.5/2/5/7/72B | 2024-06 | 多语 | 通用 | [🤗HF](https://huggingface.co/Qwen) | [Qwen2](https://github.com/QwenLM/Qwen2) | [QwenLM](https://github.com/QwenLM) |  CD  | [Blog](https://qwenlm.github.io/) |
 | GLM-4-Chat  |      9B      | 2024-06 | 多语 | 通用 |          [🤗HF](https://huggingface.co/THUDM)           |         [GLM-4](https://github.com/THUDM/GLM-4)         |     [THUDM](https://github.com/THUDM)      |  /   |   |
@@ -1829,7 +1831,8 @@ Language models (LMs) are powerful yet mostly for text-generation tasks. Tools h
 
 ## 更新
 
-* 2024.06.08 增加[Qwen2,ChatTTS]()
+* 2024.06.14 增加[Index-Chat](#Chat-LLM)
+* 2024.06.08 增加[Qwen2,ChatTTS](#Chat-LLM)
 * 2024.06.03 增加[GLM-4、Skywork-MoE](#Chat-LLM)
 * 2024.05.30 增加[Yuan2.0-M32: Mixture of Experts with Attention Router](#ChatLLM)
 * 2024.05.20 增加[CogVLM2,360VL,HunyuanDiT,星辰-Chat]
