@@ -147,6 +147,7 @@
 
 |         模型          |       大小        | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             | 备注       |
 | :--------: | :------: | :-------: | :----: | :----: | :-----------: | :------: | :---------------: | :--: | :--------------: | ----- |
+| MAP-NEO-Base | 2/7B | 2024-06 | 中英 | 通用 | [🤗HF](https://huggingface.co/collections/m-a-p/neo-models-66395a5c9662bb58d5d70f04) | [MAP-NEO](https://github.com/multimodal-art-projection/MAP-NEO) | [multimodal-art-projection](https://github.com/multimodal-art-projection) |  CD  | [Paper](https://arxiv.org/abs/2405.19327) |      |
 | Nemotron-4-Base | 340B | 2024-06 | 多语 | 通用 | [🤗HF](https://huggingface.co/nvidia) |    /     | [NVIDIA](https://github.com/NVIDIA) |  CD  | [technical report](https://research.nvidia.com/publication/2024-06_nemotron-4-340b). |      |
 | Index-Base | 1.9B | 2024-06 | 中英 | 通用 | [🤗HF](https://huggingface.co/IndexTeam/Index-1.9B-Chat) | [Index-1.9B](https://github.com/bilibili/Index-1.9B) | [bilibili](https://github.com/bilibili) |  CD  | [Report](https://github.com/bilibili/Index-1.9B/blob/main/Index-1.9B%20%E6%8A%80%E6%9C%AF%E6%8A%A5%E5%91%8A.pdf) |      |
 | Qwen2-Base | 0.5/2/5/7/72B | 2024-06 | 多语 | 通用 | [🤗HF](https://huggingface.co/Qwen) | [Qwen2](https://github.com/QwenLM/Qwen2) | [QwenLM](https://github.com/QwenLM) |  CD  | [Blog](https://qwenlm.github.io/) |      |
@@ -262,6 +263,7 @@
 
 |           模型           |    大小     | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             |
 | :----------------------: | :---------: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| MAP-NEO-Chat | 2/7B | 2024-06 | 中英 | 通用 | [🤗HF](https://huggingface.co/collections/m-a-p/neo-models-66395a5c9662bb58d5d70f04) | [MAP-NEO](https://github.com/multimodal-art-projection/MAP-NEO) | [multimodal-art-projection](https://github.com/multimodal-art-projection) |  CD  | [Paper](https://arxiv.org/abs/2405.19327) |
 | GEB-Chat | 1.3B | 2024-06 | 中英 | 通用 | [🤗HF](https://huggingface.co/GEB-AGI/geb-1.3b) |    /     | [GEB-AGI](https://huggingface.co/GEB-AGI) |  CD  | [Paper](https://arxiv.org/pdf/2406.09900) |
 | Nemotron-4-Chat | 340B | 2024-06 | 多语 | 通用 | [🤗HF](https://huggingface.co/nvidia) |    /     | [NVIDIA](https://github.com/NVIDIA) |  CD  | [technical report](https://research.nvidia.com/publication/2024-06_nemotron-4-340b). |
 | Index-Chat | 1.9B | 2024-06 | 中英 | 通用 | [🤗HF](https://huggingface.co/IndexTeam/Index-1.9B-Chat) | [Index-1.9B](https://github.com/bilibili/Index-1.9B) | [bilibili](https://github.com/bilibili) |  CD  | [Report](https://github.com/bilibili/Index-1.9B/blob/main/Index-1.9B%20%E6%8A%80%E6%9C%AF%E6%8A%A5%E5%91%8A.pdf) |
@@ -1841,6 +1843,7 @@ This is the collection of papers related to tool learning with LLMs. These paper
 
 ## 更新
 
+* 2024.06.19 增加[MAP-NEO-Chat](#Chat-LLM)，MAP-NEO is a fully open-sourced Large Language Model that includes the pretraining data, a data processing pipeline (Matrix), pretraining scripts, and alignment code.
 * 2024.06.18 增加[DeepSeek-Coder-V2、Nemotron-4](#Chat-LLM)
 * 2024.06.14 增加[Index-Chat](#Chat-LLM)
 * 2024.06.08 增加[Qwen2,ChatTTS](#Chat-LLM)
