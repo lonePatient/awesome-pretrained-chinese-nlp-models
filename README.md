@@ -419,6 +419,7 @@
 
 |           模型           |  大小   | 时间    | 语言 |     领域     |                             下载                             |                           项目地址                           |                       机构/个人                        | 架构 |                             文献                             |
 | :----------------------: | :-----: | ------- | :--: | :----------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| CodeGeeX4 |  9B  | 2024-07 | 多语 | 代码 | [[🤗HF\]]([🤗 Huggingface](https://huggingface.co/THUDM/codegeex4-all-9b)) | **[CodeGeeX4](https://github.com/THUDM/CodeGeeX4)** | [THUDM](https://github.com/THUDM) |      |        |
 | DeepSeek-Coder-V2 | A16B/236B | 2024-06 | 中英 | 代码 | [🤗HF](https://huggingface.co/deepseek-ai) | [DeepSeek-V2](https://github.com/deepseek-ai/DeepSeek-V2) | [deepseek-ai](https://github.com/deepseek-ai) | MoE  | [Paper](https://github.com/deepseek-ai/DeepSeek-V2/blob/main/deepseek-v2-tech-report.pdf) |
 |  AutoCoder  |   6.7/33B    | 2024-06 |  /   | 代码 |    [🤗HF](https://huggingface.co/Bin12345/AutoCoder)    |  [AutoCoder](https://github.com/bin123apple/AutoCoder)  | [Bin Lei](https://huggingface.co/Bin12345) |  CD  |          [Paper](https://arxiv.org/abs/2405.14906)           |
 | Codestral | 22B  | 2024-05 |  /   | 代码 | [🤗HF](https://hf-mirror.com/mistralai) |    /     | [mistralai](https://github.com/mistralai) |  /   | [Blog](https://mistral.ai/news/codestral/) |
@@ -1845,6 +1846,7 @@ This is the collection of papers related to tool learning with LLMs. These paper
 
 ## 更新
 
+* 2024.07.05 增加[CodeGeeX4](#Domain-ChatLLM)
 * 2024.07.04 增加[internlm2.5](#Chat-LLM)
 * 2024.06.19 增加[MAP-NEO-Chat](#Chat-LLM)，MAP-NEO is a fully open-sourced Large Language Model that includes the pretraining data, a data processing pipeline (Matrix), pretraining scripts, and alignment code.
 * 2024.06.18 增加[DeepSeek-Coder-V2、Nemotron-4](#Chat-LLM)
