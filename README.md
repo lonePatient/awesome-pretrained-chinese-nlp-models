@@ -971,6 +971,10 @@ Recently, tool learning with large language models~(LLMs) has emerged as a promi
 
 This is the collection of papers related to tool learning with LLMs. These papers are organized according to our survey paper "Tool Learning with Large Language Models: A Survey".
 
+#### 33. Awesome-Foundation-Model-Leaderboards ![Star](https://img.shields.io/github/stars/SAILResearch/awesome-foundation-model-leaderboards.svg?style=social&label=Star) [github](https://github.com/SAILResearch/awesome-foundation-model-leaderboards)
+
+Awesome Foundation Model Leaderboard is a curated list of awesome foundation model leaderboards (for an explanation of what a leaderboard is, please refer to this post), along with various development tools and evaluation organizations according to our survey:.
+
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
 ## NLU系列
