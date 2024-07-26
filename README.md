@@ -147,6 +147,7 @@
 
 |         模型          |       大小        | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             | 备注       |
 | :--------: | :------: | :-------: | :----: | :----: | :-----------: | :------: | :---------------: | :--: | :--------------: | ----- |
+| Tele-FLM | 52B/102B/1TB | 2024-07 | 多语 | 通用 | [[🤗HF\]](https://huggingface.co/CofeAI) |    /     | [CofeAI](https://huggingface.co/CofeAI) |  CD  | [Tele-FLM Technical Report](https://arxiv.org/pdf/2404.16645) |      
 | meta-llama-3.1 | 8/70/405B | 2024-07 | 多语 | 通用 | [[🤗HF\]](https://huggingface.co/meta-llama) | [llama3](https://github.com/meta-llama/llama3) | [meta-llama](https://github.com/meta-llama) |  CD  |      |      |
 | internlm2.5-Base |  7B  | 2024-07 | 中英 | 通用 | [[🤗HF\]](https://huggingface.co/internlm) | [InternLM](https://github.com/InternLM/InternLM)[![Star](https://camo.githubusercontent.com/f330929a514fa88e296d3f4aa78863614ccc13d6d1903e4d7b23fd85b69cddba/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f496e7465726e4c4d2f496e7465726e4c4d2e7376673f7374796c653d736f6369616c266c6162656c3d53746172)](https://camo.githubusercontent.com/f330929a514fa88e296d3f4aa78863614ccc13d6d1903e4d7b23fd85b69cddba/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f496e7465726e4c4d2f496e7465726e4c4d2e7376673f7374796c653d736f6369616c266c6162656c3d53746172) | [InternLM](https://github.com/InternLM) |  CD  | [📜Technical Report](https://arxiv.org/abs/2403.17297) |      |
 | MAP-NEO-Base | 2/7B | 2024-06 | 中英 | 通用 | [🤗HF](https://huggingface.co/collections/m-a-p/neo-models-66395a5c9662bb58d5d70f04) | [MAP-NEO](https://github.com/multimodal-art-projection/MAP-NEO) | [multimodal-art-projection](https://github.com/multimodal-art-projection) |  CD  | [Paper](https://arxiv.org/abs/2405.19327) |      |
@@ -265,6 +266,7 @@
 
 |           模型           |    大小     | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             |
 | :----------------------: | :---------: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| JIUTIAN-Chat | 39/A13B | 2024-07 | 中英 | 通用 | [🤖MS](https://modelscope.cn/models/JiuTian-AI/JIUTIAN-139MoE-chat) | [DeepSeek-V2](https://github.com/deepseek-ai/DeepSeek-V2) | [中国移动JiuTian-AI](https://modelscope.cn/organization/JiuTian-AI) | MOE  |      |
 | meta-llama-3.1 | 8/70/405B | 2024-07 | 多语 | 通用 | [[🤗HF\]](https://huggingface.co/meta-llama)| [llama3](https://github.com/meta-llama/llama3) | [meta-llama](https://github.com/meta-llama) |  CD  |      |
 | internlm2.5-chat |  7B  | 2024-07 | 中英 | 通用 | [[🤗HF\]](https://huggingface.co/internlm) | [InternLM](https://github.com/InternLM/InternLM)[![Star](https://camo.githubusercontent.com/f330929a514fa88e296d3f4aa78863614ccc13d6d1903e4d7b23fd85b69cddba/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f496e7465726e4c4d2f496e7465726e4c4d2e7376673f7374796c653d736f6369616c266c6162656c3d53746172)](https://camo.githubusercontent.com/f330929a514fa88e296d3f4aa78863614ccc13d6d1903e4d7b23fd85b69cddba/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f496e7465726e4c4d2f496e7465726e4c4d2e7376673f7374796c653d736f6369616c266c6162656c3d53746172) | [InternLM](https://github.com/InternLM) |  CD  | [📜Technical Report](https://arxiv.org/abs/2403.17297) |
 | Mistral-large-insruct-2407 | 123B  | 2024-07 | 多语 | 通用 | [🤗HF](https://huggingface.co/mistralai/Mistral-Large-Instruct-2407) |                             /                             |  [Mistral AI](https://huggingface.co/mistralai)   |      |   [blog post](https://mistral.ai/news/mistral-large-2407/)   |
@@ -1864,6 +1866,7 @@ Awesome-LLM-KV-Cache: A curated list of 📙Awesome LLM KV Cache Papers with Cod
 
 ## 更新
 
+* 2024.07.26 增加[JIUTIAN-Chat,Tele-FLM]()
 * 2024.07.24 增加[Meta-llama3.1](#Chat-LLM)
 * 2024.07.05 增加[CodeGeeX4](#Domain-ChatLLM)
 * 2024.07.04 增加[internlm2.5](#Chat-LLM)
