@@ -266,6 +266,7 @@
 
 |           模型           |    大小     | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             |
 | :----------------------: | :---------: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| C4AI Command R+ 08-2024 | 104B | 2024-08 | 多语 | 通用 | [🤗HF](https://huggingface.co/CohereForAI) | / | [CohereForAI](https://huggingface.co/CohereForAI) | CD | |
 | JIUTIAN-Chat | 39/A13B | 2024-07 | 中英 | 通用 | [🤖MS](https://modelscope.cn/models/JiuTian-AI/JIUTIAN-139MoE-chat) | / | [中国移动JiuTian-AI](https://modelscope.cn/organization/JiuTian-AI) | MOE  |      |
 | meta-llama-3.1 | 8/70/405B | 2024-07 | 多语 | 通用 | [[🤗HF\]](https://huggingface.co/meta-llama)| [llama3](https://github.com/meta-llama/llama3) | [meta-llama](https://github.com/meta-llama) |  CD  |      |
 | internlm2.5-chat |  7B  | 2024-07 | 中英 | 通用 | [[🤗HF\]](https://huggingface.co/internlm) | [InternLM](https://github.com/InternLM/InternLM)[![Star](https://camo.githubusercontent.com/f330929a514fa88e296d3f4aa78863614ccc13d6d1903e4d7b23fd85b69cddba/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f496e7465726e4c4d2f496e7465726e4c4d2e7376673f7374796c653d736f6369616c266c6162656c3d53746172)](https://camo.githubusercontent.com/f330929a514fa88e296d3f4aa78863614ccc13d6d1903e4d7b23fd85b69cddba/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f496e7465726e4c4d2f496e7465726e4c4d2e7376673f7374796c653d736f6369616c266c6162656c3d53746172) | [InternLM](https://github.com/InternLM) |  CD  | [📜Technical Report](https://arxiv.org/abs/2403.17297) |
@@ -523,7 +524,8 @@
 
 |           模型           | 大小  |  时间   |                           语言模型                           |                          非语言模型                          | 语言 |   领域    |                             下载                             |                           项目地址                           |                        机构/个人                         |                             文献                             |
 | :----------------------: | :---: | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :----------------------------------------------------------: |
-| CogVideoX | 2B | 2024-08 | / | / | 中英 | 文视 | [🤗 link](https://huggingface.co/THUDM/CogVideoX-2b) | [CogVideo](https://github.com/THUDM/CogVideo) | [THUDM](https://github.com/THUDM) |  |
+| Qwen2-VL | 2/7/72B | 2024-08 | / | / | 多语 | 图文视 | [🤗](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct) [🤖](https://modelscope.cn/models/qwen/Qwen2-VL-7B-Instruct) | [Qwen2-VL](https://github.com/QwenLM/Qwen2-VL) | [QwenLM](https://github.com/QwenLM) |  |
+| CogVideoX | 2/5B | 2024-08 | / | / | 中英 | 文视 | [🤗 link](https://huggingface.co/THUDM/CogVideoX-2b) | [CogVideo](https://github.com/THUDM/CogVideo) | [THUDM](https://github.com/THUDM) |  |
 | MiniCPM-V 2.6 | 8B | 2024-08 |  Qwen2-7B  | SigLip-400M | 中英 | 文图视 | [🤗 link](https://huggingface.co/openbmb/MiniCPM-V-2_6) | [MiniCPM-V](https://github.com/OpenBMB/MiniCPM-V) | [OpenBMB](https://github.com/OpenBMB) |  |
 | InternVL2 | 1/2/4/8/26/40/76B | 2024-07 |  Qwen2/internlm2/llama3  | [InternViT](https://huggingface.co/OpenGVLab/InternViT-6B-448px-V1-5) | 中英 | 文图 | [🤗 link](https://huggingface.co/collections/OpenGVLab/internvl-20-667d3961ab5eb12c7ed1463e) [🤖 link](https://modelscope.cn/organization/OpenGVLab) | [InternVL](https://github.com/OpenGVLab/InternVL) | [OpenGVLab](https://github.com/OpenGVLab) | [report](https://arxiv.org/abs/2404.16821) |
 | Qwen2-Audio | 8.2B | 2024-07 |  Qwen2   | Whisper-large-V3 | 中英 | 文音 | [🤗HF](https://huggingface.co/Qwen/Qwen-Audio) | [Qwen2-Audio](https://github.com/QwenLM/Qwen2-Audio) | [QwenLM](https://github.com/QwenLM) | [report](https://arxiv.org/abs/2407.10759) |
@@ -1869,6 +1871,7 @@ Awesome-LLM-KV-Cache: A curated list of 📙Awesome LLM KV Cache Papers with Cod
 
 ## 更新
 
+* 2024.08.30 增加[C4AI Command R+ 08-2024,Qwen2-VL](#Chat-LLM)
 * 2024.07.26 增加[JIUTIAN-Chat,Tele-FLM]()
 * 2024.07.24 增加[Meta-llama3.1](#Chat-LLM)
 * 2024.07.05 增加[CodeGeeX4](#Domain-ChatLLM)
