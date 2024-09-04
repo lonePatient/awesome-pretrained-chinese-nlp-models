@@ -629,6 +629,8 @@
 
 |           模型           |  大小   | 时间    | 语言 |     领域     |                             下载                             |                           项目地址                           |                       机构/个人                        |                             文                             |
 | :----------------------: | :-----: | ------- | :--: | :----------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :----------------------------------------------------------: |
+| JinaColBERT V2 | large | 2024-08 | 多语 | 通用 | [[🤗HF\]](https://huggingface.co/jinaai/jina-colbert-v2) | / | [Jina AI](https://huggingface.co/jinaai) | [Paper](https://arxiv.org/abs/2408.16672) |
+| Conan-embedding-v1 | large | 2024-08 | 中文 | 通用 | [[🤗HF\]](https://huggingface.co/TencentBAC/Conan-embedding-v1) | / | [TencentABC](https://huggingface.co/TencentBAC) | [Paper](https://arxiv.org/abs/2408.15710) |
 | xiaobu-v2 | large | 2024-07 | 中文 | 通用 | [[🤗HF\]](https://huggingface.co/lier007/xiaobu-embedding-v2) | / | [lier007](https://huggingface.co/lier007) |  |
 | zpoint_large | Large | 2024-06 | 中文 | 通用 | [[🤗HF\]](https://huggingface.co/iampanda/zpoint_large_embedding_zh) | / | [**yang**](https://huggingface.co/iampanda) |  |
 | BCE | 279M | 2024-01 | 多语 | 通用 | [[🤗HF\]](https://huggingface.co/maidalun1020/bce-embedding-base_v1) | [BCEmbedding](https://github.com/netease-youdao/BCEmbedding) | [netease-youdao](https://github.com/netease-youdao) |  |
