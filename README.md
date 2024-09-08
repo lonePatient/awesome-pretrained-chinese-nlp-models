@@ -266,6 +266,8 @@
 
 |           模型           |    大小     | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             |
 | :----------------------: | :---------: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| DeepSeek-V2.5 | 236B/A21B | 2024-09 | 中英 | 通用 | [🤗HF](https://huggingface.co/deepseek-ai/DeepSeek-V2-Chat-0628) | [DeepSeek-V2](https://github.com/deepseek-ai/DeepSeek-V2) | [deepseek-ai](https://github.com/deepseek-ai) | MOE  |          [Paper](https://arxiv.org/abs/2405.04434)           |
+|   MiniCPM3    |    4B     | 2024-09 | 中英 | 通用 |      [🤗HF](https://huggingface.co/openbmb/MiniCPM3-4B)       |       [MiniCPM](https://github.com/OpenBMB/MiniCPM)       |     [OpenBMB](https://github.com/OpenBMB)     |  CD  |      [MiniCPM Paper](https://arxiv.org/abs/2404.06395)       |
 | C4AI Command R+ 08-2024 | 104B | 2024-08 | 多语 | 通用 | [🤗HF](https://huggingface.co/CohereForAI) | / | [CohereForAI](https://huggingface.co/CohereForAI) | CD | |
 | JIUTIAN-Chat | 39/A13B | 2024-07 | 中英 | 通用 | [🤖MS](https://modelscope.cn/models/JiuTian-AI/JIUTIAN-139MoE-chat) | / | [中国移动JiuTian-AI](https://modelscope.cn/organization/JiuTian-AI) | MOE  |      |
 | meta-llama-3.1 | 8/70/405B | 2024-07 | 多语 | 通用 | [[🤗HF\]](https://huggingface.co/meta-llama)| [llama3](https://github.com/meta-llama/llama3) | [meta-llama](https://github.com/meta-llama) |  CD  |      |
@@ -428,6 +430,7 @@
 
 |           模型           |  大小   | 时间    | 语言 |     领域     |                             下载                             |                           项目地址                           |                       机构/个人                        | 架构 |                             文献                             |
 | :----------------------: | :-----: | ------- | :--: | :----------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :--: | :----------------------------------------------------------: |
+|   Yi-Coder    |  1.5/9B   | 2024-09 | 中英 | 代码 | [🤗 Hugging Face](https://huggingface.co/01-ai/Yi-Coder-9B-Chat) • [🤖 ModelScope](https://www.modelscope.cn/models/01ai/Yi-Coder-9B-Chat) • [🟣 wisemodel](https://wisemodel.cn/models/01.AI/Yi-Coder-9B-Chat) |       [Yi-Coder](https://github.com/01-ai/Yi-Coder)       |       [01-ai](https://github.com/01-ai)       |  CD  | [Paper](https://arxiv.org/abs/2403.04652) [Blog](https://01-ai.github.io/blog.html?post=en/2024-09-05-A-Small-but-Mighty-LLM-for-Code.md) |
 | CodeGeeX4 |  9B  | 2024-07 | 多语 | 代码 | [🤗HF](https://huggingface.co/THUDM/codegeex4-all-9b) | **[CodeGeeX4](https://github.com/THUDM/CodeGeeX4)** | [THUDM](https://github.com/THUDM) |      |        |
 | DeepSeek-Coder-V2 | A16B/236B | 2024-06 | 中英 | 代码 | [🤗HF](https://huggingface.co/deepseek-ai) | [DeepSeek-V2](https://github.com/deepseek-ai/DeepSeek-V2) | [deepseek-ai](https://github.com/deepseek-ai) | MoE  | [Paper](https://github.com/deepseek-ai/DeepSeek-V2/blob/main/deepseek-v2-tech-report.pdf) |
 |  AutoCoder  |   6.7/33B    | 2024-06 |  /   | 代码 |    [🤗HF](https://huggingface.co/Bin12345/AutoCoder)    |  [AutoCoder](https://github.com/bin123apple/AutoCoder)  | [Bin Lei](https://huggingface.co/Bin12345) |  CD  |          [Paper](https://arxiv.org/abs/2405.14906)           |
@@ -1873,6 +1876,7 @@ Awesome-LLM-KV-Cache: A curated list of 📙Awesome LLM KV Cache Papers with Cod
 
 ## 更新
 
+* 2024.09.08 增加[DeepSeekV2.5, MiniCPM3, Yi-Coder](#Chat-LLM)
 * 2024.08.30 增加[C4AI Command R+ 08-2024,Qwen2-VL](#Chat-LLM)
 * 2024.07.26 增加[JIUTIAN-Chat,Tele-FLM]()
 * 2024.07.24 增加[Meta-llama3.1](#Chat-LLM)
