@@ -1012,6 +1012,16 @@ Awesome Foundation Model Leaderboard is a curated list of awesome foundation mod
 
 Awesome-LLM-KV-Cache: A curated list of 📙Awesome LLM KV Cache Papers with Codes. This repository is for personal use of learning and classifying the burning KV Cache related papers!
 
+#### 35. Awesome-LLM-Strawberry ![Star](https://img.shields.io/github/stars/hijkzzz/Awesome-LLM-Strawberry.svg?style=social&label=Star) [github](https://github.com/hijkzzz/Awesome-LLM-Strawberry)
+
+This is a collection of research papers & blogs for OpenAI Strawberry(o1) and Reasoning.
+
+And the repository will be continuously updated to track the frontier of LLM Reasoning.
+
+#### 36. Awesome-LLM-Resourses ![Star](https://img.shields.io/github/stars/WangRongsheng/awesome-LLM-resourses.svg?style=social&label=Star) [github](https://github.com/WangRongsheng/awesome-LLM-resourses)
+
+🧑‍🚀 全世界最好的LLM资料总结 | Summary of the world's best LLM resources.
+
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
 ## NLU系列
