@@ -1022,6 +1022,14 @@ And the repository will be continuously updated to track the frontier of LLM Rea
 
 🧑‍🚀 全世界最好的LLM资料总结 | Summary of the world's best LLM resources.
 
+#### 37. Awesome-LLM-Reasoning-Openai-o1-Survey ![Star](https://img.shields.io/github/stars/wjn1996/Awesome-LLM-Reasoning-Openai-o1-Survey.svg?style=social&label=Star) [github](https://github.com/wjn1996/Awesome-LLM-Reasoning-Openai-o1-Survey)
+
+The related works and background techniques about OpenAI o1, including LLM reasoning, self-play reinforcement learning, complex logic reasoning, scaling law, etc.
+
+#### 38. Awesome-LLM-Reasoning ![Star](https://img.shields.io/github/stars/atfortes/Awesome-LLM-Reasoning.svg?style=social&label=Star) [github](https://github.com/atfortes/Awesome-LLM-Reasoning)
+
+Curated collection of papers and resources on how to unlock the reasoning ability of LLMs and MLLMs.
+
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
 ## NLU系列
