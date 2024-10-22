@@ -270,6 +270,8 @@
 
 |           模型           |    大小     | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             |
 | :----------------------: | :---------: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: |
+|   Granite 3.0   |  1/2/3/8B   | 2024-10 | 多语 | 通用 | [🤗HF](https://huggingface.co/collections/ibm-granite/granite-30-models-66fdb59bbb54785c3512114f) | [granite-3.0-language-models](https://github.com/ibm-granite/granite-3.0-language-models) | [ibm-granite](https://github.com/ibm-granite) |  CD  | [Paper](https://github.com/ibm-granite/granite-3.0-language-models/blob/main/paper.pdf) |
+| Granite 3.0-MoE | 1B/3B/A400M | 2024-10 | 多语 | 通用 | [🤗HF](https://huggingface.co/collections/ibm-granite/granite-30-models-66fdb59bbb54785c3512114f) | [granite-3.0-language-models](https://github.com/ibm-granite/granite-3.0-language-models) | [ibm-granite](https://github.com/ibm-granite) | MoE  | [Paper](https://github.com/ibm-granite/granite-3.0-language-models/blob/main/paper.pdf) |
 | TeleChat2 | 115B | 2024-09 | 中英 | 通用 | 🤖 [ModelScope](https://modelscope.cn/organization/TeleAI) | [TeleChat2](https://github.com/Tele-AI/TeleChat2) | [Tele-AI](https://github.com/Tele-AI) |  CD  |      |
 | Qwen-2.5 | 0.5/1.5/3/7/14/32/72B | 2024-09 | 中英 | 通用 | [🤗HF](https://huggingface.co/collections/Qwen/qwen25-66e81a666513e518adb90d9e) | [Qwen2.5](https://github.com/QwenLM/Qwen2.5) | [QwenLM](https://github.com/QwenLM) |  CD  | [Blog](https://qwenlm.github.io/blog/qwen2.5/) |
 | XVERSE-MoE | 255B/A36B | 2024-09 | 中英 | 通用 | [🤗HF](https://huggingface.co/xverse/XVERSE-MoE-A36B) | [XVERSE-MoE-A36B](https://github.com/xverse-ai/XVERSE-MoE-A36B) | [xverse-ai](https://github.com/xverse-ai) | MoE  |      |
@@ -1906,6 +1908,7 @@ Curated collection of papers and resources on how to unlock the reasoning abilit
 
 ## 更新
 
+* 2024.10.22 增加[Granite 3.0](#Chat-LLM),一套全新的轻量级、多语种支持的语言模型，专为推理、编程和工具使用设计，可在计算资源受限的环境中运行，适合企业使用和定制
 * 2024.09.19 增加[Qwen2.5](#Chat-LLM)
 * 2024.09.08 增加[DeepSeekV2.5, MiniCPM3, Yi-Coder](#Chat-LLM)
 * 2024.08.30 增加[C4AI Command R+ 08-2024,Qwen2-VL](#Chat-LLM)
