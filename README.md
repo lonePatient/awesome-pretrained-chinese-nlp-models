@@ -270,6 +270,7 @@
 
 |           模型           |    大小     | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             |
 | :----------------------: | :---------: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| Aya-Expanse | 8/32B | 2024-10 | 多语 | 通用 | [🤗HF](https://huggingface.co/collections/CohereForAI/c4ai-aya-expanse-671a83d6b2c07c692beab3c3) |    /     | [Cohere For AI](https://huggingface.co/CohereForAI) |  CD  |      |
 |   Granite 3.0   |  1/2/3/8B   | 2024-10 | 多语 | 通用 | [🤗HF](https://huggingface.co/collections/ibm-granite/granite-30-models-66fdb59bbb54785c3512114f) | [granite-3.0-language-models](https://github.com/ibm-granite/granite-3.0-language-models) | [ibm-granite](https://github.com/ibm-granite) |  CD  | [Paper](https://github.com/ibm-granite/granite-3.0-language-models/blob/main/paper.pdf) |
 | Granite 3.0-MoE | 1B/3B/A400M | 2024-10 | 多语 | 通用 | [🤗HF](https://huggingface.co/collections/ibm-granite/granite-30-models-66fdb59bbb54785c3512114f) | [granite-3.0-language-models](https://github.com/ibm-granite/granite-3.0-language-models) | [ibm-granite](https://github.com/ibm-granite) | MoE  | [Paper](https://github.com/ibm-granite/granite-3.0-language-models/blob/main/paper.pdf) |
 | TeleChat2 | 115B | 2024-09 | 中英 | 通用 | 🤖 [ModelScope](https://modelscope.cn/organization/TeleAI) | [TeleChat2](https://github.com/Tele-AI/TeleChat2) | [Tele-AI](https://github.com/Tele-AI) |  CD  |      |
@@ -539,6 +540,8 @@
 
 |           模型           | 大小  |  时间   |                           语言模型                           |                          非语言模型                          | 语言 |   领域    |                             下载                             |                           项目地址                           |                        机构/个人                         |                             文献                             |
 | :----------------------: | :---: | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :----------------------------------------------------------: |
+| GLM-4-Voice | 9B | 2024-10 | [GLM-4-9B](https://github.com/THUDM/GLM-4) | [Whisper](https://github.com/openai/whisper) | 中英 | 文音 | [🤗 Huggingface](https://huggingface.co/THUDM/glm-4-voice-9b) | [GLM-4-Voice](https://github.com/THUDM/GLM-4-Voice) | [THUDM](https://github.com/THUDM) |  |
+| Pangea | 7B | 2024-10 | [Qwen2-7B-Instruct](https://huggingface.co/Qwen/Qwen2-7B-Instruct) | [LLaVA-NeXT](https://github.com/LLaVA-VL/LLaVA-NeXT) | 多语 | 图文 | [🤗HF](https://huggingface.co/neulab/Pangea-7B) | [Pangea](https://github.com/neulab/Pangea) | [neulab](https://github.com/neulab) | [Paper](https://arxiv.org/abs/2410.16153) |
 | GOT-OCR-2.0 | / | 2024-09 | Qwen | / | 中英 | 图文 | [🤗HF](https://huggingface.co/stepfun-ai/GOT-OCR2_0) | [GOT-OCR2.0](https://github.com/Ucas-HaoranWei/GOT-OCR2.0) | [**StepFun-AI**](https://huggingface.co/stepfun-ai) | [Paper](https://arxiv.org/abs/2409.01704) |
 | Ovis-1.6 | 9B | 2024-09 | Gemma2-9B-It | Siglip-400M | 中英 | 图文 | [🤗](https://huggingface.co/AIDC-AI/Ovis1.6-Gemma2-9B) | [Ovis](https://github.com/AIDC-AI/Ovis) | [AIDC-AI](https://github.com/AIDC-AI) | [Paper](https://arxiv.org/abs/2405.20797) |
 | Qwen2-VL | 2/7/72B | 2024-08 | / | / | 多语 | 图文视 | [🤗](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct) [🤖](https://modelscope.cn/models/qwen/Qwen2-VL-7B-Instruct) | [Qwen2-VL](https://github.com/QwenLM/Qwen2-VL) | [QwenLM](https://github.com/QwenLM) |  |
@@ -1908,6 +1911,7 @@ Curated collection of papers and resources on how to unlock the reasoning abilit
 
 ## 更新
 
+* 2024,10.26 增加[GLM-4-Voice,Pangea,Aya-Expanse]()
 * 2024.10.22 增加[Granite 3.0](#Chat-LLM),一套全新的轻量级、多语种支持的语言模型，专为推理、编程和工具使用设计，可在计算资源受限的环境中运行，适合企业使用和定制
 * 2024.09.19 增加[Qwen2.5](#Chat-LLM)
 * 2024.09.08 增加[DeepSeekV2.5, MiniCPM3, Yi-Coder](#Chat-LLM)
