@@ -1035,6 +1035,10 @@ The related works and background techniques about OpenAI o1, including LLM reaso
 
 Curated collection of papers and resources on how to unlock the reasoning ability of LLMs and MLLMs.
 
+#### 39. Awesome-Computer-Use-Agents ![Star](https://img.shields.io/github/stars/ranpox/awesome-computer-use.svg?style=social&label=Star) [github](https://github.com/ranpox/awesome-computer-use)
+
+This is a collection of resources for computer-use agents, including papers and blogs. The repository is currently under construction and will be continuously updated. We welcome contributions and feedback as we continue expanding this collection!
+
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
 ## NLU系列
