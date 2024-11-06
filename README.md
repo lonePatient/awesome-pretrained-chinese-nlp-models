@@ -270,6 +270,7 @@
 
 |           模型           |    大小     | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             |
 | :----------------------: | :---------: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| Hunyuan-Large | A52/389B | 2024-11 | 中英 | 通用 | [🤗HF](https://huggingface.co/tencent/Tencent-Hunyuan-Large) | [Tencent-Hunyuan-Large](https://github.com/Tencent/Tencent-Hunyuan-Large) | [Tencent](https://github.com/Tencent) | MoE  | [Paper](https://arxiv.org/abs/2411.02265) |
 | Aya-Expanse | 8/32B | 2024-10 | 多语 | 通用 | [🤗HF](https://huggingface.co/collections/CohereForAI/c4ai-aya-expanse-671a83d6b2c07c692beab3c3) |    /     | [Cohere For AI](https://huggingface.co/CohereForAI) |  CD  |      |
 |   Granite 3.0   |  1/2/3/8B   | 2024-10 | 多语 | 通用 | [🤗HF](https://huggingface.co/collections/ibm-granite/granite-30-models-66fdb59bbb54785c3512114f) | [granite-3.0-language-models](https://github.com/ibm-granite/granite-3.0-language-models) | [ibm-granite](https://github.com/ibm-granite) |  CD  | [Paper](https://github.com/ibm-granite/granite-3.0-language-models/blob/main/paper.pdf) |
 | Granite 3.0-MoE | 1B/3B/A400M | 2024-10 | 多语 | 通用 | [🤗HF](https://huggingface.co/collections/ibm-granite/granite-30-models-66fdb59bbb54785c3512114f) | [granite-3.0-language-models](https://github.com/ibm-granite/granite-3.0-language-models) | [ibm-granite](https://github.com/ibm-granite) | MoE  | [Paper](https://github.com/ibm-granite/granite-3.0-language-models/blob/main/paper.pdf) |
@@ -1916,7 +1917,8 @@ This is a collection of resources for computer-use agents, including papers and 
 
 ## 更新
 
-* 2024,10.26 增加[GLM-4-Voice,Pangea,Aya-Expanse]()
+* 2024.11.05 增加[Hunyuan-Large](#Chat-LLM)
+* 2024.10.26 增加[GLM-4-Voice,Pangea,Aya-Expanse]()
 * 2024.10.22 增加[Granite 3.0](#Chat-LLM),一套全新的轻量级、多语种支持的语言模型，专为推理、编程和工具使用设计，可在计算资源受限的环境中运行，适合企业使用和定制
 * 2024.09.19 增加[Qwen2.5](#Chat-LLM)
 * 2024.09.08 增加[DeepSeekV2.5, MiniCPM3, Yi-Coder](#Chat-LLM)
