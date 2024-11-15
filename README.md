@@ -441,6 +441,8 @@
 
 |           模型           |  大小   | 时间    | 语言 |     领域     |                             下载                             |                           项目地址                           |                       机构/个人                        | 架构 |                             文献                             |
 | :----------------------: | :-----: | ------- | :--: | :----------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :--: | :----------------------------------------------------------: |
+|   Qwen-coder-2.5   | 0.5/1.5/14/32B | 2024-11 | 中英 | 代码 | [🤗HF](https://huggingface.co/collections/Qwen/qwen25-coder-66eaa22e6f99801bf65b0c2f) |   [Qwen2.5-Coder](https://github.com/QwenLM/Qwen2.5-Coder)   |        [QwenLM](https://github.com/QwenLM)        |  CD  | [Paper](https://arxiv.org/abs/2409.12186) |
+| OpenCoder-Instruct |     1.5/8B     | 2024-11 | 中英 | 代码 | [🤗HF](https://huggingface.co/collections/infly/opencoder-672cec44bbb86c39910fb55e) | [OpenCoder-llm](https://github.com/OpenCoder-llm/OpenCoder-llm) | [OpenCoder-llm](https://github.com/OpenCoder-llm) |  CD  | [Paper](https://arxiv.org/abs/2411.04905) |
 | 珠算 | 2.7B | 2024-09 | 中英 | 代码 | [🤗HF](https://huggingface.co/HIT-SCIR/Abacus) | [Abacus](https://github.com/HIT-SCIR/Abacus) | [HIT-SCIR](https://github.com/HIT-SCIR) |  CD  |      |
 | Qwen-2.5-code |        1.5/7B         | 2024-09 | 中英 | 代码 | [🤗HF](https://huggingface.co/collections/Qwen/qwen25-coder-66eaa22e6f99801bf65b0c2f) | [Qwen2.5](https://github.com/QwenLM/Qwen2.5) | [QwenLM](https://github.com/QwenLM) |  CD  | [Blog](https://qwenlm.github.io/blog/qwen2.5/) |      |
 | Qwen-2.5-math |       1.5/7/72B       | 2024-09 | 中英 | 数学 | [🤗HF](https://huggingface.co/collections/Qwen/qwen25-math-66eaa240a1b7d5ee65f1da3e) | [Qwen2.5](https://github.com/QwenLM/Qwen2.5) | [QwenLM](https://github.com/QwenLM) |  CD  | [Blog](https://qwenlm.github.io/blog/qwen2.5/) |      |
@@ -1917,6 +1919,7 @@ This is a collection of resources for computer-use agents, including papers and 
 
 ## 更新
 
+* 2024.11.15 增加[Qwen-2.5-coder, OpenCoder](#Domain-ChatLLM)
 * 2024.11.05 增加[Hunyuan-Large](#Chat-LLM)
 * 2024.10.26 增加[GLM-4-Voice,Pangea,Aya-Expanse]()
 * 2024.10.22 增加[Granite 3.0](#Chat-LLM),一套全新的轻量级、多语种支持的语言模型，专为推理、编程和工具使用设计，可在计算资源受限的环境中运行，适合企业使用和定制
