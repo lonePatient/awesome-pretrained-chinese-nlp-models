@@ -23,6 +23,8 @@
 
 + [多模态对话大模型](#MultiModal-ChatLLM)
 
++ [推理类大模型](#ReasoningLLM)
+
 + [大模型评估基准](#大模型评估基准)
 
 + [在线体验大模型](#在线体验大模型)
@@ -601,6 +603,18 @@
 |          X-LLM           |       | 2023-05 |        [ChatGLM](https://github.com/THUDM/ChatGLM-6B)        |          [ViT-g](https://arxiv.org/abs/2106.04560)           | 中文 |     /     |                           [TODO]()                           | [X-LLM](https://github.com/phellonchen/X-LLM)![Star](https://img.shields.io/github/stars/phellonchen/X-LLM.svg?style=social&label=Star) |     [中科院自动化所](https://github.com/phellonchen)     |        [Paper](https://arxiv.org/pdf/2305.04160.pdf)         |
 |        VisualGLM         |  6B   | 2023-05 |      [ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B)       |      [BLIP2-Qformer](https://arxiv.org/abs/2301.12597)       | 中英 |   视觉    |      [[🤗HF\]](https://huggingface.co/THUDM/visualglm-6b)       | [VisualGLM-6B](https://github.com/THUDM/VisualGLM-6B)![Star](https://img.shields.io/github/stars/THUDM/VisualGLM-6B.svg?style=social&label=Star) |           [清华大学](https://github.com/THUDM)           |                                                              |
 
+<p align="right">[<a href="#top">Back to Top</a>]</p>
+
+## 推理类大模型
+
+> 收集推理能力比较突出的中文大模型
+
+|      模型       | 大小 | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                 机构/个人                 | 结构 |                      文                       |
+| :-------------: | :--: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :---------------------------------------: | :--: | :-------------------------------------------: |
+| QwQ-32B-Preview | 32B  | 2024-11 | 中英 | 通用 |      [🤗HF](https://huggingface.co/Qwen/QwQ-32B-Preview)      |                              /                               |    [QwenLM](https://github.com/QwenLM)    |  CD  |                                               |
+|    Marco-o1     |  7B  | 2024-11 | 中英 | 通用 |        [🤗HF](https://huggingface.co/AIDC-AI/Marco-o1)        |       [Marco-o1](https://github.com/AIDC-AI/Marco-o1)        |   [AIDC-AI](https://github.com/AIDC-AI)   |  CD  | [**Paper**](https://arxiv.org/abs/2411.14405) |
+| Skywork-01-Open |  8B  | 2024-11 | 中英 | 通用 | [🤗HF](https://huggingface.co/collections/Skywork/skywork-o1-open-67453df58e12f6c3934738d0) | [skywork-o1-prm-inference](https://github.com/SkyworkAI/skywork-o1-prm-inference) | [SkyworkAI](https://github.com/SkyworkAI) |  CD  | [Blog](https://nexusflow.ai/blogs/athene-v2)  |
+|     HK-01aw     |  8B  | 2024-11 | 中文 | 法律 |       [🤗HF](https://huggingface.co/HKAIR-Lab/HK-O1aw)        |       [HK-O1aw](https://github.com/HKAIR-Lab/HK-O1aw)        | [HKAIR-Lab](https://github.com/HKAIR-Lab) |  CD  |                                               |
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
 ## 中文指令数据集
@@ -1922,6 +1936,7 @@ This is a collection of resources for computer-use agents, including papers and 
 
 ## 更新
 
+* 2024.11.29 增加[QwQ-32B-Preview,Marco-o1 ,Skywork-01-Open,HK-01aw](#ReasoningLLM)
 * 2024.11.15 增加[Qwen-2.5-coder, OpenCoder](#Domain-ChatLLM)
 * 2024.11.05 增加[Hunyuan-Large](#Chat-LLM)
 * 2024.10.26 增加[GLM-4-Voice,Pangea,Aya-Expanse]()
