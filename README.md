@@ -605,7 +605,7 @@
 
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
-## 推理类大模型
+## ReasoningLLM
 
 > 收集推理能力比较突出的中文大模型
 
