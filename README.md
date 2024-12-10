@@ -1060,6 +1060,10 @@ Curated collection of papers and resources on how to unlock the reasoning abilit
 
 This is a collection of resources for computer-use agents, including papers and blogs. The repository is currently under construction and will be continuously updated. We welcome contributions and feedback as we continue expanding this collection!
 
+#### 40. LLM_MultiAgents_Survey_Papers ![Star](https://img.shields.io/github/stars/taichengguo/LLM_MultiAgents_Survey_Papers.svg?style=social&label=Star) [github](https://github.com/taichengguo/LLM_MultiAgents_Survey_Papers)
+
+Our survey about LLM based Multi-Agents is available at: https://arxiv.org/abs/2402.01680
+
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
 ## NLU系列
