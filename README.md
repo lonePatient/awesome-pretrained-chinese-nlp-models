@@ -272,6 +272,7 @@
 
 |           模型           |    大小     | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             |
 | :----------------------: | :---------: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| Megrez-3B-Instruct |  3B  | 2024-12 | 中英 | 通用 | [🤗HF](https://huggingface.co/Infinigence/Megrez-3B-Instruct) | [Infini-Megrez](https://github.com/infinigence/Infini-Megrez) | [infinigence](https://github.com/infinigence) |  CD  |      |
 | Athene-V2-Chat  | 72B  | 2024-11 | 中英 |   通用   | [🤗HF](https://huggingface.co/Nexusflow/Athene-V2-Chat)  |    /     | [Nexusflow](https://huggingface.co/Nexusflow) |  CD  | [Blog](https://nexusflow.ai/blogs/athene-v2) |
 | Athene-V2-Agent | 72B  | 2024-11 | 中英 | 工具调用 | [🤗HF](https://huggingface.co/Nexusflow/Athene-V2-Agent) |    /     | [Nexusflow](https://huggingface.co/Nexusflow) |  CD  | [Blog](https://nexusflow.ai/blogs/athene-v2) |
 | Hunyuan-Large | A52/389B | 2024-11 | 中英 | 通用 | [🤗HF](https://huggingface.co/tencent/Tencent-Hunyuan-Large) | [Tencent-Hunyuan-Large](https://github.com/Tencent/Tencent-Hunyuan-Large) | [Tencent](https://github.com/Tencent) | MoE  | [Paper](https://arxiv.org/abs/2411.02265) |
@@ -547,6 +548,8 @@
 
 |           模型           | 大小  |  时间   |                           语言模型                           |                          非语言模型                          | 语言 |   领域    |                             下载                             |                           项目地址                           |                        机构/个人                         |                             文献                             |
 | :----------------------: | :---: | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :----------------------------------------------------------: |
+| Megrez-3B-Omni |     3B     | 2024-12 | Megrez-3B-Instruct | SigLip-400M/Qwen2-Audio/whisper-large-v3 | 中英 | 文音图 | [🤗 HF](https://huggingface.co/Infinigence/Megrez-3B-Omni) | [Infini-Megrez-Omni](https://github.com/infinigence/Infini-Megrez-Omni) | [infinigence](https://github.com/infinigence) |                                           |
+|  DeepSeek-VL2  | 1/2.8/4.5B | 2024-12 |         /          |                    /                     |      |  文图  |  [🤗 HF](https://huggingface.co/deepseek-ai/deepseek-vl2)  | [DeepSeek-VL2](https://github.com/deepseek-ai/DeepSeek-VL2)  | [deepseek-ai](https://github.com/deepseek-ai) | [Paper](https://arxiv.org/abs/2412.10302) |
 | InternVL 2.5 | 2/4/8/26/38/78B | 2024-12 | Qwen-2.5 | InternVit | 多语 | 文图 | [🤗 HF](https://huggingface.co/collections/OpenGVLab/internvl-25-673e1019b66e2218f68d7c1c) | [InternVL](https://github.com/OpenGVLab/InternVL) | [OpenGVLab](https://github.com/OpenGVLab) | [blog](https://internvl.github.io/blog/) |
 | Pixtral-Large-Instruct | 124B | 2024-11 | [Mistral-Large-Instruct-2407](https://huggingface.co/mistralai/Mistral-Large-Instruct-2407) | / | 多语 | 文图 | [🤗 Huggingface](https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411) | / | [mistralai](https://huggingface.co/mistralai) | [Pixtral Large blog post](https://mistral.ai/news/pixtral-large/) |
 | fish-agent | 3B | 2024-11 | Qwen-2.5 | / | 多语 | 文音 | [🤗 Huggingface](https://huggingface.co/fishaudio) | [fish-speech](https://github.com/fishaudio/fish-speech) | [fishaudio](https://github.com/fishaudio) |  |
@@ -1941,6 +1944,7 @@ Our survey about LLM based Multi-Agents is available at: https://arxiv.org/abs/2
 
 ## 更新
 
+* 2024.12.16 增加[Megrez-3B-Omni, DeepSeek-VL2]
 * 2024.11.29 增加[QwQ-32B-Preview,Marco-o1 ,Skywork-01-Open,HK-01aw](#ReasoningLLM)
 * 2024.11.15 增加[Qwen-2.5-coder, OpenCoder](#Domain-ChatLLM)
 * 2024.11.05 增加[Hunyuan-Large](#Chat-LLM)
