@@ -620,6 +620,8 @@
 |    Marco-o1     |  7B  | 2024-11 | 中英 | 通用 |        [🤗HF](https://huggingface.co/AIDC-AI/Marco-o1)        |       [Marco-o1](https://github.com/AIDC-AI/Marco-o1)        |   [AIDC-AI](https://github.com/AIDC-AI)   |  CD  | [**Paper**](https://arxiv.org/abs/2411.14405) |
 | Skywork-01-Open |  8B  | 2024-11 | 中英 | 通用 | [🤗HF](https://huggingface.co/collections/Skywork/skywork-o1-open-67453df58e12f6c3934738d0) | [skywork-o1-prm-inference](https://github.com/SkyworkAI/skywork-o1-prm-inference) | [SkyworkAI](https://github.com/SkyworkAI) |  CD  | [Blog](https://nexusflow.ai/blogs/athene-v2)  |
 |     HK-01aw     |  8B  | 2024-11 | 中文 | 法律 |       [🤗HF](https://huggingface.co/HKAIR-Lab/HK-O1aw)        |       [HK-O1aw](https://github.com/HKAIR-Lab/HK-O1aw)        | [HKAIR-Lab](https://github.com/HKAIR-Lab) |  CD  |                                               |
+| QVQ-72B-Preview | 72B  | 2024-12 | 中英 | 多模 | [🤗 HF](https://huggingface.co/collections/Qwen/qvq-676448c820912236342b9888) | [Qwen2-VL](https://github.com/QwenLM/Qwen2-VL) | [QwenLM](https://github.com/QwenLM) |  |[Blog](https://qwenlm.github.io/zh/blog/qvq-72b-preview/)|
+
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
 ## 中文指令数据集
