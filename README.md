@@ -548,6 +548,7 @@
 
 |           模型           | 大小  |  时间   |                           语言模型                           |                          非语言模型                          | 语言 |   领域    |                             下载                             |                           项目地址                           |                        机构/个人                         |                             文献                             |
 | :----------------------: | :---: | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :----------------------------------------------------------: |
+| QVQ-72B-Preview | 72B  | 2024-12 |    /     |    /     | 中英 | 文视图 | [🤗 HF](https://huggingface.co/collections/Qwen/qvq-676448c820912236342b9888) | [Qwen2-VL](https://github.com/QwenLM/Qwen2-VL) | [QwenLM](https://github.com/QwenLM) | [Blog](https://qwenlm.github.io/zh/blog/qvq-72b-preview/) |
 | Megrez-3B-Omni |     3B     | 2024-12 | Megrez-3B-Instruct | SigLip-400M/Qwen2-Audio/whisper-large-v3 | 中英 | 文音图 | [🤗 HF](https://huggingface.co/Infinigence/Megrez-3B-Omni) | [Infini-Megrez-Omni](https://github.com/infinigence/Infini-Megrez-Omni) | [infinigence](https://github.com/infinigence) |                                           |
 |  DeepSeek-VL2  | 1/2.8/4.5B | 2024-12 |         /          |                    /                     |      |  文图  |  [🤗 HF](https://huggingface.co/deepseek-ai/deepseek-vl2)  | [DeepSeek-VL2](https://github.com/deepseek-ai/DeepSeek-VL2)  | [deepseek-ai](https://github.com/deepseek-ai) | [Paper](https://arxiv.org/abs/2412.10302) |
 | InternVL 2.5 | 2/4/8/26/38/78B | 2024-12 | Qwen-2.5 | InternVit | 多语 | 文图 | [🤗 HF](https://huggingface.co/collections/OpenGVLab/internvl-25-673e1019b66e2218f68d7c1c) | [InternVL](https://github.com/OpenGVLab/InternVL) | [OpenGVLab](https://github.com/OpenGVLab) | [blog](https://internvl.github.io/blog/) |
@@ -1944,6 +1945,7 @@ Our survey about LLM based Multi-Agents is available at: https://arxiv.org/abs/2
 
 ## 更新
 
+* 2014.12.25 增加[QVQ-72B]
 * 2024.12.16 增加[Megrez-3B-Omni, DeepSeek-VL2]
 * 2024.11.29 增加[QwQ-32B-Preview,Marco-o1 ,Skywork-01-Open,HK-01aw](#ReasoningLLM)
 * 2024.11.15 增加[Qwen-2.5-coder, OpenCoder](#Domain-ChatLLM)
