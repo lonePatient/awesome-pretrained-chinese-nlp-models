@@ -616,6 +616,7 @@
 
 |      模型       | 大小 | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                 机构/个人                 | 结构 |                      文                       |
 | :-------------: | :--: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :---------------------------------------: | :--: | :-------------------------------------------: |
+| HuatuoGPT-o1 | 7/8/70/72B | 2025-01 | 中英 | 医疗 | [🤗HF](https://huggingface.co/collections/FreedomIntelligence/huatuogpt-o1-677261a3711767cce7c64e13) | [HuatuoGPT-o1](https://github.com/FreedomIntelligence/HuatuoGPT-o1) | [FreedomIntelligence](https://github.com/FreedomIntelligence)/ |  CD  | [Paper](https://arxiv.org/pdf/2412.18925) |
 | QwQ-32B-Preview | 32B  | 2024-11 | 中英 | 通用 |      [🤗HF](https://huggingface.co/Qwen/QwQ-32B-Preview)      |                              /                               |    [QwenLM](https://github.com/QwenLM)    |  CD  |                                               |
 |    Marco-o1     |  7B  | 2024-11 | 中英 | 通用 |        [🤗HF](https://huggingface.co/AIDC-AI/Marco-o1)        |       [Marco-o1](https://github.com/AIDC-AI/Marco-o1)        |   [AIDC-AI](https://github.com/AIDC-AI)   |  CD  | [**Paper**](https://arxiv.org/abs/2411.14405) |
 | Skywork-01-Open |  8B  | 2024-11 | 中英 | 通用 | [🤗HF](https://huggingface.co/collections/Skywork/skywork-o1-open-67453df58e12f6c3934738d0) | [skywork-o1-prm-inference](https://github.com/SkyworkAI/skywork-o1-prm-inference) | [SkyworkAI](https://github.com/SkyworkAI) |  CD  | [Blog](https://nexusflow.ai/blogs/athene-v2)  |
@@ -1947,7 +1948,8 @@ Our survey about LLM based Multi-Agents is available at: https://arxiv.org/abs/2
 
 ## 更新
 
-* 2014.12.25 增加[QVQ-72B]
+* 2025。01.02 增加[Huatuo-o1](#ReasoningLLM)
+* 2024.12.25 增加[QVQ-72B]
 * 2024.12.16 增加[Megrez-3B-Omni, DeepSeek-VL2]
 * 2024.11.29 增加[QwQ-32B-Preview,Marco-o1 ,Skywork-01-Open,HK-01aw](#ReasoningLLM)
 * 2024.11.15 增加[Qwen-2.5-coder, OpenCoder](#Domain-ChatLLM)
