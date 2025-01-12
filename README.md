@@ -548,6 +548,7 @@
 
 |           模型           | 大小  |  时间   |                           语言模型                           |                          非语言模型                          | 语言 |   领域    |                             下载                             |                           项目地址                           |                        机构/个人                         |                             文献                             |
 | :----------------------: | :---: | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :----------------------------------------------------------: |
+| Sa2VA | 1/4/8B | 2024-12 | Qwen2.5  | InternVL2.5 | 中英 | 文视图 | [🤗 HF]( https://huggingface.co/collections/ByteDance/sa2va-model-zoo-677e3084d71b5f108d00e093) | [Sa2VA](https://github.com/magic-research/Sa2VA) | [magic-research](https://github.com/magic-research)/ [Sa2VA](https://github.com/magic-research/Sa2VA) | [Paper](https://arxiv.org/abs/2501.04001) |
 | QVQ-72B-Preview | 72B  | 2024-12 |    /     |    /     | 中英 | 文视图 | [🤗 HF](https://huggingface.co/collections/Qwen/qvq-676448c820912236342b9888) | [Qwen2-VL](https://github.com/QwenLM/Qwen2-VL) | [QwenLM](https://github.com/QwenLM) | [Blog](https://qwenlm.github.io/zh/blog/qvq-72b-preview/) |
 | Megrez-3B-Omni |     3B     | 2024-12 | Megrez-3B-Instruct | SigLip-400M/Qwen2-Audio/whisper-large-v3 | 中英 | 文音图 | [🤗 HF](https://huggingface.co/Infinigence/Megrez-3B-Omni) | [Infini-Megrez-Omni](https://github.com/infinigence/Infini-Megrez-Omni) | [infinigence](https://github.com/infinigence) |                                           |
 |  DeepSeek-VL2  | 1/2.8/4.5B | 2024-12 |         /          |                    /                     |      |  文图  |  [🤗 HF](https://huggingface.co/deepseek-ai/deepseek-vl2)  | [DeepSeek-VL2](https://github.com/deepseek-ai/DeepSeek-VL2)  | [deepseek-ai](https://github.com/deepseek-ai) | [Paper](https://arxiv.org/abs/2412.10302) |
@@ -616,6 +617,8 @@
 
 |      模型       | 大小 | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                 机构/个人                 | 结构 |                      文                       |
 | :-------------: | :--: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :---------------------------------------: | :--: | :-------------------------------------------: |
+| Sky-T1 | 32B | 2025-01 | 中英 | 通用 | [🤗HF](https://huggingface.co/NovaSky-AI/Sky-T1-32B-Preview) | [SkyThought](https://github.com/NovaSky-AI/SkyThought) | [NovaSky-AI](https://github.com/NovaSky-AI) |  CD  | [Blog](https://novasky-ai.github.io/posts/sky-t1/) |
+| Search-O1 |  | 2025-01 | 中英 | 通用 |                              /                              | [Search-o1](https://github.com/sunnynexus/Search-o1) | [sunnynexus](https://github.com/sunnynexus) | CD | [Paper](https://arxiv.org/abs/2501.05366) |
 | HuatuoGPT-o1 | 7/8/70/72B | 2025-01 | 中英 | 医疗 | [🤗HF](https://huggingface.co/collections/FreedomIntelligence/huatuogpt-o1-677261a3711767cce7c64e13) | [HuatuoGPT-o1](https://github.com/FreedomIntelligence/HuatuoGPT-o1) | [FreedomIntelligence](https://github.com/FreedomIntelligence)/ |  CD  | [Paper](https://arxiv.org/pdf/2412.18925) |
 | QwQ-32B-Preview | 32B  | 2024-11 | 中英 | 通用 |      [🤗HF](https://huggingface.co/Qwen/QwQ-32B-Preview)      |                              /                               |    [QwenLM](https://github.com/QwenLM)    |  CD  |                                               |
 |    Marco-o1     |  7B  | 2024-11 | 中英 | 通用 |        [🤗HF](https://huggingface.co/AIDC-AI/Marco-o1)        |       [Marco-o1](https://github.com/AIDC-AI/Marco-o1)        |   [AIDC-AI](https://github.com/AIDC-AI)   |  CD  | [**Paper**](https://arxiv.org/abs/2411.14405) |
@@ -1948,7 +1951,8 @@ Our survey about LLM based Multi-Agents is available at: https://arxiv.org/abs/2
 
 ## 更新
 
-* 2025。01.02 增加[Huatuo-o1](#ReasoningLLM)
+* 2025.01.12 增加[Sky-T1,search-o1](#ReasoningLLM)
+* 2025.01.02 增加[Huatuo-o1](#ReasoningLLM)
 * 2024.12.25 增加[QVQ-72B]
 * 2024.12.16 增加[Megrez-3B-Omni, DeepSeek-VL2]
 * 2024.11.29 增加[QwQ-32B-Preview,Marco-o1 ,Skywork-01-Open,HK-01aw](#ReasoningLLM)
