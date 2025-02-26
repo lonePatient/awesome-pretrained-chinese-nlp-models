@@ -272,6 +272,7 @@
 
 |           模型           |    大小     | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             |
 | :----------------------: | :---------: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| **Moonlight** | A3/16B | 2025-02 | 中英 | 通用 | [🤗HF](https://huggingface.co/moonshotai/Moonlight-16B-A3B) | [Moonlight](https://github.com/MoonshotAI/Moonlight) | [MoonshotAI](https://github.com/MoonshotAI) |  MoE  | [**Tech Report**](https://github.com/MoonshotAI/Moonlight/blob/master/Moonlight.pdf) |
 |   phi-4   | 14B  | 2025--01 | 多语 | 通用 |        [🤗HF](https://huggingface.co/microsoft/phi-4)         |                        /                         | [Microsoft](https://huggingface.co/microsoft) |  CD  | [Phi-4 Technical Report](https://arxiv.org/pdf/2412.08905) |
 | InternLM3 |  8B  | 2025--01 | 中英 | 通用 | [🤗HF](https://huggingface.co/collections/internlm/internlm3-67875827c377690c01a9131d) | [InternLM](https://github.com/InternLM/InternLM) |    [InternLM](https://github.com/InternLM)    |  CD  |    [Technical Report](https://arxiv.org/abs/2403.17297)    |
 | deepseek-v3 | 671B | 2024-12 | 多语 | 通用 | [🤗HF](https://huggingface.co/deepseek-ai/DeepSeek-V3) | [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3) | [deepseek-ai](https://github.com/deepseek-ai) | MoE  | [**Paper Link**](https://github.com/deepseek-ai/DeepSeek-V3/blob/main/DeepSeek_V3.pdf) |
@@ -551,6 +552,8 @@
 
 |           模型           | 大小  |  时间   |                           语言模型                           |                          非语言模型                          | 语言 |   领域    |                             下载                             |                           项目地址                           |                        机构/个人                         |                             文献                             |
 | :----------------------: | :---: | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :----------------------------------------------------------: |
+|     Wan2.1      | 1.3/14B | 2025-02 |    /     |     /      | 中英 | 文视图 |           [🤗 HF](https://huggingface.co/Wan-AI)           |     [Wan2.1](https://github.com/Wan-Video/Wan2.1)      |  [Wan-Video](https://github.com/Wan-Video)  |                     /                     |
+| Step-Audio-Chat |  130B   | 2025-02 |  Step-1  |     /      | 多语 |  文音  | [🤗 HF](https://huggingface.co/stepfun-ai/Step-Audio-Chat) | [Step-Audio](https://github.com/stepfun-ai/Step-Audio) | [stepfun-ai](https://github.com/stepfun-ai) | [Paper](https://arxiv.org/abs/2502.11946) |
 |   Ovis2   | 1/4/16/34B | 2025-02 |   Qwen2.5    |                         aimv2-large                         | 中英 | 文图视 | [🤗 HF](https://huggingface.co/collections/AIDC-AI/ovis2-67ab36c7e497429034874464) |    [Ovis](https://github.com/AIDC-AI/Ovis)    |     [AIDC-AI](https://github.com/AIDC-AI)     |          [Paper](https://arxiv.org/abs/2405.20797)           |
 | Janus-Pro |   1.5/7B   | 2025-02 | deepseek-llm | [SigLIP-L](https://huggingface.co/timm/ViT-L-16-SigLIP-384) | 中英 |  文图  |   [🤗 HF](https://huggingface.co/deepseek-ai/Janus-Pro-7B)    | [Janus](https://github.com/deepseek-ai/Janus) | [deepseek-ai](https://github.com/deepseek-ai) | [paper](https://github.com/deepseek-ai/Janus/blob/main/janus_pro_tech_report.pdf) |
 |  OuteTTS  |      | 2025-01 | Qwen2.5-0.5B |                    OLMo-1B                     | 多语 |  文音  | [🤗 HF](https://huggingface.co/collections/OuteAI/outetts-03-6786b1ebc7aeb757bc17a2fa) |    [OuteTTS](https://github.com/edwko/OuteTTS)    |              [edwko](https://github.com/edwko)               | [Blog](https://www.outeai.com/blog) |
@@ -1963,6 +1966,7 @@ Our survey about LLM based Multi-Agents is available at: https://arxiv.org/abs/2
 
 ## 更新
 
+* 2025.02.26 增加[Moonlight、Wan2.1、Step-Audio-Chat]
 * 2025.02.15 增加[Ovis2]
 * 2025.01.19 增加[MiniMax-01, miniCPM-O， OuteTTS]
 * 2025.01.12 增加[Sky-T1,search-o1](#ReasoningLLM)
