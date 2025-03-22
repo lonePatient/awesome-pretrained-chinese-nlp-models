@@ -630,6 +630,8 @@
 
 |      模型       | 大小 | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                 机构/个人                 | 结构 |                      文                       |
 | :-------------: | :--: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :---------------------------------------: | :--: | :-------------------------------------------: |
+| Skywork-R1V | 38B | 2025-03 | 中英 | 多模态 | [🤗HF](https://huggingface.co/Skywork/Skywork-R1V-38B) | [Skywork-R1V](https://github.com/SkyworkAI/Skywork-R1V) | [SkyworkAI](https://github.com/SkyworkAI) | CD | [Paper](https://github.com/SkyworkAI/Skywork-R1V/blob/main/Skywork_R1V.pdf) |
+| Fin-R1 | 7B | 2025-03 | 中英 | 金融 | [🤗HF](https://huggingface.co/SUFE-AIFLM-Lab/Fin-R1) | [Fin-R1](https://github.com/SUFE-AIFLM-Lab/Fin-R1) | [SUFE-AIFLM-Lab](https://github.com/SUFE-AIFLM-Lab) |  CD  | [Paper](https://arxiv.org/abs/2503.16252) |
 | QwQ-32B | 32B  | 2025-03 | 中英 | 通用 | [🤗HF](https://huggingface.co/Qwen/QwQ-32B) |    /     | [QwenLM](https://github.com/QwenLM) |  CD  | [📑 blog](https://qwenlm.github.io/blog/qwq-32b/) |
 | DeepSeek-R1 | A37/671B | 2025-01 | 中英 | 通用 | [🤗HF](https://huggingface.co/deepseek-ai/DeepSeek-R1) | [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1) | [deepseek-ai](https://github.com/deepseek-ai) |  MoE  | [**Paper Link**👁️](https://github.com/deepseek-ai/DeepSeek-R1/blob/main/DeepSeek_R1.pdf) |
 | DeepSeek-R1-Zero | A37/671B | 2025-01 | 中英 | 通用 | [🤗HF](https://huggingface.co/deepseek-ai/DeepSeek-R1-Zero) | [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1) | [deepseek-ai](https://github.com/deepseek-ai) | MoE | [**Paper Link**👁️](https://github.com/deepseek-ai/DeepSeek-R1/blob/main/DeepSeek_R1.pdf) |
@@ -1970,6 +1972,7 @@ Our survey about LLM based Multi-Agents is available at: https://arxiv.org/abs/2
 
 ## 更新
 
+* 2025.03.22 增加[Skywork-R1V,FIN-R1]
 * 2025.03.09 增加[QwQ-32B, Aya Vision,CogView4]
 * 2025.02.26 增加[Moonlight、Wan2.1、Step-Audio-Chat]
 * 2025.02.15 增加[Ovis2]
