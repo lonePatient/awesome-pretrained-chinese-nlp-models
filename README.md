@@ -272,6 +272,8 @@
 
 |           模型           |    大小     | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             |
 | :----------------------: | :---------: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| Qwen-3 | 4/14/30/235B | 2025-05 | 中英 | 通用 | [🤗HF](https://huggingface.co/collections/Qwen/qwen3-67dd247413f0e2e4f653967f) |  [Qwen3](https://github.com/QwenLM/Qwen3)  |     [QwenLM](https://github.com/QwenLM)     | CD/MoE |         [blog](https://qwenlm.github.io/blog/qwen3/)         |
+|  MiMo  |      7B      | 2025-05 | 中英 | 通用 |           [🤗HF](https://huggingface.co/XiaomiMiMo)           | [MiMo](https://github.com/XiaomiMiMo/MiMo) | [XiaomiMiMo](https://github.com/XiaomiMiMo) |   CD   | [Paper](https://github.com/XiaomiMiMo/MiMo/blob/main/MiMo-7B-Technical-Report.pdf) |
 | GLM-4-0414 | 9/32B | 2025-04 | 多语 | 通用 | [🤗HF](https://huggingface.co/collections/THUDM/glm-4-0414-67f3cbcb34dd9d252707cb2e) | [GLM-4](https://github.com/THUDM/GLM-4) | [THUDM](https://github.com/THUDM) |      |      |
 | **Moonlight** | A3/16B | 2025-02 | 中英 | 通用 | [🤗HF](https://huggingface.co/moonshotai/Moonlight-16B-A3B) | [Moonlight](https://github.com/MoonshotAI/Moonlight) | [MoonshotAI](https://github.com/MoonshotAI) |  MoE  | [**Tech Report**](https://github.com/MoonshotAI/Moonlight/blob/master/Moonlight.pdf) |
 |   phi-4   | 14B  | 2025--01 | 多语 | 通用 |        [🤗HF](https://huggingface.co/microsoft/phi-4)         |                        /                         | [Microsoft](https://huggingface.co/microsoft) |  CD  | [Phi-4 Technical Report](https://arxiv.org/pdf/2412.08905) |
@@ -1978,6 +1980,7 @@ Our survey about LLM based Multi-Agents is available at: https://arxiv.org/abs/2
 
 ## 更新
 
+* 2025.05.07 增加[Qwen3,MiMo]
 * 2025.04.15 增加[GLM-Z1-0414. DeepCoder, Kimi-VL-Thinking, Skywork-OR1]
 * 2025.03.22 增加[Skywork-R1V,FIN-R1]
 * 2025.03.09 增加[QwQ-32B, Aya Vision,CogView4]
