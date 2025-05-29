@@ -555,6 +555,8 @@
 
 |           模型           | 大小  |  时间   |                           语言模型                           |                          非语言模型                          | 语言 |   领域    |                             下载                             |                           项目地址                           |                        机构/个人                         |                             文献                             |
 | :----------------------: | :---: | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :----------------------------------------------------------: |
+|   Dolphin   | A3/16B | 2025-05 |  MBart   | Swin Transformer | 中英 |  文图  | [🤗 HF](https://huggingface.co/moonshotai/Kimi-VL-A3B-Instruct) | [Dolphin](https://github.com/bytedance/Dolphin) | [bytedance](https://github.com/bytedance) | [arXiv](https://arxiv.org/abs/2505.14059). |
+| Wan2.1-VACE |  14B   | 2025-05 |    /     |        /         | 中英 | 文图视 |    [🤗 HF](https://huggingface.co/Wan-AI/Wan2.1-VACE-14B)     |  [Wan2.1](https://github.com/Wan-Video/Wan2.1)  | [Wan-Video](https://github.com/Wan-Video) | [arXiv](https://arxiv.org/abs/2503.20314)  |
 | Kimi-VL | A3/16B | 2025-04 |                          /                           |     /      | 多语 | 文图 | [🤗 HF](https://huggingface.co/moonshotai/Kimi-VL-A3B-Instruct) | [Kimi-VL](https://github.com/MoonshotAI/Kimi-VL) |  [MoonshotAI](https://github.com/MoonshotAI)  |     [**Tech Report** ](https://arxiv.org/abs/2504.07491)     |
 |        Aya Vision         | 8/32B | 2025-03 | [C4AI Command R7B](https://huggingface.co/CohereForAI/c4ai-command-r7b-12-2024) | [SigLIP2-patch14-384](https://huggingface.co/google/siglip2-so400m-patch14-384) | 多语 | 文图 | [🤗 HF](https://huggingface.co/collections/CohereForAI/c4ai-aya-vision-67c4ccd395ca064308ee1484) |                       /                       | [Cohere For AI](https://huggingface.co/CohereForAI) |                                                              |
 | Phi-4-multimodal-instruct | 5.6B  | 2025-03 |                              /                               |                              /                               | 多语 | 文图 | [🤗 HF](https://huggingface.co/microsoft/Phi-4-multimodal-instruct) |                       /                       |    [Microsoft](https://huggingface.co/microsoft)    | [Phi-4-multimodal Technical Report](https://aka.ms/phi-4-multimodal/techreport) |
@@ -634,6 +636,8 @@
 
 |      模型       | 大小 | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                 机构/个人                 | 结构 |                      文                       |
 | :-------------: | :--: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :---------------------------------------: | :--: | :-------------------------------------------: |
+| DeepSeek-R1-0528 | A37/671B | 2025-05 | 中英 | 通用 |    [🤗HF](https://huggingface.co/deepseek-ai/DeepSeek-R1)    |  [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1)  |   [deepseek-ai](https://github.com/deepseek-ai)   | MoE  | [**Paper Link**👁️](https://github.com/deepseek-ai/DeepSeek-R1/blob/main/DeepSeek_R1.pdf) |
+|   QwenLong-L1    |   32B    | 2025-05 | 中英 | 通用 | [🤗HF](https://huggingface.co/Tongyi-Zhiwen/QwenLong-L1-32B) | [QwenLong-L1](https://github.com/Tongyi-Zhiwen/QwenLong-L1) | [Tongyi-Zhiwen](https://github.com/Tongyi-Zhiwen) |  CD  | [Paper](https://arxiv.org/abs/2505.17667) |
 | GLM-Z1-0414 | 32B | 2025-04 | 中英 | 通用 | [🤗HF](https://huggingface.co/collections/THUDM/glm-4-0414-67f3cbcb34dd9d252707cb2e) | [GLM-4](https://github.com/THUDM/GLM-4) | [THUDM](https://github.com/THUDM) |  |  |
 |    DeepCoder     | 1.5/14B | 2025-04 | 中英 | 代码 | [🤗HF](https://huggingface.co/agentica-org/DeepCoder-14B-Preview) | [rllm](https://github.com/agentica-project/rllm) | [agentica-project](https://github.com/agentica-project) | CD |  |
 | Kimi-VL-Thinking | A3/16B | 2025-04 | 中英 | 多模态 | [🤗HF](https://huggingface.co/moonshotai/Kimi-VL-A3B-Thinking) | [Kimi-VL](https://github.com/MoonshotAI/Kimi-VL) | [MoonshotAI](https://github.com/MoonshotAI) |  MoE  | [**Tech Report** ](https://arxiv.org/abs/2504.07491) |
@@ -1980,6 +1984,7 @@ Our survey about LLM based Multi-Agents is available at: https://arxiv.org/abs/2
 
 ## 更新
 
+* 2025.05.29 增加[DeepSeek-R1-0528,QwenLong-L1,Dolphin]
 * 2025.05.07 增加[Qwen3,MiMo]
 * 2025.04.15 增加[GLM-Z1-0414. DeepCoder, Kimi-VL-Thinking, Skywork-OR1]
 * 2025.03.22 增加[Skywork-R1V,FIN-R1]
