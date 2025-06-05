@@ -1108,6 +1108,10 @@ This is a collection of resources for computer-use agents, including papers and 
 
 Our survey about LLM based Multi-Agents is available at: https://arxiv.org/abs/2402.01680
 
+#### 41. Awesome_Think_With_Images ![Star](https://img.shields.io/github/stars/zhaochen0110/Awesome_Think_With_Images.svg?style=social&label=Star) [github](https://github.com/zhaochen0110/Awesome_Think_With_Images)
+
+Welcome to the Awesome-Think-With-Images repository! This repository serves as the first systematic and comprehensive curated collection of pivotal research dedicated to enabling LVLMs to truly think with images. We delve into how these sophisticated models are evolving beyond mere pattern recognition, acquiring capabilities for intricate reasoning, nuanced understanding, and dynamic interaction by processing and interpreting visual information in cognitive-inspired ways.
+
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
 ## NLU系列
