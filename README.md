@@ -1112,6 +1112,10 @@ Our survey about LLM based Multi-Agents is available at: https://arxiv.org/abs/2
 
 Welcome to the Awesome-Think-With-Images repository! This repository serves as the first systematic and comprehensive curated collection of pivotal research dedicated to enabling LVLMs to truly think with images. We delve into how these sophisticated models are evolving beyond mere pattern recognition, acquiring capabilities for intricate reasoning, nuanced understanding, and dynamic interaction by processing and interpreting visual information in cognitive-inspired ways.
 
+#### 42. Awesome Label-free Reinforcement Learning Papers ![Star](https://img.shields.io/github/stars/QingyangZhang/Label-Free-RLVR.svg?style=social&label=Star) [github](https://github.com/QingyangZhang/Label-Free-RLVR/)
+
+Warning: This repo is built for researchers interested in the recent "flurry" in RL field. Many new papers claim to improve the “reasoning abilities” in language models. However, as shown by recent work, the improvement of most of Reinforcement Learning with Verifiable Reward (RLVR) papers could be a mirage due to various accidental issues in the evaluation setups. The baseline numbers of the pre-RL models may be massively underreported. Thus we should carefully examine the degree by which true learning happens.
+
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
 ## NLU系列
