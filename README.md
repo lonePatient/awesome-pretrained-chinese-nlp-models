@@ -1116,6 +1116,9 @@ Welcome to the Awesome-Think-With-Images repository! This repository serves as t
 
 Warning: This repo is built for researchers interested in the recent "flurry" in RL field. Many new papers claim to improve the “reasoning abilities” in language models. However, as shown by recent work, the improvement of most of Reinforcement Learning with Verifiable Reward (RLVR) papers could be a mirage due to various accidental issues in the evaluation setups. The baseline numbers of the pre-RL models may be massively underreported. Thus we should carefully examine the degree by which true learning happens.
 
+#### 43. Awesome-AI-Agent-Papers ![Star](https://img.shields.io/github/stars/masamasa59/ai-agent-papers.svg?style=social&label=Star) [github](https://github.com/masamasa59/ai-agent-papers)
+ai-agent-papers：AI智能体研究资源库。它为研究人员和开发者提供了一个全面的AI智能体论文集合，助力快速了解领域前沿动态。亮点：1. 涵盖多种智能体能力与应用场景；2. 定期更新，紧跟最新研究成果；3. 提供详细分类，方便快速定位感兴趣的内容。
+
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
 ## NLU系列
