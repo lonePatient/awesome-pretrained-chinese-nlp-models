@@ -453,6 +453,7 @@
 
 |           模型           |  大小   | 时间    | 语言 |     领域     |                             下载                             |                           项目地址                           |                       机构/个人                        | 架构 |                             文献                             |
 | :----------------------: | :-----: | ------- | :--: | :----------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| Kimi-Dev | 72B  | 2025-06 | 中英 | 代码 | [**🤗 Huggingface** ](https://huggingface.co/moonshotai/Kimi-Dev-72B) | [Kimi-Dev](https://github.com/MoonshotAI/Kimi-Dev) | [MoonshotAI](https://github.com/MoonshotAI) |  CD  |      |
 |   Qwen-coder-2.5   | 0.5/1.5/14/32B | 2024-11 | 中英 | 代码 | [🤗HF](https://huggingface.co/collections/Qwen/qwen25-coder-66eaa22e6f99801bf65b0c2f) |   [Qwen2.5-Coder](https://github.com/QwenLM/Qwen2.5-Coder)   |        [QwenLM](https://github.com/QwenLM)        |  CD  | [Paper](https://arxiv.org/abs/2409.12186) |
 | OpenCoder-Instruct |     1.5/8B     | 2024-11 | 中英 | 代码 | [🤗HF](https://huggingface.co/collections/infly/opencoder-672cec44bbb86c39910fb55e) | [OpenCoder-llm](https://github.com/OpenCoder-llm/OpenCoder-llm) | [OpenCoder-llm](https://github.com/OpenCoder-llm) |  CD  | [Paper](https://arxiv.org/abs/2411.04905) |
 | 珠算 | 2.7B | 2024-09 | 中英 | 代码 | [🤗HF](https://huggingface.co/HIT-SCIR/Abacus) | [Abacus](https://github.com/HIT-SCIR/Abacus) | [HIT-SCIR](https://github.com/HIT-SCIR) |  CD  |      |
@@ -636,6 +637,7 @@
 
 |      模型       | 大小 | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                 机构/个人                 | 结构 |                      文                       |
 | :-------------: | :--: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :---------------------------------------: | :--: | :-------------------------------------------: |
+| MiniMax-M1 | A46/456B | 2025-06 | 中英 | 通用 |    [🤗HF](https://huggingface.co/MiniMaxAI)    |  [MiniMax-M1](https://github.com/MiniMax-AI/MiniMax-M1)  |   [MiniMax-AI](https://github.com/MiniMax-AI)   | MoE  | [Paper](https://arxiv.org/abs/2506.13585) |
 | DeepSeek-R1-0528 | A37/671B | 2025-05 | 中英 | 通用 |    [🤗HF](https://huggingface.co/deepseek-ai/DeepSeek-R1)    |  [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1)  |   [deepseek-ai](https://github.com/deepseek-ai)   | MoE  | [**Paper Link**👁️](https://github.com/deepseek-ai/DeepSeek-R1/blob/main/DeepSeek_R1.pdf) |
 |   QwenLong-L1    |   32B    | 2025-05 | 中英 | 通用 | [🤗HF](https://huggingface.co/Tongyi-Zhiwen/QwenLong-L1-32B) | [QwenLong-L1](https://github.com/Tongyi-Zhiwen/QwenLong-L1) | [Tongyi-Zhiwen](https://github.com/Tongyi-Zhiwen) |  CD  | [Paper](https://arxiv.org/abs/2505.17667) |
 | GLM-Z1-0414 | 32B | 2025-04 | 中英 | 通用 | [🤗HF](https://huggingface.co/collections/THUDM/glm-4-0414-67f3cbcb34dd9d252707cb2e) | [GLM-4](https://github.com/THUDM/GLM-4) | [THUDM](https://github.com/THUDM) |  |  |
@@ -1998,6 +2000,7 @@ ai-agent-papers：AI智能体研究资源库。它为研究人员和开发者提
 
 ## 更新
 
+* 2025.06.17 增加[MiniMax-M1,Kimi-Dev]
 * 2025.05.29 增加[DeepSeek-R1-0528,QwenLong-L1,Dolphin]
 * 2025.05.07 增加[Qwen3,MiMo]
 * 2025.04.15 增加[GLM-Z1-0414. DeepCoder, Kimi-VL-Thinking, Skywork-OR1]
