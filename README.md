@@ -1124,6 +1124,9 @@ ai-agent-papers：AI智能体研究资源库。它为研究人员和开发者提
 #### 44. Awesome-Large-Search-Models ![Star](https://img.shields.io/github/stars/Wu-Zongyu/Awesome-Large-Search-Models.svg?style=social&label=Star) [github](https://github.com/Wu-Zongyu/Awesome-Large-Search-Models)
 汇聚最新搜索导向型大语言模型（大搜索模型）的研究论文、博客及相关资源。它能为研究人员和开发者提供一站式的学习和研究平台，助力快速了解该领域的前沿动态。亮点：1. 涵盖基于训练和无训练的多种方法；2. 整合丰富多样的数据集资源；3. 提供多个热门框架链接，方便直接使用
 
+#### 45. Awesome-Deep-Research ![Star](https://img.shields.io/github/stars/DavidZWZ/Awesome-Deep-Research.svg?style=social&label=Star) [github](https://github.com/DavidZWZ/Awesome-Deep-Research)
+一站式探索Agent深度研究资源的宝藏库。亮点：1. 汇集全球顶尖的深度研究产品；2. 整理前沿开源工具和最新研究论文；3. 提供丰富的评估基准与实际应用案例
+
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
 ## NLU系列
