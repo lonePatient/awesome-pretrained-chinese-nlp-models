@@ -638,6 +638,7 @@
 
 |      模型       | 大小 | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                 机构/个人                 | 结构 |                      文                       |
 | :-------------: | :--: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :---------------------------------------: | :--: | :-------------------------------------------: |
+| Hunyuan-A13B | A13/80B | 2025-06 | 中英 | 通用 | [**Hugging Face**](https://huggingface.co/tencent/Hunyuan-A13B-Instruct) | [Hunyuan-A13B](https://github.com/Tencent-Hunyuan/Hunyuan-A13B) | [Tencent-Hunyuan](https://github.com/Tencent-Hunyuan) | MoE | [**Technical Report**](https://github.com/Tencent-Hunyuan/Hunyuan-A13B/blob/main/report/Hunyuan_A13B_Technical_Report.pdf) |
 | LongWriter-Zero | 32B | 2025-06 | 中英 | / |    [🤗HF](https://huggingface.co/THU-KEG/LongWriter-Zero-32B)    |  /  |   [THU-KEG](https://github.com/THU-KEG)   | / | [Paper](https://arxiv.org/abs/2506.18841) |
 | MiniMax-M1 | A46/456B | 2025-06 | 中英 | 通用 |    [🤗HF](https://huggingface.co/MiniMaxAI)    |  [MiniMax-M1](https://github.com/MiniMax-AI/MiniMax-M1)  |   [MiniMax-AI](https://github.com/MiniMax-AI)   | MoE  | [Paper](https://arxiv.org/abs/2506.13585) |
 | DeepSeek-R1-0528 | A37/671B | 2025-05 | 中英 | 通用 |    [🤗HF](https://huggingface.co/deepseek-ai/DeepSeek-R1)    |  [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1)  |   [deepseek-ai](https://github.com/deepseek-ai)   | MoE  | [**Paper Link**👁️](https://github.com/deepseek-ai/DeepSeek-R1/blob/main/DeepSeek_R1.pdf) |
@@ -2006,7 +2007,7 @@ ai-agent-papers：AI智能体研究资源库。它为研究人员和开发者提
 
 ## 更新
 
-* 2025.06.29 增加[Qwen3-Embedding,Skywork-SWE]
+* 2025.06.29 增加[Qwen3-Embedding,Skywork-SWE，Hunyuan-A13B]
 * 2025.06.17 增加[MiniMax-M1,Kimi-Dev]
 * 2025.05.29 增加[DeepSeek-R1-0528,QwenLong-L1,Dolphin]
 * 2025.05.07 增加[Qwen3,MiMo]
