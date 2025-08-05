@@ -272,6 +272,7 @@
 
 |           模型           |    大小     | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             |
 | :----------------------: | :---------: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: |
+|   Kimi-k2   | A32B/1T | 2025-08 | 中英 | 通用 |   [HF](https://huggingface.co/moonshotai/Kimi-K2-Instruct)   |   [Kimi-K2](https://github.com/MoonshotAI/Kimi-K2)   | [MoonshotAI](https://github.com/MoonshotAI) | MoE  | **[Paper](https://github.com/MoonshotAI/Kimi-K2/blob/main/tech_report.pdf)** |
 | ERNIE-4.5 | A47/300B  A3/21B | 2025-07 | 中英 | 通用 | [**🤗 Huggingface** ](https://huggingface.co/Skywork/Skywork-SWE-32B) |    /     | [BaiDu](https://huggingface.co/baidu) | MoE  | [Technical Report](https://www.arxiv.org/pdf/2506.19290) |
 | Qwen-3 | 4/14/30/235B | 2025-05 | 中英 | 通用 | [🤗HF](https://huggingface.co/collections/Qwen/qwen3-67dd247413f0e2e4f653967f) |  [Qwen3](https://github.com/QwenLM/Qwen3)  |     [QwenLM](https://github.com/QwenLM)     | CD/MoE |         [blog](https://qwenlm.github.io/blog/qwen3/)         |
 |  MiMo  |      7B      | 2025-05 | 中英 | 通用 |           [🤗HF](https://huggingface.co/XiaomiMiMo)           | [MiMo](https://github.com/XiaomiMiMo/MiMo) | [XiaomiMiMo](https://github.com/XiaomiMiMo) |   CD   | [Paper](https://github.com/XiaomiMiMo/MiMo/blob/main/MiMo-7B-Technical-Report.pdf) |
@@ -454,6 +455,7 @@
 
 |           模型           |  大小   | 时间    | 语言 |     领域     |                             下载                             |                           项目地址                           |                       机构/个人                        | 架构 |                             文献                             |
 | :----------------------: | :-----: | ------- | :--: | :----------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| Qwen3-Coder | A3/30B  | 2025-08 | 中英 | 代码 | [**🤗 Huggingface** ](https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct) | [Qwen3-Coder](https://github.com/QwenLM/Qwen3-Coder) |     [QwenLM](https://github.com/QwenLM)     | MoE  |          [Arxiv](https://arxiv.org/abs/2505.09388)           |
 | Skywork-SWE | 32B  | 2025-06 | 中英 | 代码 | [**🤗 Huggingface** ](https://huggingface.co/Skywork/Skywork-SWE-32B) |    /     | [SkyworkAI](https://github.com/SkyworkAI) |  CD  | [Technical Report](https://www.arxiv.org/pdf/2506.19290) |
 | Kimi-Dev | 72B  | 2025-06 | 中英 | 代码 | [**🤗 Huggingface** ](https://huggingface.co/moonshotai/Kimi-Dev-72B) | [Kimi-Dev](https://github.com/MoonshotAI/Kimi-Dev) | [MoonshotAI](https://github.com/MoonshotAI) |  CD  |      |
 |   Qwen-coder-2.5   | 0.5/1.5/14/32B | 2024-11 | 中英 | 代码 | [🤗HF](https://huggingface.co/collections/Qwen/qwen25-coder-66eaa22e6f99801bf65b0c2f) |   [Qwen2.5-Coder](https://github.com/QwenLM/Qwen2.5-Coder)   |        [QwenLM](https://github.com/QwenLM)        |  CD  | [Paper](https://arxiv.org/abs/2409.12186) |
@@ -558,6 +560,7 @@
 
 |           模型           | 大小  |  时间   |                           语言模型                           |                          非语言模型                          | 语言 |   领域    |                             下载                             |                           项目地址                           |                        机构/个人                         |                             文献                             |
 | :----------------------: | :---: | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :----------------------------------------------------------: |
+| **Qwen-Image** | 20B  | 2025-08 |    /     |     /      | 中英 | 文图 | [🤗 HF](https://huggingface.co/Qwen/Qwen-Image) | [Qwen-Image](https://github.com/QwenLM/Qwen-Image) | [QwenLM](https://github.com/QwenLM) | [Tech Report](https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen-Image/Qwen_Image.pdf) |
 | ERNIE-4.5-VL | A47/424B | 2025-07 |    /     |     /      | 中英 | 文图 | [🤗 HF](https://huggingface.co/baidu) |    /     | [BaiDu](https://huggingface.co/baidu) | [**📄 Tech Report** ](https://arxiv.org/abs/2504.07491) |
 |   Dolphin   | A3/16B | 2025-05 |  MBart   | Swin Transformer | 中英 |  文图  | [🤗 HF](https://huggingface.co/moonshotai/Kimi-VL-A3B-Instruct) | [Dolphin](https://github.com/bytedance/Dolphin) | [bytedance](https://github.com/bytedance) | [arXiv](https://arxiv.org/abs/2505.14059). |
 | Wan2.1-VACE |  14B   | 2025-05 |    /     |        /         | 中英 | 文图视 |    [🤗 HF](https://huggingface.co/Wan-AI/Wan2.1-VACE-14B)     |  [Wan2.1](https://github.com/Wan-Video/Wan2.1)  | [Wan-Video](https://github.com/Wan-Video) | [arXiv](https://arxiv.org/abs/2503.20314)  |
@@ -640,6 +643,11 @@
 
 |      模型       | 大小 | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                 机构/个人                 | 结构 |                      文                       |
 | :-------------: | :--: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :---------------------------------------: | :--: | :-------------------------------------------: |
+| GLM-4.5 | A32/355B | 2025-07 | 中英 | 通用 | [**Hugging Face**](https://huggingface.co/zai-org/GLM-4.5-Base) | [GLM-4.5](https://github.com/zai-org/GLM-4.5) | [zai-org](https://github.com/zai-org) | MoE | [technical blog](https://z.ai/blog/glm-4.5) |
+| GLM-4.5-Air | 106B-A12B | 2025-07 | 中英 |  通用  | [**Hugging Face**](https://huggingface.co/zai-org/GLM-4.5-Base) |     [GLM-4.5](https://github.com/zai-org/GLM-4.5)     |         [zai-org](https://github.com/zai-org)         | MoE  | [technical blog](https://z.ai/blog/glm-4.5) |
+| Hunyuan | 0.5/4/7B | 2025-07 | 中英 | 通用 | [🤗HF](https://huggingface.co/tencent/Hunyuan-0.5B-Instruct) | [Tencent-Hunyuan](https://github.com/Tencent-Hunyuan) | [Tencent-Hunyuan](https://github.com/Tencent-Hunyuan) | / | / |
+| Qwen3-Thinking-2507 | A3/30B | 2025-07 | 中英 | 通用 | [**🤗 Huggingface** ](https://huggingface.co/Qwen/Qwen3-30B-A3B-Thinking-2507) | [Qwen3](https://github.com/QwenLM/Qwen3) | [QwenLM](https://github.com/QwenLM) | MoE | [Paper](https://arxiv.org/abs/2505.09388) |
+| Step3 | A38/321B | 2025-07 | 中英 | 多模态 | [HF](https://huggingface.co/stepfun-ai/step3) | [Step3](https://github.com/stepfun-ai/Step3) | [stepfun-ai](https://github.com/stepfun-ai) | MoE | [Paper](https://arxiv.org/abs/2507.19427) |
 | Dhanishtha-2.0 | 14B | 2025-07 | 多语 | 通用 | [**Hugging Face**](https://huggingface.co/HelpingAI/Dhanishtha-2.0-preview) | / | [HelpingAI](https://huggingface.co/HelpingAI) | CD | / |
 | GLM-4.1V-Thinking | 9B | 2025-07 | 中英 | 多模态 |    [🤗HF](https://huggingface.co/THUDM/GLM-4.1V-9B-Thinking)    |  [GLM-4.1V-Thinking](https://github.com/THUDM/GLM-4.1V-Thinking)  |   [THUDM](https://github.com/THUDM)   | / | [paper](https://arxiv.org/abs/2507.01006) |
 | Kimi-VL-Thinking-2506 | A3B | 2025-06 | 中英 | 多模态 | [🤗HF](https://huggingface.co/moonshotai/Kimi-VL-A3B-Thinking-2506) | [Kimi-VL](https://github.com/MoonshotAI/Kimi-VL) | [MoonshotAI](https://github.com/MoonshotAI/Kimi-VL) | / | [**📄 Tech Report** ](https://arxiv.org/abs/2504.07491) |
@@ -2015,6 +2023,7 @@ This is the reading list of Large Language Model-Based Data Science Agent
 
 ## 更新
 
+* 2025.08.05 增加[GLM-4.5,Hunyuan,Qwen3-Thinking-2507,Step3,Kimi-k2,Qwen3-Coder]
 * 2025.07.07 增加[Kimi-VL-Thinking,GLM-4.1V-Thinking,Dhanishtha-2.0,ERNIE-4.5]
 * 2025.06.29 增加[Qwen3-Embedding,Skywork-SWE，Hunyuan-A13B]
 * 2025.06.17 增加[MiniMax-M1,Kimi-Dev]
