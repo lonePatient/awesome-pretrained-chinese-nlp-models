@@ -272,6 +272,8 @@
 
 |           模型           |    大小     | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                          机构/个人                           | 架构 |                             文献                             |
 | :----------------------: | :---------: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: |
+|       GLM-4.6        | A32/355B | 2025-10 | 中英 |   通用   | [**Hugging Face**](https://huggingface.co/zai-org/GLM-4.5-Base) | [GLM-4.5](https://github.com/zai-org/GLM-4.5) |     [zai-org](https://github.com/zai-org)     | MoE  | [technical blog](https://z.ai/blog/glm-4.6) |
+|     **Ling-1T**      |    1T    | 2025-10 | 多语 |   通用   | [**🤗 Huggingface** ](https://huggingface.co/inclusionAI/Ling-1T) |                       /                       | [inclusionAI](https://github.com/inclusionAI) |  CD  |  
 | **Qwen3-Next** | A3/80B | 2025-09 | 中英 | 通用 | [**🤗 Huggingface** ](https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct) | [Qwen3](https://github.com/QwenLM/Qwen3) | [QwenLM](https://github.com/QwenLM) | MoE  | [Qwen3-Next](https://qwen.ai/blog?id=4074cca80393150c248e508aa62983f9cb7d27cd&from=research.latest-advancements-list) |
 |   Kimi-k2   | A32B/1T | 2025-08 | 中英 | 通用 |   [HF](https://huggingface.co/moonshotai/Kimi-K2-Instruct)   |   [Kimi-K2](https://github.com/MoonshotAI/Kimi-K2)   | [MoonshotAI](https://github.com/MoonshotAI) | MoE  | **[Paper](https://github.com/MoonshotAI/Kimi-K2/blob/main/tech_report.pdf)** |
 | ERNIE-4.5 | A47/300B  A3/21B | 2025-07 | 中英 | 通用 | [**🤗 Huggingface** ](https://huggingface.co/Skywork/Skywork-SWE-32B) |    /     | [BaiDu](https://huggingface.co/baidu) | MoE  | [Technical Report](https://www.arxiv.org/pdf/2506.19290) |
@@ -456,6 +458,8 @@
 
 |           模型           |  大小   | 时间    | 语言 |     领域     |                             下载                             |                           项目地址                           |                       机构/个人                        | 架构 |                             文献                             |
 | :----------------------: | :-----: | ------- | :--: | :----------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| **KAT-Dev-72B-Exp**  |   72B    | 2025-10 | 多语 | 软件工程 | [**🤗 Huggingface** ](https://huggingface.co/Kwaipilot/KAT-Dev-72B-Exp) |                       /                       | [Kwaipilot](https://huggingface.co/Kwaipilot) |  CD  |                                             |
+| KwaiCoder-23B-A4B-v1 |  A4/23B  | 2025-10 | 多语 | 软件工程 | [**🤗 Huggingface** ](https://huggingface.co/Kwaipilot/KwaiCoder-23B-A4B-v1) |                       /                       | [Kwaipilot](https://huggingface.co/Kwaipilot) |  CD  |                                             |
 | Qwen3-Coder | A3/30B  | 2025-08 | 中英 | 代码 | [**🤗 Huggingface** ](https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct) | [Qwen3-Coder](https://github.com/QwenLM/Qwen3-Coder) |     [QwenLM](https://github.com/QwenLM)     | MoE  |          [Arxiv](https://arxiv.org/abs/2505.09388)           |
 | Skywork-SWE | 32B  | 2025-06 | 中英 | 代码 | [**🤗 Huggingface** ](https://huggingface.co/Skywork/Skywork-SWE-32B) |    /     | [SkyworkAI](https://github.com/SkyworkAI) |  CD  | [Technical Report](https://www.arxiv.org/pdf/2506.19290) |
 | Kimi-Dev | 72B  | 2025-06 | 中英 | 代码 | [**🤗 Huggingface** ](https://huggingface.co/moonshotai/Kimi-Dev-72B) | [Kimi-Dev](https://github.com/MoonshotAI/Kimi-Dev) | [MoonshotAI](https://github.com/MoonshotAI) |  CD  |      |
@@ -2036,6 +2040,7 @@ This is the reading list of Large Language Model-Based Data Science Agent
 
 ## 更新
 
+* 2025.10.12 增加[Ling-1T,KAT-Dev-72B-Exp, GLM-4.6 ]
 * 2025.09.20 增加[Tongyi DeepResearch,Qwen3-Next,Magistral Small,VoxCPM,VibeVoice,HunyuanImage]
 * 2025.08.19 增加[gpt-oss-20B,gpt-oss-120B,Baichuan-M2,Ovis2.5,GLM-4.5V]
 * 2025.08.05 增加[GLM-4.5,Hunyuan,Qwen3-Thinking-2507,Step3,Kimi-k2,Qwen3-Coder]
