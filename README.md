@@ -1165,6 +1165,9 @@ ai-agent-papers：AI智能体研究资源库。它为研究人员和开发者提
 #### 46. Reading-List-of-LLM-Based-Data-Science-Agent ![Star](https://img.shields.io/github/stars/Stephen-SMJ/Reading-List-of-LLM-Based-Data-Science-Agent.svg?style=social&label=Star) [github](https://github.com/Stephen-SMJ/Reading-List-of-LLM-Based-Data-Science-Agent)
 This is the reading list of Large Language Model-Based Data Science Agent
 
+#### 47. Awesome-Agents ![Star](https://img.shields.io/github/stars/kyrolabs/awesome-agents.svg?style=social&label=Star) [github](https://github.com/kyrolabs/awesome-agents)
+Awesome Agents is a curated list of open-source tools and products to build AI agents.
+
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
 ## NLU系列
