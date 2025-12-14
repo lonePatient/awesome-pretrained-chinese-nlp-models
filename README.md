@@ -565,6 +565,8 @@
 
 |           模型           | 大小  |  时间   |                           语言模型                           |                          非语言模型                          | 语言 |   领域    |                             下载                             |                           项目地址                           |                        机构/个人                         |                             文献                             |
 | :----------------------: | :---: | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :----------------------------------------------------------: |
+| AutoGLM-Phone |  9B  | 2025-12 |    **AutoGLM**    |  **AutoGLM**  | 中英 | Agent | [🤗 HF](https://huggingface.co/zai-org/AutoGLM-Phone-9B) | [Open-AutoGLM](https://github.com/zai-org/Open-AutoGLM) |   [zai-org](https://github.com/zai-org)   | [**Paper Link**](https://github.com/deepseek-ai/DeepSeek-OCR/blob/main/DeepSeek_OCR_paper.pdf) |
+|  Dolphin-v2   |  3B  | 2025-12 | **Qwen2.5-VL-3B** | Qwen2.5-VL-3B | 中英 | 文图  |   [🤗 HF](https://huggingface.co/ByteDance/Dolphin-v2)   |     [Dolphin](https://github.com/bytedance/Dolphin)     | [bytedance](https://github.com/bytedance) |          [arXiv](https://arxiv.org/abs/2505.14059)           |
 | DeepSeek-OCR |  3B  | 2025-10 |    /     |     /      | 中英 | 文图 | [🤗 HF](https://huggingface.co/deepseek-ai/DeepSeek-OCR) | [DeepSeek-OCR](https://github.com/deepseek-ai/DeepSeek-OCR) | [deepseek-ai](https://github.com/deepseek-ai) | [**Paper Link**](https://github.com/deepseek-ai/DeepSeek-OCR/blob/main/DeepSeek_OCR_paper.pdf) |
 |      VoxCPM      | 0.5B | 2025-09 | [MiniCPM-4](https://huggingface.co/openbmb/MiniCPM4-0.5B) |     /      | 中英 | 文音 |      [🤗 HF](https://huggingface.co/openbmb/VoxCPM-0.5B)      |         [VoxCPM](https://github.com/OpenBMB/VoxCPM)          |            [OpenBMB](https://github.com/OpenBMB)             |                              /                               |
 |    VibeVoice     | 1.5B | 2025-09 | [Qwen2.5-1.5B](https://huggingface.co/Qwen/Qwen2.5-1.5B)  |     /      | 中英 | 文音 |   [🤗 HF](https://huggingface.co/microsoft/VibeVoice-1.5B)    |     [VibeVoice](https://github.com/microsoft/VibeVoice)      |          [microsoft](https://github.com/microsoft)           | [VibeVoice Technical Report](https://arxiv.org/abs/2508.19205) |
@@ -653,6 +655,7 @@
 
 |      模型       | 大小 | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                 机构/个人                 | 结构 |                      文                       |
 | :-------------: | :--: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :---------------------------------------: | :--: | :-------------------------------------------: |
+| DeepSeek-V3.2 | / | 2025-12 | 中英 | 通用 | [🤗HF](https://huggingface.co/deepseek-ai/DeepSeek-V3.2) | [DeepSeek-V3.2-Exp](https://github.com/deepseek-ai/DeepSeek-V3.2-Exp) | [deepseek-ai](https://github.com/deepseek-ai) | MoE | [**Technical Report**](https://huggingface.co/deepseek-ai/DeepSeek-V3.2/blob/main/assets/paper.pdf) |
 | **Tongyi DeepResearch** | A3/30B | 2025-09 | 中英 | 通用 | [🤗HF](https://huggingface.co/Alibaba-NLP/Tongyi-DeepResearch-30B-A3B) | [DeepResearch](https://github.com/Alibaba-NLP/DeepResearch) | [Alibaba-NLP](https://github.com/Alibaba-NLP)[<br/>](https://github.com/Alibaba-NLP/DeepResearch) | MoE | [Tech Blog](https://tongyi-agent.github.io/blog/introducing-tongyi-deep-research) |
 | **Qwen3-Next** | A3/80B | 2025-09 | 中英 | 通用 | [🤗HF](https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking) | [Qwen3](https://github.com/QwenLM/Qwen3) | [QwenLM](https://github.com/QwenLM) | MoE | [Qwen3-Next](https://qwen.ai/blog?id=4074cca80393150c248e508aa62983f9cb7d27cd&from=research.latest-advancements-list) |
 | Magistral Small 1.2 | 24B | 2025-09 | 多语 | 通用 | [**Hugging Face**](https://huggingface.co/baichuan-inc/Baichuan-M2-32B) | / | [mistralai](https://huggingface.co/mistralai) | CD | [blog post](https://mistral.ai/news/magistral/) |
@@ -2044,6 +2047,7 @@ Awesome Agents is a curated list of open-source tools and products to build AI a
 
 ## 更新
 
+* 2025.12.12 增加[deepseek-3.2]
 * 2025.10.12 增加[Ling-1T,KAT-Dev-72B-Exp, GLM-4.6 ]
 * 2025.09.20 增加[Tongyi DeepResearch,Qwen3-Next,Magistral Small,VoxCPM,VibeVoice,HunyuanImage]
 * 2025.08.19 增加[gpt-oss-20B,gpt-oss-120B,Baichuan-M2,Ovis2.5,GLM-4.5V]
