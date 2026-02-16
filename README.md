@@ -458,6 +458,7 @@
 
 |           模型           |  大小   | 时间    | 语言 |     领域     |                             下载                             |                           项目地址                           |                       机构/个人                        | 架构 |                             文献                             |
 | :----------------------: | :-----: | ------- | :--: | :----------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :--: | :----------------------------------------------------------: |
+| **Qwen3-Coder-Next**  |   /    | 2026-02 | 中英 | 代码 | [**🤗 Huggingface** ](https://huggingface.co/Qwen/Qwen3-Coder-Next) |                       /                       | [QwenLM](https://github.com/QwenLM) |  /  |                                             |
 | **KAT-Dev-72B-Exp**  |   72B    | 2025-10 | 多语 | 软件工程 | [**🤗 Huggingface** ](https://huggingface.co/Kwaipilot/KAT-Dev-72B-Exp) |                       /                       | [Kwaipilot](https://huggingface.co/Kwaipilot) |  CD  |                                             |
 | KwaiCoder-23B-A4B-v1 |  A4/23B  | 2025-10 | 多语 | 软件工程 | [**🤗 Huggingface** ](https://huggingface.co/Kwaipilot/KwaiCoder-23B-A4B-v1) |                       /                       | [Kwaipilot](https://huggingface.co/Kwaipilot) |  CD  |                                             |
 | Qwen3-Coder | A3/30B  | 2025-08 | 中英 | 代码 | [**🤗 Huggingface** ](https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct) | [Qwen3-Coder](https://github.com/QwenLM/Qwen3-Coder) |     [QwenLM](https://github.com/QwenLM)     | MoE  |          [Arxiv](https://arxiv.org/abs/2505.09388)           |
@@ -565,6 +566,9 @@
 
 |           模型           | 大小  |  时间   |                           语言模型                           |                          非语言模型                          | 语言 |   领域    |                             下载                             |                           项目地址                           |                        机构/个人                         |                             文献                             |
 | :----------------------: | :---: | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :----------------------------------------------------------: |
+| GLM-OCR | / | 2026-02 | / | / | 中英 | 文图 | [🤗 HF](https://huggingface.co/zai-org/GLM-OCR) | / | [zai-org](https://github.com/zai-org) | / |
+| Ace-Step1.5 | / | 2026-02 | / | / | 中英 | 文音 | [🤗 HF](https://huggingface.co/ACE-Step/Ace-Step1.5) | / | [ACE-Step](https://github.com/ACE-Step) | / |
+| HunyuanImage-3.0-Instruct | / | 2026-02 | / | / | 中英 | 文图 | [🤗 HF](https://huggingface.co/tencent/HunyuanImage-3.0-Instruct) | / | [Tencent](https://github.com/Tencent) | / |
 | AutoGLM-Phone |  9B  | 2025-12 |    **AutoGLM**    |  **AutoGLM**  | 中英 | Agent | [🤗 HF](https://huggingface.co/zai-org/AutoGLM-Phone-9B) | [Open-AutoGLM](https://github.com/zai-org/Open-AutoGLM) |   [zai-org](https://github.com/zai-org)   | [**Paper Link**](https://github.com/deepseek-ai/DeepSeek-OCR/blob/main/DeepSeek_OCR_paper.pdf) |
 |  Dolphin-v2   |  3B  | 2025-12 | **Qwen2.5-VL-3B** | Qwen2.5-VL-3B | 中英 | 文图  |   [🤗 HF](https://huggingface.co/ByteDance/Dolphin-v2)   |     [Dolphin](https://github.com/bytedance/Dolphin)     | [bytedance](https://github.com/bytedance) |          [arXiv](https://arxiv.org/abs/2505.14059)           |
 | DeepSeek-OCR |  3B  | 2025-10 |    /     |     /      | 中英 | 文图 | [🤗 HF](https://huggingface.co/deepseek-ai/DeepSeek-OCR) | [DeepSeek-OCR](https://github.com/deepseek-ai/DeepSeek-OCR) | [deepseek-ai](https://github.com/deepseek-ai) | [**Paper Link**](https://github.com/deepseek-ai/DeepSeek-OCR/blob/main/DeepSeek_OCR_paper.pdf) |
@@ -655,6 +659,11 @@
 
 |      模型       | 大小 | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                 机构/个人                 | 结构 |                      文                       |
 | :-------------: | :--: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :---------------------------------------: | :--: | :-------------------------------------------: |
+| Step-3.5-Flash | / | 2026-02 | 中英 | 通用 | [🤗HF](https://huggingface.co/stepfun-ai/Step-3.5-Flash) | / | [stepfun-ai](https://github.com/stepfun-ai) | / | / |
+| GLM-5 | A40/744B | 2026-02 | 中英 | 通用 | [🤗HF](https://huggingface.co/zai-org/GLM-5) | / | [zai-org](https://github.com/zai-org) | / | [blog](https://z.ai/blog/glm-5) |
+| MiniMax-M2.5 | / | 2026-02 | 中英 | 通用 | [🤗HF](https://huggingface.co/MiniMaxAI/MiniMax-M2.5) | / | [MiniMaxAI](https://huggingface.co/MiniMaxAI) | / | / |
+| Kimi-K2.5 | 1T | 2026-02 | 中英 | 通用 | [🤗HF](https://huggingface.co/moonshotai/Kimi-K2.5) | / | [moonshotai](https://huggingface.co/moonshotai) | moe | [paper](https://arxiv.org/abs/2602.02276) |
+| Ring-2.5-1T | 1T | 2026-02 | 中英 | 通用 | [🤗HF](https://huggingface.co/inclusionAI/Ring-2.5-1T) | / | [inclusionAI](https://huggingface.co/inclusionAI) | / | / |
 | DeepSeek-V3.2 | / | 2025-12 | 中英 | 通用 | [🤗HF](https://huggingface.co/deepseek-ai/DeepSeek-V3.2) | [DeepSeek-V3.2-Exp](https://github.com/deepseek-ai/DeepSeek-V3.2-Exp) | [deepseek-ai](https://github.com/deepseek-ai) | MoE | [**Technical Report**](https://huggingface.co/deepseek-ai/DeepSeek-V3.2/blob/main/assets/paper.pdf) |
 | **Tongyi DeepResearch** | A3/30B | 2025-09 | 中英 | 通用 | [🤗HF](https://huggingface.co/Alibaba-NLP/Tongyi-DeepResearch-30B-A3B) | [DeepResearch](https://github.com/Alibaba-NLP/DeepResearch) | [Alibaba-NLP](https://github.com/Alibaba-NLP)[<br/>](https://github.com/Alibaba-NLP/DeepResearch) | MoE | [Tech Blog](https://tongyi-agent.github.io/blog/introducing-tongyi-deep-research) |
 | **Qwen3-Next** | A3/80B | 2025-09 | 中英 | 通用 | [🤗HF](https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking) | [Qwen3](https://github.com/QwenLM/Qwen3) | [QwenLM](https://github.com/QwenLM) | MoE | [Qwen3-Next](https://qwen.ai/blog?id=4074cca80393150c248e508aa62983f9cb7d27cd&from=research.latest-advancements-list) |
@@ -1170,6 +1179,15 @@ This is the reading list of Large Language Model-Based Data Science Agent
 
 #### 47. Awesome-Agents ![Star](https://img.shields.io/github/stars/kyrolabs/awesome-agents.svg?style=social&label=Star) [github](https://github.com/kyrolabs/awesome-agents)
 Awesome Agents is a curated list of open-source tools and products to build AI agents.
+
+#### 48. Awesome-OpenClaw-Skills ![Star](https://img.shields.io/github/stars/VoltAgent/awesome-openclaw-skills.svg?style=social&label=Star) [github](https://github.com/VoltAgent/awesome-openclaw-skills)
+Discover 3002 community-built OpenClaw skills, organized by category.
+
+#### 49. Awesome-Claude-Code ![Star](https://img.shields.io/github/stars/hesreallyhim/awesome-claude-code.svg?style=social&label=Star) [github](https://github.com/hesreallyhim/awesome-claude-code)
+A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic.
+
+#### 50. Awesome-Claude-Skills ![Star](https://img.shields.io/github/stars/ComposioHQ/awesome-claude-skills.svg?style=social&label=Star) [github](https://github.com/ComposioHQ/awesome-claude-skills)
+A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows.
 
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
@@ -2047,6 +2065,7 @@ Awesome Agents is a curated list of open-source tools and products to build AI a
 
 ## 更新
 
+* 2026.02.16 增加[Step-3.5-Flash, GLM-5, MiniMax-M2.5, Kimi-K2.5, Ring-2.5-1T](#ReasoningLLM)、[GLM-OCR, Ace-Step1.5, HunyuanImage-3.0-Instruct](#MultiModal-ChatLLM)、[Qwen3-Coder-Next](#Domain-ChatLLM)
 * 2025.12.12 增加[deepseek-3.2]
 * 2025.10.12 增加[Ling-1T,KAT-Dev-72B-Exp, GLM-4.6 ]
 * 2025.09.20 增加[Tongyi DeepResearch,Qwen3-Next,Magistral Small,VoxCPM,VibeVoice,HunyuanImage]
