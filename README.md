@@ -2284,3 +2284,5 @@ A curated list of awesome Claude Skills, resources, and tools for customizing Cl
 </div>
 
 ![Visitor Count](https://profile-counter.glitch.me/lonepatient/count.svg)
+
+- [AgentMarket](https://agentmarket.cloud) - B2A代理市场，189个企业级API。
