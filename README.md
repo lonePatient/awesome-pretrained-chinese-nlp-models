@@ -468,6 +468,7 @@
 
 |           模型           | 大小  |  时间   |                           语言模型                           |                          非语言模型                          | 语言 |   领域    |                             下载                             |                           项目地址                           |                        机构/个人                         |                             文献                             |
 | :----------------------: | :---: | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :----------------------------------------------------------: |
+| Gemma-4-IT | E2B/E4B/26B A4B/31B | 2026-04 | Gemma-4 LM (CD+Hybrid) | 文本+图像(全量)+音频(E2B/E4B) | 多语(35+) | 通用 | [🤗 HF](https://huggingface.co/collections/google/gemma-4) | - | [Google DeepMind](https://huggingface.co/google) | [Model Card](https://ai.google.dev/gemma/docs/core/model_card_4) |
 | Qianfan-OCR | 4B | 2026-03 | [Qwen3-4B](https://huggingface.co/Qwen/Qwen3-4B) | Qianfan-ViT, 24层, AnyResolution(最大4K) | 中英 | 文档 | [🤗 HF](https://huggingface.co/baidu/Qianfan-OCR) | [GitHub](https://github.com/baidubce/Qianfan-VL) | [百度](https://github.com/baidubce) | [arXiv](https://arxiv.org/abs/2603.13398) |
 | GLM-OCR | / | 2026-02 | / | / | 中英 | 文图 | [🤗 HF](https://huggingface.co/zai-org/GLM-OCR) | / | [zai-org](https://github.com/zai-org) | / |
 | Ace-Step1.5 | / | 2026-02 | / | / | 中英 | 文音 | [🤗 HF](https://huggingface.co/ACE-Step/Ace-Step1.5) | / | [ACE-Step](https://github.com/ACE-Step) | / |
@@ -1807,6 +1808,7 @@ MiniMax 最新一代的中文大语言模型帮助人类高效写作、激发创
 
 ## 更新
 
+* 2026.04.06 增加[Gemma-4](#MultiModal-ChatLLM)，Google DeepMind 开源的多模态大模型，包含 E2B/E4B/26B A4B(MoE)/31B(Dense) 四种尺寸，支持文本/图像/音频多模态输入，256K 上下文，原生 Thinking 推理模式和 Function Calling 能力
 * 2026.02.16 增加[Step-3.5-Flash, GLM-5, MiniMax-M2.5, Kimi-K2.5, Ring-2.5-1T](#ReasoningLLM)、[GLM-OCR, Ace-Step1.5, HunyuanImage-3.0-Instruct](#MultiModal-ChatLLM)、[Qwen3-Coder-Next](#Domain-ChatLLM)
 * 2025.12.12 增加[deepseek-3.2]
 * 2025.10.12 增加[Ling-1T,KAT-Dev-72B-Exp, GLM-4.6 ]
