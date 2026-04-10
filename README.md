@@ -951,6 +951,7 @@ MiniMax 最新一代的中文大语言模型帮助人类高效写作、激发创
 <p align="right">[<a href="#top">Back to Top</a>]</p>
 
 
+- [Gitstar](https://dev.gitstar.ai?utm_medium=github_readme&utm_source=awesome_list&utm_campaign=lonePatient_awesome-pretrained-chinese-nlp-models) - Follow developers on GitHub and see what repos they star. Like a social feed for repo discovery.
 ## NLU系列
 
 
