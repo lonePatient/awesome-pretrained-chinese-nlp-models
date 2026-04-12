@@ -563,6 +563,7 @@
 
 |      模型       | 大小 | 时间    | 语言 | 领域 |                             下载                             |                           项目地址                           |                 机构/个人                 | 结构 |                      文                       |
 | :-------------: | :--: | ------- | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :---------------------------------------: | :--: | :-------------------------------------------: |
+| MiniMax-M2.7 | A10/230B | 2026-04 | 中英 | 通用 | [🤗HF](https://huggingface.co/MiniMaxAI/MiniMax-M2.7) | [GitHub](https://github.com/MiniMax-AI/MiniMax-M2.7) | [MiniMax-AI](https://github.com/MiniMax-AI) | MoE | [Blog](https://www.minimax.io/news/minimax-m27-en) |
 | Qwen3.5 | 0.5/2/4/9/27/35/122/397B | 2026-02 | 中英 | 通用 | [🤗HF](https://huggingface.co/collections/Qwen/qwen35) | [Qwen3.5](https://github.com/QwenLM/Qwen3.5) | [QwenLM](https://github.com/QwenLM) | MoE | [Blog](https://qwen.ai/blog?id=qwen3.5) |
 | Step-3.5-Flash | / | 2026-02 | 中英 | 通用 | [🤗HF](https://huggingface.co/stepfun-ai/Step-3.5-Flash) | / | [stepfun-ai](https://github.com/stepfun-ai) | / | / |
 | GLM-5 | A40/744B | 2026-02 | 中英 | 通用 | [🤗HF](https://huggingface.co/zai-org/GLM-5) | / | [zai-org](https://github.com/zai-org) | / | [blog](https://z.ai/blog/glm-5) |
@@ -1808,6 +1809,7 @@ MiniMax 最新一代的中文大语言模型帮助人类高效写作、激发创
 
 ## 更新
 
+* 2026.04.12 增加[MiniMax-M2.7](#ReasoningLLM)，MiniMax 开源的推理大模型，230B 总参数 MoE 架构，激活 10B 参数，支持 Agent Teams、复杂 Skills 和动态工具搜索
 * 2026.04.06 增加[Gemma-4](#MultiModal-ChatLLM)，Google DeepMind 开源的多模态大模型，包含 E2B/E4B/26B A4B(MoE)/31B(Dense) 四种尺寸，支持文本/图像/音频多模态输入，256K 上下文，原生 Thinking 推理模式和 Function Calling 能力
 * 2026.02.16 增加[Step-3.5-Flash, GLM-5, MiniMax-M2.5, Kimi-K2.5, Ring-2.5-1T](#ReasoningLLM)、[GLM-OCR, Ace-Step1.5, HunyuanImage-3.0-Instruct](#MultiModal-ChatLLM)、[Qwen3-Coder-Next](#Domain-ChatLLM)
 * 2025.12.12 增加[deepseek-3.2]
