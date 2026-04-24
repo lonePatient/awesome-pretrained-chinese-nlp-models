@@ -2039,3 +2039,4 @@ MiniMax 最新一代的中文大语言模型帮助人类高效写作、激发创
 </div>
 
 ![Visitor Count](https://profile-counter.glitch.me/lonepatient/count.svg)
+- [BenchGecko](https://benchgecko.ai/zh/) - AI模型基准测试排行榜，跨供应商定价对比，AI经济仪表盘。追踪数千个模型、128个评估基准。免费API。
