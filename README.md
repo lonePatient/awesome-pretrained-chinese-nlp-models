@@ -507,6 +507,7 @@ MiniMax 最新一代的中文大语言模型帮助人类高效写作、激发创
 
 ## 更新
 
+- 2026.05.03 增加[Ring-2.6-1T](docs/reasoning-llm.md)，万亿参数旗舰推理模型，面向真实复杂任务场景，支持 Agent 执行、Reasoning Effort 机制（high/xhigh 两级推理强度）和异步强化学习训练范式（Async RL + IcePop 算法）
 - 2026.04.24 增加[DeepSeek-V4-Pro, DeepSeek-V4-Flash](docs/reasoning-llm.md)、[MiMo-V2.5-Pro](docs/reasoning-llm.md)，DeepSeek-V4-Pro 总参数 1.6T/激活 49B，V4-Flash 总参数 284B/激活 13B，均支持 1M 超长上下文；MiMo-V2.5-Pro 是小米开源的 1.02T 总参数 MoE 推理模型，激活 42B 参数，支持 1M 上下文
 - 2026.04.21 增加[Qwen3.6-35B-A3B](docs/reasoning-llm.md)、[Kimi-K2.6](docs/reasoning-llm.md)、[HY-World-2.0](docs/multimodal-chat-llm.md)
 - 2026.04.12 增加[MiniMax-M2.7](docs/reasoning-llm.md)，MiniMax 开源的推理大模型，230B 总参数 MoE 架构，激活 10B 参数
