@@ -5,7 +5,7 @@
 > 项目更新历史记录
 
 
-- 2026.05.03 增加[Ring-2.6-1T](#ReasoningLLM)，万亿参数旗舰推理模型，面向真实复杂任务场景，支持 Agent 执行、Reasoning Effort 机制（high/xhigh 两级推理强度）和异步强化学习训练范式（Async RL + IcePop 算法）
+- 2026.05.03 增加[Ring-2.6-1T](#ReasoningLLM)、[Ling-2.6-1T](#ReasoningLLM)、[Ling-2.6-flash](#ReasoningLLM)，Ring-2.6-1T 是万亿参数旗舰推理模型，支持 Agent 执行、Reasoning Effort 机制和异步强化学习训练；Ling-2.6-1T 是万亿参数旗舰模型，采用 MLA+Linear Attention 混合架构，Fast Thinking 机制；Ling-2.6-flash 是 104B 总参数/7.4B 激活参数的推理效率优化模型，面向高频 Agent 场景
 - 2026.04.24 增加[DeepSeek-V4-Pro, DeepSeek-V4-Flash](#ReasoningLLM)、[MiMo-V2.5-Pro](#ReasoningLLM)，DeepSeek-V4-Pro 总参数 1.6T/激活 49B，V4-Flash 总参数 284B/激活 13B，均支持 1M 超长上下文；MiMo-V2.5-Pro 是小米开源的 1.02T 总参数 MoE 推理模型，激活 42B 参数，支持 1M 上下文，在通用智能体能力、复杂软件工程和长程任务上表现卓越
 - 2026.04.21 增加[Qwen3.6-35B-A3B](#ReasoningLLM)、[Kimi-K2.6](#ReasoningLLM)、[HY-World-2.0](#MultiModal-ChatLLM)，Qwen3.6-35B-A3B 是 35B 总参数 MoE 架构推理模型，激活 3B 参数；Kimi-K2.6 是 1T 总参数 MoE 架构多模态推理模型，激活 32B 参数，支持长程编码和智能体集群；HY-World-2.0 是腾讯开源的 3D 世界模型，支持从文本/图像/视频生成可编辑的 3D 资产
 - 2026.04.12 增加[MiniMax-M2.7](#ReasoningLLM)，MiniMax 开源的推理大模型，230B 总参数 MoE 架构，激活 10B 参数，支持 Agent Teams、复杂 Skills 和动态工具搜索
