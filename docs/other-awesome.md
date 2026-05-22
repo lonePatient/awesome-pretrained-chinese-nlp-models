@@ -58,6 +58,7 @@
 |  49 | Awesome-OpenClaw-Skills                      | OpenClaw社区构建的技能                    | VoltAgent       | ![GitHub stars](https://img.shields.io/github/stars/VoltAgent/awesome-openclaw-skills?style=flat-square)                        | [GitHub](https://github.com/VoltAgent/awesome-openclaw-skills)                        |
 |  50 | Awesome-Claude-Code                          | Claude Code相关技能和工具                 | hesreallyhim    | ![GitHub stars](https://img.shields.io/github/stars/hesreallyhim/awesome-claude-code?style=flat-square)                         | [GitHub](https://github.com/hesreallyhim/awesome-claude-code)                         |
 |  51 | Awesome-Claude-Skills                        | Claude技能、资源和工具                     | ComposioHQ      | ![GitHub stars](https://img.shields.io/github/stars/ComposioHQ/awesome-claude-skills?style=flat-square)                         | [GitHub](https://github.com/ComposioHQ/awesome-claude-skills)                         |
+|  52 | AI-Models-Catalog                            | 95个AI提供商4587+模型的结构化目录（定价/上下文/能力） | i-need-token    | ![GitHub stars](https://img.shields.io/github/stars/i-need-token/ai-models?style=flat-square)                                   | [GitHub](https://github.com/i-need-token/ai-models)                                   |
 
 [← 返回主页](../README.md#other-awesome)
 
