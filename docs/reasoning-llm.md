@@ -70,5 +70,46 @@
 |      QVQ-72B-Preview     |            72B           | 2024-12 |  中英 |  多模 |                               [🤗 HF](https://huggingface.co/collections/Qwen/qvq-676448c820912236342b9888)                               |                   [Qwen2-VL](https://github.com/QwenLM/Qwen2-VL)                  |               [QwenLM](https://github.com/QwenLM)              |                                                     [Blog](https://qwenlm.github.io/zh/blog/qvq-72b-preview/)                                                     |
 |       MiniCPM5-1B        |            1B            | 2026-05 |  中英 |  通用 |                                         [🤗HF](https://huggingface.co/openbmb/MiniCPM5-1B)                                        |               [MiniCPM](https://github.com/OpenBMB/MiniCPM)               |            [OpenBMB](https://github.com/OpenBMB)           |   Dense   |                                    1B 级开源 SOTA  dense Transformer，面向端侧本地部署和资源受限场景                                    |
 
+---
+
+## 模型更新说明
+
+### Kimi K2.7 Code
+
+**模型简介**
+
+Kimi K2.7 Code 是基于 Kimi K2.6 构建的面向代码领域的 agentic 模型，在真实长程编码任务上有显著提升，强化了复杂软件工程工作流中的端到端任务完成能力，同时提升了 token 效率，thinking-token 使用量较 Kimi K2.6 降低约 30%。
+
+**模型概要**
+
+- **架构**：Mixture-of-Experts (MoE)
+- **总参数量**：1T
+- **激活参数量**：32B
+- **层数（含 Dense 层）**：61
+- **Dense 层数**：1
+- **Attention Hidden Dimension**：7168
+- **MoE Hidden Dimension（单专家）**：2048
+- **Attention Heads**：64
+- **专家总数**：384
+- **每 Token 选中专家数**：8
+- **共享专家数**：1
+- **词表大小**：160K
+- **上下文长度**：256K
+- **注意力机制**：MLA
+- **激活函数**：SwiGLU
+- **视觉编码器**：MoonViT（400M 参数）
+
+### MiniMax-M3
+
+**模型简介**
+
+MiniMax-M3 是一个原生多模态模型，支持 1M 上下文。总参数量约 428B，激活参数量约 23B。
+
+**核心亮点**
+
+- **原生多模态**：从训练第一步即进行混合模态训练，实现文本、图像、视频的深度语义融合。
+- **稀疏注意力实现上下文扩展**：引入 MiniMax Sparse Attention (MSA)，显著提升长上下文效率。在 1M 上下文场景下，相比 M2 实现 9 倍 prefill 加速和 15 倍 decode 加速，单 token 计算量降至 1/20。
+- **编码与协作能力**：在长程 agentic 基准测试中达到前沿水平，在编码和协作任务上表现出色。
+
 [← 返回主页](../README.md#reasoningllm)
 
