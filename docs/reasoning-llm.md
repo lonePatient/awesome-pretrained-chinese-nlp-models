@@ -9,6 +9,7 @@
 
 |            模型            |            大小            | 时间      |  语言 |  领域 |                                                                     下载                                                                    |                                        项目地址                                       |                              机构/个人                             |   结构   |                                                                                 文                                                                                 |
 | :----------------------: | :----------------------: | ------- | :-: | :-: | :---------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------: | :------------------------------------------------------------: | :----: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|          GLM-5.2           |             /            | 2026-06 |  中英 |  通用 |                                           [🤗HF](https://huggingface.co/zai-org/GLM-5.2)                                                  |                                         /                                         |              [zai-org](https://github.com/zai-org)             |   /    |                     [Blog](https://z.ai/blog/glm-5.2)，1M上下文，IndexShare稀疏注意力，MTP推测解码，MIT开源                      |
 |       Kimi-K2.7-Code       |          A32/1T          | 2026-06 |  中英 |  代码 |                                           [🤗HF](https://huggingface.co/moonshotai/Kimi-K2.7-Code)                                          |                                         /                                         |           [MoonshotAI](https://github.com/MoonshotAI)          |   MoE  |                                         coding-focused agentic model，thinking-token 降低约 30%                                         |
 |         MiniMax-M3         |         A23/428B         | 2026-06 |  中英 | 多模态 |                                           [🤗HF](https://huggingface.co/MiniMaxAI/MiniMax-M3)                                           |                                         /                                         |           [MiniMax-AI](https://github.com/MiniMax-AI)          |   MoE  |                              native multimodal model，1M context，MSA 稀疏注意力，9× prefill / 15× decode 加速                              |
 |    DeepSeek-V4-Pro   |         A49/1.6T         | 2026-04 |  中英 |  通用 |                                         [🤗HF](https://huggingface.co/collections/deepseek-ai/deepseek-v4)                                        |                 [DeepSeek-V4](https://github.com/deepseek-ai/DeepSeek-V4)                 |            [deepseek-ai](https://github.com/deepseek-ai)           |   MoE  |                                    **[Tech Report](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf)**                                    |
@@ -73,6 +74,24 @@
 ---
 
 ## 模型更新说明
+
+### GLM-5.2
+
+**模型简介**
+
+GLM-5.2 是 zai-org 推出的最新旗舰模型，专为长程任务（long-horizon tasks）设计。相比前代 GLM-5.1，它在长程任务能力上实现了实质性飞跃，并首次在稳定的 1M Token 上下文上交付该能力。
+
+**核心亮点**
+
+- **Solid 1M Context**：稳定的 1M Token 上下文，可持续支撑长程工作。
+- **Advanced Coding with Flexible Effort**：更强的编码能力，支持多种思考力度（thinking effort levels），以平衡性能与延迟。
+- **Improved Architecture**：提出 IndexShare，在每四个稀疏注意力层之间复用相同的索引器，在 1M 上下文长度下将每 Token 的 FLOPs 降低 2.9 倍；同时改进了 MTP 层以支持推测解码，接受长度提升高达 20%。
+- **Pure Open**：采用 MIT 开源许可证，无地域限制，技术访问无国界。
+
+**参考链接**
+
+- [技术博客](https://z.ai/blog/glm-5.2)
+- [HuggingFace](https://huggingface.co/zai-org/GLM-5.2)
 
 ### Kimi K2.7 Code
 
